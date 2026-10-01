@@ -72,7 +72,7 @@ async def call_model(api: anthropic.AsyncAnthropic, rep: str, task: dict, page) 
             messages=[{"role": "user", "content": build_user_content(rep, task, page)}],
             thinking=THINKING,
         )
-        msg = raw.parse()
+        msg = await raw.parse()
         latency = time.perf_counter() - t0
         text = "".join(b.text for b in msg.content if b.type == "text")
         return CallResult(text, msg.usage.model_dump(), msg.stop_reason, raw.request_id, latency, None)

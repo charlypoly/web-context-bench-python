@@ -185,10 +185,21 @@ async def run_phase(phase: str, repeats: int, seed: int, estimate: bool) -> None
                             est["calls"] += 1
                     else:
                         base = {"run_id": run_id, "phase": phase, "repeat": repeat, "page": page_id, "model": MODEL}
-                        recs = await asyncio.gather(*[run_call(api, sem, sh_lock, h, ps, t, r, base) for t, r in calls])
-                        with raw_path.open("a") as f:
-                            for rec in recs:
-                                f.write(json.dumps(rec) + "\n")
+                        # Each record is written as soon as it is scored. A harness exception
+                        # (a bug, not an API error) stops the run after flushing what completed.
+                        recs = []
+                        jobs = [asyncio.ensure_future(run_call(api, sem, sh_lock, h, ps, t, r, base)) for t, r in calls]
+                        try:
+                            with raw_path.open("a") as f:
+                                for fut in asyncio.as_completed(jobs):
+                                    rec = await fut
+                                    f.write(json.dumps(rec) + "\n")
+                                    f.flush()
+                                    recs.append(rec)
+                        except BaseException:
+                            for j in jobs:
+                                j.cancel()
+                            raise
                         n_ok = sum(r["correct"] for r in recs)
                         print(f"repeat {repeat} {page_id}: {n_ok}/{len(recs)} correct, "
                               f"{sum(1 for r in recs if r['api_error'])} API errors", flush=True)

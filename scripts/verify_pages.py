@@ -11,7 +11,8 @@ import asyncio
 from playwright.async_api import async_playwright
 
 from wpbench import RESULTS_DIR
-from wpbench.pages import OFFLINE_ARGS, load_pages, log_offline_violations
+from wpbench.browser import launch
+from wpbench.pages import load_pages, log_offline_violations
 from wpbench.server import LocalServers
 
 
@@ -20,7 +21,7 @@ async def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     with LocalServers():
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True, args=OFFLINE_ARGS)
+            browser = await launch(p)
             for pg in load_pages():
                 ctx = await browser.new_context(viewport={"width": 1280, "height": 800})
                 page = await ctx.new_page()

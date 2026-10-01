@@ -27,6 +27,8 @@ from wpbench.workers import Worker
 
 REPRESENTATIONS = ["raw_html", "markdown", "accessibility_tree", "indexed_dom", "stagehand_snapshot", "screenshot"]
 SETTLE_MS = 500
+# None disables Browser Use's positional cutoff (DomService default: 1000 px past the viewport).
+BROWSER_USE_VIEWPORT_THRESHOLD = None
 
 
 @dataclass
@@ -109,7 +111,13 @@ async def capture_page_session(
         "accessibility_tree": await page.locator("body").aria_snapshot(),
         "screenshot": await page.screenshot(type="png"),
     }
-    bu_out = await asyncio.to_thread(bu.call, cmd="capture", cdp_url=cdp_url, url=page.url)
+    # indexed_dom = Browser Use's own DomService with viewport_threshold=None, so it
+    # covers the whole page like the other representations. The agent's default
+    # (1000 px past the viewport) is captured too, for the audit only.
+    bu_out = await asyncio.to_thread(bu.call, cmd="capture", cdp_url=cdp_url, url=page.url,
+                                     viewport_threshold=BROWSER_USE_VIEWPORT_THRESHOLD)
+    bu_default = await asyncio.to_thread(bu.call, cmd="capture", cdp_url=cdp_url, url=page.url,
+                                         viewport_threshold="agent_default")
     reps["indexed_dom"] = bu_out["text"]
     # Browser Use attached and detached: check it left the page as it was.
     after = await page.content()
@@ -132,7 +140,10 @@ async def capture_page_session(
     ps = PageSession(
         page_id=page_id, url=url, page=page, cdp=session, page_target_id=page_target_id, reps=reps,
         indexed_dom_map=bu_out["selector_map"],
-        indexed_dom_meta={k: bu_out[k] for k in ("config", "agent_would_truncate", "agent_max_chars")},
+        indexed_dom_meta={**{k: bu_out[k] for k in ("config", "agent_would_truncate", "agent_max_chars")},
+                          "agent_default_text": bu_default["text"],
+                          "agent_default_index_count": len(bu_default["selector_map"]),
+                          "index_count": len(bu_out["selector_map"])},
         stagehand_xpath_map=sh_out["xpath_map"],
         stagehand_meta={"url_map": sh_out["url_map"], "inner_viewport": sh_out["inner_viewport"]},
         integrity=integrity,

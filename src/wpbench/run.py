@@ -65,6 +65,7 @@ def save_session(ps: PageSession, out: Path) -> None:
     (out / "accessibility_tree.yaml").write_text(ps.reps["accessibility_tree"])
     (out / "indexed_dom.txt").write_text(ps.reps["indexed_dom"])
     (out / "indexed_dom.selector_map.json").write_text(json.dumps(ps.indexed_dom_map, indent=1))
+    (out / "indexed_dom.agent_default.audit_only.txt").write_text(ps.indexed_dom_meta["agent_default_text"])
     (out / "stagehand_snapshot.txt").write_text(ps.reps["stagehand_snapshot"])
     (out / "stagehand_snapshot.xpath_map.json").write_text(json.dumps(ps.stagehand_xpath_map, indent=1))
     (out / "screenshot.png").write_bytes(ps.reps["screenshot"])
@@ -80,7 +81,7 @@ def save_session(ps: PageSession, out: Path) -> None:
     }
     (out / "session.json").write_text(json.dumps({
         "page_id": ps.page_id, "url": ps.url, "integrity": ps.integrity,
-        "indexed_dom_meta": ps.indexed_dom_meta, "stagehand_meta": ps.stagehand_meta, "ground_truth": truths,
+        "indexed_dom_meta": {k: v for k, v in ps.indexed_dom_meta.items() if k != "agent_default_text"}, "stagehand_meta": ps.stagehand_meta, "ground_truth": truths,
     }, indent=1))
 
 

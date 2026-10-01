@@ -38,6 +38,7 @@ os.environ.setdefault("BROWSER_USE_LOGGING_LEVEL", "error")
 from browser_use import BrowserSession  # noqa: E402
 from browser_use.agent.prompts import AgentMessagePrompt  # noqa: E402
 from browser_use.browser.events import SwitchTabEvent  # noqa: E402
+from browser_use.dom.service import DomService  # noqa: E402
 from browser_use.dom.views import DEFAULT_INCLUDE_ATTRIBUTES  # noqa: E402
 
 def _agent_max_chars() -> int:
@@ -46,7 +47,7 @@ def _agent_max_chars() -> int:
     return inspect.signature(AgentMessagePrompt.__init__).parameters["max_clickable_elements_length"].default
 
 
-async def capture(cdp_url: str, url: str) -> dict:
+async def capture(cdp_url: str, url: str, viewport_threshold="agent_default") -> dict:
     session = BrowserSession(cdp_url=cdp_url, highlight_elements=False)
     await session.start()
     try:
@@ -56,8 +57,22 @@ async def capture(cdp_url: str, url: str) -> dict:
             raise RuntimeError(f"expected exactly one tab at {url}, found {[t.url for t in tabs]}")
         page_target = matches[0]
         await session.event_bus.dispatch(SwitchTabEvent(target_id=page_target))
-        state = await session.get_browser_state_summary(include_screenshot=False)
-        dom = state.dom_state
+        profile = session.browser_profile
+        if viewport_threshold == "agent_default":
+            state = await session.get_browser_state_summary(include_screenshot=False)
+            dom = state.dom_state
+        else:
+            # Same DomService the DOMWatchdog builds, with the same profile flags,
+            # but with an explicit viewport_threshold (None = no positional cutoff).
+            service = DomService(
+                browser_session=session,
+                cross_origin_iframes=profile.cross_origin_iframes,
+                paint_order_filtering=profile.paint_order_filtering,
+                max_iframes=profile.max_iframes,
+                max_iframe_depth=profile.max_iframe_depth,
+                viewport_threshold=viewport_threshold,
+            )
+            dom, _, _ = await service.get_serialized_dom_tree(previous_cached_state=None)
         text = dom.llm_representation(include_attributes=DEFAULT_INCLUDE_ATTRIBUTES)
         selector_map = {
             str(index): {
@@ -69,7 +84,6 @@ async def capture(cdp_url: str, url: str) -> dict:
             }
             for index, node in dom.selector_map.items()
         }
-        profile = session.browser_profile
         max_chars = _agent_max_chars()
         return {
             "text": text,
@@ -84,6 +98,9 @@ async def capture(cdp_url: str, url: str) -> dict:
                 "max_iframes": profile.max_iframes,
                 "max_iframe_depth": profile.max_iframe_depth,
                 "include_attributes": DEFAULT_INCLUDE_ATTRIBUTES,
+                "viewport_threshold": viewport_threshold,
+                "path": "get_browser_state_summary (agent path)" if viewport_threshold == "agent_default"
+                        else "DomService.get_serialized_dom_tree (explicit viewport_threshold)",
             },
         }
     finally:
@@ -107,7 +124,7 @@ async def main() -> None:
                 _respond({"ok": True})
                 return
             if req["cmd"] == "capture":
-                result = await capture(req["cdp_url"], req["url"])
+                result = await capture(req["cdp_url"], req["url"], req.get("viewport_threshold", "agent_default"))
                 _respond({"ok": True, **result})
             else:
                 raise ValueError(f"unknown cmd {req['cmd']!r}")

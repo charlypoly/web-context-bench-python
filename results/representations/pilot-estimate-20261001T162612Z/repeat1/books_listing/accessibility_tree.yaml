@@ -1,0 +1,422 @@
+- banner:
+  - link "Books to Scrape":
+    - /url: index.html
+  - text: We love being scraped!
+- list:
+  - listitem:
+    - link "Home":
+      - /url: index.html
+  - listitem: / All products
+- complementary:
+  - list:
+    - listitem:
+      - link "Books":
+        - /url: catalogue/category/books_1/index.html
+      - list:
+        - listitem:
+          - link "Travel":
+            - /url: catalogue/category/books/travel_2/index.html
+        - listitem:
+          - link "Mystery":
+            - /url: catalogue/category/books/mystery_3/index.html
+        - listitem:
+          - link "Historical Fiction":
+            - /url: catalogue/category/books/historical-fiction_4/index.html
+        - listitem:
+          - link "Sequential Art":
+            - /url: catalogue/category/books/sequential-art_5/index.html
+        - listitem:
+          - link "Classics":
+            - /url: catalogue/category/books/classics_6/index.html
+        - listitem:
+          - link "Philosophy":
+            - /url: catalogue/category/books/philosophy_7/index.html
+        - listitem:
+          - link "Romance":
+            - /url: catalogue/category/books/romance_8/index.html
+        - listitem:
+          - link "Womens Fiction":
+            - /url: catalogue/category/books/womens-fiction_9/index.html
+        - listitem:
+          - link "Fiction":
+            - /url: catalogue/category/books/fiction_10/index.html
+        - listitem:
+          - link "Childrens":
+            - /url: catalogue/category/books/childrens_11/index.html
+        - listitem:
+          - link "Religion":
+            - /url: catalogue/category/books/religion_12/index.html
+        - listitem:
+          - link "Nonfiction":
+            - /url: catalogue/category/books/nonfiction_13/index.html
+        - listitem:
+          - link "Music":
+            - /url: catalogue/category/books/music_14/index.html
+        - listitem:
+          - link "Default":
+            - /url: catalogue/category/books/default_15/index.html
+        - listitem:
+          - link "Science Fiction":
+            - /url: catalogue/category/books/science-fiction_16/index.html
+        - listitem:
+          - link "Sports and Games":
+            - /url: catalogue/category/books/sports-and-games_17/index.html
+        - listitem:
+          - link "Add a comment":
+            - /url: catalogue/category/books/add-a-comment_18/index.html
+        - listitem:
+          - link "Fantasy":
+            - /url: catalogue/category/books/fantasy_19/index.html
+        - listitem:
+          - link "New Adult":
+            - /url: catalogue/category/books/new-adult_20/index.html
+        - listitem:
+          - link "Young Adult":
+            - /url: catalogue/category/books/young-adult_21/index.html
+        - listitem:
+          - link "Science":
+            - /url: catalogue/category/books/science_22/index.html
+        - listitem:
+          - link "Poetry":
+            - /url: catalogue/category/books/poetry_23/index.html
+        - listitem:
+          - link "Paranormal":
+            - /url: catalogue/category/books/paranormal_24/index.html
+        - listitem:
+          - link "Art":
+            - /url: catalogue/category/books/art_25/index.html
+        - listitem:
+          - link "Psychology":
+            - /url: catalogue/category/books/psychology_26/index.html
+        - listitem:
+          - link "Autobiography":
+            - /url: catalogue/category/books/autobiography_27/index.html
+        - listitem:
+          - link "Parenting":
+            - /url: catalogue/category/books/parenting_28/index.html
+        - listitem:
+          - link "Adult Fiction":
+            - /url: catalogue/category/books/adult-fiction_29/index.html
+        - listitem:
+          - link "Humor":
+            - /url: catalogue/category/books/humor_30/index.html
+        - listitem:
+          - link "Horror":
+            - /url: catalogue/category/books/horror_31/index.html
+        - listitem:
+          - link "History":
+            - /url: catalogue/category/books/history_32/index.html
+        - listitem:
+          - link "Food and Drink":
+            - /url: catalogue/category/books/food-and-drink_33/index.html
+        - listitem:
+          - link "Christian Fiction":
+            - /url: catalogue/category/books/christian-fiction_34/index.html
+        - listitem:
+          - link "Business":
+            - /url: catalogue/category/books/business_35/index.html
+        - listitem:
+          - link "Biography":
+            - /url: catalogue/category/books/biography_36/index.html
+        - listitem:
+          - link "Thriller":
+            - /url: catalogue/category/books/thriller_37/index.html
+        - listitem:
+          - link "Contemporary":
+            - /url: catalogue/category/books/contemporary_38/index.html
+        - listitem:
+          - link "Spirituality":
+            - /url: catalogue/category/books/spirituality_39/index.html
+        - listitem:
+          - link "Academic":
+            - /url: catalogue/category/books/academic_40/index.html
+        - listitem:
+          - link "Self Help":
+            - /url: catalogue/category/books/self-help_41/index.html
+        - listitem:
+          - link "Historical":
+            - /url: catalogue/category/books/historical_42/index.html
+        - listitem:
+          - link "Christian":
+            - /url: catalogue/category/books/christian_43/index.html
+        - listitem:
+          - link "Suspense":
+            - /url: catalogue/category/books/suspense_44/index.html
+        - listitem:
+          - link "Short Stories":
+            - /url: catalogue/category/books/short-stories_45/index.html
+        - listitem:
+          - link "Novels":
+            - /url: catalogue/category/books/novels_46/index.html
+        - listitem:
+          - link "Health":
+            - /url: catalogue/category/books/health_47/index.html
+        - listitem:
+          - link "Politics":
+            - /url: catalogue/category/books/politics_48/index.html
+        - listitem:
+          - link "Cultural":
+            - /url: catalogue/category/books/cultural_49/index.html
+        - listitem:
+          - link "Erotica":
+            - /url: catalogue/category/books/erotica_50/index.html
+        - listitem:
+          - link "Crime":
+            - /url: catalogue/category/books/crime_51/index.html
+- heading "All products" [level=1]
+- strong: "1000"
+- text: results - showing
+- strong: "1"
+- text: to
+- strong: "20"
+- text: .
+- alert:
+  - strong: Warning!
+  - text: This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.
+- list:
+  - listitem:
+    - article:
+      - link "A Light in the Attic":
+        - /url: catalogue/a-light-in-the-attic_1000/index.html
+        - img "A Light in the Attic"
+      - paragraph:     
+      - heading "A Light in the ..." [level=3]:
+        - link "A Light in the ...":
+          - /url: catalogue/a-light-in-the-attic_1000/index.html
+      - paragraph: £51.77
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Tipping the Velvet":
+        - /url: catalogue/tipping-the-velvet_999/index.html
+        - img "Tipping the Velvet"
+      - paragraph:     
+      - heading "Tipping the Velvet" [level=3]:
+        - link "Tipping the Velvet":
+          - /url: catalogue/tipping-the-velvet_999/index.html
+      - paragraph: £53.74
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Soumission":
+        - /url: catalogue/soumission_998/index.html
+        - img "Soumission"
+      - paragraph:     
+      - heading "Soumission" [level=3]:
+        - link "Soumission":
+          - /url: catalogue/soumission_998/index.html
+      - paragraph: £50.10
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Sharp Objects":
+        - /url: catalogue/sharp-objects_997/index.html
+        - img "Sharp Objects"
+      - paragraph:     
+      - heading "Sharp Objects" [level=3]:
+        - link "Sharp Objects":
+          - /url: catalogue/sharp-objects_997/index.html
+      - paragraph: £47.82
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "Sapiens: A Brief History of Humankind"':
+        - /url: catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+        - 'img "Sapiens: A Brief History of Humankind"'
+      - paragraph:     
+      - 'heading "Sapiens: A Brief History ..." [level=3]':
+        - 'link "Sapiens: A Brief History ..."':
+          - /url: catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+      - paragraph: £54.23
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "The Requiem Red":
+        - /url: catalogue/the-requiem-red_995/index.html
+        - img "The Requiem Red"
+      - paragraph:     
+      - heading "The Requiem Red" [level=3]:
+        - link "The Requiem Red":
+          - /url: catalogue/the-requiem-red_995/index.html
+      - paragraph: £22.65
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "The Dirty Little Secrets of Getting Your Dream Job":
+        - /url: catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+        - img "The Dirty Little Secrets of Getting Your Dream Job"
+      - paragraph:     
+      - heading "The Dirty Little Secrets ..." [level=3]:
+        - link "The Dirty Little Secrets ...":
+          - /url: catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+      - paragraph: £33.34
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull"':
+        - /url: catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+        - 'img "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull"'
+      - paragraph:     
+      - 'heading "The Coming Woman: A ..." [level=3]':
+        - 'link "The Coming Woman: A ..."':
+          - /url: catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+      - paragraph: £17.93
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics"':
+        - /url: catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+        - 'img "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics"'
+      - paragraph:     
+      - heading "The Boys in the ..." [level=3]:
+        - link "The Boys in the ...":
+          - /url: catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+      - paragraph: £22.60
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "The Black Maria":
+        - /url: catalogue/the-black-maria_991/index.html
+        - img "The Black Maria"
+      - paragraph:     
+      - heading "The Black Maria" [level=3]:
+        - link "The Black Maria":
+          - /url: catalogue/the-black-maria_991/index.html
+      - paragraph: £52.15
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "Starving Hearts (Triangular Trade Trilogy, #1)"':
+        - /url: catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+        - 'img "Starving Hearts (Triangular Trade Trilogy, #1)"'
+      - paragraph:     
+      - heading "Starving Hearts (Triangular Trade ..." [level=3]:
+        - link "Starving Hearts (Triangular Trade ...":
+          - /url: catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+      - paragraph: £13.99
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Shakespeare's Sonnets":
+        - /url: catalogue/shakespeares-sonnets_989/index.html
+        - img "Shakespeare's Sonnets"
+      - paragraph:     
+      - heading "Shakespeare's Sonnets" [level=3]:
+        - link "Shakespeare's Sonnets":
+          - /url: catalogue/shakespeares-sonnets_989/index.html
+      - paragraph: £20.66
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Set Me Free":
+        - /url: catalogue/set-me-free_988/index.html
+        - img "Set Me Free"
+      - paragraph:     
+      - heading "Set Me Free" [level=3]:
+        - link "Set Me Free":
+          - /url: catalogue/set-me-free_988/index.html
+      - paragraph: £17.46
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "Scott Pilgrim''s Precious Little Life (Scott Pilgrim #1)"':
+        - /url: catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+        - 'img "Scott Pilgrim''s Precious Little Life (Scott Pilgrim #1)"'
+      - paragraph:     
+      - heading "Scott Pilgrim's Precious Little ..." [level=3]:
+        - link "Scott Pilgrim's Precious Little ...":
+          - /url: catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+      - paragraph: £52.29
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Rip it Up and Start Again":
+        - /url: catalogue/rip-it-up-and-start-again_986/index.html
+        - img "Rip it Up and Start Again"
+      - paragraph:     
+      - heading "Rip it Up and ..." [level=3]:
+        - link "Rip it Up and ...":
+          - /url: catalogue/rip-it-up-and-start-again_986/index.html
+      - paragraph: £35.02
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991"':
+        - /url: catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+        - 'img "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991"'
+      - paragraph:     
+      - heading "Our Band Could Be ..." [level=3]:
+        - link "Our Band Could Be ...":
+          - /url: catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+      - paragraph: £57.25
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Olio":
+        - /url: catalogue/olio_984/index.html
+        - img "Olio"
+      - paragraph:     
+      - heading "Olio" [level=3]:
+        - link "Olio":
+          - /url: catalogue/olio_984/index.html
+      - paragraph: £23.88
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - 'link "Mesaerion: The Best Science Fiction Stories 1800-1849"':
+        - /url: catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+        - 'img "Mesaerion: The Best Science Fiction Stories 1800-1849"'
+      - paragraph:     
+      - 'heading "Mesaerion: The Best Science ..." [level=3]':
+        - 'link "Mesaerion: The Best Science ..."':
+          - /url: catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+      - paragraph: £37.59
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "Libertarianism for Beginners":
+        - /url: catalogue/libertarianism-for-beginners_982/index.html
+        - img "Libertarianism for Beginners"
+      - paragraph:     
+      - heading "Libertarianism for Beginners" [level=3]:
+        - link "Libertarianism for Beginners":
+          - /url: catalogue/libertarianism-for-beginners_982/index.html
+      - paragraph: £51.33
+      - paragraph:  In stock
+      - button "Add to basket"
+  - listitem:
+    - article:
+      - link "It's Only the Himalayas":
+        - /url: catalogue/its-only-the-himalayas_981/index.html
+        - img "It's Only the Himalayas"
+      - paragraph:     
+      - heading "It's Only the Himalayas" [level=3]:
+        - link "It's Only the Himalayas":
+          - /url: catalogue/its-only-the-himalayas_981/index.html
+      - paragraph: £45.17
+      - paragraph:  In stock
+      - button "Add to basket"
+- list:
+  - listitem: Page 1 of 50
+  - listitem:
+    - link "next":
+      - /url: catalogue/page-2.html
+- contentinfo

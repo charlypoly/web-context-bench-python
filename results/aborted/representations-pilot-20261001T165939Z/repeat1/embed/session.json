@@ -1,0 +1,151 @@
+{
+ "page_id": "embed",
+ "url": "http://localhost:8100/embed/index.html",
+ "integrity": {
+  "raw_html_sha256": "99886f9dc12d77bb32f911f508fb716672b671d3aca04a97151dd9b5ab7e6f5b",
+  "unchanged_after_browser_use": true,
+  "diff_after_browser_use": null,
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 30,
+  "index_count": 30
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-346": "http://localhost:8100/embed/index.html",
+   "0-403": "http://localhost:8100/embed/index.html#",
+   "0-359": "http://localhost:8100/embed/index.html#",
+   "0-360": "http://localhost:8100/embed/index.html#",
+   "0-368": "http://localhost:8100/embed/index.html#",
+   "1-406": "http://localhost:8100/embed/shipping.html",
+   "2-1": "http://127.0.0.1:8100/embed/payment.html"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "embed.act.1": {
+   "backend_node_id": 5,
+   "target_id": "21C4AAC33AC7C42393ED10258154BF81",
+   "frame_depth": 1,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 177.234375,
+    "y": 275,
+    "width": 136,
+    "height": 31
+   },
+   "stagehand_key": "1-405",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/section[2]/iframe[1]/html[1]/body[1]/div[1]/input[1]",
+   "error": null
+  },
+  "embed.act.2": {
+   "backend_node_id": 1,
+   "target_id": "CCDF0E490A3C9EFB700ABCF956ED69D5",
+   "frame_depth": 1,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 92,
+    "y": 548,
+    "width": 278,
+    "height": 33
+   },
+   "stagehand_key": "2-2",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/section[3]/iframe[1]/html[1]/body[1]/input[1]",
+   "error": null
+  },
+  "embed.act.3": {
+   "backend_node_id": 134,
+   "target_id": "21C4AAC33AC7C42393ED10258154BF81",
+   "frame_depth": 0,
+   "in_closed_shadow": true,
+   "box": {
+    "x": 1106.015625,
+    "y": 393,
+    "width": 93.96875,
+    "height": 33
+   },
+   "stagehand_key": "0-312",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[2]/section[2]/promo-code[1]//div[1]/div[1]/button[1]",
+   "error": null
+  }
+ }
+}

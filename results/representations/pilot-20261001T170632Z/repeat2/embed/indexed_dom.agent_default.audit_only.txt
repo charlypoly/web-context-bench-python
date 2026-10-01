@@ -1,0 +1,75 @@
+Pinecone Coffee Roasters
+[31]<a />
+	Help
+[33]<a />
+	My account
+Checkout
+Contact
+Signed in as
+m.alvarez@example.com
+[53]<a />
+	Not you?
+Shipping estimate
+|scroll element[8]<iframe id=shipping-frame title=Shipping estimator /> (scroll)
+	Delivery ZIP
+	|SHADOW(open)|[6]<input id=ship-zip type=text inputmode=numeric value=94110 />
+	[176]<button id=estimate />
+		Update estimate
+	Ground (UPS): arrives
+	Thu, 8 Oct
+	— $5.50
+	2-Day Air: arrives
+	Mon, 5 Oct
+	— $14.00
+Payment
+|scroll element[9]<iframe id=payment-frame title=Secure payment form /> (scroll)
+	Secured by Cobalt Pay · Test mode
+	Card number
+	|SHADOW(open)|[1]<input id=card type=text inputmode=numeric autocomplete=cc-number placeholder=1234 1234 1234 1234 />
+	Expiry (MM/YY)
+	|SHADOW(open)|[2]<input id=exp type=text autocomplete=cc-exp />
+	Security code
+	|SHADOW(open)|[3]<input id=cvc type=text autocomplete=cc-csc />
+	[35]<button id=pay />
+		Pay $84.20
+	We accept Visa, Mastercard and American Express.
+Card details are handled by our payment partner, Cobalt Pay, and never touch our servers.
+Order summary
+[85]<tr />
+	[86]<td />
+		Ethiopia Guji, 340 g × 2
+	[88]<td />
+		$38.00
+[91]<tr />
+	[92]<td />
+		House Espresso Blend, 1 kg
+	[94]<td />
+		$34.50
+[97]<tr />
+	[98]<td />
+		Paper filters (100)
+	[100]<td />
+		$6.20
+[103]<tr />
+	[104]<td />
+		Shipping
+	[106]<td />
+		$5.50
+[109]<tr />
+	[110]<td />
+		Total
+	[112]<td />
+		$84.20
+Discounts
+Closed Shadow
+	Autumn offer: code ROAST15 takes 15% off orders over $60.
+	|SHADOW(open)|[196]<input type=text name=promo placeholder=Enter promo code aria-label=Promo code />
+	[135]<button />
+		Apply code
+	One code per order. Offer ends 30 November 2026.
+Shadow End
+[144]<button />
+	Place order
+By placing your order you agree to our
+[149]<a />
+	terms of sale

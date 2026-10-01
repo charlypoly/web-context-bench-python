@@ -1,0 +1,149 @@
+{
+ "page_id": "form",
+ "url": "http://localhost:8100/form/index.html",
+ "integrity": {
+  "raw_html_sha256": "7d9c8fb4294fec5193ad7ea758f514cf2f453d63610f3056f7263355e98d3954",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -49 +49 @@\n-          <input type=\"text\" id=\"first-name\" name=\"first_name\" autocomplete=\"given-name\" required=\"\">\n+          <input type=\"text\" id=\"first-name\" name=\"first_name\" autocomplete=\"given-name\" required=\"\" style=\"\">\n@@ -53 +53 @@\n-          <input type=\"text\" id=\"last-name\" name=\"last_name\" autocomplete=\"family-name\" required=\"\">\n+          <input type=\"text\" id=\"last-name\" name=\"last_name\" autocomplete=\"family-name\" required=\"\" style=\"\">\n@@ -59 +59 @@\n-          <input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"email\" required=\"\">\n+          <input type=\"email\" id=\"email\" name=\"email\" autocomplete=\"email\" required=\"\" style=\"\">\n@@ -66 +66 @@\n-          <input type=\"password\" id=\"password\" name=\"password\" minlength=\"12\" required=\"\" aria-describedby=\"pw-hint\">\n+          <input type=\"password\" id=\"password\" name=\"password\" minlength=\"12\" required=\"\" aria-describedby=\"pw-hint\" style=\"\">\n@@ -71 +71 @@\n-          <input type=\"password\" id=\"password2\" name=\"password_confirm\" required=\"\">\n+          <input type=\"password\" id=\"password2\" name=\"password_confirm\" required=\"\" style=\"\">\n@@ -102 +102 @@\n-          <input type=\"text\" id=\"address1\" name=\"address1\" autocomplete=\"address-line1\" required=\"\">\n+          <input type=\"text\" id=\"address1\" name=\"address1\" autocomplete=\"address-line1\" required=\"\" style=\"\">\n@@ -107 +107 @@\n-          <input type=\"text\" id=\"address2\" name=\"address2\" placeholder=\"Apartment, suite, unit (optional)\" autocomplete=\"address-line2\">\n+          <input type=\"text\" id=\"address2\" name=\"address2\" placeholder=\"Apartment, suite, unit (optional)\" autocomplete=\"address-line2\" style=\"\">\n@@ -113 +113 @@\n-          <input type=\"text\" id=\"city\" name=\"city\" value=\"Portland\" required=\"\">\n+          <input type=\"text\" id=\"city\" name=\"city\" value=\"Portland\" required=\"\" style=\"\">\n@@ -117 +117 @@\n-          <input type=\"text\" id=\"zip\" name=\"zip\" inputmode=\"numeric\" pattern=\"[0-9]{5}\" placeholder=\"97201\" required=\"\">\n+          <input type=\"text\" id=\"zip\" name=\"zip\" inputmode=\"numeric\" pattern=\"[0-9]{5}\" placeholder=\"97201\" required=\"\" style=\"\">\n@@ -122 +122 @@\n-          <input type=\"tel\" id=\"phone\" name=\"phone\" aria-label=\"Mobile phone number\" autocomplete=\"tel\">\n+          <input type=\"tel\" id=\"phone\" name=\"phone\" aria-label=\"Mobile phone number\" autocomplete=\"tel\" style=\"\">\n@@ -130,3 +130,3 @@\n-        <label><input type=\"radio\" name=\"speed\" value=\"standard\" checked=\"\"> Standard (5\u20137 business days) \u2014 Free</label>\n-        <label><input type=\"radio\" name=\"speed\" value=\"express\"> Express (2\u20133 business days) \u2014 $9.99</label>\n-        <label><input type=\"radio\" name=\"speed\" value=\"overnight\"> Overnight (next business day) \u2014 $24.50</label>\n+        <label><input type=\"radio\" name=\"speed\" value=\"standard\" checked=\"\" style=\"\"> Standard (5\u20137 business days) \u2014 Free</label>\n+        <label><input type=\"radio\" name=\"speed\" value=\"express\" style=\"\"> Express (2\u20133 business days) \u2014 $9.99</label>\n+        <label><input type=\"radio\" name=\"speed\" value=\"overnight\" style=\"\"> Overnight (next business day) \u2014 $24.50</label>\n@@ -137 +137 @@",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 33,
+  "index_count": 33
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-2542": "http://localhost:8100/form/index.html",
+   "0-2805": "http://localhost:8100/form/index.html#",
+   "0-2809": "http://localhost:8100/form/index.html#",
+   "0-2795": "http://localhost:8100/form/index.html#",
+   "0-2798": "http://localhost:8100/form/index.html#"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "form.act.1": {
+   "backend_node_id": 11,
+   "target_id": "E9A9E9CB477D02829B69F0AD0940A424",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 221,
+    "y": 673.40625,
+    "width": 838,
+    "height": 34
+   },
+   "stagehand_key": "0-2523",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/form[1]/fieldset[2]/div[3]/div[1]/input[1]",
+   "error": null
+  },
+  "form.act.2": {
+   "backend_node_id": 20,
+   "target_id": "E9A9E9CB477D02829B69F0AD0940A424",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 226,
+    "y": 933.40625,
+    "width": 13,
+    "height": 13
+   },
+   "stagehand_key": "0-2532",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/form[1]/fieldset[3]/div[1]/label[3]/input[1]",
+   "error": null
+  },
+  "form.act.3": {
+   "backend_node_id": 14,
+   "target_id": "E9A9E9CB477D02829B69F0AD0940A424",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 790.328125,
+    "y": 739.40625,
+    "width": 268.671875,
+    "height": 34
+   },
+   "stagehand_key": "0-2526",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/form[1]/fieldset[2]/div[4]/div[3]/input[1]",
+   "error": null
+  }
+ }
+}

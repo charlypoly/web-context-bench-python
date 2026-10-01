@@ -1,0 +1,49 @@
+repeat 1 form: 39/48 correct, 0 API errors
+repeat 1 embed: 28/48 correct, 0 API errors
+repeat 1 books_listing: 38/48 correct, 0 API errors
+repeat 2 form: 36/48 correct, 0 API errors
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/run.py", line 241, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/run.py", line 237, in main
+    asyncio.run(run_phase(args.phase, args.repeats, seed, args.estimate))
+  File "/Users/charlypoly/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/run.py", line 175, in run_phase
+    ps = await h.capture(page_id, [t for t in page_tasks if t["type"] == "act"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/harness.py", line 64, in capture
+    return await capture_page_session(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/capture.py", line 157, in capture_page_session
+    sh_el = await resolve_chain(sh_page, task["target"])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/groundtruth.py", line 93, in resolve_chain
+    child_frame = await _child_playwright_frame(frame, node)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/src/wpbench/groundtruth.py", line 119, in _child_playwright_frame
+    el = await f.frame_element()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/.venv/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 3766, in frame_element
+    return mapping.from_impl(await self._impl_obj.frame_element())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/.venv/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 342, in frame_element
+    return from_channel(await self._channel.send("frameElement", None))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/charlypoly/Documents/dev/python-webpage-context-tokens/.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Frame.frame_element: Frame has been detached.
+exit=1

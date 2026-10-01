@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — Pinecone Coffee Roasters</title>
+<style>
+  body { margin: 0; font-family: Helvetica, Arial, sans-serif; background: #faf7f2; color: #2b2118; }
+  header { background: #3b2a1e; color: #f5e9da; padding: 14px 32px; display: flex; justify-content: space-between; }
+  header a { color: #f5e9da; margin-left: 14px; }
+  .wrap { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; max-width: 1160px; margin: 20px auto; padding: 0 24px; }
+  section.panel { background: #fff; border-radius: 8px; padding: 16px 20px; margin-bottom: 18px; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  h1 { font-size: 24px; margin: 0 0 10px; } h2 { font-size: 17px; margin: 0 0 10px; }
+  iframe { width: 100%; border: 1px solid #e7ddd0; border-radius: 6px; }
+  table.items { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.items td { padding: 8px 4px; border-bottom: 1px solid #f0e9df; }
+  table.items td.num { text-align: right; }
+  .total td { font-weight: bold; font-size: 16px; }
+  .place { width: 100%; padding: 12px; background: #2f6b3a; color: #fff; border: 0; border-radius: 6px; font-size: 16px; }
+  .secure { font-size: 12px; color: #6b5d50; }
+</style>
+</head>
+<body>
+<header><strong>Pinecone Coffee Roasters</strong><nav aria-label="Account"><a href="#">Help</a><a href="#">My account</a></nav></header>
+<div class="wrap">
+  <div>
+    <h1>Checkout</h1>
+    <section class="panel">
+      <h2>Contact</h2>
+      <p style="font-size:14px">Signed in as <strong>m.alvarez@example.com</strong> · <a href="#">Not you?</a></p>
+    </section>
+    <section class="panel">
+      <h2>Shipping estimate</h2>
+      <iframe id="shipping-frame" src="/embed/shipping.html" title="Shipping estimator" height="150"></iframe>
+    </section>
+    <section class="panel">
+      <h2>Payment</h2>
+      <iframe id="payment-frame" src="http://127.0.0.1:8100/embed/payment.html" title="Secure payment form" height="250"></iframe>
+      <p class="secure">Card details are handled by our payment partner, Cobalt Pay, and never touch our servers.</p>
+    </section>
+  </div>
+  <div>
+    <section class="panel">
+      <h2>Order summary</h2>
+      <table class="items">
+        <tbody><tr><td>Ethiopia Guji, 340 g × 2</td><td class="num">$38.00</td></tr>
+        <tr><td>House Espresso Blend, 1 kg</td><td class="num">$34.50</td></tr>
+        <tr><td>Paper filters (100)</td><td class="num">$6.20</td></tr>
+        <tr><td>Shipping</td><td class="num">$5.50</td></tr>
+        <tr class="total"><td>Total</td><td class="num">$84.20</td></tr>
+      </tbody></table>
+    </section>
+    <section class="panel">
+      <h2>Discounts</h2>
+      <promo-code></promo-code>
+    </section>
+    <button type="button" class="place">Place order</button>
+    <p class="secure">By placing your order you agree to our <a href="#">terms of sale</a>.</p>
+  </div>
+</div>
+<script>
+  // Third-party style widget rendered into a CLOSED shadow root.
+  customElements.define("promo-code", class extends HTMLElement {
+    constructor() {
+      super();
+      const root = this.attachShadow({ mode: "closed" });
+      root.innerHTML = `
+        <style>
+          .box { font-size: 14px; }
+          .row { display: flex; gap: 8px; margin: 8px 0; }
+          input { flex: 1; padding: 8px; border: 1px solid #d6c9b8; border-radius: 4px; }
+          button { padding: 8px 14px; border: 0; border-radius: 4px; background: #3b2a1e; color: #fff; }
+          .offer { color: #2f6b3a; }
+          .fine { font-size: 12px; color: #6b5d50; }
+        </style>
+        <div class="box">
+          <p class="offer">Autumn offer: code ROAST15 takes 15% off orders over $60.</p>
+          <div class="row">
+            <input type="text" name="promo" placeholder="Enter promo code" aria-label="Promo code">
+            <button type="button" class="apply">Apply code</button>
+          </div>
+          <p class="fine">One code per order. Offer ends 30 November 2026.</p>
+        </div>`;
+    }
+  });
+</script>
+
+
+</body></html>

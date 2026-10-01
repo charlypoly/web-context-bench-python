@@ -1,0 +1,81 @@
+Northwind Outfitters
+1. Cart
+2. Account & shipping
+3. Payment
+4. Review
+Create your account
+Fields marked
+are required. Your cart total is
+$186.40
+(3 items).
+Account details
+First name
+|SHADOW(open)|[3]<input type=text id=first-name name=first_name autocomplete=given-name required=true />
+Last name
+|SHADOW(open)|[4]<input type=text id=last-name name=last_name autocomplete=family-name required=true />
+Email address
+|SHADOW(open)|[5]<input type=email id=email name=email autocomplete=email required=true />
+We'll send your order confirmation here.
+Password
+|SHADOW(open)|[6]<input type=password minlength=12 required=true />
+At least 12 characters, including one number.
+Confirm password
+|SHADOW(open)|[7]<input type=password id=password2 name=password_confirm required=true />
+Shipping address
+Country / region
+|SHADOW(open)|*[8]<select id=country expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=4,options=Canada|Mexico|United States|United Kingdom,format=country/state codes) />
+State
+|SHADOW(open)|*[9]<select id=state name=state expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=5,options=Select a state|California|New York|Oregon) />
+Street address
+|SHADOW(open)|[10]<input type=text id=address1 autocomplete=address-line1 required=true />
+|SHADOW(open)|[11]<input type=text id=address2 placeholder=Apartment, suite, unit (optional) autocomplete=address-line2 />
+City
+|SHADOW(open)|[12]<input type=text id=city name=city value=Portland required=true />
+ZIP code
+|SHADOW(open)|[13]<input type=text id=zip name=zip inputmode=numeric pattern=[0-9]{5} placeholder=97201 required=true />
+5 digits
+Phone
+|SHADOW(open)|[14]<input type=tel id=phone name=phone aria-label=Mobile phone number autocomplete=tel placeholder=123-456-7890 />
+Delivery speed
+[257]<label />
+	[18]<input type=radio name=speed value=standard checked=true />
+	Standard (5–7 business days) — Free
+[260]<label />
+	[19]<input type=radio name=speed value=express checked=false />
+	Express (2–3 business days) — $9.99
+[263]<label />
+	[20]<input type=radio name=speed value=overnight checked=false />
+	Overnight (next business day) — $24.50
+Preferred delivery date
+|SHADOW(open)|[15]<input type=date id=delivery-date name=delivery_date min=2026-10-05 max=2026-12-31 format=YYYY-MM-DD placeholder=YYYY-MM-DD />
+Weekdays only. Earliest available: 5 October 2026.
+Extras
+Gift message
+|SHADOW(open)|[16]<textarea id=gift-message name=gift_message maxlength=200 />
+Up to 200 characters. Printed on the packing slip.
+Promo code
+|SHADOW(open)|[17]<input type=text id=coupon value=WELCOME5 />
+WELCOME5 takes $5 off orders over $50.
+[313]<label />
+	[21]<input type=checkbox name=newsletter checked=true value=on />
+	Email me about new arrivals and sales
+[316]<label />
+	[22]<input type=checkbox name=sms value=on checked=false />
+	Send shipping updates by text message
+[319]<label />
+	[23]<input type=checkbox name=terms id=terms value=on invalid=true checked=false />
+	I agree to the
+	[321]<a />
+		Terms of Service
+	and
+	[324]<a />
+		Privacy Policy
+[28]<button type=submit />
+	Create account and continue
+[29]<button />
+	Save as draft
+[338]<a />
+	Cancel and return to cart
+Already have an account?
+[344]<a />
+	Sign in

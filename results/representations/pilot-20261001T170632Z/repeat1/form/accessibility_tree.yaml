@@ -1,0 +1,86 @@
+- banner:
+  - text: Northwind Outfitters
+  - list "Checkout progress":
+    - listitem: 1. Cart
+    - listitem: 2. Account & shipping
+    - listitem: 3. Payment
+    - listitem: 4. Review
+- main:
+  - heading "Create your account" [level=1]
+  - paragraph:
+    - text: Fields marked * are required. Your cart total is
+    - strong: $186.40
+    - text: (3 items).
+  - group "Account details":
+    - text: Account details First name *
+    - textbox "First name *"
+    - text: Last name *
+    - textbox "Last name *"
+    - text: Email address *
+    - textbox "Email address *"
+    - text: We'll send your order confirmation here. Password *
+    - textbox "Password *"
+    - text: At least 12 characters, including one number. Confirm password *
+    - textbox "Confirm password *"
+  - group "Shipping address":
+    - text: Shipping address Country / region
+    - combobox "Country / region":
+      - option "Canada"
+      - option "Mexico"
+      - option "United States" [selected]
+      - option "United Kingdom"
+    - text: State
+    - combobox "State":
+      - option "Select a state"
+      - option "California"
+      - option "New York"
+      - option "Oregon" [selected]
+      - option "Washington"
+    - text: Street address *
+    - textbox "Street address *"
+    - textbox "Apartment, suite, unit (optional)"
+    - text: City *
+    - textbox "City *": Portland
+    - text: ZIP code *
+    - textbox "ZIP code *":
+      - /placeholder: "97201"
+    - text: 5 digits Phone
+    - textbox "Mobile phone number"
+  - group "Delivery speed":
+    - text: Delivery speed
+    - radiogroup:
+      - radio "Standard (5–7 business days) — Free" [checked]
+      - text: Standard (5–7 business days) — Free
+      - radio "Express (2–3 business days) — $9.99"
+      - text: Express (2–3 business days) — $9.99
+      - radio "Overnight (next business day) — $24.50"
+      - text: Overnight (next business day) — $24.50
+    - text: Preferred delivery date
+    - textbox "Preferred delivery date"
+    - text: "Weekdays only. Earliest available: 5 October 2026."
+  - group "Extras":
+    - text: Extras Gift message
+    - textbox "Gift message"
+    - text: Up to 200 characters. Printed on the packing slip. Promo code
+    - textbox "Promo code": WELCOME5
+    - text: WELCOME5 takes $5 off orders over $50.
+    - checkbox "Email me about new arrivals and sales" [checked]
+    - text: Email me about new arrivals and sales
+    - checkbox "Send shipping updates by text message"
+    - text: Send shipping updates by text message
+    - checkbox "I agree to the Terms of Service and Privacy Policy *"
+    - text: I agree to the
+    - link "Terms of Service":
+      - /url: "#"
+    - text: and
+    - link "Privacy Policy":
+      - /url: "#"
+    - text: "*"
+  - button "Create account and continue"
+  - button "Save as draft"
+  - link "Cancel and return to cart":
+    - /url: "#"
+  - paragraph:
+    - text: Already have an account?
+    - link "Sign in":
+      - /url: "#"

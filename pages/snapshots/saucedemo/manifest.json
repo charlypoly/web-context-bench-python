@@ -1,0 +1,71 @@
+{
+  "site": "saucedemo",
+  "primary_host": "www.saucedemo.com",
+  "source_urls": [
+    "https://www.saucedemo.com/"
+  ],
+  "captured_at": "2026-10-01T15:30:36+00:00",
+  "captured_with": {
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12"
+  },
+  "files": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+      "file": "fonts.googleapis.com/css2__qe5ac8140adbe",
+      "content_type": "text/css; charset=utf-8",
+      "sha256_original": "df6a30a2fbc28fd2ef135ca483269d9f294d2d0a9b09934ca35f4f55cc3162e1",
+      "sha256_saved": "34be5f4deeef23c331c9d965cb7afbf6648afeb27aafa63c16b56bcc896c7d92",
+      "rewritten": true
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2",
+      "file": "fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2",
+      "content_type": "font/woff2",
+      "sha256_original": "0e263db52797086e763679c54f84ded8cc1249879bc27dca2bd5dd446f6d9f36",
+      "sha256_saved": "0e263db52797086e763679c54f84ded8cc1249879bc27dca2bd5dd446f6d9f36",
+      "rewritten": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+      "file": "fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+      "content_type": "font/woff2",
+      "sha256_original": "fd7521f3531a5ccfc655b25c4f22e9871df3ec141ad79bb27fde20d0df347b6d",
+      "sha256_saved": "fd7521f3531a5ccfc655b25c4f22e9871df3ec141ad79bb27fde20d0df347b6d",
+      "rewritten": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2",
+      "file": "fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2",
+      "content_type": "font/woff2",
+      "sha256_original": "468d56b6b25b05b70190b6c233d773f6f1770e8579827ce022a57f03fa8002fb",
+      "sha256_saved": "468d56b6b25b05b70190b6c233d773f6f1770e8579827ce022a57f03fa8002fb",
+      "rewritten": false
+    },
+    {
+      "url": "https://www.saucedemo.com/",
+      "file": "www.saucedemo.com/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256_original": "abf89b5e2292060c0968f3d73f96fc4a0bea08be4541a16a412d57e8b5d956a0",
+      "sha256_saved": "7997588372b5ffff22c1d3031ddc21675e464cbf3bd91b3c71cdcec24abf1560",
+      "rewritten": true
+    },
+    {
+      "url": "https://www.saucedemo.com/assets/index-D3OxT1jE.js",
+      "file": "www.saucedemo.com/assets/index-D3OxT1jE.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "sha256_original": "b41707c8d92b39fba582252fecb3849d6206687f76b2862673c96bdcae44b917",
+      "sha256_saved": "b41707c8d92b39fba582252fecb3849d6206687f76b2862673c96bdcae44b917",
+      "rewritten": false
+    },
+    {
+      "url": "https://www.saucedemo.com/assets/index-aSZoiKGF.css",
+      "file": "www.saucedemo.com/assets/index-aSZoiKGF.css",
+      "content_type": "text/css; charset=utf-8",
+      "sha256_original": "1b7a901ed8df78b998cfe29f52fc3f6220452fa301dc0bedfbecf88e9b97ca18",
+      "sha256_saved": "1b7a901ed8df78b998cfe29f52fc3f6220452fa301dc0bedfbecf88e9b97ca18",
+      "rewritten": false
+    }
+  ],
+  "failed_requests": []
+}

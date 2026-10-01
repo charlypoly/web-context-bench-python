@@ -1,0 +1,21 @@
+[project]
+name = "wpbench"
+version = "0.1.0"
+description = "Benchmark: token cost and LLM read/act accuracy of web page representations"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "playwright==1.63.0",
+    "markdownify==1.2.3",
+    "tiktoken==0.14.0",
+    "anthropic==1.11.0",
+    "matplotlib==3.11.2",
+    "python-dotenv==1.2.2",
+]
+
+[dependency-groups]
+dev = ["pytest==9.1.1"]
+
+[build-system]
+requires = ["uv_build>=0.11.29,<0.12.0"]
+build-backend = "uv_build"

@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {"id": "article", "kind": "article", "url": "http://localhost:8100/article/index.html",
+     "source": "local fixture (original text written for this benchmark)"},
+    {"id": "docs", "kind": "docs page", "url": "http://localhost:8100/docs/index.html",
+     "source": "local fixture (fictional API, written for this benchmark)"},
+    {"id": "books_listing", "kind": "e-commerce listing", "url": "http://localhost:8101/index.html",
+     "source": "snapshot of https://books.toscrape.com/ (Zyte practice site)"},
+    {"id": "books_product", "kind": "product page", "url": "http://localhost:8101/catalogue/a-light-in-the-attic_1000/index.html",
+     "source": "snapshot of https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html (Zyte practice site)"},
+    {"id": "saucedemo_login", "kind": "login form", "url": "http://localhost:8102/",
+     "source": "snapshot of https://www.saucedemo.com/ (Sauce Labs practice site, client-rendered React app)"},
+    {"id": "form", "kind": "multi-field form", "url": "http://localhost:8100/form/index.html",
+     "source": "local fixture"},
+    {"id": "dashboard", "kind": "dashboard-like page", "url": "http://localhost:8100/dashboard/index.html",
+     "source": "local fixture (synthetic data)"},
+    {"id": "serp", "kind": "search results", "url": "http://localhost:8100/serp/index.html",
+     "source": "local fixture (fictional results)"},
+    {"id": "table", "kind": "long data table", "url": "http://localhost:8100/table/index.html",
+     "source": "local fixture (synthetic data from scripts/make_table_fixture.py)"},
+    {"id": "embed", "kind": "iframe + closed Shadow DOM", "url": "http://localhost:8100/embed/index.html",
+     "source": "local fixture; same-origin iframe from localhost:8100, cross-site iframe from 127.0.0.1:8100"}
+  ],
+  "pilot": ["books_listing", "form", "embed"]
+}

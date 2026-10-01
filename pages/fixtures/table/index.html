@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orders export &mdash; Halcyon Office Supply</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; color: #1f2933; }
+  header { padding: 16px 28px; background: #102a43; color: #fff; display: flex; justify-content: space-between; align-items: center; }
+  header a { color: #d9e2ec; margin-left: 16px; }
+  main { padding: 16px 28px; }
+  .toolbar { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; font-size: 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { border: 1px solid #d9e2ec; padding: 5px 8px; text-align: left; }
+  thead th { background: #f0f4f8; position: sticky; top: 0; }
+  th button { background: none; border: 0; font: inherit; font-weight: bold; cursor: pointer; padding: 0; }
+  td.num { text-align: right; }
+  tfoot td { font-weight: bold; background: #f0f4f8; }
+  .pager { display: flex; gap: 10px; align-items: center; margin: 14px 0 40px; font-size: 14px; }
+</style>
+</head>
+<body>
+<header><strong>Halcyon Office Supply &mdash; Admin</strong><nav aria-label="Admin"><a href="#">Dashboard</a><a href="#">Orders</a><a href="#">Inventory</a><a href="#">Sign out</a></nav></header>
+<main>
+  <h1>Orders, January&ndash;September 2026</h1>
+  <div class="toolbar">
+    <label for="filter">Filter orders</label>
+    <input id="filter" type="search" placeholder="Customer, product or order ID">
+    <label for="status">Status</label>
+    <select id="status"><option selected>All statuses</option><option>Delivered</option><option>Shipped</option><option>Processing</option><option>Cancelled</option><option>Returned</option></select>
+    <button type="button">Download CSV</button>
+    <span>500 orders</span>
+  </div>
+  <table id="orders">
+    <caption style="text-align:left;padding:6px 0">All orders, sorted by order ID (ascending)</caption>
+    <thead><tr>
+      <th scope="col"><button type="button">Order ID</button></th><th scope="col"><button type="button">Date</button></th>
+      <th scope="col"><button type="button">Customer</button></th><th scope="col"><button type="button">Region</button></th>
+      <th scope="col"><button type="button">Product</button></th><th scope="col"><button type="button">Qty</button></th>
+      <th scope="col"><button type="button">Unit price</button></th><th scope="col"><button type="button">Total</button></th>
+      <th scope="col"><button type="button">Status</button></th>
+    </tr></thead>
+    <tbody>
+<tr><td>ORD-20001</td><td>2026-01-11</td><td>Tess Walker</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20002</td><td>2026-01-01</td><td>Lucas Moreau</td><td>North</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Processing</td></tr>
+<tr><td>ORD-20003</td><td>2026-01-07</td><td>Jonas Berg</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20004</td><td>2026-01-21</td><td>Pedro Santos</td><td>South</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20005</td><td>2026-01-19</td><td>Ximena Ortiz</td><td>South</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20006</td><td>2026-01-21</td><td>Valentina Ricci</td><td>South</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Cancelled</td></tr>
+<tr><td>ORD-20007</td><td>2026-01-03</td><td>Zoe Fischer</td><td>West</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20008</td><td>2026-01-01</td><td>Zoe Fischer</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Processing</td></tr>
+<tr><td>ORD-20009</td><td>2026-01-23</td><td>Zoe Fischer</td><td>East</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Returned</td></tr>
+<tr><td>ORD-20010</td><td>2026-01-05</td><td>Lucas Moreau</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20011</td><td>2026-01-07</td><td>Jonas Berg</td><td>West</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Processing</td></tr>
+<tr><td>ORD-20012</td><td>2026-01-17</td><td>Tess Walker</td><td>East</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20013</td><td>2026-01-11</td><td>Bruno Silva</td><td>South</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20014</td><td>2026-01-09</td><td>Hiro Tanaka</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Returned</td></tr>
+<tr><td>ORD-20015</td><td>2026-01-07</td><td>Rosa Delgado</td><td>Central</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Processing</td></tr>
+<tr><td>ORD-20016</td><td>2026-01-21</td><td>Jonas Berg</td><td>East</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20017</td><td>2026-01-07</td><td>Zoe Fischer</td><td>South</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20018</td><td>2026-01-21</td><td>Rosa Delgado</td><td>East</td><td>Ergonomic Chair</td><td class="num">5</td><td class="num">$289.00</td><td class="num">$1,445.00</td><td>Processing</td></tr>
+<tr><td>ORD-20019</td><td>2026-01-19</td><td>Tess Walker</td><td>North</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Processing</td></tr>
+<tr><td>ORD-20020</td><td>2026-01-01</td><td>Tess Walker</td><td>Central</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20021</td><td>2026-01-03</td><td>Lucas Moreau</td><td>West</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Processing</td></tr>
+<tr><td>ORD-20022</td><td>2026-01-09</td><td>Hiro Tanaka</td><td>Central</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Cancelled</td></tr>
+<tr><td>ORD-20023</td><td>2026-01-23</td><td>Farah Haddad</td><td>East</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Processing</td></tr>
+<tr><td>ORD-20024</td><td>2026-01-13</td><td>Farah Haddad</td><td>West</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Returned</td></tr>
+<tr><td>ORD-20025</td><td>2026-01-23</td><td>Nikolai Petrov</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Returned</td></tr>
+<tr><td>ORD-20026</td><td>2026-01-17</td><td>Bruno Silva</td><td>North</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20027</td><td>2026-01-27</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Returned</td></tr>
+<tr><td>ORD-20028</td><td>2026-01-01</td><td>Rosa Delgado</td><td>North</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Returned</td></tr>
+<tr><td>ORD-20029</td><td>2026-01-07</td><td>Hiro Tanaka</td><td>Central</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20030</td><td>2026-01-25</td><td>Lucas Moreau</td><td>West</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20031</td><td>2026-01-15</td><td>Nikolai Petrov</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20032</td><td>2026-01-17</td><td>Hiro Tanaka</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20033</td><td>2026-01-19</td><td>Nikolai Petrov</td><td>South</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Returned</td></tr>
+<tr><td>ORD-20034</td><td>2026-01-17</td><td>Zoe Fischer</td><td>West</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20035</td><td>2026-01-07</td><td>Lucas Moreau</td><td>West</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Returned</td></tr>
+<tr><td>ORD-20036</td><td>2026-01-13</td><td>Zoe Fischer</td><td>West</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20037</td><td>2026-01-23</td><td>Ximena Ortiz</td><td>South</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Returned</td></tr>
+<tr><td>ORD-20038</td><td>2026-01-17</td><td>Ximena Ortiz</td><td>East</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20039</td><td>2026-01-07</td><td>Dmitri Volkov</td><td>North</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20040</td><td>2026-01-13</td><td>Farah Haddad</td><td>South</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20041</td><td>2026-01-15</td><td>Jonas Berg</td><td>East</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Processing</td></tr>
+<tr><td>ORD-20042</td><td>2026-01-01</td><td>Bruno Silva</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20043</td><td>2026-01-11</td><td>Ximena Ortiz</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20044</td><td>2026-01-05</td><td>Farah Haddad</td><td>North</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Delivered</td></tr>
+<tr><td>ORD-20045</td><td>2026-01-19</td><td>Dmitri Volkov</td><td>South</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Returned</td></tr>
+<tr><td>ORD-20046</td><td>2026-01-05</td><td>Bruno Silva</td><td>North</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20047</td><td>2026-01-07</td><td>Jonas Berg</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20048</td><td>2026-01-13</td><td>Nikolai Petrov</td><td>South</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20049</td><td>2026-01-23</td><td>Ximena Ortiz</td><td>West</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Processing</td></tr>
+<tr><td>ORD-20050</td><td>2026-01-25</td><td>Jonas Berg</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Returned</td></tr>
+<tr><td>ORD-20051</td><td>2026-01-03</td><td>Zoe Fischer</td><td>North</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20052</td><td>2026-01-25</td><td>Pedro Santos</td><td>South</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20053</td><td>2026-01-23</td><td>Lucas Moreau</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20054</td><td>2026-01-05</td><td>Bruno Silva</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20055</td><td>2026-01-15</td><td>Dmitri Volkov</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Returned</td></tr>
+<tr><td>ORD-20056</td><td>2026-01-09</td><td>Tess Walker</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Returned</td></tr>
+<tr><td>ORD-20057</td><td>2026-02-15</td><td>Rosa Delgado</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Delivered</td></tr>
+<tr><td>ORD-20058</td><td>2026-02-05</td><td>Pedro Santos</td><td>North</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Processing</td></tr>
+<tr><td>ORD-20059</td><td>2026-02-15</td><td>Tess Walker</td><td>North</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20060</td><td>2026-02-01</td><td>Zoe Fischer</td><td>North</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Returned</td></tr>
+<tr><td>ORD-20061</td><td>2026-02-15</td><td>Zoe Fischer</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20062</td><td>2026-02-09</td><td>Hiro Tanaka</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Processing</td></tr>
+<tr><td>ORD-20063</td><td>2026-02-07</td><td>Nikolai Petrov</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Processing</td></tr>
+<tr><td>ORD-20064</td><td>2026-02-25</td><td>Tess Walker</td><td>North</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20065</td><td>2026-02-15</td><td>Zoe Fischer</td><td>North</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20066</td><td>2026-02-25</td><td>Bruno Silva</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Processing</td></tr>
+<tr><td>ORD-20067</td><td>2026-02-15</td><td>Jonas Berg</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Processing</td></tr>
+<tr><td>ORD-20068</td><td>2026-02-01</td><td>Ximena Ortiz</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20069</td><td>2026-02-19</td><td>Pedro Santos</td><td>Central</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Delivered</td></tr>
+<tr><td>ORD-20070</td><td>2026-02-05</td><td>Jonas Berg</td><td>East</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20071</td><td>2026-02-19</td><td>Valentina Ricci</td><td>West</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20072</td><td>2026-02-09</td><td>Pedro Santos</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20073</td><td>2026-02-15</td><td>Valentina Ricci</td><td>East</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20074</td><td>2026-02-13</td><td>Ximena Ortiz</td><td>West</td><td>Ergonomic Chair</td><td class="num">5</td><td class="num">$289.00</td><td class="num">$1,445.00</td><td>Returned</td></tr>
+<tr><td>ORD-20075</td><td>2026-02-11</td><td>Zoe Fischer</td><td>North</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20076</td><td>2026-02-01</td><td>Rosa Delgado</td><td>West</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20077</td><td>2026-02-11</td><td>Hiro Tanaka</td><td>North</td><td>USB-C Dock</td><td class="num">8</td><td class="num">$149.99</td><td class="num">$1,199.92</td><td>Processing</td></tr>
+<tr><td>ORD-20078</td><td>2026-02-21</td><td>Jonas Berg</td><td>East</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Delivered</td></tr>
+<tr><td>ORD-20079</td><td>2026-02-27</td><td>Hiro Tanaka</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Shipped</td></tr>
+<tr><td>ORD-20080</td><td>2026-02-09</td><td>Valentina Ricci</td><td>West</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20081</td><td>2026-02-03</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20082</td><td>2026-02-01</td><td>Lucas Moreau</td><td>Central</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20083</td><td>2026-02-15</td><td>Farah Haddad</td><td>West</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20084</td><td>2026-02-25</td><td>Tess Walker</td><td>Central</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20085</td><td>2026-02-19</td><td>Valentina Ricci</td><td>South</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20086</td><td>2026-02-01</td><td>Valentina Ricci</td><td>Central</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Processing</td></tr>
+<tr><td>ORD-20087</td><td>2026-02-07</td><td>Tess Walker</td><td>East</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20088</td><td>2026-02-09</td><td>Jonas Berg</td><td>South</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20089</td><td>2026-02-03</td><td>Farah Haddad</td><td>West</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20090</td><td>2026-02-25</td><td>Valentina Ricci</td><td>North</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20091</td><td>2026-02-11</td><td>Zoe Fischer</td><td>Central</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20092</td><td>2026-02-09</td><td>Pedro Santos</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20093</td><td>2026-02-15</td><td>Nikolai Petrov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20094</td><td>2026-02-09</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Returned</td></tr>
+<tr><td>ORD-20095</td><td>2026-02-19</td><td>Jonas Berg</td><td>North</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Shipped</td></tr>
+<tr><td>ORD-20096</td><td>2026-02-21</td><td>Dmitri Volkov</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20097</td><td>2026-02-23</td><td>Nikolai Petrov</td><td>North</td><td>USB-C Dock</td><td class="num">8</td><td class="num">$149.99</td><td class="num">$1,199.92</td><td>Returned</td></tr>
+<tr><td>ORD-20098</td><td>2026-02-25</td><td>Nikolai Petrov</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20099</td><td>2026-02-07</td><td>Tess Walker</td><td>South</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20100</td><td>2026-02-21</td><td>Zoe Fischer</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20101</td><td>2026-02-19</td><td>Tess Walker</td><td>South</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20102</td><td>2026-02-13</td><td>Valentina Ricci</td><td>North</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20103</td><td>2026-02-27</td><td>Ximena Ortiz</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20104</td><td>2026-02-21</td><td>Nikolai Petrov</td><td>East</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20105</td><td>2026-02-19</td><td>Hiro Tanaka</td><td>North</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Processing</td></tr>
+<tr><td>ORD-20106</td><td>2026-02-09</td><td>Jonas Berg</td><td>North</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Cancelled</td></tr>
+<tr><td>ORD-20107</td><td>2026-02-27</td><td>Tess Walker</td><td>West</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Processing</td></tr>
+<tr><td>ORD-20108</td><td>2026-02-21</td><td>Bruno Silva</td><td>West</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Returned</td></tr>
+<tr><td>ORD-20109</td><td>2026-02-19</td><td>Lucas Moreau</td><td>North</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20110</td><td>2026-02-25</td><td>Dmitri Volkov</td><td>West</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20111</td><td>2026-02-19</td><td>Ximena Ortiz</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Returned</td></tr>
+<tr><td>ORD-20112</td><td>2026-02-05</td><td>Bruno Silva</td><td>West</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Returned</td></tr>
+<tr><td>ORD-20113</td><td>2026-03-27</td><td>Zoe Fischer</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20114</td><td>2026-03-21</td><td>Pedro Santos</td><td>East</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20115</td><td>2026-03-27</td><td>Ximena Ortiz</td><td>North</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20116</td><td>2026-03-05</td><td>Lucas Moreau</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20117</td><td>2026-03-11</td><td>Zoe Fischer</td><td>South</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Delivered</td></tr>
+<tr><td>ORD-20118</td><td>2026-03-17</td><td>Zoe Fischer</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20119</td><td>2026-03-19</td><td>Valentina Ricci</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20120</td><td>2026-03-17</td><td>Farah Haddad</td><td>South</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20121</td><td>2026-03-19</td><td>Pedro Santos</td><td>East</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Returned</td></tr>
+<tr><td>ORD-20122</td><td>2026-03-21</td><td>Zoe Fischer</td><td>South</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20123</td><td>2026-03-07</td><td>Zoe Fischer</td><td>Central</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20124</td><td>2026-03-01</td><td>Farah Haddad</td><td>West</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Returned</td></tr>
+<tr><td>ORD-20125</td><td>2026-03-15</td><td>Rosa Delgado</td><td>East</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20126</td><td>2026-03-13</td><td>Hiro Tanaka</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20127</td><td>2026-03-27</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Processing</td></tr>
+<tr><td>ORD-20128</td><td>2026-03-09</td><td>Tess Walker</td><td>West</td><td>Ergonomic Chair</td><td class="num">5</td><td class="num">$289.00</td><td class="num">$1,445.00</td><td>Returned</td></tr>
+<tr><td>ORD-20129</td><td>2026-03-27</td><td>Bruno Silva</td><td>North</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20130</td><td>2026-03-21</td><td>Bruno Silva</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Processing</td></tr>
+<tr><td>ORD-20131</td><td>2026-03-03</td><td>Zoe Fischer</td><td>Central</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20132</td><td>2026-03-13</td><td>Lucas Moreau</td><td>East</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Processing</td></tr>
+<tr><td>ORD-20133</td><td>2026-03-27</td><td>Jonas Berg</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Shipped</td></tr>
+<tr><td>ORD-20134</td><td>2026-03-09</td><td>Lucas Moreau</td><td>West</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20135</td><td>2026-03-03</td><td>Valentina Ricci</td><td>West</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Processing</td></tr>
+<tr><td>ORD-20136</td><td>2026-03-25</td><td>Rosa Delgado</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20137</td><td>2026-03-11</td><td>Ximena Ortiz</td><td>South</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20138</td><td>2026-03-09</td><td>Jonas Berg</td><td>West</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Processing</td></tr>
+<tr><td>ORD-20139</td><td>2026-03-15</td><td>Ximena Ortiz</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20140</td><td>2026-03-21</td><td>Zoe Fischer</td><td>West</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20141</td><td>2026-03-07</td><td>Bruno Silva</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20142</td><td>2026-03-17</td><td>Dmitri Volkov</td><td>North</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Cancelled</td></tr>
+<tr><td>ORD-20143</td><td>2026-03-19</td><td>Zoe Fischer</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20144</td><td>2026-03-09</td><td>Jonas Berg</td><td>South</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20145</td><td>2026-03-27</td><td>Zoe Fischer</td><td>South</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Returned</td></tr>
+<tr><td>ORD-20146</td><td>2026-03-01</td><td>Bruno Silva</td><td>North</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20147</td><td>2026-03-11</td><td>Bruno Silva</td><td>East</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20148</td><td>2026-03-09</td><td>Nikolai Petrov</td><td>East</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20149</td><td>2026-03-11</td><td>Tess Walker</td><td>Central</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Returned</td></tr>
+<tr><td>ORD-20150</td><td>2026-03-09</td><td>Pedro Santos</td><td>North</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Processing</td></tr>
+<tr><td>ORD-20151</td><td>2026-03-11</td><td>Pedro Santos</td><td>East</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Processing</td></tr>
+<tr><td>ORD-20152</td><td>2026-03-01</td><td>Valentina Ricci</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20153</td><td>2026-03-27</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Processing</td></tr>
+<tr><td>ORD-20154</td><td>2026-03-17</td><td>Pedro Santos</td><td>North</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Processing</td></tr>
+<tr><td>ORD-20155</td><td>2026-03-11</td><td>Farah Haddad</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20156</td><td>2026-03-05</td><td>Dmitri Volkov</td><td>South</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Returned</td></tr>
+<tr><td>ORD-20157</td><td>2026-03-07</td><td>Nikolai Petrov</td><td>East</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Delivered</td></tr>
+<tr><td>ORD-20158</td><td>2026-03-21</td><td>Rosa Delgado</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Returned</td></tr>
+<tr><td>ORD-20159</td><td>2026-03-03</td><td>Dmitri Volkov</td><td>North</td><td>USB-C Dock</td><td class="num">8</td><td class="num">$149.99</td><td class="num">$1,199.92</td><td>Delivered</td></tr>
+<tr><td>ORD-20160</td><td>2026-03-09</td><td>Rosa Delgado</td><td>Central</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20161</td><td>2026-03-11</td><td>Bruno Silva</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20162</td><td>2026-03-05</td><td>Rosa Delgado</td><td>North</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20163</td><td>2026-03-19</td><td>Tess Walker</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Processing</td></tr>
+<tr><td>ORD-20164</td><td>2026-03-09</td><td>Valentina Ricci</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20165</td><td>2026-03-07</td><td>Bruno Silva</td><td>East</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Processing</td></tr>
+<tr><td>ORD-20166</td><td>2026-03-25</td><td>Bruno Silva</td><td>North</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20167</td><td>2026-03-15</td><td>Pedro Santos</td><td>East</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Delivered</td></tr>
+<tr><td>ORD-20168</td><td>2026-04-09</td><td>Lucas Moreau</td><td>Central</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20169</td><td>2026-04-07</td><td>Pedro Santos</td><td>South</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20170</td><td>2026-04-09</td><td>Farah Haddad</td><td>Central</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20171</td><td>2026-04-27</td><td>Nikolai Petrov</td><td>West</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20172</td><td>2026-04-25</td><td>Hiro Tanaka</td><td>Central</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20173</td><td>2026-04-03</td><td>Farah Haddad</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Returned</td></tr>
+<tr><td>ORD-20174</td><td>2026-04-17</td><td>Jonas Berg</td><td>North</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20175</td><td>2026-04-27</td><td>Ximena Ortiz</td><td>West</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20176</td><td>2026-04-17</td><td>Nikolai Petrov</td><td>East</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20177</td><td>2026-04-15</td><td>Rosa Delgado</td><td>West</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Processing</td></tr>
+<tr><td>ORD-20178</td><td>2026-04-09</td><td>Rosa Delgado</td><td>South</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20179</td><td>2026-04-27</td><td>Farah Haddad</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Returned</td></tr>
+<tr><td>ORD-20180</td><td>2026-04-17</td><td>Nikolai Petrov</td><td>Central</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20181</td><td>2026-04-11</td><td>Lucas Moreau</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20182</td><td>2026-04-13</td><td>Bruno Silva</td><td>East</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Returned</td></tr>
+<tr><td>ORD-20183</td><td>2026-04-03</td><td>Tess Walker</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Processing</td></tr>
+<tr><td>ORD-20184</td><td>2026-04-09</td><td>Hiro Tanaka</td><td>Central</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Processing</td></tr>
+<tr><td>ORD-20185</td><td>2026-04-19</td><td>Valentina Ricci</td><td>South</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Processing</td></tr>
+<tr><td>ORD-20186</td><td>2026-04-17</td><td>Zoe Fischer</td><td>West</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20187</td><td>2026-04-15</td><td>Pedro Santos</td><td>West</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20188</td><td>2026-04-13</td><td>Bruno Silva</td><td>West</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20189</td><td>2026-04-19</td><td>Zoe Fischer</td><td>Central</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20190</td><td>2026-04-21</td><td>Ximena Ortiz</td><td>East</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20191</td><td>2026-04-07</td><td>Tess Walker</td><td>East</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Processing</td></tr>
+<tr><td>ORD-20192</td><td>2026-04-01</td><td>Jonas Berg</td><td>West</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Returned</td></tr>
+<tr><td>ORD-20193</td><td>2026-04-23</td><td>Lucas Moreau</td><td>South</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Returned</td></tr>
+<tr><td>ORD-20194</td><td>2026-04-05</td><td>Ximena Ortiz</td><td>Central</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20195</td><td>2026-04-23</td><td>Jonas Berg</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Returned</td></tr>
+<tr><td>ORD-20196</td><td>2026-04-21</td><td>Jonas Berg</td><td>East</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Processing</td></tr>
+<tr><td>ORD-20197</td><td>2026-04-19</td><td>Zoe Fischer</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20198</td><td>2026-04-13</td><td>Ximena Ortiz</td><td>South</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20199</td><td>2026-04-11</td><td>Pedro Santos</td><td>West</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20200</td><td>2026-04-21</td><td>Rosa Delgado</td><td>North</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Processing</td></tr>
+<tr><td>ORD-20201</td><td>2026-04-07</td><td>Rosa Delgado</td><td>East</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20202</td><td>2026-04-05</td><td>Zoe Fischer</td><td>North</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20203</td><td>2026-04-19</td><td>Farah Haddad</td><td>North</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20204</td><td>2026-04-25</td><td>Pedro Santos</td><td>Central</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20205</td><td>2026-04-03</td><td>Hiro Tanaka</td><td>South</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Processing</td></tr>
+<tr><td>ORD-20206</td><td>2026-04-25</td><td>Lucas Moreau</td><td>Central</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Delivered</td></tr>
+<tr><td>ORD-20207</td><td>2026-04-11</td><td>Lucas Moreau</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20208</td><td>2026-04-09</td><td>Pedro Santos</td><td>South</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20209</td><td>2026-04-23</td><td>Valentina Ricci</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Returned</td></tr>
+<tr><td>ORD-20210</td><td>2026-04-17</td><td>Tess Walker</td><td>South</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20211</td><td>2026-04-19</td><td>Lucas Moreau</td><td>Central</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Returned</td></tr>
+<tr><td>ORD-20212</td><td>2026-04-17</td><td>Dmitri Volkov</td><td>North</td><td>Footrest</td><td class="num">8</td><td class="num">$42.00</td><td class="num">$336.00</td><td>Returned</td></tr>
+<tr><td>ORD-20213</td><td>2026-04-11</td><td>Zoe Fischer</td><td>North</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Processing</td></tr>
+<tr><td>ORD-20214</td><td>2026-04-25</td><td>Jonas Berg</td><td>South</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20215</td><td>2026-04-11</td><td>Lucas Moreau</td><td>East</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Returned</td></tr>
+<tr><td>ORD-20216</td><td>2026-04-21</td><td>Bruno Silva</td><td>East</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20217</td><td>2026-04-27</td><td>Farah Haddad</td><td>South</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20218</td><td>2026-04-25</td><td>Rosa Delgado</td><td>East</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20219</td><td>2026-04-27</td><td>Nikolai Petrov</td><td>East</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20220</td><td>2026-04-09</td><td>Hiro Tanaka</td><td>North</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20221</td><td>2026-04-23</td><td>Farah Haddad</td><td>North</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20222</td><td>2026-04-25</td><td>Hiro Tanaka</td><td>South</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Returned</td></tr>
+<tr><td>ORD-20223</td><td>2026-04-11</td><td>Lucas Moreau</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Processing</td></tr>
+<tr><td>ORD-20224</td><td>2026-05-01</td><td>Pedro Santos</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20225</td><td>2026-05-07</td><td>Nikolai Petrov</td><td>Central</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20226</td><td>2026-05-25</td><td>Tess Walker</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Processing</td></tr>
+<tr><td>ORD-20227</td><td>2026-05-15</td><td>Nikolai Petrov</td><td>East</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20228</td><td>2026-05-25</td><td>Nikolai Petrov</td><td>East</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20229</td><td>2026-05-19</td><td>Rosa Delgado</td><td>North</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Returned</td></tr>
+<tr><td>ORD-20230</td><td>2026-05-05</td><td>Pedro Santos</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20231</td><td>2026-05-19</td><td>Ximena Ortiz</td><td>South</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20232</td><td>2026-05-21</td><td>Pedro Santos</td><td>Central</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Processing</td></tr>
+<tr><td>ORD-20233</td><td>2026-05-03</td><td>Valentina Ricci</td><td>West</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Processing</td></tr>
+<tr><td>ORD-20234</td><td>2026-05-01</td><td>Zoe Fischer</td><td>South</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Processing</td></tr>
+<tr><td>ORD-20235</td><td>2026-05-11</td><td>Hiro Tanaka</td><td>South</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20236</td><td>2026-05-01</td><td>Ximena Ortiz</td><td>West</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20237</td><td>2026-05-23</td><td>Jonas Berg</td><td>West</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20238</td><td>2026-05-25</td><td>Jonas Berg</td><td>West</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Shipped</td></tr>
+<tr><td>ORD-20239</td><td>2026-05-15</td><td>Ximena Ortiz</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Returned</td></tr>
+<tr><td>ORD-20240</td><td>2026-05-25</td><td>Lucas Moreau</td><td>West</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Delivered</td></tr>
+<tr><td>ORD-20241</td><td>2026-05-03</td><td>Lucas Moreau</td><td>East</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Delivered</td></tr>
+<tr><td>ORD-20242</td><td>2026-05-25</td><td>Zoe Fischer</td><td>Central</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20243</td><td>2026-05-15</td><td>Farah Haddad</td><td>South</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20244</td><td>2026-05-01</td><td>Ximena Ortiz</td><td>East</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20245</td><td>2026-05-03</td><td>Rosa Delgado</td><td>East</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20246</td><td>2026-05-13</td><td>Zoe Fischer</td><td>East</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20247</td><td>2026-05-27</td><td>Lucas Moreau</td><td>West</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20248</td><td>2026-05-01</td><td>Jonas Berg</td><td>East</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20249</td><td>2026-05-27</td><td>Rosa Delgado</td><td>West</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20250</td><td>2026-05-17</td><td>Ximena Ortiz</td><td>South</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20251</td><td>2026-05-23</td><td>Valentina Ricci</td><td>North</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20252</td><td>2026-05-17</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20253</td><td>2026-05-19</td><td>Zoe Fischer</td><td>North</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20254</td><td>2026-05-21</td><td>Tess Walker</td><td>West</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Shipped</td></tr>
+<tr><td>ORD-20255</td><td>2026-05-19</td><td>Jonas Berg</td><td>East</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20256</td><td>2026-05-17</td><td>Zoe Fischer</td><td>West</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20257</td><td>2026-05-27</td><td>Lucas Moreau</td><td>West</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20258</td><td>2026-05-01</td><td>Tess Walker</td><td>East</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20259</td><td>2026-05-03</td><td>Pedro Santos</td><td>West</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20260</td><td>2026-05-21</td><td>Nikolai Petrov</td><td>South</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20261</td><td>2026-05-07</td><td>Jonas Berg</td><td>South</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Returned</td></tr>
+<tr><td>ORD-20262</td><td>2026-05-09</td><td>Jonas Berg</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Processing</td></tr>
+<tr><td>ORD-20263</td><td>2026-05-23</td><td>Ximena Ortiz</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20264</td><td>2026-05-13</td><td>Dmitri Volkov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20265</td><td>2026-05-19</td><td>Jonas Berg</td><td>Central</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20266</td><td>2026-05-25</td><td>Dmitri Volkov</td><td>Central</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20267</td><td>2026-05-15</td><td>Farah Haddad</td><td>West</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20268</td><td>2026-05-13</td><td>Rosa Delgado</td><td>North</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20269</td><td>2026-05-11</td><td>Valentina Ricci</td><td>East</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20270</td><td>2026-05-13</td><td>Ximena Ortiz</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20271</td><td>2026-05-23</td><td>Farah Haddad</td><td>Central</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20272</td><td>2026-05-01</td><td>Bruno Silva</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20273</td><td>2026-05-19</td><td>Jonas Berg</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20274</td><td>2026-05-09</td><td>Tess Walker</td><td>Central</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20275</td><td>2026-05-07</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Returned</td></tr>
+<tr><td>ORD-20276</td><td>2026-05-17</td><td>Pedro Santos</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Processing</td></tr>
+<tr><td>ORD-20277</td><td>2026-05-27</td><td>Lucas Moreau</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20278</td><td>2026-05-25</td><td>Ximena Ortiz</td><td>West</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20279</td><td>2026-06-11</td><td>Ximena Ortiz</td><td>North</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Processing</td></tr>
+<tr><td>ORD-20280</td><td>2026-06-13</td><td>Pedro Santos</td><td>West</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20281</td><td>2026-06-27</td><td>Hiro Tanaka</td><td>North</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Processing</td></tr>
+<tr><td>ORD-20282</td><td>2026-06-01</td><td>Jonas Berg</td><td>South</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20283</td><td>2026-06-27</td><td>Ximena Ortiz</td><td>Central</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20284</td><td>2026-06-21</td><td>Bruno Silva</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20285</td><td>2026-06-23</td><td>Nikolai Petrov</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20286</td><td>2026-06-25</td><td>Rosa Delgado</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Returned</td></tr>
+<tr><td>ORD-20287</td><td>2026-06-19</td><td>Bruno Silva</td><td>South</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20288</td><td>2026-06-09</td><td>Jonas Berg</td><td>East</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Cancelled</td></tr>
+<tr><td>ORD-20289</td><td>2026-06-27</td><td>Lucas Moreau</td><td>South</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20290</td><td>2026-06-17</td><td>Zoe Fischer</td><td>North</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20291</td><td>2026-06-03</td><td>Hiro Tanaka</td><td>West</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Returned</td></tr>
+<tr><td>ORD-20292</td><td>2026-06-25</td><td>Bruno Silva</td><td>North</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20293</td><td>2026-06-07</td><td>Pedro Santos</td><td>North</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20294</td><td>2026-06-13</td><td>Bruno Silva</td><td>West</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20295</td><td>2026-06-11</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20296</td><td>2026-06-17</td><td>Lucas Moreau</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Processing</td></tr>
+<tr><td>ORD-20297</td><td>2026-06-07</td><td>Dmitri Volkov</td><td>North</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Processing</td></tr>
+<tr><td>ORD-20298</td><td>2026-06-13</td><td>Valentina Ricci</td><td>Central</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20299</td><td>2026-06-15</td><td>Farah Haddad</td><td>Central</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20300</td><td>2026-06-13</td><td>Ximena Ortiz</td><td>North</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20301</td><td>2026-06-11</td><td>Tess Walker</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20302</td><td>2026-06-13</td><td>Bruno Silva</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20303</td><td>2026-06-19</td><td>Pedro Santos</td><td>East</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Processing</td></tr>
+<tr><td>ORD-20304</td><td>2026-06-17</td><td>Hiro Tanaka</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20305</td><td>2026-06-07</td><td>Rosa Delgado</td><td>South</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Delivered</td></tr>
+<tr><td>ORD-20306</td><td>2026-06-17</td><td>Tess Walker</td><td>Central</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20307</td><td>2026-06-03</td><td>Ximena Ortiz</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20308</td><td>2026-06-09</td><td>Rosa Delgado</td><td>Central</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20309</td><td>2026-06-07</td><td>Pedro Santos</td><td>Central</td><td>Footrest</td><td class="num">8</td><td class="num">$42.00</td><td class="num">$336.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20310</td><td>2026-06-21</td><td>Pedro Santos</td><td>South</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Delivered</td></tr>
+<tr><td>ORD-20311</td><td>2026-06-11</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20312</td><td>2026-06-21</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Delivered</td></tr>
+<tr><td>ORD-20313</td><td>2026-06-03</td><td>Pedro Santos</td><td>Central</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Cancelled</td></tr>
+<tr><td>ORD-20314</td><td>2026-06-21</td><td>Bruno Silva</td><td>Central</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Processing</td></tr>
+<tr><td>ORD-20315</td><td>2026-06-27</td><td>Tess Walker</td><td>East</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Cancelled</td></tr>
+<tr><td>ORD-20316</td><td>2026-06-25</td><td>Pedro Santos</td><td>Central</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Processing</td></tr>
+<tr><td>ORD-20317</td><td>2026-06-23</td><td>Lucas Moreau</td><td>West</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20318</td><td>2026-06-09</td><td>Tess Walker</td><td>South</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20319</td><td>2026-06-11</td><td>Pedro Santos</td><td>South</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Shipped</td></tr>
+<tr><td>ORD-20320</td><td>2026-06-17</td><td>Dmitri Volkov</td><td>South</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20321</td><td>2026-06-15</td><td>Lucas Moreau</td><td>North</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Processing</td></tr>
+<tr><td>ORD-20322</td><td>2026-06-09</td><td>Ximena Ortiz</td><td>North</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Processing</td></tr>
+<tr><td>ORD-20323</td><td>2026-06-23</td><td>Ximena Ortiz</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20324</td><td>2026-06-21</td><td>Bruno Silva</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Processing</td></tr>
+<tr><td>ORD-20325</td><td>2026-06-07</td><td>Lucas Moreau</td><td>Central</td><td>Keyboard</td><td class="num">2</td><td class="num">$99.00</td><td class="num">$198.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20326</td><td>2026-06-13</td><td>Tess Walker</td><td>North</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20327</td><td>2026-06-15</td><td>Farah Haddad</td><td>South</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20328</td><td>2026-06-05</td><td>Nikolai Petrov</td><td>South</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20329</td><td>2026-06-07</td><td>Nikolai Petrov</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Delivered</td></tr>
+<tr><td>ORD-20330</td><td>2026-06-01</td><td>Zoe Fischer</td><td>North</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20331</td><td>2026-06-19</td><td>Ximena Ortiz</td><td>West</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20332</td><td>2026-06-05</td><td>Dmitri Volkov</td><td>South</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Processing</td></tr>
+<tr><td>ORD-20333</td><td>2026-06-19</td><td>Pedro Santos</td><td>West</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Shipped</td></tr>
+<tr><td>ORD-20334</td><td>2026-06-13</td><td>Lucas Moreau</td><td>East</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20335</td><td>2026-07-15</td><td>Ximena Ortiz</td><td>East</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20336</td><td>2026-07-25</td><td>Farah Haddad</td><td>West</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Processing</td></tr>
+<tr><td>ORD-20337</td><td>2026-07-27</td><td>Bruno Silva</td><td>Central</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Cancelled</td></tr>
+<tr><td>ORD-20338</td><td>2026-07-13</td><td>Jonas Berg</td><td>South</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20339</td><td>2026-07-11</td><td>Lucas Moreau</td><td>West</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20340</td><td>2026-07-01</td><td>Ximena Ortiz</td><td>South</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Processing</td></tr>
+<tr><td>ORD-20341</td><td>2026-07-11</td><td>Bruno Silva</td><td>North</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20342</td><td>2026-07-17</td><td>Bruno Silva</td><td>East</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20343</td><td>2026-07-15</td><td>Nikolai Petrov</td><td>South</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Processing</td></tr>
+<tr><td>ORD-20344</td><td>2026-07-09</td><td>Zoe Fischer</td><td>East</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Returned</td></tr>
+<tr><td>ORD-20345</td><td>2026-07-03</td><td>Rosa Delgado</td><td>East</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20346</td><td>2026-07-01</td><td>Valentina Ricci</td><td>East</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20347</td><td>2026-07-19</td><td>Pedro Santos</td><td>North</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20348</td><td>2026-07-17</td><td>Nikolai Petrov</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20349</td><td>2026-07-19</td><td>Farah Haddad</td><td>South</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20350</td><td>2026-07-01</td><td>Lucas Moreau</td><td>North</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Delivered</td></tr>
+<tr><td>ORD-20351</td><td>2026-07-15</td><td>Pedro Santos</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20352</td><td>2026-07-25</td><td>Jonas Berg</td><td>North</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20353</td><td>2026-07-03</td><td>Zoe Fischer</td><td>West</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Delivered</td></tr>
+<tr><td>ORD-20354</td><td>2026-07-21</td><td>Pedro Santos</td><td>East</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20355</td><td>2026-07-07</td><td>Farah Haddad</td><td>West</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20356</td><td>2026-07-01</td><td>Jonas Berg</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20357</td><td>2026-07-19</td><td>Pedro Santos</td><td>Central</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20358</td><td>2026-07-13</td><td>Hiro Tanaka</td><td>West</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Processing</td></tr>
+<tr><td>ORD-20359</td><td>2026-07-27</td><td>Zoe Fischer</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20360</td><td>2026-07-13</td><td>Nikolai Petrov</td><td>East</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Processing</td></tr>
+<tr><td>ORD-20361</td><td>2026-07-23</td><td>Dmitri Volkov</td><td>North</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Returned</td></tr>
+<tr><td>ORD-20362</td><td>2026-07-25</td><td>Bruno Silva</td><td>North</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Processing</td></tr>
+<tr><td>ORD-20363</td><td>2026-07-07</td><td>Lucas Moreau</td><td>West</td><td>Footrest</td><td class="num">8</td><td class="num">$42.00</td><td class="num">$336.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20364</td><td>2026-07-25</td><td>Jonas Berg</td><td>Central</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20365</td><td>2026-07-07</td><td>Jonas Berg</td><td>North</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Delivered</td></tr>
+<tr><td>ORD-20366</td><td>2026-07-17</td><td>Dmitri Volkov</td><td>South</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20367</td><td>2026-07-27</td><td>Nikolai Petrov</td><td>North</td><td>USB-C Dock</td><td class="num">3</td><td class="num">$149.99</td><td class="num">$449.97</td><td>Returned</td></tr>
+<tr><td>ORD-20368</td><td>2026-07-21</td><td>Pedro Santos</td><td>North</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Processing</td></tr>
+<tr><td>ORD-20369</td><td>2026-07-23</td><td>Tess Walker</td><td>South</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Processing</td></tr>
+<tr><td>ORD-20370</td><td>2026-07-09</td><td>Hiro Tanaka</td><td>West</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20371</td><td>2026-07-27</td><td>Nikolai Petrov</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Processing</td></tr>
+<tr><td>ORD-20372</td><td>2026-07-21</td><td>Tess Walker</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20373</td><td>2026-07-03</td><td>Dmitri Volkov</td><td>West</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Cancelled</td></tr>
+<tr><td>ORD-20374</td><td>2026-07-01</td><td>Rosa Delgado</td><td>North</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20375</td><td>2026-07-15</td><td>Rosa Delgado</td><td>North</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Returned</td></tr>
+<tr><td>ORD-20376</td><td>2026-07-05</td><td>Tess Walker</td><td>North</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Cancelled</td></tr>
+<tr><td>ORD-20377</td><td>2026-07-03</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Processing</td></tr>
+<tr><td>ORD-20378</td><td>2026-07-13</td><td>Rosa Delgado</td><td>West</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20379</td><td>2026-07-23</td><td>Lucas Moreau</td><td>West</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20380</td><td>2026-07-17</td><td>Jonas Berg</td><td>North</td><td>Ergonomic Chair</td><td class="num">9</td><td class="num">$289.00</td><td class="num">$2,601.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20381</td><td>2026-07-23</td><td>Jonas Berg</td><td>East</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20382</td><td>2026-07-01</td><td>Nikolai Petrov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20383</td><td>2026-07-03</td><td>Bruno Silva</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20384</td><td>2026-07-01</td><td>Lucas Moreau</td><td>East</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20385</td><td>2026-07-27</td><td>Ximena Ortiz</td><td>North</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Processing</td></tr>
+<tr><td>ORD-20386</td><td>2026-07-13</td><td>Pedro Santos</td><td>North</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Returned</td></tr>
+<tr><td>ORD-20387</td><td>2026-07-23</td><td>Jonas Berg</td><td>Central</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Processing</td></tr>
+<tr><td>ORD-20388</td><td>2026-07-05</td><td>Zoe Fischer</td><td>Central</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Processing</td></tr>
+<tr><td>ORD-20389</td><td>2026-07-03</td><td>Bruno Silva</td><td>East</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Returned</td></tr>
+<tr><td>ORD-20390</td><td>2026-08-21</td><td>Tess Walker</td><td>North</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20391</td><td>2026-08-15</td><td>Hiro Tanaka</td><td>North</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Returned</td></tr>
+<tr><td>ORD-20392</td><td>2026-08-25</td><td>Jonas Berg</td><td>North</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Returned</td></tr>
+<tr><td>ORD-20393</td><td>2026-08-11</td><td>Lucas Moreau</td><td>East</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20394</td><td>2026-08-13</td><td>Zoe Fischer</td><td>North</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Delivered</td></tr>
+<tr><td>ORD-20395</td><td>2026-08-23</td><td>Lucas Moreau</td><td>West</td><td>Ergonomic Chair</td><td class="num">5</td><td class="num">$289.00</td><td class="num">$1,445.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20396</td><td>2026-08-09</td><td>Bruno Silva</td><td>East</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20397</td><td>2026-08-23</td><td>Nikolai Petrov</td><td>North</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Returned</td></tr>
+<tr><td>ORD-20398</td><td>2026-08-01</td><td>Tess Walker</td><td>West</td><td>Footrest</td><td class="num">5</td><td class="num">$42.00</td><td class="num">$210.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20399</td><td>2026-08-23</td><td>Farah Haddad</td><td>East</td><td>Footrest</td><td class="num">3</td><td class="num">$42.00</td><td class="num">$126.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20400</td><td>2026-08-13</td><td>Nikolai Petrov</td><td>South</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20401</td><td>2026-08-23</td><td>Hiro Tanaka</td><td>Central</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Delivered</td></tr>
+<tr><td>ORD-20402</td><td>2026-08-17</td><td>Valentina Ricci</td><td>East</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20403</td><td>2026-08-03</td><td>Hiro Tanaka</td><td>West</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Returned</td></tr>
+<tr><td>ORD-20404</td><td>2026-08-21</td><td>Bruno Silva</td><td>East</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20405</td><td>2026-08-11</td><td>Tess Walker</td><td>West</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20406</td><td>2026-08-05</td><td>Lucas Moreau</td><td>South</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Processing</td></tr>
+<tr><td>ORD-20407</td><td>2026-08-27</td><td>Dmitri Volkov</td><td>East</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Processing</td></tr>
+<tr><td>ORD-20408</td><td>2026-08-21</td><td>Tess Walker</td><td>North</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20409</td><td>2026-08-23</td><td>Rosa Delgado</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20410</td><td>2026-08-09</td><td>Jonas Berg</td><td>East</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20411</td><td>2026-08-03</td><td>Rosa Delgado</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Returned</td></tr>
+<tr><td>ORD-20412</td><td>2026-08-09</td><td>Pedro Santos</td><td>East</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20413</td><td>2026-08-15</td><td>Farah Haddad</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Returned</td></tr>
+<tr><td>ORD-20414</td><td>2026-08-25</td><td>Lucas Moreau</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">5</td><td class="num">$199.00</td><td class="num">$995.00</td><td>Returned</td></tr>
+<tr><td>ORD-20415</td><td>2026-08-19</td><td>Rosa Delgado</td><td>West</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20416</td><td>2026-08-05</td><td>Hiro Tanaka</td><td>North</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Shipped</td></tr>
+<tr><td>ORD-20417</td><td>2026-08-03</td><td>Rosa Delgado</td><td>South</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Returned</td></tr>
+<tr><td>ORD-20418</td><td>2026-08-17</td><td>Ximena Ortiz</td><td>Central</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20419</td><td>2026-08-27</td><td>Hiro Tanaka</td><td>North</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20420</td><td>2026-08-21</td><td>Pedro Santos</td><td>Central</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20421</td><td>2026-08-23</td><td>Pedro Santos</td><td>Central</td><td>Ergonomic Chair</td><td class="num">8</td><td class="num">$289.00</td><td class="num">$2,312.00</td><td>Returned</td></tr>
+<tr><td>ORD-20422</td><td>2026-08-25</td><td>Zoe Fischer</td><td>North</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Returned</td></tr>
+<tr><td>ORD-20423</td><td>2026-08-27</td><td>Bruno Silva</td><td>South</td><td>Ergonomic Chair</td><td class="num">4</td><td class="num">$289.00</td><td class="num">$1,156.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20424</td><td>2026-08-09</td><td>Hiro Tanaka</td><td>South</td><td>Ergonomic Chair</td><td class="num">5</td><td class="num">$289.00</td><td class="num">$1,445.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20425</td><td>2026-08-07</td><td>Bruno Silva</td><td>South</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Shipped</td></tr>
+<tr><td>ORD-20426</td><td>2026-08-25</td><td>Zoe Fischer</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">6</td><td class="num">$199.00</td><td class="num">$1,194.00</td><td>Processing</td></tr>
+<tr><td>ORD-20427</td><td>2026-08-03</td><td>Dmitri Volkov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Processing</td></tr>
+<tr><td>ORD-20428</td><td>2026-08-09</td><td>Farah Haddad</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20429</td><td>2026-08-15</td><td>Zoe Fischer</td><td>South</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Shipped</td></tr>
+<tr><td>ORD-20430</td><td>2026-08-13</td><td>Jonas Berg</td><td>Central</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Returned</td></tr>
+<tr><td>ORD-20431</td><td>2026-08-15</td><td>Lucas Moreau</td><td>East</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20432</td><td>2026-08-13</td><td>Valentina Ricci</td><td>North</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20433</td><td>2026-08-27</td><td>Zoe Fischer</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20434</td><td>2026-08-25</td><td>Valentina Ricci</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">1</td><td class="num">$199.00</td><td class="num">$199.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20435</td><td>2026-08-03</td><td>Dmitri Volkov</td><td>West</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Processing</td></tr>
+<tr><td>ORD-20436</td><td>2026-08-17</td><td>Farah Haddad</td><td>Central</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Shipped</td></tr>
+<tr><td>ORD-20437</td><td>2026-08-27</td><td>Farah Haddad</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20438</td><td>2026-08-01</td><td>Ximena Ortiz</td><td>North</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Processing</td></tr>
+<tr><td>ORD-20439</td><td>2026-08-15</td><td>Pedro Santos</td><td>West</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Returned</td></tr>
+<tr><td>ORD-20440</td><td>2026-08-21</td><td>Bruno Silva</td><td>South</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20441</td><td>2026-08-11</td><td>Farah Haddad</td><td>Central</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20442</td><td>2026-08-05</td><td>Bruno Silva</td><td>East</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20443</td><td>2026-08-07</td><td>Farah Haddad</td><td>Central</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20444</td><td>2026-08-01</td><td>Valentina Ricci</td><td>West</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Processing</td></tr>
+<tr><td>ORD-20445</td><td>2026-08-15</td><td>Nikolai Petrov</td><td>Central</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20446</td><td>2026-09-05</td><td>Ximena Ortiz</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20447</td><td>2026-09-23</td><td>Jonas Berg</td><td>Central</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Processing</td></tr>
+<tr><td>ORD-20448</td><td>2026-09-01</td><td>Jonas Berg</td><td>North</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20449</td><td>2026-09-23</td><td>Farah Haddad</td><td>South</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20450</td><td>2026-09-25</td><td>Bruno Silva</td><td>East</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20451</td><td>2026-09-15</td><td>Dmitri Volkov</td><td>North</td><td>Keyboard</td><td class="num">6</td><td class="num">$99.00</td><td class="num">$594.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20452</td><td>2026-09-21</td><td>Hiro Tanaka</td><td>Central</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Delivered</td></tr>
+<tr><td>ORD-20453</td><td>2026-09-27</td><td>Farah Haddad</td><td>East</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20454</td><td>2026-09-21</td><td>Dmitri Volkov</td><td>North</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Processing</td></tr>
+<tr><td>ORD-20455</td><td>2026-09-15</td><td>Tess Walker</td><td>Central</td><td>Footrest</td><td class="num">7</td><td class="num">$42.00</td><td class="num">$294.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20456</td><td>2026-09-05</td><td>Dmitri Volkov</td><td>West</td><td>USB-C Dock</td><td class="num">7</td><td class="num">$149.99</td><td class="num">$1,049.93</td><td>Cancelled</td></tr>
+<tr><td>ORD-20457</td><td>2026-09-19</td><td>Nikolai Petrov</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20458</td><td>2026-09-05</td><td>Dmitri Volkov</td><td>Central</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Processing</td></tr>
+<tr><td>ORD-20459</td><td>2026-09-27</td><td>Bruno Silva</td><td>North</td><td>Ergonomic Chair</td><td class="num">1</td><td class="num">$289.00</td><td class="num">$289.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20460</td><td>2026-09-25</td><td>Jonas Berg</td><td>Central</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20461</td><td>2026-09-03</td><td>Jonas Berg</td><td>South</td><td>Keyboard</td><td class="num">8</td><td class="num">$99.00</td><td class="num">$792.00</td><td>Returned</td></tr>
+<tr><td>ORD-20462</td><td>2026-09-13</td><td>Pedro Santos</td><td>East</td><td>Footrest</td><td class="num">1</td><td class="num">$42.00</td><td class="num">$42.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20463</td><td>2026-09-03</td><td>Valentina Ricci</td><td>South</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Processing</td></tr>
+<tr><td>ORD-20464</td><td>2026-09-25</td><td>Rosa Delgado</td><td>North</td><td>Ergonomic Chair</td><td class="num">2</td><td class="num">$289.00</td><td class="num">$578.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20465</td><td>2026-09-07</td><td>Lucas Moreau</td><td>South</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Cancelled</td></tr>
+<tr><td>ORD-20466</td><td>2026-09-05</td><td>Nikolai Petrov</td><td>Central</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20467</td><td>2026-09-07</td><td>Farah Haddad</td><td>West</td><td>Keyboard</td><td class="num">5</td><td class="num">$99.00</td><td class="num">$495.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20468</td><td>2026-09-05</td><td>Bruno Silva</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20469</td><td>2026-09-23</td><td>Jonas Berg</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">8</td><td class="num">$199.00</td><td class="num">$1,592.00</td><td>Returned</td></tr>
+<tr><td>ORD-20470</td><td>2026-09-21</td><td>Zoe Fischer</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Processing</td></tr>
+<tr><td>ORD-20471</td><td>2026-09-07</td><td>Farah Haddad</td><td>Central</td><td>Footrest</td><td class="num">9</td><td class="num">$42.00</td><td class="num">$378.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20472</td><td>2026-09-01</td><td>Jonas Berg</td><td>East</td><td>Footrest</td><td class="num">8</td><td class="num">$42.00</td><td class="num">$336.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20473</td><td>2026-09-19</td><td>Rosa Delgado</td><td>Central</td><td>USB-C Dock</td><td class="num">5</td><td class="num">$149.99</td><td class="num">$749.95</td><td>Delivered</td></tr>
+<tr><td>ORD-20474</td><td>2026-09-25</td><td>Hiro Tanaka</td><td>West</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Delivered</td></tr>
+<tr><td>ORD-20475</td><td>2026-09-03</td><td>Jonas Berg</td><td>West</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Returned</td></tr>
+<tr><td>ORD-20476</td><td>2026-09-05</td><td>Lucas Moreau</td><td>East</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Returned</td></tr>
+<tr><td>ORD-20477</td><td>2026-09-19</td><td>Lucas Moreau</td><td>North</td><td>Footrest</td><td class="num">6</td><td class="num">$42.00</td><td class="num">$252.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20478</td><td>2026-09-09</td><td>Jonas Berg</td><td>North</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20479</td><td>2026-09-07</td><td>Valentina Ricci</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">7</td><td class="num">$199.00</td><td class="num">$1,393.00</td><td>Processing</td></tr>
+<tr><td>ORD-20480</td><td>2026-09-21</td><td>Nikolai Petrov</td><td>Central</td><td>USB-C Dock</td><td class="num">4</td><td class="num">$149.99</td><td class="num">$599.96</td><td>Returned</td></tr>
+<tr><td>ORD-20481</td><td>2026-09-15</td><td>Ximena Ortiz</td><td>West</td><td>Footrest</td><td class="num">4</td><td class="num">$42.00</td><td class="num">$168.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20482</td><td>2026-09-09</td><td>Dmitri Volkov</td><td>North</td><td>Ergonomic Chair</td><td class="num">6</td><td class="num">$289.00</td><td class="num">$1,734.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20483</td><td>2026-09-15</td><td>Tess Walker</td><td>Central</td><td>USB-C Dock</td><td class="num">6</td><td class="num">$149.99</td><td class="num">$899.94</td><td>Processing</td></tr>
+<tr><td>ORD-20484</td><td>2026-09-21</td><td>Rosa Delgado</td><td>South</td><td>Keyboard</td><td class="num">1</td><td class="num">$99.00</td><td class="num">$99.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20485</td><td>2026-09-11</td><td>Nikolai Petrov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Shipped</td></tr>
+<tr><td>ORD-20486</td><td>2026-09-25</td><td>Zoe Fischer</td><td>Central</td><td>USB-C Dock</td><td class="num">2</td><td class="num">$149.99</td><td class="num">$299.98</td><td>Delivered</td></tr>
+<tr><td>ORD-20487</td><td>2026-09-15</td><td>Hiro Tanaka</td><td>East</td><td>Ergonomic Chair</td><td class="num">3</td><td class="num">$289.00</td><td class="num">$867.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20488</td><td>2026-09-09</td><td>Hiro Tanaka</td><td>Central</td><td>Keyboard</td><td class="num">4</td><td class="num">$99.00</td><td class="num">$396.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20489</td><td>2026-09-27</td><td>Lucas Moreau</td><td>South</td><td>Noise-cancelling Headset</td><td class="num">9</td><td class="num">$199.00</td><td class="num">$1,791.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20490</td><td>2026-09-25</td><td>Valentina Ricci</td><td>East</td><td>USB-C Dock</td><td class="num">1</td><td class="num">$149.99</td><td class="num">$149.99</td><td>Processing</td></tr>
+<tr><td>ORD-20491</td><td>2026-09-07</td><td>Jonas Berg</td><td>Central</td><td>Keyboard</td><td class="num">7</td><td class="num">$99.00</td><td class="num">$693.00</td><td>Returned</td></tr>
+<tr><td>ORD-20492</td><td>2026-09-25</td><td>Nikolai Petrov</td><td>North</td><td>Keyboard</td><td class="num">9</td><td class="num">$99.00</td><td class="num">$891.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20493</td><td>2026-09-03</td><td>Pedro Santos</td><td>West</td><td>Ergonomic Chair</td><td class="num">7</td><td class="num">$289.00</td><td class="num">$2,023.00</td><td>Processing</td></tr>
+<tr><td>ORD-20494</td><td>2026-09-21</td><td>Nikolai Petrov</td><td>Central</td><td>Noise-cancelling Headset</td><td class="num">3</td><td class="num">$199.00</td><td class="num">$597.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20495</td><td>2026-09-15</td><td>Ximena Ortiz</td><td>West</td><td>Noise-cancelling Headset</td><td class="num">2</td><td class="num">$199.00</td><td class="num">$398.00</td><td>Processing</td></tr>
+<tr><td>ORD-20496</td><td>2026-09-21</td><td>Pedro Santos</td><td>West</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20497</td><td>2026-09-15</td><td>Ximena Ortiz</td><td>Central</td><td>USB-C Dock</td><td class="num">9</td><td class="num">$149.99</td><td class="num">$1,349.91</td><td>Processing</td></tr>
+<tr><td>ORD-20498</td><td>2026-09-25</td><td>Pedro Santos</td><td>East</td><td>Footrest</td><td class="num">2</td><td class="num">$42.00</td><td class="num">$84.00</td><td>Cancelled</td></tr>
+<tr><td>ORD-20499</td><td>2026-09-23</td><td>Zoe Fischer</td><td>East</td><td>Noise-cancelling Headset</td><td class="num">4</td><td class="num">$199.00</td><td class="num">$796.00</td><td>Delivered</td></tr>
+<tr><td>ORD-20500</td><td>2026-09-09</td><td>Bruno Silva</td><td>West</td><td>Keyboard</td><td class="num">3</td><td class="num">$99.00</td><td class="num">$297.00</td><td>Returned</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="7">Grand total</td><td class="num">$393,538.73</td><td></td></tr></tfoot>
+  </table>
+  <div class="pager">
+    <button type="button" disabled>Previous page</button>
+    <span>Page 1 of 1</span>
+    <button type="button" disabled>Next page</button>
+    <a href="#">Back to top</a>
+  </div>
+</main>
+</body>
+</html>

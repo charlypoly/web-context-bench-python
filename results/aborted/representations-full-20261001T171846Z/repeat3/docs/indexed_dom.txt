@@ -1,0 +1,214 @@
+Ferrite HTTP
+Version
+|SHADOW(open)|*[2]<select id=version expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=4,options=4.0 (beta)|3.2|3.1|2.9) />
+|SHADOW(open)|[3]<input type=search placeholder=Search docs aria-label=Search docs />
+[47]<a />
+	GitHub
+[50]<a />
+	Changelog
+Getting started
+[64]<a />
+	Installation
+[68]<a />
+	Quickstart
+[72]<a />
+	Migrating from 2.x
+API reference
+[82]<a />
+	Client
+[86]<a />
+	Client.request()
+[90]<a />
+	Client.stream()
+[94]<a />
+	Response
+[98]<a />
+	Timeout
+[102]<a />
+	RetryPolicy
+[106]<a />
+	Exceptions
+Guides
+[116]<a />
+	Authentication
+[120]<a />
+	Connection pooling
+[124]<a />
+	Testing with mocks
+[132]<a />
+	Docs
+[135]<a />
+	API reference
+/ Client.request()
+Client.request()
+Send an HTTP request and return a
+[145]<a />
+	Response
+. This is the low-level method that all verb helpers such as
+client.get()
+and
+client.post()
+call internally.
+[157]<button />
+	Copy
+response = client.request(
+    method, url, *, params=None, headers=None, json=None,
+    data=None, timeout=DEFAULT_TIMEOUT, follow_redirects=True,
+    max_redirects=20, retry=None,
+)
+Parameters
+[167]<tr />
+	Name
+	Type
+	Default
+	Description
+[179]<tr />
+	[180]<td />
+		method
+	[183]<td />
+		str
+	[186]<td />
+		required
+	[188]<td />
+		HTTP method, for example
+		"GET"
+		or
+		"PATCH"
+		. Case-insensitive.
+[197]<tr />
+	[198]<td />
+		url
+	[201]<td />
+		str | URL
+	[204]<td />
+		required
+	[206]<td />
+		Absolute URL, or a path relative to the client's
+		base_url
+[212]<tr />
+	[213]<td />
+		params
+	[216]<td />
+		dict | None
+	[219]<td />
+		None
+	[222]<td />
+		Query string parameters. Lists are encoded as repeated keys.
+[225]<tr />
+	[226]<td />
+		headers
+	[229]<td />
+		dict | None
+	[232]<td />
+		None
+	[235]<td />
+		Headers merged over the client's default headers.
+[238]<tr />
+	[239]<td />
+		json
+	[242]<td />
+		Any
+	[245]<td />
+		None
+	[248]<td />
+		Body encoded as JSON. Sets
+		Content-Type: application/json
+		. Cannot be combined with
+		data
+[257]<tr />
+	[258]<td />
+		timeout
+	[261]<td />
+		float | Timeout
+	[264]<td />
+		5.0
+	[267]<td />
+		Seconds to wait for the whole request. Pass a
+		Timeout
+		for separate connect and read limits.
+[273]<tr />
+	[274]<td />
+		follow_redirects
+	[277]<td />
+		bool
+	[6]<td />
+		True
+	[282]<td />
+		Whether to follow 3xx responses automatically.
+[285]<tr />
+	[286]<td />
+		max_redirects
+	[289]<td />
+		int
+	[292]<td />
+		20
+	[295]<td />
+		Raise
+		TooManyRedirects
+		after this many hops.
+[301]<tr />
+	[302]<td />
+		retry
+	[305]<td />
+		RetryPolicy | None
+	[308]<td />
+		None
+	[311]<td />
+		Retry policy for idempotent methods. Non-idempotent methods are never retried.
+Note:
+Since version 3.0,
+timeout
+applies to the entire request rather than to each socket operation.
+Returns
+Response
+object. The body is read eagerly unless you use
+[332]<a />
+	Client.stream()
+Raises
+ConnectTimeout
+— the connection could not be established in time.
+TooManyRedirects
+— more than
+max_redirects
+redirects were followed.
+InvalidURL
+— the URL could not be parsed.
+Deprecated:
+The
+verify_ssl
+argument was removed in 3.2. Configure TLS on the
+Client
+instead.
+Example
+[379]<button />
+	Copy
+from ferrite import Client, RetryPolicy
+
+with Client(base_url="https://api.example.com") as client:
+    response = client.request(
+        "PATCH", "/orders/42",
+        json={"status": "shipped"},
+        retry=RetryPolicy(attempts=3),
+    )
+    response.raise_for_status()
+[385]<a />
+	Edit this page
+· Last updated on 2 February 2026
+[391]<a />
+	← Previous: Client
+[394]<a />
+	Next: Client.stream() →
+Was this page helpful?
+[400]<button />
+	Yes
+[403]<button />
+	No
+On this page
+[415]<a />
+	Parameters
+[419]<a />
+	Returns
+[423]<a />
+	Raises
+[427]<a />
+	Example

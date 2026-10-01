@@ -1,0 +1,150 @@
+{
+ "page_id": "books_product",
+ "url": "http://localhost:8101/catalogue/a-light-in-the-attic_1000/index.html",
+ "integrity": {
+  "raw_html_sha256": "fe252d58636096e094a21647402383e8d73949fe5b2b128cfb133e9209eff436",
+  "unchanged_after_browser_use": true,
+  "diff_after_browser_use": null,
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 25,
+  "index_count": 25
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-26718": "http://localhost:8101/catalogue/a-light-in-the-attic_1000/index.html",
+   "0-26760": "http://localhost:8101/index.html",
+   "0-26772": "http://localhost:8101/index.html",
+   "0-26776": "http://localhost:8101/catalogue/category/books_1/index.html",
+   "0-26780": "http://localhost:8101/catalogue/category/books/poetry_23/index.html",
+   "0-26799": "http://localhost:8101/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "books_product.act.1": {
+   "backend_node_id": 100,
+   "target_id": "9DD678F322D5E656D031CDA24217103B",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 190.296875,
+    "y": 169.109375,
+    "width": 40.703125,
+    "height": 16
+   },
+   "stagehand_key": "0-26780",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
+   "error": null
+  },
+  "books_product.act.2": {
+   "backend_node_id": 65,
+   "target_id": "9DD678F322D5E656D031CDA24217103B",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 15,
+    "y": 51,
+    "width": 231.984375,
+    "height": 36
+   },
+   "stagehand_key": "0-26760",
+   "stagehand_xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/a[1]",
+   "error": null
+  },
+  "books_product.act.3": {
+   "backend_node_id": 93,
+   "target_id": "9DD678F322D5E656D031CDA24217103B",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 123.984375,
+    "y": 169.109375,
+    "width": 39.9375,
+    "height": 16
+   },
+   "stagehand_key": "0-26776",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+   "error": null
+  }
+ }
+}

@@ -1,0 +1,377 @@
+{
+ "3": {
+  "backend_node_id": 3,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "first-name",
+   "name": "first_name",
+   "autocomplete": "given-name",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[1]/div[1]/div[1]/input"
+ },
+ "4": {
+  "backend_node_id": 4,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "last-name",
+   "name": "last_name",
+   "autocomplete": "family-name",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[1]/div[1]/div[2]/input"
+ },
+ "5": {
+  "backend_node_id": 5,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "email",
+   "id": "email",
+   "name": "email",
+   "autocomplete": "email",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[1]/div[2]/div/input"
+ },
+ "6": {
+  "backend_node_id": 6,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "password",
+   "id": "password",
+   "name": "password",
+   "minlength": "12",
+   "required": "",
+   "aria-describedby": "pw-hint",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[1]/div[3]/div[1]/input"
+ },
+ "7": {
+  "backend_node_id": 7,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "password",
+   "id": "password2",
+   "name": "password_confirm",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[1]/div[3]/div[2]/input"
+ },
+ "8": {
+  "backend_node_id": 8,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "SELECT",
+  "attributes": {
+   "id": "country",
+   "name": "country"
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[1]/div[1]/select"
+ },
+ "9": {
+  "backend_node_id": 9,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "SELECT",
+  "attributes": {
+   "id": "state",
+   "name": "state"
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[1]/div[2]/select"
+ },
+ "10": {
+  "backend_node_id": 10,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "address1",
+   "name": "address1",
+   "autocomplete": "address-line1",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[2]/div/input"
+ },
+ "11": {
+  "backend_node_id": 11,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "address2",
+   "name": "address2",
+   "placeholder": "Apartment, suite, unit (optional)",
+   "autocomplete": "address-line2",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[3]/div/input"
+ },
+ "12": {
+  "backend_node_id": 12,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "city",
+   "name": "city",
+   "value": "Portland",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[4]/div[1]/input"
+ },
+ "13": {
+  "backend_node_id": 13,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "zip",
+   "name": "zip",
+   "inputmode": "numeric",
+   "pattern": "[0-9]{5}",
+   "placeholder": "97201",
+   "required": "",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[4]/div[2]/input"
+ },
+ "14": {
+  "backend_node_id": 14,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "tel",
+   "id": "phone",
+   "name": "phone",
+   "aria-label": "Mobile phone number",
+   "autocomplete": "tel",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[2]/div[4]/div[3]/input"
+ },
+ "258": {
+  "backend_node_id": 258,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[1]"
+ },
+ "18": {
+  "backend_node_id": 18,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "radio",
+   "name": "speed",
+   "value": "standard",
+   "checked": "true",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[1]/input"
+ },
+ "261": {
+  "backend_node_id": 261,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[2]"
+ },
+ "19": {
+  "backend_node_id": 19,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "radio",
+   "name": "speed",
+   "value": "express",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[2]/input"
+ },
+ "264": {
+  "backend_node_id": 264,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[3]"
+ },
+ "20": {
+  "backend_node_id": 20,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "radio",
+   "name": "speed",
+   "value": "overnight",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[3]/div[1]/label[3]/input"
+ },
+ "15": {
+  "backend_node_id": 15,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "date",
+   "id": "delivery-date",
+   "name": "delivery_date",
+   "min": "2026-10-05",
+   "max": "2026-12-31",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[3]/div[2]/div/input"
+ },
+ "16": {
+  "backend_node_id": 16,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "TEXTAREA",
+  "attributes": {
+   "id": "gift-message",
+   "name": "gift_message",
+   "rows": "3",
+   "maxlength": "200",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[1]/div/textarea"
+ },
+ "17": {
+  "backend_node_id": 17,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "text",
+   "id": "coupon",
+   "name": "coupon",
+   "value": "WELCOME5",
+   "style": ""
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[2]/div/input"
+ },
+ "314": {
+  "backend_node_id": 314,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[1]"
+ },
+ "21": {
+  "backend_node_id": 21,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "checkbox",
+   "name": "newsletter",
+   "checked": "true",
+   "style": "",
+   "value": "on"
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[1]/input"
+ },
+ "317": {
+  "backend_node_id": 317,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[2]"
+ },
+ "22": {
+  "backend_node_id": 22,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "checkbox",
+   "name": "sms",
+   "style": "",
+   "value": "on"
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[2]/input"
+ },
+ "320": {
+  "backend_node_id": 320,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "LABEL",
+  "attributes": {},
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[3]"
+ },
+ "23": {
+  "backend_node_id": 23,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "INPUT",
+  "attributes": {
+   "type": "checkbox",
+   "name": "terms",
+   "id": "terms",
+   "required": "",
+   "style": "",
+   "value": "on"
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[3]/input"
+ },
+ "322": {
+  "backend_node_id": 322,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "A",
+  "attributes": {
+   "href": "#"
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[3]/a[1]"
+ },
+ "325": {
+  "backend_node_id": 325,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "A",
+  "attributes": {
+   "href": "#"
+  },
+  "xpath": "html/body/main/form/fieldset[4]/div[3]/label[3]/a[2]"
+ },
+ "28": {
+  "backend_node_id": 28,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "BUTTON",
+  "attributes": {
+   "type": "submit"
+  },
+  "xpath": "html/body/main/form/div/button[1]"
+ },
+ "29": {
+  "backend_node_id": 29,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "BUTTON",
+  "attributes": {
+   "type": "button",
+   "class": "secondary"
+  },
+  "xpath": "html/body/main/form/div/button[2]"
+ },
+ "339": {
+  "backend_node_id": 339,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "A",
+  "attributes": {
+   "href": "#"
+  },
+  "xpath": "html/body/main/form/div/a"
+ },
+ "32": {
+  "backend_node_id": 32,
+  "target_id": "0414EDD98C27AECCDDC860FD3CAE0DC7",
+  "node_name": "A",
+  "attributes": {
+   "href": "#"
+  },
+  "xpath": "html/body/main/form/p/a"
+ }
+}

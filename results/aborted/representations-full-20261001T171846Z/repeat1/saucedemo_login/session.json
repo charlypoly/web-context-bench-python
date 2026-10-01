@@ -1,0 +1,145 @@
+{
+ "page_id": "saucedemo_login",
+ "url": "http://localhost:8102/",
+ "integrity": {
+  "raw_html_sha256": "aa1f125ef3710c8765d77dd59b119d23dd94c63a6bb8b4593ed785ac13c0f73a",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -33 +33 @@\n-  <div id=\"root\"><div class=\"login_container\"><div class=\"login_logo\">Swag Labs</div><div class=\"login_wrapper\" data-test=\"login-container\" role=\"main\"><div class=\"login_wrapper-inner\"><div id=\"login_button_container\" class=\"form_column\"><div class=\"login-box\"><form aria-label=\"Login\"><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Username\" aria-label=\"Username\" data-test=\"username\" id=\"user-name\" autocorrect=\"off\" autocapitalize=\"none\" type=\"text\" value=\"\" name=\"user-name\"></div><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Password\" aria-label=\"Password\" data-test=\"password\" id=\"password\" autocorrect=\"off\" autocapitalize=\"none\" type=\"password\" value=\"\" name=\"password\"></div><div class=\"error-message-container\"></div><input class=\"submit-button btn_action\" data-test=\"login-button\" id=\"login-button\" type=\"submit\" value=\"Login\" name=\"login-button\"></form></div></div></div><div class=\"login_credentials_wrap\" data-test=\"login-credentials-container\"><div class=\"login_credentials_wrap-inner\"><div id=\"login_credentials\" class=\"login_credentials\" data-test=\"login-credentials\"><h4>Accepted usernames are:</h4>standard_user<br>locked_out_user<br>problem_user<br>performance_glitch_user<br>error_user<br>visual_user<br></div><div class=\"login_password\" data-test=\"login-password\"><h4>Password for all users:</h4>secret_sauce</div></div></div></div></div></div>\n+  <div id=\"root\"><div class=\"login_container\"><div class=\"login_logo\">Swag Labs</div><div class=\"login_wrapper\" data-test=\"login-container\" role=\"main\"><div class=\"login_wrapper-inner\"><div id=\"login_button_container\" class=\"form_column\"><div class=\"login-box\"><form aria-label=\"Login\"><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Username\" aria-label=\"Username\" data-test=\"username\" id=\"user-name\" autocorrect=\"off\" autocapitalize=\"none\" type=\"text\" value=\"\" name=\"user-name\" style=\"\"></div><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Password\" aria-label=\"Password\" data-test=\"password\" id=\"password\" autocorrect=\"off\" autocapitalize=\"none\" type=\"password\" value=\"\" name=\"password\" style=\"\"></div><div class=\"error-message-container\"></div><input class=\"submit-button btn_action\" data-test=\"login-button\" id=\"login-button\" type=\"submit\" value=\"Login\" name=\"login-button\" style=\"\"></form></div></div></div><div class=\"login_credentials_wrap\" data-test=\"login-credentials-container\"><div class=\"login_credentials_wrap-inner\"><div id=\"login_credentials\" class=\"login_credentials\" data-test=\"login-credentials\"><h4>Accepted usernames are:</h4>standard_user<br>locked_out_user<br>problem_user<br>performance_glitch_user<br>error_user<br>visual_user<br></div><div class=\"login_password\" data-test=\"login-password\"><h4>Password for all users:</h4>secret_sauce</div></div></div></div></div></div>",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 4,
+  "index_count": 4
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-12127": "http://localhost:8102/"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "saucedemo_login.act.1": {
+   "backend_node_id": 7,
+   "target_id": "12910A49D39F2150CE8FA326C90AA533",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 494,
+    "y": 154,
+    "width": 292,
+    "height": 39
+   },
+   "stagehand_key": "0-12132",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
+   "error": null
+  },
+  "saucedemo_login.act.2": {
+   "backend_node_id": 8,
+   "target_id": "12910A49D39F2150CE8FA326C90AA533",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 494,
+    "y": 208,
+    "width": 292,
+    "height": 39
+   },
+   "stagehand_key": "0-12133",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/input[1]",
+   "error": null
+  },
+  "saucedemo_login.act.3": {
+   "backend_node_id": 4,
+   "target_id": "12910A49D39F2150CE8FA326C90AA533",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 494,
+    "y": 302,
+    "width": 292,
+    "height": 49
+   },
+   "stagehand_key": "0-12129",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/input[1]",
+   "error": null
+  }
+ }
+}

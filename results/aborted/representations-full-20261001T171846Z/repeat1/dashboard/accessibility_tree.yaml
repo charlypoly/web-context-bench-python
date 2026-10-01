@@ -1,0 +1,132 @@
+- navigation "Main":
+  - text: Lumen Analytics
+  - link "Overview":
+    - /url: "#"
+  - link "Orders":
+    - /url: "#"
+  - link "Products":
+    - /url: "#"
+  - link "Customers":
+    - /url: "#"
+  - link "Marketing":
+    - /url: "#"
+  - link "Reports":
+    - /url: "#"
+  - link "Settings":
+    - /url: "#"
+- heading "Store overview" [level=1]
+- text: Date range
+- combobox "Date range":
+  - option "Today"
+  - option "Last 7 days"
+  - option "Last 30 days" [selected]
+  - option "Quarter to date"
+- text: Store
+- combobox "Store":
+  - option "All stores" [selected]
+  - option "Online"
+  - option "Seattle flagship"
+- button "Export CSV"
+- button "Notifications (3 unread)": 🔔 3
+- region "Key metrics": Revenue $128,430 ▲ 12.4% vs previous period Orders 1,284 ▲ 8.1% vs previous period Conversion rate 3.42% ▼ 0.3 pts vs previous period Refunds 27 ▲ 5 more than previous period
+- heading "Weekly revenue" [level=2]
+- img "Bar chart of weekly revenue": $29,800 $33,150 $26,240 $39,240 Week 1 Week 2 Week 3 Week 4
+- heading "Alerts" [level=2]
+- list:
+  - listitem:
+    - strong: "Low stock:"
+    - text: Trail Runner 2 (size 10) — 4 left
+  - listitem:
+    - strong: "Payment failed:"
+    - text: "order #10473 — card declined"
+  - listitem:
+    - strong: "Review flagged:"
+    - text: Summit Daypack — 1-star review awaiting moderation
+- link "View all alerts":
+  - /url: "#"
+- heading "Recent orders" [level=2]
+- table:
+  - rowgroup:
+    - row "Order Customer Date Total Status Actions":
+      - columnheader "Order"
+      - columnheader "Customer"
+      - columnheader "Date"
+      - columnheader "Total"
+      - columnheader "Status"
+      - columnheader "Actions"
+  - rowgroup:
+    - row "#10481 Priya Natarajan 29 Sep 2026 $212.00 Paid View":
+      - cell "#10481"
+      - cell "Priya Natarajan"
+      - cell "29 Sep 2026"
+      - cell "$212.00"
+      - cell "Paid"
+      - cell "View":
+        - button "View"
+    - row "#10480 Diego Alvarez 29 Sep 2026 $64.50 Pending View":
+      - cell "#10480"
+      - cell "Diego Alvarez"
+      - cell "29 Sep 2026"
+      - cell "$64.50"
+      - cell "Pending"
+      - cell "View":
+        - button "View"
+    - row "#10479 Hannah Becker 28 Sep 2026 $129.99 Paid View":
+      - cell "#10479"
+      - cell "Hannah Becker"
+      - cell "28 Sep 2026"
+      - cell "$129.99"
+      - cell "Paid"
+      - cell "View":
+        - button "View"
+    - row "#10478 Kwame Mensah 28 Sep 2026 $45.00 Refunded View":
+      - cell "#10478"
+      - cell "Kwame Mensah"
+      - cell "28 Sep 2026"
+      - cell "$45.00"
+      - cell "Refunded"
+      - cell "View":
+        - button "View"
+    - row "#10477 Sofia Rossi 27 Sep 2026 $318.75 Paid View":
+      - cell "#10477"
+      - cell "Sofia Rossi"
+      - cell "27 Sep 2026"
+      - cell "$318.75"
+      - cell "Paid"
+      - cell "View":
+        - button "View"
+    - row "#10476 Liam O'Connor 27 Sep 2026 $89.20 Pending View":
+      - cell "#10476"
+      - cell "Liam O'Connor"
+      - cell "27 Sep 2026"
+      - cell "$89.20"
+      - cell "Pending"
+      - cell "View":
+        - button "View"
+- link "See all orders":
+  - /url: "#"
+- heading "Top products" [level=2]
+- table:
+  - rowgroup:
+    - row "Product Units Revenue":
+      - columnheader "Product"
+      - columnheader "Units"
+      - columnheader "Revenue"
+  - rowgroup:
+    - row "Summit Daypack 342 $27,018":
+      - cell "Summit Daypack"
+      - cell "342"
+      - cell "$27,018"
+    - row "Trail Runner 2 288 $37,440":
+      - cell "Trail Runner 2"
+      - cell "288"
+      - cell "$37,440"
+    - row "Merino Base Layer 251 $17,570":
+      - cell "Merino Base Layer"
+      - cell "251"
+      - cell "$17,570"
+    - row "Insulated Bottle 1L 198 $6,930":
+      - cell "Insulated Bottle 1L"
+      - cell "198"
+      - cell "$6,930"
+- paragraph: Data last refreshed 30 Sep 2026, 06:00 UTC.

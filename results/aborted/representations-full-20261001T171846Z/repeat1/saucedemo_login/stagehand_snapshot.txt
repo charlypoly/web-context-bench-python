@@ -1,0 +1,27 @@
+[0-12127] RootWebArea: Swag Labs
+  [0-12135] scrollable, html
+    [0-12157] div
+      [0-12159] StaticText: Swag Labs
+      [0-12160] main
+        [0-12131] form: Login
+          [0-12132] textbox: Username
+          [0-12133] textbox: Password
+          [0-12129] button: Login
+        [0-12176] div
+          [0-12177] div
+            [0-12178] heading: Accepted usernames are:
+            [0-12180] StaticText: standard_user
+            [0-12181] LineBreak: 
+            [0-12182] StaticText: locked_out_user
+            [0-12183] LineBreak: 
+            [0-12184] StaticText: problem_user
+            [0-12185] LineBreak: 
+            [0-12186] StaticText: performance_glitch_user
+            [0-12187] LineBreak: 
+            [0-12188] StaticText: error_user
+            [0-12189] LineBreak: 
+            [0-12190] StaticText: visual_user
+            [0-12191] LineBreak: 
+          [0-12192] div
+            [0-12193] heading: Password for all users:
+            [0-12195] StaticText: secret_sauce

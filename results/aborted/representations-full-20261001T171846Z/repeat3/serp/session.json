@@ -1,0 +1,176 @@
+{
+ "page_id": "serp",
+ "url": "http://localhost:8100/serp/index.html",
+ "integrity": {
+  "raw_html_sha256": "90cf913b069822fd469d1209c85698fd418a5c28012d01665e650cfbd0b04101",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -39 +39 @@\n-    <input type=\"search\" name=\"q\" value=\"solar panel installation cost\" aria-label=\"Search\">\n+    <input type=\"search\" name=\"q\" value=\"solar panel installation cost\" aria-label=\"Search\" style=\"\">",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 29,
+  "index_count": 41
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-25142": "http://localhost:8100/serp/index.html",
+   "0-25164": "http://localhost:8100/serp/index.html#",
+   "0-25167": "http://localhost:8100/serp/index.html#",
+   "0-25169": "http://localhost:8100/serp/index.html#",
+   "0-25171": "http://localhost:8100/serp/index.html#",
+   "0-25173": "http://localhost:8100/serp/index.html#",
+   "0-25175": "http://localhost:8100/serp/index.html#",
+   "0-25348": "http://localhost:8100/serp/index.html#",
+   "0-25350": "http://localhost:8100/serp/index.html#",
+   "0-25352": "http://localhost:8100/serp/index.html#",
+   "0-25354": "http://localhost:8100/serp/index.html#",
+   "0-25189": "http://localhost:8100/serp/index.html#",
+   "0-25199": "http://localhost:8100/serp/index.html#",
+   "0-25214": "http://localhost:8100/serp/index.html#",
+   "0-25266": "http://localhost:8100/serp/index.html#",
+   "0-25278": "http://localhost:8100/serp/index.html#",
+   "0-25288": "http://localhost:8100/serp/index.html#",
+   "0-25298": "http://localhost:8100/serp/index.html#",
+   "0-25310": "http://localhost:8100/serp/index.html#",
+   "0-25321": "http://localhost:8100/serp/index.html#",
+   "0-25331": "http://localhost:8100/serp/index.html#",
+   "0-25341": "http://localhost:8100/serp/index.html#",
+   "0-25359": "http://localhost:8100/serp/index.html#",
+   "0-25361": "http://localhost:8100/serp/index.html#",
+   "0-25363": "http://localhost:8100/serp/index.html#",
+   "0-25365": "http://localhost:8100/serp/index.html#",
+   "0-25367": "http://localhost:8100/serp/index.html#",
+   "0-25369": "http://localhost:8100/serp/index.html#",
+   "0-25371": "http://localhost:8100/serp/index.html#",
+   "0-25373": "http://localhost:8100/serp/index.html#",
+   "0-25375": "http://localhost:8100/serp/index.html#",
+   "0-25377": "http://localhost:8100/serp/index.html#"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "serp.act.1": {
+   "backend_node_id": 178,
+   "target_id": "5343DFCCD1A1D6C0C5C261BD90944F52",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 170,
+    "y": 1042.6875,
+    "width": 313.984375,
+    "height": 22
+   },
+   "stagehand_key": "0-25288",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/main[1]/div[7]/h3[1]/a[1]",
+   "error": null
+  },
+  "serp.act.2": {
+   "backend_node_id": 283,
+   "target_id": "5343DFCCD1A1D6C0C5C261BD90944F52",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 192.34375,
+    "y": 1883.78125,
+    "width": 8.34375,
+    "height": 17
+   },
+   "stagehand_key": "0-25359",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/main[1]/nav[1]/a[1]",
+   "error": null
+  },
+  "serp.act.3": {
+   "backend_node_id": 124,
+   "target_id": "5343DFCCD1A1D6C0C5C261BD90944F52",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 170,
+    "y": 645.625,
+    "width": 650,
+    "height": 17
+   },
+   "stagehand_key": "0-25237",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/main[1]/section[1]/details[2]/summary[1]",
+   "error": null
+  }
+ }
+}

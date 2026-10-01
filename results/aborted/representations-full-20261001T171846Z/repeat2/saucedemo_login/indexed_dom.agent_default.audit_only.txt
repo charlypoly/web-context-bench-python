@@ -1,0 +1,14 @@
+[11]<div id=root />
+	Swag Labs
+	|SHADOW(open)|[7]<input placeholder=Username aria-label=Username id=user-name type=text />
+	|SHADOW(open)|[8]<input placeholder=Password aria-label=Password type=password />
+	|SHADOW(open)|[4]<input id=login-button type=submit value=Login />
+	Accepted usernames are:
+	standard_user
+	locked_out_user
+	problem_user
+	performance_glitch_user
+	error_user
+	visual_user
+	Password for all users:
+	secret_sauce

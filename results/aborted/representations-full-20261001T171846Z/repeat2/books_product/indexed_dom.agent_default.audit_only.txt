@@ -1,0 +1,52 @@
+[65]<a />
+	Books to Scrape
+We love being scraped!
+[86]<a />
+	Home
+[93]<a />
+	Books
+[100]<a />
+	Poetry
+A Light in the Attic
+A Light in the Attic
+£51.77
+[151]<i />
+In stock (22 available)
+[156]<i />
+[159]<i />
+[161]<i />
+[162]<i />
+[163]<i />
+[167]<hr />
+Warning!
+This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.
+Product Description
+It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love th It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love that Silverstein. Need proof of his genius? RockabyeRockabye baby, in the treetopDon't you know a treetopIs no safe place to rock?And who put you up there,And your cradle, too?Baby, I think someone down here'sGot it in for you. Shel, you never sounded so good. ...more
+Product Information
+[195]<tr />
+	UPC
+	[199]<td />
+		a897fe39b1053632
+[203]<tr />
+	Product Type
+	[207]<td />
+		Books
+[211]<tr />
+	Price (excl. tax)
+	[215]<td />
+		£51.77
+[219]<tr />
+	Price (incl. tax)
+	[223]<td />
+		£51.77
+[227]<tr />
+	Tax
+	[231]<td />
+		£0.00
+[235]<tr />
+	Availability
+	[240]<td />
+		In stock (22 available)
+[244]<tr />
+	Number of reviews
+	[249]<td />

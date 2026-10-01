@@ -1,0 +1,171 @@
+{
+ "page_id": "docs",
+ "url": "http://localhost:8100/docs/index.html",
+ "integrity": {
+  "raw_html_sha256": "c2f29866a8582dfade09ba543f1802fdc93c908aed14afb37de82bdd2d73713d",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -42 +42 @@\n-  <input type=\"search\" placeholder=\"Search docs\" aria-label=\"Search docs\">\n+  <input type=\"search\" placeholder=\"Search docs\" aria-label=\"Search docs\" style=\"\">",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 78,
+  "index_count": 78
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-36750": "http://localhost:8100/docs/index.html",
+   "0-36810": "http://localhost:8100/docs/index.html#",
+   "0-36812": "http://localhost:8100/docs/index.html#",
+   "0-37091": "http://localhost:8100/docs/index.html#",
+   "0-37093": "http://localhost:8100/docs/index.html#",
+   "0-36865": "http://localhost:8100/docs/index.html#",
+   "0-36868": "http://localhost:8100/docs/index.html#",
+   "0-36876": "http://localhost:8100/docs/index.html#",
+   "0-37044": "http://localhost:8100/docs/index.html#",
+   "0-37087": "http://localhost:8100/docs/index.html#",
+   "0-36751": "http://localhost:8100/docs/index.html#",
+   "0-36822": "http://localhost:8100/docs/index.html#",
+   "0-36825": "http://localhost:8100/docs/index.html#",
+   "0-36831": "http://localhost:8100/docs/index.html#",
+   "0-36834": "http://localhost:8100/docs/index.html#",
+   "0-36837": "http://localhost:8100/docs/index.html#",
+   "0-36840": "http://localhost:8100/docs/index.html#",
+   "0-36843": "http://localhost:8100/docs/index.html#",
+   "0-36846": "http://localhost:8100/docs/index.html#",
+   "0-36849": "http://localhost:8100/docs/index.html#",
+   "0-36855": "http://localhost:8100/docs/index.html#",
+   "0-36858": "http://localhost:8100/docs/index.html#",
+   "0-36861": "http://localhost:8100/docs/index.html#",
+   "0-37106": "http://localhost:8100/docs/index.html#parameters",
+   "0-37109": "http://localhost:8100/docs/index.html#returns",
+   "0-37112": "http://localhost:8100/docs/index.html#raises",
+   "0-37115": "http://localhost:8100/docs/index.html#example"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "docs.act.1": {
+   "backend_node_id": 394,
+   "target_id": "85B1981F7286198D902B4DC4634A1FAC",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 812.859375,
+    "y": 1511.125,
+    "width": 167.140625,
+    "height": 18
+   },
+   "stagehand_key": "0-37093",
+   "stagehand_xpath": "/html[1]/body[1]/div[2]/main[1]/div[4]/a[2]",
+   "error": null
+  },
+  "docs.act.2": {
+   "backend_node_id": 379,
+   "target_id": "85B1981F7286198D902B4DC4634A1FAC",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 928.984375,
+    "y": 1262.125,
+    "width": 44.015625,
+    "height": 20
+   },
+   "stagehand_key": "0-37082",
+   "stagehand_xpath": "/html[1]/body[1]/div[2]/main[1]/pre[2]/button[1]",
+   "error": null
+  },
+  "docs.act.3": {
+   "backend_node_id": 2,
+   "target_id": "85B1981F7286198D902B4DC4634A1FAC",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 156.03125,
+    "y": 18.5,
+    "width": 80,
+    "height": 19
+   },
+   "stagehand_key": "0-36752",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/select[1]",
+   "error": null
+  }
+ }
+}

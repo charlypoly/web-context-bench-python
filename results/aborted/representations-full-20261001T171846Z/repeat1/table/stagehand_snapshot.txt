@@ -1,0 +1,5063 @@
+[0-1193] RootWebArea: Orders export — Halcyon Office Supply
+  [0-1195] scrollable, html
+    [0-1203] body
+      [0-1204] banner
+        [0-1205] strong
+          [0-1206] StaticText: Halcyon Office Supply — Admin
+        [0-1207] navigation: Admin
+          [0-1208] link: Dashboard
+          [0-1210] link: Orders
+          [0-1212] link: Inventory
+          [0-1214] link: Sign out
+      [0-1216] main
+        [0-1217] heading: Orders, January–September 2026
+        [0-1219] div
+          [0-1220] LabelText
+            [0-1221] StaticText: Filter orders
+          [0-1191] searchbox: Filter orders
+          [0-1229] LabelText
+            [0-1230] StaticText: Status
+          [0-1192] select: Status
+            [0-1235] MenuListPopup
+              [0-1237] option: All statuses [selected]
+              [0-1238] option: Delivered
+              [0-1239] option: Shipped
+              [0-1240] option: Processing
+              [0-1241] option: Cancelled
+              [0-1242] option: Returned
+          [0-1275] button: Download CSV
+          [0-1278] StaticText: 500 orders
+        [0-1279] table: All orders, sorted by order ID (ascending)
+          [0-1280] caption
+            [0-1281] StaticText: All orders, sorted by order ID (ascending)
+          [0-1282] rowgroup
+            [0-1283] row
+              [0-1284] columnheader: Order ID
+                [0-1285] button: Order ID
+              [0-1287] columnheader: Date
+                [0-1288] button: Date
+              [0-1290] columnheader: Customer
+                [0-1291] button: Customer
+              [0-1293] columnheader: Region
+                [0-1294] button: Region
+              [0-1296] columnheader: Product
+                [0-1297] button: Product
+              [0-1299] columnheader: Qty
+                [0-1300] button: Qty
+              [0-1302] columnheader: Unit price
+                [0-1303] button: Unit price
+              [0-1305] columnheader: Total
+                [0-1306] button: Total
+              [0-1308] columnheader: Status
+                [0-1309] button: Status
+          [0-1311] tbody
+            [0-1312] row
+              [0-1313] cell: ORD-20001
+              [0-1315] cell: 2026-01-11
+              [0-1317] cell: Tess Walker
+              [0-1319] cell: North
+              [0-1321] cell: Noise-cancelling Headset
+              [0-1323] cell: 1
+              [0-1325] cell: $199.00
+              [0-1327] cell: $199.00
+              [0-1329] cell: Cancelled
+            [0-1331] row
+              [0-1332] cell: ORD-20002
+              [0-1334] cell: 2026-01-01
+              [0-1336] cell: Lucas Moreau
+              [0-1338] cell: North
+              [0-1340] cell: Footrest
+              [0-1342] cell: 2
+              [0-1344] cell: $42.00
+              [0-1346] cell: $84.00
+              [0-1348] cell: Processing
+            [0-1350] row
+              [0-1351] cell: ORD-20003
+              [0-1353] cell: 2026-01-07
+              [0-1355] cell: Jonas Berg
+              [0-1357] cell: Central
+              [0-1359] cell: Noise-cancelling Headset
+              [0-1361] cell: 8
+              [0-1363] cell: $199.00
+              [0-1365] cell: $1,592.00
+              [0-1367] cell: Delivered
+            [0-1369] row
+              [0-1370] cell: ORD-20004
+              [0-1372] cell: 2026-01-21
+              [0-1374] cell: Pedro Santos
+              [0-1376] cell: South
+              [0-1378] cell: Footrest
+              [0-1380] cell: 6
+              [0-1382] cell: $42.00
+              [0-1384] cell: $252.00
+              [0-1386] cell: Cancelled
+            [0-1388] row
+              [0-1389] cell: ORD-20005
+              [0-1391] cell: 2026-01-19
+              [0-1393] cell: Ximena Ortiz
+              [0-1395] cell: South
+              [0-1397] cell: USB-C Dock
+              [0-1399] cell: 6
+              [0-1401] cell: $149.99
+              [0-1403] cell: $899.94
+              [0-1405] cell: Shipped
+            [0-1407] row
+              [0-1408] cell: ORD-20006
+              [0-1410] cell: 2026-01-21
+              [0-1412] cell: Valentina Ricci
+              [0-1414] cell: South
+              [0-1416] cell: USB-C Dock
+              [0-1418] cell: 7
+              [0-1420] cell: $149.99
+              [0-1422] cell: $1,049.93
+              [0-1424] cell: Cancelled
+            [0-1426] row
+              [0-1427] cell: ORD-20007
+              [0-1429] cell: 2026-01-03
+              [0-1431] cell: Zoe Fischer
+              [0-1433] cell: West
+              [0-1435] cell: Ergonomic Chair
+              [0-1437] cell: 9
+              [0-1439] cell: $289.00
+              [0-1441] cell: $2,601.00
+              [0-1443] cell: Delivered
+            [0-1445] row
+              [0-1446] cell: ORD-20008
+              [0-1448] cell: 2026-01-01
+              [0-1450] cell: Zoe Fischer
+              [0-1452] cell: Central
+              [0-1454] cell: Noise-cancelling Headset
+              [0-1456] cell: 5
+              [0-1458] cell: $199.00
+              [0-1460] cell: $995.00
+              [0-1462] cell: Processing
+            [0-1464] row
+              [0-1465] cell: ORD-20009
+              [0-1467] cell: 2026-01-23
+              [0-1469] cell: Zoe Fischer
+              [0-1471] cell: East
+              [0-1473] cell: Keyboard
+              [0-1475] cell: 1
+              [0-1477] cell: $99.00
+              [0-1479] cell: $99.00
+              [0-1481] cell: Returned
+            [0-1483] row
+              [0-1484] cell: ORD-20010
+              [0-1486] cell: 2026-01-05
+              [0-1488] cell: Lucas Moreau
+              [0-1490] cell: West
+              [0-1492] cell: Noise-cancelling Headset
+              [0-1494] cell: 5
+              [0-1496] cell: $199.00
+              [0-1498] cell: $995.00
+              [0-1500] cell: Cancelled
+            [0-1502] row
+              [0-1503] cell: ORD-20011
+              [0-1505] cell: 2026-01-07
+              [0-1507] cell: Jonas Berg
+              [0-1509] cell: West
+              [0-1511] cell: Ergonomic Chair
+              [0-1513] cell: 9
+              [0-1515] cell: $289.00
+              [0-1517] cell: $2,601.00
+              [0-1519] cell: Processing
+            [0-1521] row
+              [0-1522] cell: ORD-20012
+              [0-1524] cell: 2026-01-17
+              [0-1526] cell: Tess Walker
+              [0-1528] cell: East
+              [0-1530] cell: Keyboard
+              [0-1532] cell: 8
+              [0-1534] cell: $99.00
+              [0-1536] cell: $792.00
+              [0-1538] cell: Cancelled
+            [0-1540] row
+              [0-1541] cell: ORD-20013
+              [0-1543] cell: 2026-01-11
+              [0-1545] cell: Bruno Silva
+              [0-1547] cell: South
+              [0-1549] cell: Ergonomic Chair
+              [0-1551] cell: 1
+              [0-1553] cell: $289.00
+              [0-1555] cell: $289.00
+              [0-1557] cell: Cancelled
+            [0-1559] row
+              [0-1560] cell: ORD-20014
+              [0-1562] cell: 2026-01-09
+              [0-1564] cell: Hiro Tanaka
+              [0-1566] cell: East
+              [0-1568] cell: Noise-cancelling Headset
+              [0-1570] cell: 7
+              [0-1572] cell: $199.00
+              [0-1574] cell: $1,393.00
+              [0-1576] cell: Returned
+            [0-1578] row
+              [0-1579] cell: ORD-20015
+              [0-1581] cell: 2026-01-07
+              [0-1583] cell: Rosa Delgado
+              [0-1585] cell: Central
+              [0-1587] cell: Footrest
+              [0-1589] cell: 2
+              [0-1591] cell: $42.00
+              [0-1593] cell: $84.00
+              [0-1595] cell: Processing
+            [0-1597] row
+              [0-1598] cell: ORD-20016
+              [0-1600] cell: 2026-01-21
+              [0-1602] cell: Jonas Berg
+              [0-1604] cell: East
+              [0-1606] cell: Ergonomic Chair
+              [0-1608] cell: 8
+              [0-1610] cell: $289.00
+              [0-1612] cell: $2,312.00
+              [0-1614] cell: Cancelled
+            [0-1616] row
+              [0-1617] cell: ORD-20017
+              [0-1619] cell: 2026-01-07
+              [0-1621] cell: Zoe Fischer
+              [0-1623] cell: South
+              [0-1625] cell: Footrest
+              [0-1627] cell: 5
+              [0-1629] cell: $42.00
+              [0-1631] cell: $210.00
+              [0-1633] cell: Shipped
+            [0-1635] row
+              [0-1636] cell: ORD-20018
+              [0-1638] cell: 2026-01-21
+              [0-1640] cell: Rosa Delgado
+              [0-1642] cell: East
+              [0-1644] cell: Ergonomic Chair
+              [0-1646] cell: 5
+              [0-1648] cell: $289.00
+              [0-1650] cell: $1,445.00
+              [0-1652] cell: Processing
+            [0-1654] row
+              [0-1655] cell: ORD-20019
+              [0-1657] cell: 2026-01-19
+              [0-1659] cell: Tess Walker
+              [0-1661] cell: North
+              [0-1663] cell: Keyboard
+              [0-1665] cell: 9
+              [0-1667] cell: $99.00
+              [0-1669] cell: $891.00
+              [0-1671] cell: Processing
+            [0-1673] row
+              [0-1674] cell: ORD-20020
+              [0-1676] cell: 2026-01-01
+              [0-1678] cell: Tess Walker
+              [0-1680] cell: Central
+              [0-1682] cell: USB-C Dock
+              [0-1684] cell: 7
+              [0-1686] cell: $149.99
+              [0-1688] cell: $1,049.93
+              [0-1690] cell: Delivered
+            [0-1692] row
+              [0-1693] cell: ORD-20021
+              [0-1695] cell: 2026-01-03
+              [0-1697] cell: Lucas Moreau
+              [0-1699] cell: West
+              [0-1701] cell: Keyboard
+              [0-1703] cell: 9
+              [0-1705] cell: $99.00
+              [0-1707] cell: $891.00
+              [0-1709] cell: Processing
+            [0-1711] row
+              [0-1712] cell: ORD-20022
+              [0-1714] cell: 2026-01-09
+              [0-1716] cell: Hiro Tanaka
+              [0-1718] cell: Central
+              [0-1720] cell: USB-C Dock
+              [0-1722] cell: 2
+              [0-1724] cell: $149.99
+              [0-1726] cell: $299.98
+              [0-1728] cell: Cancelled
+            [0-1730] row
+              [0-1731] cell: ORD-20023
+              [0-1733] cell: 2026-01-23
+              [0-1735] cell: Farah Haddad
+              [0-1737] cell: East
+              [0-1739] cell: USB-C Dock
+              [0-1741] cell: 7
+              [0-1743] cell: $149.99
+              [0-1745] cell: $1,049.93
+              [0-1747] cell: Processing
+            [0-1749] row
+              [0-1750] cell: ORD-20024
+              [0-1752] cell: 2026-01-13
+              [0-1754] cell: Farah Haddad
+              [0-1756] cell: West
+              [0-1758] cell: Footrest
+              [0-1760] cell: 7
+              [0-1762] cell: $42.00
+              [0-1764] cell: $294.00
+              [0-1766] cell: Returned
+            [0-1768] row
+              [0-1769] cell: ORD-20025
+              [0-1771] cell: 2026-01-23
+              [0-1773] cell: Nikolai Petrov
+              [0-1775] cell: North
+              [0-1777] cell: Noise-cancelling Headset
+              [0-1779] cell: 6
+              [0-1781] cell: $199.00
+              [0-1783] cell: $1,194.00
+              [0-1785] cell: Returned
+            [0-1787] row
+              [0-1788] cell: ORD-20026
+              [0-1790] cell: 2026-01-17
+              [0-1792] cell: Bruno Silva
+              [0-1794] cell: North
+              [0-1796] cell: Keyboard
+              [0-1798] cell: 9
+              [0-1800] cell: $99.00
+              [0-1802] cell: $891.00
+              [0-1804] cell: Shipped
+            [0-1806] row
+              [0-1807] cell: ORD-20027
+              [0-1809] cell: 2026-01-27
+              [0-1811] cell: Nikolai Petrov
+              [0-1813] cell: East
+              [0-1815] cell: Footrest
+              [0-1817] cell: 1
+              [0-1819] cell: $42.00
+              [0-1821] cell: $42.00
+              [0-1823] cell: Returned
+            [0-1825] row
+              [0-1826] cell: ORD-20028
+              [0-1828] cell: 2026-01-01
+              [0-1830] cell: Rosa Delgado
+              [0-1832] cell: North
+              [0-1834] cell: USB-C Dock
+              [0-1836] cell: 6
+              [0-1838] cell: $149.99
+              [0-1840] cell: $899.94
+              [0-1842] cell: Returned
+            [0-1844] row
+              [0-1845] cell: ORD-20029
+              [0-1847] cell: 2026-01-07
+              [0-1849] cell: Hiro Tanaka
+              [0-1851] cell: Central
+              [0-1853] cell: Ergonomic Chair
+              [0-1855] cell: 7
+              [0-1857] cell: $289.00
+              [0-1859] cell: $2,023.00
+              [0-1861] cell: Delivered
+            [0-1863] row
+              [0-1864] cell: ORD-20030
+              [0-1866] cell: 2026-01-25
+              [0-1868] cell: Lucas Moreau
+              [0-1870] cell: West
+              [0-1872] cell: USB-C Dock
+              [0-1874] cell: 6
+              [0-1876] cell: $149.99
+              [0-1878] cell: $899.94
+              [0-1880] cell: Shipped
+            [0-1882] row
+              [0-1883] cell: ORD-20031
+              [0-1885] cell: 2026-01-15
+              [0-1887] cell: Nikolai Petrov
+              [0-1889] cell: East
+              [0-1891] cell: Noise-cancelling Headset
+              [0-1893] cell: 2
+              [0-1895] cell: $199.00
+              [0-1897] cell: $398.00
+              [0-1899] cell: Delivered
+            [0-1901] row
+              [0-1902] cell: ORD-20032
+              [0-1904] cell: 2026-01-17
+              [0-1906] cell: Hiro Tanaka
+              [0-1908] cell: North
+              [0-1910] cell: Noise-cancelling Headset
+              [0-1912] cell: 2
+              [0-1914] cell: $199.00
+              [0-1916] cell: $398.00
+              [0-1918] cell: Delivered
+            [0-1920] row
+              [0-1921] cell: ORD-20033
+              [0-1923] cell: 2026-01-19
+              [0-1925] cell: Nikolai Petrov
+              [0-1927] cell: South
+              [0-1929] cell: Footrest
+              [0-1931] cell: 5
+              [0-1933] cell: $42.00
+              [0-1935] cell: $210.00
+              [0-1937] cell: Returned
+            [0-1939] row
+              [0-1940] cell: ORD-20034
+              [0-1942] cell: 2026-01-17
+              [0-1944] cell: Zoe Fischer
+              [0-1946] cell: West
+              [0-1948] cell: Ergonomic Chair
+              [0-1950] cell: 7
+              [0-1952] cell: $289.00
+              [0-1954] cell: $2,023.00
+              [0-1956] cell: Delivered
+            [0-1958] row
+              [0-1959] cell: ORD-20035
+              [0-1961] cell: 2026-01-07
+              [0-1963] cell: Lucas Moreau
+              [0-1965] cell: West
+              [0-1967] cell: Footrest
+              [0-1969] cell: 7
+              [0-1971] cell: $42.00
+              [0-1973] cell: $294.00
+              [0-1975] cell: Returned
+            [0-1977] row
+              [0-1978] cell: ORD-20036
+              [0-1980] cell: 2026-01-13
+              [0-1982] cell: Zoe Fischer
+              [0-1984] cell: West
+              [0-1986] cell: USB-C Dock
+              [0-1988] cell: 9
+              [0-1990] cell: $149.99
+              [0-1992] cell: $1,349.91
+              [0-1994] cell: Delivered
+            [0-1996] row
+              [0-1997] cell: ORD-20037
+              [0-1999] cell: 2026-01-23
+              [0-2001] cell: Ximena Ortiz
+              [0-2003] cell: South
+              [0-2005] cell: Ergonomic Chair
+              [0-2007] cell: 3
+              [0-2009] cell: $289.00
+              [0-2011] cell: $867.00
+              [0-2013] cell: Returned
+            [0-2015] row
+              [0-2016] cell: ORD-20038
+              [0-2018] cell: 2026-01-17
+              [0-2020] cell: Ximena Ortiz
+              [0-2022] cell: East
+              [0-2024] cell: Ergonomic Chair
+              [0-2026] cell: 9
+              [0-2028] cell: $289.00
+              [0-2030] cell: $2,601.00
+              [0-2032] cell: Delivered
+            [0-2034] row
+              [0-2035] cell: ORD-20039
+              [0-2037] cell: 2026-01-07
+              [0-2039] cell: Dmitri Volkov
+              [0-2041] cell: North
+              [0-2043] cell: Ergonomic Chair
+              [0-2045] cell: 4
+              [0-2047] cell: $289.00
+              [0-2049] cell: $1,156.00
+              [0-2051] cell: Cancelled
+            [0-2053] row
+              [0-2054] cell: ORD-20040
+              [0-2056] cell: 2026-01-13
+              [0-2058] cell: Farah Haddad
+              [0-2060] cell: South
+              [0-2062] cell: Ergonomic Chair
+              [0-2064] cell: 8
+              [0-2066] cell: $289.00
+              [0-2068] cell: $2,312.00
+              [0-2070] cell: Returned
+            [0-2072] row
+              [0-2073] cell: ORD-20041
+              [0-2075] cell: 2026-01-15
+              [0-2077] cell: Jonas Berg
+              [0-2079] cell: East
+              [0-2081] cell: USB-C Dock
+              [0-2083] cell: 7
+              [0-2085] cell: $149.99
+              [0-2087] cell: $1,049.93
+              [0-2089] cell: Processing
+            [0-2091] row
+              [0-2092] cell: ORD-20042
+              [0-2094] cell: 2026-01-01
+              [0-2096] cell: Bruno Silva
+              [0-2098] cell: North
+              [0-2100] cell: Noise-cancelling Headset
+              [0-2102] cell: 8
+              [0-2104] cell: $199.00
+              [0-2106] cell: $1,592.00
+              [0-2108] cell: Returned
+            [0-2110] row
+              [0-2111] cell: ORD-20043
+              [0-2113] cell: 2026-01-11
+              [0-2115] cell: Ximena Ortiz
+              [0-2117] cell: East
+              [0-2119] cell: Noise-cancelling Headset
+              [0-2121] cell: 8
+              [0-2123] cell: $199.00
+              [0-2125] cell: $1,592.00
+              [0-2127] cell: Returned
+            [0-2129] row
+              [0-2130] cell: ORD-20044
+              [0-2132] cell: 2026-01-05
+              [0-2134] cell: Farah Haddad
+              [0-2136] cell: North
+              [0-2138] cell: USB-C Dock
+              [0-2140] cell: 6
+              [0-2142] cell: $149.99
+              [0-2144] cell: $899.94
+              [0-2146] cell: Delivered
+            [0-2148] row
+              [0-2149] cell: ORD-20045
+              [0-2151] cell: 2026-01-19
+              [0-2153] cell: Dmitri Volkov
+              [0-2155] cell: South
+              [0-2157] cell: Ergonomic Chair
+              [0-2159] cell: 9
+              [0-2161] cell: $289.00
+              [0-2163] cell: $2,601.00
+              [0-2165] cell: Returned
+            [0-2167] row
+              [0-2168] cell: ORD-20046
+              [0-2170] cell: 2026-01-05
+              [0-2172] cell: Bruno Silva
+              [0-2174] cell: North
+              [0-2176] cell: Footrest
+              [0-2178] cell: 1
+              [0-2180] cell: $42.00
+              [0-2182] cell: $42.00
+              [0-2184] cell: Delivered
+            [0-2186] row
+              [0-2187] cell: ORD-20047
+              [0-2189] cell: 2026-01-07
+              [0-2191] cell: Jonas Berg
+              [0-2193] cell: East
+              [0-2195] cell: Noise-cancelling Headset
+              [0-2197] cell: 3
+              [0-2199] cell: $199.00
+              [0-2201] cell: $597.00
+              [0-2203] cell: Cancelled
+            [0-2205] row
+              [0-2206] cell: ORD-20048
+              [0-2208] cell: 2026-01-13
+              [0-2210] cell: Nikolai Petrov
+              [0-2212] cell: South
+              [0-2214] cell: Keyboard
+              [0-2216] cell: 1
+              [0-2218] cell: $99.00
+              [0-2220] cell: $99.00
+              [0-2222] cell: Delivered
+            [0-2224] row
+              [0-2225] cell: ORD-20049
+              [0-2227] cell: 2026-01-23
+              [0-2229] cell: Ximena Ortiz
+              [0-2231] cell: West
+              [0-2233] cell: Ergonomic Chair
+              [0-2235] cell: 8
+              [0-2237] cell: $289.00
+              [0-2239] cell: $2,312.00
+              [0-2241] cell: Processing
+            [0-2243] row
+              [0-2244] cell: ORD-20050
+              [0-2246] cell: 2026-01-25
+              [0-2248] cell: Jonas Berg
+              [0-2250] cell: West
+              [0-2252] cell: Noise-cancelling Headset
+              [0-2254] cell: 3
+              [0-2256] cell: $199.00
+              [0-2258] cell: $597.00
+              [0-2260] cell: Returned
+            [0-2262] row
+              [0-2263] cell: ORD-20051
+              [0-2265] cell: 2026-01-03
+              [0-2267] cell: Zoe Fischer
+              [0-2269] cell: North
+              [0-2271] cell: Keyboard
+              [0-2273] cell: 7
+              [0-2275] cell: $99.00
+              [0-2277] cell: $693.00
+              [0-2279] cell: Cancelled
+            [0-2281] row
+              [0-2282] cell: ORD-20052
+              [0-2284] cell: 2026-01-25
+              [0-2286] cell: Pedro Santos
+              [0-2288] cell: South
+              [0-2290] cell: Keyboard
+              [0-2292] cell: 8
+              [0-2294] cell: $99.00
+              [0-2296] cell: $792.00
+              [0-2298] cell: Delivered
+            [0-2300] row
+              [0-2301] cell: ORD-20053
+              [0-2303] cell: 2026-01-23
+              [0-2305] cell: Lucas Moreau
+              [0-2307] cell: West
+              [0-2309] cell: Noise-cancelling Headset
+              [0-2311] cell: 7
+              [0-2313] cell: $199.00
+              [0-2315] cell: $1,393.00
+              [0-2317] cell: Delivered
+            [0-2319] row
+              [0-2320] cell: ORD-20054
+              [0-2322] cell: 2026-01-05
+              [0-2324] cell: Bruno Silva
+              [0-2326] cell: East
+              [0-2328] cell: Noise-cancelling Headset
+              [0-2330] cell: 3
+              [0-2332] cell: $199.00
+              [0-2334] cell: $597.00
+              [0-2336] cell: Delivered
+            [0-2338] row
+              [0-2339] cell: ORD-20055
+              [0-2341] cell: 2026-01-15
+              [0-2343] cell: Dmitri Volkov
+              [0-2345] cell: North
+              [0-2347] cell: Noise-cancelling Headset
+              [0-2349] cell: 2
+              [0-2351] cell: $199.00
+              [0-2353] cell: $398.00
+              [0-2355] cell: Returned
+            [0-2357] row
+              [0-2358] cell: ORD-20056
+              [0-2360] cell: 2026-01-09
+              [0-2362] cell: Tess Walker
+              [0-2364] cell: East
+              [0-2366] cell: USB-C Dock
+              [0-2368] cell: 1
+              [0-2370] cell: $149.99
+              [0-2372] cell: $149.99
+              [0-2374] cell: Returned
+            [0-2376] row
+              [0-2377] cell: ORD-20057
+              [0-2379] cell: 2026-02-15
+              [0-2381] cell: Rosa Delgado
+              [0-2383] cell: East
+              [0-2385] cell: USB-C Dock
+              [0-2387] cell: 1
+              [0-2389] cell: $149.99
+              [0-2391] cell: $149.99
+              [0-2393] cell: Delivered
+            [0-2395] row
+              [0-2396] cell: ORD-20058
+              [0-2398] cell: 2026-02-05
+              [0-2400] cell: Pedro Santos
+              [0-2402] cell: North
+              [0-2404] cell: Keyboard
+              [0-2406] cell: 3
+              [0-2408] cell: $99.00
+              [0-2410] cell: $297.00
+              [0-2412] cell: Processing
+            [0-2414] row
+              [0-2415] cell: ORD-20059
+              [0-2417] cell: 2026-02-15
+              [0-2419] cell: Tess Walker
+              [0-2421] cell: North
+              [0-2423] cell: Footrest
+              [0-2425] cell: 9
+              [0-2427] cell: $42.00
+              [0-2429] cell: $378.00
+              [0-2431] cell: Delivered
+            [0-2433] row
+              [0-2434] cell: ORD-20060
+              [0-2436] cell: 2026-02-01
+              [0-2438] cell: Zoe Fischer
+              [0-2440] cell: North
+              [0-2442] cell: USB-C Dock
+              [0-2444] cell: 2
+              [0-2446] cell: $149.99
+              [0-2448] cell: $299.98
+              [0-2450] cell: Returned
+            [0-2452] row
+              [0-2453] cell: ORD-20061
+              [0-2455] cell: 2026-02-15
+              [0-2457] cell: Zoe Fischer
+              [0-2459] cell: West
+              [0-2461] cell: Noise-cancelling Headset
+              [0-2463] cell: 7
+              [0-2465] cell: $199.00
+              [0-2467] cell: $1,393.00
+              [0-2469] cell: Delivered
+            [0-2471] row
+              [0-2472] cell: ORD-20062
+              [0-2474] cell: 2026-02-09
+              [0-2476] cell: Hiro Tanaka
+              [0-2478] cell: West
+              [0-2480] cell: Noise-cancelling Headset
+              [0-2482] cell: 8
+              [0-2484] cell: $199.00
+              [0-2486] cell: $1,592.00
+              [0-2488] cell: Processing
+            [0-2490] row
+              [0-2491] cell: ORD-20063
+              [0-2493] cell: 2026-02-07
+              [0-2495] cell: Nikolai Petrov
+              [0-2497] cell: West
+              [0-2499] cell: Noise-cancelling Headset
+              [0-2501] cell: 5
+              [0-2503] cell: $199.00
+              [0-2505] cell: $995.00
+              [0-2507] cell: Processing
+            [0-2509] row
+              [0-2510] cell: ORD-20064
+              [0-2512] cell: 2026-02-25
+              [0-2514] cell: Tess Walker
+              [0-2516] cell: North
+              [0-2518] cell: Keyboard
+              [0-2520] cell: 8
+              [0-2522] cell: $99.00
+              [0-2524] cell: $792.00
+              [0-2526] cell: Delivered
+            [0-2528] row
+              [0-2529] cell: ORD-20065
+              [0-2531] cell: 2026-02-15
+              [0-2533] cell: Zoe Fischer
+              [0-2535] cell: North
+              [0-2537] cell: Keyboard
+              [0-2539] cell: 5
+              [0-2541] cell: $99.00
+              [0-2543] cell: $495.00
+              [0-2545] cell: Delivered
+            [0-2547] row
+              [0-2548] cell: ORD-20066
+              [0-2550] cell: 2026-02-25
+              [0-2552] cell: Bruno Silva
+              [0-2554] cell: West
+              [0-2556] cell: Noise-cancelling Headset
+              [0-2558] cell: 5
+              [0-2560] cell: $199.00
+              [0-2562] cell: $995.00
+              [0-2564] cell: Processing
+            [0-2566] row
+              [0-2567] cell: ORD-20067
+              [0-2569] cell: 2026-02-15
+              [0-2571] cell: Jonas Berg
+              [0-2573] cell: South
+              [0-2575] cell: Noise-cancelling Headset
+              [0-2577] cell: 9
+              [0-2579] cell: $199.00
+              [0-2581] cell: $1,791.00
+              [0-2583] cell: Processing
+            [0-2585] row
+              [0-2586] cell: ORD-20068
+              [0-2588] cell: 2026-02-01
+              [0-2590] cell: Ximena Ortiz
+              [0-2592] cell: North
+              [0-2594] cell: Noise-cancelling Headset
+              [0-2596] cell: 1
+              [0-2598] cell: $199.00
+              [0-2600] cell: $199.00
+              [0-2602] cell: Cancelled
+            [0-2604] row
+              [0-2605] cell: ORD-20069
+              [0-2607] cell: 2026-02-19
+              [0-2609] cell: Pedro Santos
+              [0-2611] cell: Central
+              [0-2613] cell: USB-C Dock
+              [0-2615] cell: 3
+              [0-2617] cell: $149.99
+              [0-2619] cell: $449.97
+              [0-2621] cell: Delivered
+            [0-2623] row
+              [0-2624] cell: ORD-20070
+              [0-2626] cell: 2026-02-05
+              [0-2628] cell: Jonas Berg
+              [0-2630] cell: East
+              [0-2632] cell: Ergonomic Chair
+              [0-2634] cell: 2
+              [0-2636] cell: $289.00
+              [0-2638] cell: $578.00
+              [0-2640] cell: Shipped
+            [0-2642] row
+              [0-2643] cell: ORD-20071
+              [0-2645] cell: 2026-02-19
+              [0-2647] cell: Valentina Ricci
+              [0-2649] cell: West
+              [0-2651] cell: Ergonomic Chair
+              [0-2653] cell: 9
+              [0-2655] cell: $289.00
+              [0-2657] cell: $2,601.00
+              [0-2659] cell: Delivered
+            [0-2661] row
+              [0-2662] cell: ORD-20072
+              [0-2664] cell: 2026-02-09
+              [0-2666] cell: Pedro Santos
+              [0-2668] cell: Central
+              [0-2670] cell: Noise-cancelling Headset
+              [0-2672] cell: 4
+              [0-2674] cell: $199.00
+              [0-2676] cell: $796.00
+              [0-2678] cell: Delivered
+            [0-2680] row
+              [0-2681] cell: ORD-20073
+              [0-2683] cell: 2026-02-15
+              [0-2685] cell: Valentina Ricci
+              [0-2687] cell: East
+              [0-2689] cell: Footrest
+              [0-2691] cell: 7
+              [0-2693] cell: $42.00
+              [0-2695] cell: $294.00
+              [0-2697] cell: Delivered
+            [0-2699] row
+              [0-2700] cell: ORD-20074
+              [0-2702] cell: 2026-02-13
+              [0-2704] cell: Ximena Ortiz
+              [0-2706] cell: West
+              [0-2708] cell: Ergonomic Chair
+              [0-2710] cell: 5
+              [0-2712] cell: $289.00
+              [0-2714] cell: $1,445.00
+              [0-2716] cell: Returned
+            [0-2718] row
+              [0-2719] cell: ORD-20075
+              [0-2721] cell: 2026-02-11
+              [0-2723] cell: Zoe Fischer
+              [0-2725] cell: North
+              [0-2727] cell: Ergonomic Chair
+              [0-2729] cell: 6
+              [0-2731] cell: $289.00
+              [0-2733] cell: $1,734.00
+              [0-2735] cell: Cancelled
+            [0-2737] row
+              [0-2738] cell: ORD-20076
+              [0-2740] cell: 2026-02-01
+              [0-2742] cell: Rosa Delgado
+              [0-2744] cell: West
+              [0-2746] cell: Ergonomic Chair
+              [0-2748] cell: 1
+              [0-2750] cell: $289.00
+              [0-2752] cell: $289.00
+              [0-2754] cell: Delivered
+            [0-2756] row
+              [0-2757] cell: ORD-20077
+              [0-2759] cell: 2026-02-11
+              [0-2761] cell: Hiro Tanaka
+              [0-2763] cell: North
+              [0-2765] cell: USB-C Dock
+              [0-2767] cell: 8
+              [0-2769] cell: $149.99
+              [0-2771] cell: $1,199.92
+              [0-2773] cell: Processing
+            [0-2775] row
+              [0-2776] cell: ORD-20078
+              [0-2778] cell: 2026-02-21
+              [0-2780] cell: Jonas Berg
+              [0-2782] cell: East
+              [0-2784] cell: USB-C Dock
+              [0-2786] cell: 4
+              [0-2788] cell: $149.99
+              [0-2790] cell: $599.96
+              [0-2792] cell: Delivered
+            [0-2794] row
+              [0-2795] cell: ORD-20079
+              [0-2797] cell: 2026-02-27
+              [0-2799] cell: Hiro Tanaka
+              [0-2801] cell: East
+              [0-2803] cell: USB-C Dock
+              [0-2805] cell: 1
+              [0-2807] cell: $149.99
+              [0-2809] cell: $149.99
+              [0-2811] cell: Shipped
+            [0-2813] row
+              [0-2814] cell: ORD-20080
+              [0-2816] cell: 2026-02-09
+              [0-2818] cell: Valentina Ricci
+              [0-2820] cell: West
+              [0-2822] cell: Keyboard
+              [0-2824] cell: 1
+              [0-2826] cell: $99.00
+              [0-2828] cell: $99.00
+              [0-2830] cell: Cancelled
+            [0-2832] row
+              [0-2833] cell: ORD-20081
+              [0-2835] cell: 2026-02-03
+              [0-2837] cell: Nikolai Petrov
+              [0-2839] cell: East
+              [0-2841] cell: Footrest
+              [0-2843] cell: 9
+              [0-2845] cell: $42.00
+              [0-2847] cell: $378.00
+              [0-2849] cell: Delivered
+            [0-2851] row
+              [0-2852] cell: ORD-20082
+              [0-2854] cell: 2026-02-01
+              [0-2856] cell: Lucas Moreau
+              [0-2858] cell: Central
+              [0-2860] cell: Keyboard
+              [0-2862] cell: 6
+              [0-2864] cell: $99.00
+              [0-2866] cell: $594.00
+              [0-2868] cell: Cancelled
+            [0-2870] row
+              [0-2871] cell: ORD-20083
+              [0-2873] cell: 2026-02-15
+              [0-2875] cell: Farah Haddad
+              [0-2877] cell: West
+              [0-2879] cell: Keyboard
+              [0-2881] cell: 1
+              [0-2883] cell: $99.00
+              [0-2885] cell: $99.00
+              [0-2887] cell: Delivered
+            [0-2889] row
+              [0-2890] cell: ORD-20084
+              [0-2892] cell: 2026-02-25
+              [0-2894] cell: Tess Walker
+              [0-2896] cell: Central
+              [0-2898] cell: USB-C Dock
+              [0-2900] cell: 7
+              [0-2902] cell: $149.99
+              [0-2904] cell: $1,049.93
+              [0-2906] cell: Delivered
+            [0-2908] row
+              [0-2909] cell: ORD-20085
+              [0-2911] cell: 2026-02-19
+              [0-2913] cell: Valentina Ricci
+              [0-2915] cell: South
+              [0-2917] cell: Keyboard
+              [0-2919] cell: 2
+              [0-2921] cell: $99.00
+              [0-2923] cell: $198.00
+              [0-2925] cell: Delivered
+            [0-2927] row
+              [0-2928] cell: ORD-20086
+              [0-2930] cell: 2026-02-01
+              [0-2932] cell: Valentina Ricci
+              [0-2934] cell: Central
+              [0-2936] cell: USB-C Dock
+              [0-2938] cell: 4
+              [0-2940] cell: $149.99
+              [0-2942] cell: $599.96
+              [0-2944] cell: Processing
+            [0-2946] row
+              [0-2947] cell: ORD-20087
+              [0-2949] cell: 2026-02-07
+              [0-2951] cell: Tess Walker
+              [0-2953] cell: East
+              [0-2955] cell: Keyboard
+              [0-2957] cell: 2
+              [0-2959] cell: $99.00
+              [0-2961] cell: $198.00
+              [0-2963] cell: Delivered
+            [0-2965] row
+              [0-2966] cell: ORD-20088
+              [0-2968] cell: 2026-02-09
+              [0-2970] cell: Jonas Berg
+              [0-2972] cell: South
+              [0-2974] cell: Footrest
+              [0-2976] cell: 4
+              [0-2978] cell: $42.00
+              [0-2980] cell: $168.00
+              [0-2982] cell: Cancelled
+            [0-2984] row
+              [0-2985] cell: ORD-20089
+              [0-2987] cell: 2026-02-03
+              [0-2989] cell: Farah Haddad
+              [0-2991] cell: West
+              [0-2993] cell: Footrest
+              [0-2995] cell: 7
+              [0-2997] cell: $42.00
+              [0-2999] cell: $294.00
+              [0-3001] cell: Delivered
+            [0-3003] row
+              [0-3004] cell: ORD-20090
+              [0-3006] cell: 2026-02-25
+              [0-3008] cell: Valentina Ricci
+              [0-3010] cell: North
+              [0-3012] cell: Keyboard
+              [0-3014] cell: 4
+              [0-3016] cell: $99.00
+              [0-3018] cell: $396.00
+              [0-3020] cell: Shipped
+            [0-3022] row
+              [0-3023] cell: ORD-20091
+              [0-3025] cell: 2026-02-11
+              [0-3027] cell: Zoe Fischer
+              [0-3029] cell: Central
+              [0-3031] cell: Ergonomic Chair
+              [0-3033] cell: 4
+              [0-3035] cell: $289.00
+              [0-3037] cell: $1,156.00
+              [0-3039] cell: Delivered
+            [0-3041] row
+              [0-3042] cell: ORD-20092
+              [0-3044] cell: 2026-02-09
+              [0-3046] cell: Pedro Santos
+              [0-3048] cell: South
+              [0-3050] cell: Noise-cancelling Headset
+              [0-3052] cell: 7
+              [0-3054] cell: $199.00
+              [0-3056] cell: $1,393.00
+              [0-3058] cell: Cancelled
+            [0-3060] row
+              [0-3061] cell: ORD-20093
+              [0-3063] cell: 2026-02-15
+              [0-3065] cell: Nikolai Petrov
+              [0-3067] cell: Central
+              [0-3069] cell: Noise-cancelling Headset
+              [0-3071] cell: 7
+              [0-3073] cell: $199.00
+              [0-3075] cell: $1,393.00
+              [0-3077] cell: Delivered
+            [0-3079] row
+              [0-3080] cell: ORD-20094
+              [0-3082] cell: 2026-02-09
+              [0-3084] cell: Zoe Fischer
+              [0-3086] cell: Central
+              [0-3088] cell: USB-C Dock
+              [0-3090] cell: 6
+              [0-3092] cell: $149.99
+              [0-3094] cell: $899.94
+              [0-3096] cell: Returned
+            [0-3098] row
+              [0-3099] cell: ORD-20095
+              [0-3101] cell: 2026-02-19
+              [0-3103] cell: Jonas Berg
+              [0-3105] cell: North
+              [0-3107] cell: USB-C Dock
+              [0-3109] cell: 4
+              [0-3111] cell: $149.99
+              [0-3113] cell: $599.96
+              [0-3115] cell: Shipped
+            [0-3117] row
+              [0-3118] cell: ORD-20096
+              [0-3120] cell: 2026-02-21
+              [0-3122] cell: Dmitri Volkov
+              [0-3124] cell: West
+              [0-3126] cell: Noise-cancelling Headset
+              [0-3128] cell: 6
+              [0-3130] cell: $199.00
+              [0-3132] cell: $1,194.00
+              [0-3134] cell: Cancelled
+            [0-3136] row
+              [0-3137] cell: ORD-20097
+              [0-3139] cell: 2026-02-23
+              [0-3141] cell: Nikolai Petrov
+              [0-3143] cell: North
+              [0-3145] cell: USB-C Dock
+              [0-3147] cell: 8
+              [0-3149] cell: $149.99
+              [0-3151] cell: $1,199.92
+              [0-3153] cell: Returned
+            [0-3155] row
+              [0-3156] cell: ORD-20098
+              [0-3158] cell: 2026-02-25
+              [0-3160] cell: Nikolai Petrov
+              [0-3162] cell: North
+              [0-3164] cell: Noise-cancelling Headset
+              [0-3166] cell: 3
+              [0-3168] cell: $199.00
+              [0-3170] cell: $597.00
+              [0-3172] cell: Cancelled
+            [0-3174] row
+              [0-3175] cell: ORD-20099
+              [0-3177] cell: 2026-02-07
+              [0-3179] cell: Tess Walker
+              [0-3181] cell: South
+              [0-3183] cell: Ergonomic Chair
+              [0-3185] cell: 3
+              [0-3187] cell: $289.00
+              [0-3189] cell: $867.00
+              [0-3191] cell: Shipped
+            [0-3193] row
+              [0-3194] cell: ORD-20100
+              [0-3196] cell: 2026-02-21
+              [0-3198] cell: Zoe Fischer
+              [0-3200] cell: West
+              [0-3202] cell: Noise-cancelling Headset
+              [0-3204] cell: 1
+              [0-3206] cell: $199.00
+              [0-3208] cell: $199.00
+              [0-3210] cell: Delivered
+            [0-3212] row
+              [0-3213] cell: ORD-20101
+              [0-3215] cell: 2026-02-19
+              [0-3217] cell: Tess Walker
+              [0-3219] cell: South
+              [0-3221] cell: Keyboard
+              [0-3223] cell: 8
+              [0-3225] cell: $99.00
+              [0-3227] cell: $792.00
+              [0-3229] cell: Delivered
+            [0-3231] row
+              [0-3232] cell: ORD-20102
+              [0-3234] cell: 2026-02-13
+              [0-3236] cell: Valentina Ricci
+              [0-3238] cell: North
+              [0-3240] cell: Footrest
+              [0-3242] cell: 3
+              [0-3244] cell: $42.00
+              [0-3246] cell: $126.00
+              [0-3248] cell: Shipped
+            [0-3250] row
+              [0-3251] cell: ORD-20103
+              [0-3253] cell: 2026-02-27
+              [0-3255] cell: Ximena Ortiz
+              [0-3257] cell: Central
+              [0-3259] cell: Noise-cancelling Headset
+              [0-3261] cell: 6
+              [0-3263] cell: $199.00
+              [0-3265] cell: $1,194.00
+              [0-3267] cell: Shipped
+            [0-3269] row
+              [0-3270] cell: ORD-20104
+              [0-3272] cell: 2026-02-21
+              [0-3274] cell: Nikolai Petrov
+              [0-3276] cell: East
+              [0-3278] cell: Ergonomic Chair
+              [0-3280] cell: 6
+              [0-3282] cell: $289.00
+              [0-3284] cell: $1,734.00
+              [0-3286] cell: Cancelled
+            [0-3288] row
+              [0-3289] cell: ORD-20105
+              [0-3291] cell: 2026-02-19
+              [0-3293] cell: Hiro Tanaka
+              [0-3295] cell: North
+              [0-3297] cell: Ergonomic Chair
+              [0-3299] cell: 4
+              [0-3301] cell: $289.00
+              [0-3303] cell: $1,156.00
+              [0-3305] cell: Processing
+            [0-3307] row
+              [0-3308] cell: ORD-20106
+              [0-3310] cell: 2026-02-09
+              [0-3312] cell: Jonas Berg
+              [0-3314] cell: North
+              [0-3316] cell: USB-C Dock
+              [0-3318] cell: 9
+              [0-3320] cell: $149.99
+              [0-3322] cell: $1,349.91
+              [0-3324] cell: Cancelled
+            [0-3326] row
+              [0-3327] cell: ORD-20107
+              [0-3329] cell: 2026-02-27
+              [0-3331] cell: Tess Walker
+              [0-3333] cell: West
+              [0-3335] cell: USB-C Dock
+              [0-3337] cell: 9
+              [0-3339] cell: $149.99
+              [0-3341] cell: $1,349.91
+              [0-3343] cell: Processing
+            [0-3345] row
+              [0-3346] cell: ORD-20108
+              [0-3348] cell: 2026-02-21
+              [0-3350] cell: Bruno Silva
+              [0-3352] cell: West
+              [0-3354] cell: Footrest
+              [0-3356] cell: 9
+              [0-3358] cell: $42.00
+              [0-3360] cell: $378.00
+              [0-3362] cell: Returned
+            [0-3364] row
+              [0-3365] cell: ORD-20109
+              [0-3367] cell: 2026-02-19
+              [0-3369] cell: Lucas Moreau
+              [0-3371] cell: North
+              [0-3373] cell: Footrest
+              [0-3375] cell: 1
+              [0-3377] cell: $42.00
+              [0-3379] cell: $42.00
+              [0-3381] cell: Delivered
+            [0-3383] row
+              [0-3384] cell: ORD-20110
+              [0-3386] cell: 2026-02-25
+              [0-3388] cell: Dmitri Volkov
+              [0-3390] cell: West
+              [0-3392] cell: USB-C Dock
+              [0-3394] cell: 9
+              [0-3396] cell: $149.99
+              [0-3398] cell: $1,349.91
+              [0-3400] cell: Delivered
+            [0-3402] row
+              [0-3403] cell: ORD-20111
+              [0-3405] cell: 2026-02-19
+              [0-3407] cell: Ximena Ortiz
+              [0-3409] cell: East
+              [0-3411] cell: Noise-cancelling Headset
+              [0-3413] cell: 6
+              [0-3415] cell: $199.00
+              [0-3417] cell: $1,194.00
+              [0-3419] cell: Returned
+            [0-3421] row
+              [0-3422] cell: ORD-20112
+              [0-3424] cell: 2026-02-05
+              [0-3426] cell: Bruno Silva
+              [0-3428] cell: West
+              [0-3430] cell: Footrest
+              [0-3432] cell: 6
+              [0-3434] cell: $42.00
+              [0-3436] cell: $252.00
+              [0-3438] cell: Returned
+            [0-3440] row
+              [0-3441] cell: ORD-20113
+              [0-3443] cell: 2026-03-27
+              [0-3445] cell: Zoe Fischer
+              [0-3447] cell: South
+              [0-3449] cell: Noise-cancelling Headset
+              [0-3451] cell: 8
+              [0-3453] cell: $199.00
+              [0-3455] cell: $1,592.00
+              [0-3457] cell: Delivered
+            [0-3459] row
+              [0-3460] cell: ORD-20114
+              [0-3462] cell: 2026-03-21
+              [0-3464] cell: Pedro Santos
+              [0-3466] cell: East
+              [0-3468] cell: USB-C Dock
+              [0-3470] cell: 7
+              [0-3472] cell: $149.99
+              [0-3474] cell: $1,049.93
+              [0-3476] cell: Delivered
+            [0-3478] row
+              [0-3479] cell: ORD-20115
+              [0-3481] cell: 2026-03-27
+              [0-3483] cell: Ximena Ortiz
+              [0-3485] cell: North
+              [0-3487] cell: Footrest
+              [0-3489] cell: 9
+              [0-3491] cell: $42.00
+              [0-3493] cell: $378.00
+              [0-3495] cell: Shipped
+            [0-3497] row
+              [0-3498] cell: ORD-20116
+              [0-3500] cell: 2026-03-05
+              [0-3502] cell: Lucas Moreau
+              [0-3504] cell: South
+              [0-3506] cell: Noise-cancelling Headset
+              [0-3508] cell: 7
+              [0-3510] cell: $199.00
+              [0-3512] cell: $1,393.00
+              [0-3514] cell: Delivered
+            [0-3516] row
+              [0-3517] cell: ORD-20117
+              [0-3519] cell: 2026-03-11
+              [0-3521] cell: Zoe Fischer
+              [0-3523] cell: South
+              [0-3525] cell: USB-C Dock
+              [0-3527] cell: 2
+              [0-3529] cell: $149.99
+              [0-3531] cell: $299.98
+              [0-3533] cell: Delivered
+            [0-3535] row
+              [0-3536] cell: ORD-20118
+              [0-3538] cell: 2026-03-17
+              [0-3540] cell: Zoe Fischer
+              [0-3542] cell: East
+              [0-3544] cell: Noise-cancelling Headset
+              [0-3546] cell: 6
+              [0-3548] cell: $199.00
+              [0-3550] cell: $1,194.00
+              [0-3552] cell: Shipped
+            [0-3554] row
+              [0-3555] cell: ORD-20119
+              [0-3557] cell: 2026-03-19
+              [0-3559] cell: Valentina Ricci
+              [0-3561] cell: East
+              [0-3563] cell: Noise-cancelling Headset
+              [0-3565] cell: 9
+              [0-3567] cell: $199.00
+              [0-3569] cell: $1,791.00
+              [0-3571] cell: Delivered
+            [0-3573] row
+              [0-3574] cell: ORD-20120
+              [0-3576] cell: 2026-03-17
+              [0-3578] cell: Farah Haddad
+              [0-3580] cell: South
+              [0-3582] cell: Keyboard
+              [0-3584] cell: 8
+              [0-3586] cell: $99.00
+              [0-3588] cell: $792.00
+              [0-3590] cell: Delivered
+            [0-3592] row
+              [0-3593] cell: ORD-20121
+              [0-3595] cell: 2026-03-19
+              [0-3597] cell: Pedro Santos
+              [0-3599] cell: East
+              [0-3601] cell: Keyboard
+              [0-3603] cell: 9
+              [0-3605] cell: $99.00
+              [0-3607] cell: $891.00
+              [0-3609] cell: Returned
+            [0-3611] row
+              [0-3612] cell: ORD-20122
+              [0-3614] cell: 2026-03-21
+              [0-3616] cell: Zoe Fischer
+              [0-3618] cell: South
+              [0-3620] cell: Keyboard
+              [0-3622] cell: 6
+              [0-3624] cell: $99.00
+              [0-3626] cell: $594.00
+              [0-3628] cell: Delivered
+            [0-3630] row
+              [0-3631] cell: ORD-20123
+              [0-3633] cell: 2026-03-07
+              [0-3635] cell: Zoe Fischer
+              [0-3637] cell: Central
+              [0-3639] cell: Footrest
+              [0-3641] cell: 3
+              [0-3643] cell: $42.00
+              [0-3645] cell: $126.00
+              [0-3647] cell: Shipped
+            [0-3649] row
+              [0-3650] cell: ORD-20124
+              [0-3652] cell: 2026-03-01
+              [0-3654] cell: Farah Haddad
+              [0-3656] cell: West
+              [0-3658] cell: Keyboard
+              [0-3660] cell: 7
+              [0-3662] cell: $99.00
+              [0-3664] cell: $693.00
+              [0-3666] cell: Returned
+            [0-3668] row
+              [0-3669] cell: ORD-20125
+              [0-3671] cell: 2026-03-15
+              [0-3673] cell: Rosa Delgado
+              [0-3675] cell: East
+              [0-3677] cell: Keyboard
+              [0-3679] cell: 7
+              [0-3681] cell: $99.00
+              [0-3683] cell: $693.00
+              [0-3685] cell: Delivered
+            [0-3687] row
+              [0-3688] cell: ORD-20126
+              [0-3690] cell: 2026-03-13
+              [0-3692] cell: Hiro Tanaka
+              [0-3694] cell: Central
+              [0-3696] cell: Noise-cancelling Headset
+              [0-3698] cell: 6
+              [0-3700] cell: $199.00
+              [0-3702] cell: $1,194.00
+              [0-3704] cell: Delivered
+            [0-3706] row
+              [0-3707] cell: ORD-20127
+              [0-3709] cell: 2026-03-27
+              [0-3711] cell: Zoe Fischer
+              [0-3713] cell: Central
+              [0-3715] cell: USB-C Dock
+              [0-3717] cell: 6
+              [0-3719] cell: $149.99
+              [0-3721] cell: $899.94
+              [0-3723] cell: Processing
+            [0-3725] row
+              [0-3726] cell: ORD-20128
+              [0-3728] cell: 2026-03-09
+              [0-3730] cell: Tess Walker
+              [0-3732] cell: West
+              [0-3734] cell: Ergonomic Chair
+              [0-3736] cell: 5
+              [0-3738] cell: $289.00
+              [0-3740] cell: $1,445.00
+              [0-3742] cell: Returned
+            [0-3744] row
+              [0-3745] cell: ORD-20129
+              [0-3747] cell: 2026-03-27
+              [0-3749] cell: Bruno Silva
+              [0-3751] cell: North
+              [0-3753] cell: Keyboard
+              [0-3755] cell: 7
+              [0-3757] cell: $99.00
+              [0-3759] cell: $693.00
+              [0-3761] cell: Shipped
+            [0-3763] row
+              [0-3764] cell: ORD-20130
+              [0-3766] cell: 2026-03-21
+              [0-3768] cell: Bruno Silva
+              [0-3770] cell: West
+              [0-3772] cell: Noise-cancelling Headset
+              [0-3774] cell: 7
+              [0-3776] cell: $199.00
+              [0-3778] cell: $1,393.00
+              [0-3780] cell: Processing
+            [0-3782] row
+              [0-3783] cell: ORD-20131
+              [0-3785] cell: 2026-03-03
+              [0-3787] cell: Zoe Fischer
+              [0-3789] cell: Central
+              [0-3791] cell: Footrest
+              [0-3793] cell: 7
+              [0-3795] cell: $42.00
+              [0-3797] cell: $294.00
+              [0-3799] cell: Delivered
+            [0-3801] row
+              [0-3802] cell: ORD-20132
+              [0-3804] cell: 2026-03-13
+              [0-3806] cell: Lucas Moreau
+              [0-3808] cell: East
+              [0-3810] cell: Keyboard
+              [0-3812] cell: 7
+              [0-3814] cell: $99.00
+              [0-3816] cell: $693.00
+              [0-3818] cell: Processing
+            [0-3820] row
+              [0-3821] cell: ORD-20133
+              [0-3823] cell: 2026-03-27
+              [0-3825] cell: Jonas Berg
+              [0-3827] cell: East
+              [0-3829] cell: USB-C Dock
+              [0-3831] cell: 1
+              [0-3833] cell: $149.99
+              [0-3835] cell: $149.99
+              [0-3837] cell: Shipped
+            [0-3839] row
+              [0-3840] cell: ORD-20134
+              [0-3842] cell: 2026-03-09
+              [0-3844] cell: Lucas Moreau
+              [0-3846] cell: West
+              [0-3848] cell: Footrest
+              [0-3850] cell: 5
+              [0-3852] cell: $42.00
+              [0-3854] cell: $210.00
+              [0-3856] cell: Cancelled
+            [0-3858] row
+              [0-3859] cell: ORD-20135
+              [0-3861] cell: 2026-03-03
+              [0-3863] cell: Valentina Ricci
+              [0-3865] cell: West
+              [0-3867] cell: Ergonomic Chair
+              [0-3869] cell: 1
+              [0-3871] cell: $289.00
+              [0-3873] cell: $289.00
+              [0-3875] cell: Processing
+            [0-3877] row
+              [0-3878] cell: ORD-20136
+              [0-3880] cell: 2026-03-25
+              [0-3882] cell: Rosa Delgado
+              [0-3884] cell: North
+              [0-3886] cell: Noise-cancelling Headset
+              [0-3888] cell: 3
+              [0-3890] cell: $199.00
+              [0-3892] cell: $597.00
+              [0-3894] cell: Cancelled
+            [0-3896] row
+              [0-3897] cell: ORD-20137
+              [0-3899] cell: 2026-03-11
+              [0-3901] cell: Ximena Ortiz
+              [0-3903] cell: South
+              [0-3905] cell: Footrest
+              [0-3907] cell: 1
+              [0-3909] cell: $42.00
+              [0-3911] cell: $42.00
+              [0-3913] cell: Delivered
+            [0-3915] row
+              [0-3916] cell: ORD-20138
+              [0-3918] cell: 2026-03-09
+              [0-3920] cell: Jonas Berg
+              [0-3922] cell: West
+              [0-3924] cell: USB-C Dock
+              [0-3926] cell: 2
+              [0-3928] cell: $149.99
+              [0-3930] cell: $299.98
+              [0-3932] cell: Processing
+            [0-3934] row
+              [0-3935] cell: ORD-20139
+              [0-3937] cell: 2026-03-15
+              [0-3939] cell: Ximena Ortiz
+              [0-3941] cell: East
+              [0-3943] cell: Noise-cancelling Headset
+              [0-3945] cell: 2
+              [0-3947] cell: $199.00
+              [0-3949] cell: $398.00
+              [0-3951] cell: Shipped
+            [0-3953] row
+              [0-3954] cell: ORD-20140
+              [0-3956] cell: 2026-03-21
+              [0-3958] cell: Zoe Fischer
+              [0-3960] cell: West
+              [0-3962] cell: Keyboard
+              [0-3964] cell: 4
+              [0-3966] cell: $99.00
+              [0-3968] cell: $396.00
+              [0-3970] cell: Delivered
+            [0-3972] row
+              [0-3973] cell: ORD-20141
+              [0-3975] cell: 2026-03-07
+              [0-3977] cell: Bruno Silva
+              [0-3979] cell: West
+              [0-3981] cell: Noise-cancelling Headset
+              [0-3983] cell: 1
+              [0-3985] cell: $199.00
+              [0-3987] cell: $199.00
+              [0-3989] cell: Delivered
+            [0-3991] row
+              [0-3992] cell: ORD-20142
+              [0-3994] cell: 2026-03-17
+              [0-3996] cell: Dmitri Volkov
+              [0-3998] cell: North
+              [0-4000] cell: USB-C Dock
+              [0-4002] cell: 1
+              [0-4004] cell: $149.99
+              [0-4006] cell: $149.99
+              [0-4008] cell: Cancelled
+            [0-4010] row
+              [0-4011] cell: ORD-20143
+              [0-4013] cell: 2026-03-19
+              [0-4015] cell: Zoe Fischer
+              [0-4017] cell: Central
+              [0-4019] cell: Noise-cancelling Headset
+              [0-4021] cell: 2
+              [0-4023] cell: $199.00
+              [0-4025] cell: $398.00
+              [0-4027] cell: Delivered
+            [0-4029] row
+              [0-4030] cell: ORD-20144
+              [0-4032] cell: 2026-03-09
+              [0-4034] cell: Jonas Berg
+              [0-4036] cell: South
+              [0-4038] cell: Footrest
+              [0-4040] cell: 4
+              [0-4042] cell: $42.00
+              [0-4044] cell: $168.00
+              [0-4046] cell: Delivered
+            [0-4048] row
+              [0-4049] cell: ORD-20145
+              [0-4051] cell: 2026-03-27
+              [0-4053] cell: Zoe Fischer
+              [0-4055] cell: South
+              [0-4057] cell: Keyboard
+              [0-4059] cell: 8
+              [0-4061] cell: $99.00
+              [0-4063] cell: $792.00
+              [0-4065] cell: Returned
+            [0-4067] row
+              [0-4068] cell: ORD-20146
+              [0-4070] cell: 2026-03-01
+              [0-4072] cell: Bruno Silva
+              [0-4074] cell: North
+              [0-4076] cell: Keyboard
+              [0-4078] cell: 3
+              [0-4080] cell: $99.00
+              [0-4082] cell: $297.00
+              [0-4084] cell: Delivered
+            [0-4086] row
+              [0-4087] cell: ORD-20147
+              [0-4089] cell: 2026-03-11
+              [0-4091] cell: Bruno Silva
+              [0-4093] cell: East
+              [0-4095] cell: Ergonomic Chair
+              [0-4097] cell: 8
+              [0-4099] cell: $289.00
+              [0-4101] cell: $2,312.00
+              [0-4103] cell: Delivered
+            [0-4105] row
+              [0-4106] cell: ORD-20148
+              [0-4108] cell: 2026-03-09
+              [0-4110] cell: Nikolai Petrov
+              [0-4112] cell: East
+              [0-4114] cell: Ergonomic Chair
+              [0-4116] cell: 3
+              [0-4118] cell: $289.00
+              [0-4120] cell: $867.00
+              [0-4122] cell: Cancelled
+            [0-4124] row
+              [0-4125] cell: ORD-20149
+              [0-4127] cell: 2026-03-11
+              [0-4129] cell: Tess Walker
+              [0-4131] cell: Central
+              [0-4133] cell: Keyboard
+              [0-4135] cell: 1
+              [0-4137] cell: $99.00
+              [0-4139] cell: $99.00
+              [0-4141] cell: Returned
+            [0-4143] row
+              [0-4144] cell: ORD-20150
+              [0-4146] cell: 2026-03-09
+              [0-4148] cell: Pedro Santos
+              [0-4150] cell: North
+              [0-4152] cell: Footrest
+              [0-4154] cell: 1
+              [0-4156] cell: $42.00
+              [0-4158] cell: $42.00
+              [0-4160] cell: Processing
+            [0-4162] row
+              [0-4163] cell: ORD-20151
+              [0-4165] cell: 2026-03-11
+              [0-4167] cell: Pedro Santos
+              [0-4169] cell: East
+              [0-4171] cell: Footrest
+              [0-4173] cell: 1
+              [0-4175] cell: $42.00
+              [0-4177] cell: $42.00
+              [0-4179] cell: Processing
+            [0-4181] row
+              [0-4182] cell: ORD-20152
+              [0-4184] cell: 2026-03-01
+              [0-4186] cell: Valentina Ricci
+              [0-4188] cell: East
+              [0-4190] cell: Noise-cancelling Headset
+              [0-4192] cell: 9
+              [0-4194] cell: $199.00
+              [0-4196] cell: $1,791.00
+              [0-4198] cell: Shipped
+            [0-4200] row
+              [0-4201] cell: ORD-20153
+              [0-4203] cell: 2026-03-27
+              [0-4205] cell: Zoe Fischer
+              [0-4207] cell: Central
+              [0-4209] cell: USB-C Dock
+              [0-4211] cell: 2
+              [0-4213] cell: $149.99
+              [0-4215] cell: $299.98
+              [0-4217] cell: Processing
+            [0-4219] row
+              [0-4220] cell: ORD-20154
+              [0-4222] cell: 2026-03-17
+              [0-4224] cell: Pedro Santos
+              [0-4226] cell: North
+              [0-4228] cell: Ergonomic Chair
+              [0-4230] cell: 4
+              [0-4232] cell: $289.00
+              [0-4234] cell: $1,156.00
+              [0-4236] cell: Processing
+            [0-4238] row
+              [0-4239] cell: ORD-20155
+              [0-4241] cell: 2026-03-11
+              [0-4243] cell: Farah Haddad
+              [0-4245] cell: South
+              [0-4247] cell: Noise-cancelling Headset
+              [0-4249] cell: 1
+              [0-4251] cell: $199.00
+              [0-4253] cell: $199.00
+              [0-4255] cell: Cancelled
+            [0-4257] row
+              [0-4258] cell: ORD-20156
+              [0-4260] cell: 2026-03-05
+              [0-4262] cell: Dmitri Volkov
+              [0-4264] cell: South
+              [0-4266] cell: Footrest
+              [0-4268] cell: 9
+              [0-4270] cell: $42.00
+              [0-4272] cell: $378.00
+              [0-4274] cell: Returned
+            [0-4276] row
+              [0-4277] cell: ORD-20157
+              [0-4279] cell: 2026-03-07
+              [0-4281] cell: Nikolai Petrov
+              [0-4283] cell: East
+              [0-4285] cell: USB-C Dock
+              [0-4287] cell: 4
+              [0-4289] cell: $149.99
+              [0-4291] cell: $599.96
+              [0-4293] cell: Delivered
+            [0-4295] row
+              [0-4296] cell: ORD-20158
+              [0-4298] cell: 2026-03-21
+              [0-4300] cell: Rosa Delgado
+              [0-4302] cell: West
+              [0-4304] cell: Noise-cancelling Headset
+              [0-4306] cell: 1
+              [0-4308] cell: $199.00
+              [0-4310] cell: $199.00
+              [0-4312] cell: Returned
+            [0-4314] row
+              [0-4315] cell: ORD-20159
+              [0-4317] cell: 2026-03-03
+              [0-4319] cell: Dmitri Volkov
+              [0-4321] cell: North
+              [0-4323] cell: USB-C Dock
+              [0-4325] cell: 8
+              [0-4327] cell: $149.99
+              [0-4329] cell: $1,199.92
+              [0-4331] cell: Delivered
+            [0-4333] row
+              [0-4334] cell: ORD-20160
+              [0-4336] cell: 2026-03-09
+              [0-4338] cell: Rosa Delgado
+              [0-4340] cell: Central
+              [0-4342] cell: Keyboard
+              [0-4344] cell: 8
+              [0-4346] cell: $99.00
+              [0-4348] cell: $792.00
+              [0-4350] cell: Delivered
+            [0-4352] row
+              [0-4353] cell: ORD-20161
+              [0-4355] cell: 2026-03-11
+              [0-4357] cell: Bruno Silva
+              [0-4359] cell: Central
+              [0-4361] cell: Noise-cancelling Headset
+              [0-4363] cell: 9
+              [0-4365] cell: $199.00
+              [0-4367] cell: $1,791.00
+              [0-4369] cell: Delivered
+            [0-4371] row
+              [0-4372] cell: ORD-20162
+              [0-4374] cell: 2026-03-05
+              [0-4376] cell: Rosa Delgado
+              [0-4378] cell: North
+              [0-4380] cell: Footrest
+              [0-4382] cell: 9
+              [0-4384] cell: $42.00
+              [0-4386] cell: $378.00
+              [0-4388] cell: Delivered
+            [0-4390] row
+              [0-4391] cell: ORD-20163
+              [0-4393] cell: 2026-03-19
+              [0-4395] cell: Tess Walker
+              [0-4397] cell: South
+              [0-4399] cell: Noise-cancelling Headset
+              [0-4401] cell: 8
+              [0-4403] cell: $199.00
+              [0-4405] cell: $1,592.00
+              [0-4407] cell: Processing
+            [0-4409] row
+              [0-4410] cell: ORD-20164
+              [0-4412] cell: 2026-03-09
+              [0-4414] cell: Valentina Ricci
+              [0-4416] cell: South
+              [0-4418] cell: Noise-cancelling Headset
+              [0-4420] cell: 7
+              [0-4422] cell: $199.00
+              [0-4424] cell: $1,393.00
+              [0-4426] cell: Cancelled
+            [0-4428] row
+              [0-4429] cell: ORD-20165
+              [0-4431] cell: 2026-03-07
+              [0-4433] cell: Bruno Silva
+              [0-4435] cell: East
+              [0-4437] cell: Keyboard
+              [0-4439] cell: 9
+              [0-4441] cell: $99.00
+              [0-4443] cell: $891.00
+              [0-4445] cell: Processing
+            [0-4447] row
+              [0-4448] cell: ORD-20166
+              [0-4450] cell: 2026-03-25
+              [0-4452] cell: Bruno Silva
+              [0-4454] cell: North
+              [0-4456] cell: Footrest
+              [0-4458] cell: 2
+              [0-4460] cell: $42.00
+              [0-4462] cell: $84.00
+              [0-4464] cell: Delivered
+            [0-4466] row
+              [0-4467] cell: ORD-20167
+              [0-4469] cell: 2026-03-15
+              [0-4471] cell: Pedro Santos
+              [0-4473] cell: East
+              [0-4475] cell: USB-C Dock
+              [0-4477] cell: 3
+              [0-4479] cell: $149.99
+              [0-4481] cell: $449.97
+              [0-4483] cell: Delivered
+            [0-4485] row
+              [0-4486] cell: ORD-20168
+              [0-4488] cell: 2026-04-09
+              [0-4490] cell: Lucas Moreau
+              [0-4492] cell: Central
+              [0-4494] cell: Ergonomic Chair
+              [0-4496] cell: 8
+              [0-4498] cell: $289.00
+              [0-4500] cell: $2,312.00
+              [0-4502] cell: Shipped
+            [0-4504] row
+              [0-4505] cell: ORD-20169
+              [0-4507] cell: 2026-04-07
+              [0-4509] cell: Pedro Santos
+              [0-4511] cell: South
+              [0-4513] cell: Footrest
+              [0-4515] cell: 4
+              [0-4517] cell: $42.00
+              [0-4519] cell: $168.00
+              [0-4521] cell: Shipped
+            [0-4523] row
+              [0-4524] cell: ORD-20170
+              [0-4526] cell: 2026-04-09
+              [0-4528] cell: Farah Haddad
+              [0-4530] cell: Central
+              [0-4532] cell: USB-C Dock
+              [0-4534] cell: 6
+              [0-4536] cell: $149.99
+              [0-4538] cell: $899.94
+              [0-4540] cell: Shipped
+            [0-4542] row
+              [0-4543] cell: ORD-20171
+              [0-4545] cell: 2026-04-27
+              [0-4547] cell: Nikolai Petrov
+              [0-4549] cell: West
+              [0-4551] cell: Ergonomic Chair
+              [0-4553] cell: 2
+              [0-4555] cell: $289.00
+              [0-4557] cell: $578.00
+              [0-4559] cell: Delivered
+            [0-4561] row
+              [0-4562] cell: ORD-20172
+              [0-4564] cell: 2026-04-25
+              [0-4566] cell: Hiro Tanaka
+              [0-4568] cell: Central
+              [0-4570] cell: Keyboard
+              [0-4572] cell: 8
+              [0-4574] cell: $99.00
+              [0-4576] cell: $792.00
+              [0-4578] cell: Delivered
+            [0-4580] row
+              [0-4581] cell: ORD-20173
+              [0-4583] cell: 2026-04-03
+              [0-4585] cell: Farah Haddad
+              [0-4587] cell: North
+              [0-4589] cell: Noise-cancelling Headset
+              [0-4591] cell: 9
+              [0-4593] cell: $199.00
+              [0-4595] cell: $1,791.00
+              [0-4597] cell: Returned
+            [0-4599] row
+              [0-4600] cell: ORD-20174
+              [0-4602] cell: 2026-04-17
+              [0-4604] cell: Jonas Berg
+              [0-4606] cell: North
+              [0-4608] cell: Keyboard
+              [0-4610] cell: 4
+              [0-4612] cell: $99.00
+              [0-4614] cell: $396.00
+              [0-4616] cell: Delivered
+            [0-4618] row
+              [0-4619] cell: ORD-20175
+              [0-4621] cell: 2026-04-27
+              [0-4623] cell: Ximena Ortiz
+              [0-4625] cell: West
+              [0-4627] cell: Ergonomic Chair
+              [0-4629] cell: 8
+              [0-4631] cell: $289.00
+              [0-4633] cell: $2,312.00
+              [0-4635] cell: Returned
+            [0-4637] row
+              [0-4638] cell: ORD-20176
+              [0-4640] cell: 2026-04-17
+              [0-4642] cell: Nikolai Petrov
+              [0-4644] cell: East
+              [0-4646] cell: USB-C Dock
+              [0-4648] cell: 9
+              [0-4650] cell: $149.99
+              [0-4652] cell: $1,349.91
+              [0-4654] cell: Delivered
+            [0-4656] row
+              [0-4657] cell: ORD-20177
+              [0-4659] cell: 2026-04-15
+              [0-4661] cell: Rosa Delgado
+              [0-4663] cell: West
+              [0-4665] cell: Footrest
+              [0-4667] cell: 5
+              [0-4669] cell: $42.00
+              [0-4671] cell: $210.00
+              [0-4673] cell: Processing
+            [0-4675] row
+              [0-4676] cell: ORD-20178
+              [0-4678] cell: 2026-04-09
+              [0-4680] cell: Rosa Delgado
+              [0-4682] cell: South
+              [0-4684] cell: Footrest
+              [0-4686] cell: 5
+              [0-4688] cell: $42.00
+              [0-4690] cell: $210.00
+              [0-4692] cell: Delivered
+            [0-4694] row
+              [0-4695] cell: ORD-20179
+              [0-4697] cell: 2026-04-27
+              [0-4699] cell: Farah Haddad
+              [0-4701] cell: Central
+              [0-4703] cell: Noise-cancelling Headset
+              [0-4705] cell: 9
+              [0-4707] cell: $199.00
+              [0-4709] cell: $1,791.00
+              [0-4711] cell: Returned
+            [0-4713] row
+              [0-4714] cell: ORD-20180
+              [0-4716] cell: 2026-04-17
+              [0-4718] cell: Nikolai Petrov
+              [0-4720] cell: Central
+              [0-4722] cell: USB-C Dock
+              [0-4724] cell: 5
+              [0-4726] cell: $149.99
+              [0-4728] cell: $749.95
+              [0-4730] cell: Delivered
+            [0-4732] row
+              [0-4733] cell: ORD-20181
+              [0-4735] cell: 2026-04-11
+              [0-4737] cell: Lucas Moreau
+              [0-4739] cell: South
+              [0-4741] cell: Noise-cancelling Headset
+              [0-4743] cell: 7
+              [0-4745] cell: $199.00
+              [0-4747] cell: $1,393.00
+              [0-4749] cell: Delivered
+            [0-4751] row
+              [0-4752] cell: ORD-20182
+              [0-4754] cell: 2026-04-13
+              [0-4756] cell: Bruno Silva
+              [0-4758] cell: East
+              [0-4760] cell: Keyboard
+              [0-4762] cell: 3
+              [0-4764] cell: $99.00
+              [0-4766] cell: $297.00
+              [0-4768] cell: Returned
+            [0-4770] row
+              [0-4771] cell: ORD-20183
+              [0-4773] cell: 2026-04-03
+              [0-4775] cell: Tess Walker
+              [0-4777] cell: West
+              [0-4779] cell: Noise-cancelling Headset
+              [0-4781] cell: 9
+              [0-4783] cell: $199.00
+              [0-4785] cell: $1,791.00
+              [0-4787] cell: Processing
+            [0-4789] row
+              [0-4790] cell: ORD-20184
+              [0-4792] cell: 2026-04-09
+              [0-4794] cell: Hiro Tanaka
+              [0-4796] cell: Central
+              [0-4798] cell: Keyboard
+              [0-4800] cell: 1
+              [0-4802] cell: $99.00
+              [0-4804] cell: $99.00
+              [0-4806] cell: Processing
+            [0-4808] row
+              [0-4809] cell: ORD-20185
+              [0-4811] cell: 2026-04-19
+              [0-4813] cell: Valentina Ricci
+              [0-4815] cell: South
+              [0-4817] cell: USB-C Dock
+              [0-4819] cell: 5
+              [0-4821] cell: $149.99
+              [0-4823] cell: $749.95
+              [0-4825] cell: Processing
+            [0-4827] row
+              [0-4828] cell: ORD-20186
+              [0-4830] cell: 2026-04-17
+              [0-4832] cell: Zoe Fischer
+              [0-4834] cell: West
+              [0-4836] cell: Footrest
+              [0-4838] cell: 6
+              [0-4840] cell: $42.00
+              [0-4842] cell: $252.00
+              [0-4844] cell: Delivered
+            [0-4846] row
+              [0-4847] cell: ORD-20187
+              [0-4849] cell: 2026-04-15
+              [0-4851] cell: Pedro Santos
+              [0-4853] cell: West
+              [0-4855] cell: Ergonomic Chair
+              [0-4857] cell: 6
+              [0-4859] cell: $289.00
+              [0-4861] cell: $1,734.00
+              [0-4863] cell: Delivered
+            [0-4865] row
+              [0-4866] cell: ORD-20188
+              [0-4868] cell: 2026-04-13
+              [0-4870] cell: Bruno Silva
+              [0-4872] cell: West
+              [0-4874] cell: Footrest
+              [0-4876] cell: 6
+              [0-4878] cell: $42.00
+              [0-4880] cell: $252.00
+              [0-4882] cell: Delivered
+            [0-4884] row
+              [0-4885] cell: ORD-20189
+              [0-4887] cell: 2026-04-19
+              [0-4889] cell: Zoe Fischer
+              [0-4891] cell: Central
+              [0-4893] cell: Ergonomic Chair
+              [0-4895] cell: 7
+              [0-4897] cell: $289.00
+              [0-4899] cell: $2,023.00
+              [0-4901] cell: Delivered
+            [0-4903] row
+              [0-4904] cell: ORD-20190
+              [0-4906] cell: 2026-04-21
+              [0-4908] cell: Ximena Ortiz
+              [0-4910] cell: East
+              [0-4912] cell: Footrest
+              [0-4914] cell: 6
+              [0-4916] cell: $42.00
+              [0-4918] cell: $252.00
+              [0-4920] cell: Delivered
+            [0-4922] row
+              [0-4923] cell: ORD-20191
+              [0-4925] cell: 2026-04-07
+              [0-4927] cell: Tess Walker
+              [0-4929] cell: East
+              [0-4931] cell: Footrest
+              [0-4933] cell: 4
+              [0-4935] cell: $42.00
+              [0-4937] cell: $168.00
+              [0-4939] cell: Processing
+            [0-4941] row
+              [0-4942] cell: ORD-20192
+              [0-4944] cell: 2026-04-01
+              [0-4946] cell: Jonas Berg
+              [0-4948] cell: West
+              [0-4950] cell: Keyboard
+              [0-4952] cell: 8
+              [0-4954] cell: $99.00
+              [0-4956] cell: $792.00
+              [0-4958] cell: Returned
+            [0-4960] row
+              [0-4961] cell: ORD-20193
+              [0-4963] cell: 2026-04-23
+              [0-4965] cell: Lucas Moreau
+              [0-4967] cell: South
+              [0-4969] cell: Ergonomic Chair
+              [0-4971] cell: 7
+              [0-4973] cell: $289.00
+              [0-4975] cell: $2,023.00
+              [0-4977] cell: Returned
+            [0-4979] row
+              [0-4980] cell: ORD-20194
+              [0-4982] cell: 2026-04-05
+              [0-4984] cell: Ximena Ortiz
+              [0-4986] cell: Central
+              [0-4988] cell: Keyboard
+              [0-4990] cell: 1
+              [0-4992] cell: $99.00
+              [0-4994] cell: $99.00
+              [0-4996] cell: Shipped
+            [0-4998] row
+              [0-4999] cell: ORD-20195
+              [0-5001] cell: 2026-04-23
+              [0-5003] cell: Jonas Berg
+              [0-5005] cell: North
+              [0-5007] cell: Noise-cancelling Headset
+              [0-5009] cell: 6
+              [0-5011] cell: $199.00
+              [0-5013] cell: $1,194.00
+              [0-5015] cell: Returned
+            [0-5017] row
+              [0-5018] cell: ORD-20196
+              [0-5020] cell: 2026-04-21
+              [0-5022] cell: Jonas Berg
+              [0-5024] cell: East
+              [0-5026] cell: Footrest
+              [0-5028] cell: 3
+              [0-5030] cell: $42.00
+              [0-5032] cell: $126.00
+              [0-5034] cell: Processing
+            [0-5036] row
+              [0-5037] cell: ORD-20197
+              [0-5039] cell: 2026-04-19
+              [0-5041] cell: Zoe Fischer
+              [0-5043] cell: South
+              [0-5045] cell: Noise-cancelling Headset
+              [0-5047] cell: 8
+              [0-5049] cell: $199.00
+              [0-5051] cell: $1,592.00
+              [0-5053] cell: Delivered
+            [0-5055] row
+              [0-5056] cell: ORD-20198
+              [0-5058] cell: 2026-04-13
+              [0-5060] cell: Ximena Ortiz
+              [0-5062] cell: South
+              [0-5064] cell: Footrest
+              [0-5066] cell: 1
+              [0-5068] cell: $42.00
+              [0-5070] cell: $42.00
+              [0-5072] cell: Delivered
+            [0-5074] row
+              [0-5075] cell: ORD-20199
+              [0-5077] cell: 2026-04-11
+              [0-5079] cell: Pedro Santos
+              [0-5081] cell: West
+              [0-5083] cell: Keyboard
+              [0-5085] cell: 6
+              [0-5087] cell: $99.00
+              [0-5089] cell: $594.00
+              [0-5091] cell: Shipped
+            [0-5093] row
+              [0-5094] cell: ORD-20200
+              [0-5096] cell: 2026-04-21
+              [0-5098] cell: Rosa Delgado
+              [0-5100] cell: North
+              [0-5102] cell: Ergonomic Chair
+              [0-5104] cell: 4
+              [0-5106] cell: $289.00
+              [0-5108] cell: $1,156.00
+              [0-5110] cell: Processing
+            [0-5112] row
+              [0-5113] cell: ORD-20201
+              [0-5115] cell: 2026-04-07
+              [0-5117] cell: Rosa Delgado
+              [0-5119] cell: East
+              [0-5121] cell: Ergonomic Chair
+              [0-5123] cell: 6
+              [0-5125] cell: $289.00
+              [0-5127] cell: $1,734.00
+              [0-5129] cell: Cancelled
+            [0-5131] row
+              [0-5132] cell: ORD-20202
+              [0-5134] cell: 2026-04-05
+              [0-5136] cell: Zoe Fischer
+              [0-5138] cell: North
+              [0-5140] cell: Keyboard
+              [0-5142] cell: 5
+              [0-5144] cell: $99.00
+              [0-5146] cell: $495.00
+              [0-5148] cell: Shipped
+            [0-5150] row
+              [0-5151] cell: ORD-20203
+              [0-5153] cell: 2026-04-19
+              [0-5155] cell: Farah Haddad
+              [0-5157] cell: North
+              [0-5159] cell: Ergonomic Chair
+              [0-5161] cell: 3
+              [0-5163] cell: $289.00
+              [0-5165] cell: $867.00
+              [0-5167] cell: Delivered
+            [0-5169] row
+              [0-5170] cell: ORD-20204
+              [0-5172] cell: 2026-04-25
+              [0-5174] cell: Pedro Santos
+              [0-5176] cell: Central
+              [0-5178] cell: Footrest
+              [0-5180] cell: 9
+              [0-5182] cell: $42.00
+              [0-5184] cell: $378.00
+              [0-5186] cell: Cancelled
+            [0-5188] row
+              [0-5189] cell: ORD-20205
+              [0-5191] cell: 2026-04-03
+              [0-5193] cell: Hiro Tanaka
+              [0-5195] cell: South
+              [0-5197] cell: Footrest
+              [0-5199] cell: 2
+              [0-5201] cell: $42.00
+              [0-5203] cell: $84.00
+              [0-5205] cell: Processing
+            [0-5207] row
+              [0-5208] cell: ORD-20206
+              [0-5210] cell: 2026-04-25
+              [0-5212] cell: Lucas Moreau
+              [0-5214] cell: Central
+              [0-5216] cell: USB-C Dock
+              [0-5218] cell: 3
+              [0-5220] cell: $149.99
+              [0-5222] cell: $449.97
+              [0-5224] cell: Delivered
+            [0-5226] row
+              [0-5227] cell: ORD-20207
+              [0-5229] cell: 2026-04-11
+              [0-5231] cell: Lucas Moreau
+              [0-5233] cell: East
+              [0-5235] cell: Noise-cancelling Headset
+              [0-5237] cell: 8
+              [0-5239] cell: $199.00
+              [0-5241] cell: $1,592.00
+              [0-5243] cell: Shipped
+            [0-5245] row
+              [0-5246] cell: ORD-20208
+              [0-5248] cell: 2026-04-09
+              [0-5250] cell: Pedro Santos
+              [0-5252] cell: South
+              [0-5254] cell: Footrest
+              [0-5256] cell: 2
+              [0-5258] cell: $42.00
+              [0-5260] cell: $84.00
+              [0-5262] cell: Shipped
+            [0-5264] row
+              [0-5265] cell: ORD-20209
+              [0-5267] cell: 2026-04-23
+              [0-5269] cell: Valentina Ricci
+              [0-5271] cell: East
+              [0-5273] cell: Noise-cancelling Headset
+              [0-5275] cell: 9
+              [0-5277] cell: $199.00
+              [0-5279] cell: $1,791.00
+              [0-5281] cell: Returned
+            [0-5283] row
+              [0-5284] cell: ORD-20210
+              [0-5286] cell: 2026-04-17
+              [0-5288] cell: Tess Walker
+              [0-5290] cell: South
+              [0-5292] cell: Keyboard
+              [0-5294] cell: 5
+              [0-5296] cell: $99.00
+              [0-5298] cell: $495.00
+              [0-5300] cell: Cancelled
+            [0-5302] row
+              [0-5303] cell: ORD-20211
+              [0-5305] cell: 2026-04-19
+              [0-5307] cell: Lucas Moreau
+              [0-5309] cell: Central
+              [0-5311] cell: USB-C Dock
+              [0-5313] cell: 7
+              [0-5315] cell: $149.99
+              [0-5317] cell: $1,049.93
+              [0-5319] cell: Returned
+            [0-5321] row
+              [0-5322] cell: ORD-20212
+              [0-5324] cell: 2026-04-17
+              [0-5326] cell: Dmitri Volkov
+              [0-5328] cell: North
+              [0-5330] cell: Footrest
+              [0-5332] cell: 8
+              [0-5334] cell: $42.00
+              [0-5336] cell: $336.00
+              [0-5338] cell: Returned
+            [0-5340] row
+              [0-5341] cell: ORD-20213
+              [0-5343] cell: 2026-04-11
+              [0-5345] cell: Zoe Fischer
+              [0-5347] cell: North
+              [0-5349] cell: Footrest
+              [0-5351] cell: 7
+              [0-5353] cell: $42.00
+              [0-5355] cell: $294.00
+              [0-5357] cell: Processing
+            [0-5359] row
+              [0-5360] cell: ORD-20214
+              [0-5362] cell: 2026-04-25
+              [0-5364] cell: Jonas Berg
+              [0-5366] cell: South
+              [0-5368] cell: USB-C Dock
+              [0-5370] cell: 7
+              [0-5372] cell: $149.99
+              [0-5374] cell: $1,049.93
+              [0-5376] cell: Delivered
+            [0-5378] row
+              [0-5379] cell: ORD-20215
+              [0-5381] cell: 2026-04-11
+              [0-5383] cell: Lucas Moreau
+              [0-5385] cell: East
+              [0-5387] cell: Footrest
+              [0-5389] cell: 9
+              [0-5391] cell: $42.00
+              [0-5393] cell: $378.00
+              [0-5395] cell: Returned
+            [0-5397] row
+              [0-5398] cell: ORD-20216
+              [0-5400] cell: 2026-04-21
+              [0-5402] cell: Bruno Silva
+              [0-5404] cell: East
+              [0-5406] cell: Footrest
+              [0-5408] cell: 9
+              [0-5410] cell: $42.00
+              [0-5412] cell: $378.00
+              [0-5414] cell: Delivered
+            [0-5416] row
+              [0-5417] cell: ORD-20217
+              [0-5419] cell: 2026-04-27
+              [0-5421] cell: Farah Haddad
+              [0-5423] cell: South
+              [0-5425] cell: Keyboard
+              [0-5427] cell: 9
+              [0-5429] cell: $99.00
+              [0-5431] cell: $891.00
+              [0-5433] cell: Delivered
+            [0-5435] row
+              [0-5436] cell: ORD-20218
+              [0-5438] cell: 2026-04-25
+              [0-5440] cell: Rosa Delgado
+              [0-5442] cell: East
+              [0-5444] cell: Ergonomic Chair
+              [0-5446] cell: 2
+              [0-5448] cell: $289.00
+              [0-5450] cell: $578.00
+              [0-5452] cell: Cancelled
+            [0-5454] row
+              [0-5455] cell: ORD-20219
+              [0-5457] cell: 2026-04-27
+              [0-5459] cell: Nikolai Petrov
+              [0-5461] cell: East
+              [0-5463] cell: Keyboard
+              [0-5465] cell: 9
+              [0-5467] cell: $99.00
+              [0-5469] cell: $891.00
+              [0-5471] cell: Delivered
+            [0-5473] row
+              [0-5474] cell: ORD-20220
+              [0-5476] cell: 2026-04-09
+              [0-5478] cell: Hiro Tanaka
+              [0-5480] cell: North
+              [0-5482] cell: Keyboard
+              [0-5484] cell: 5
+              [0-5486] cell: $99.00
+              [0-5488] cell: $495.00
+              [0-5490] cell: Delivered
+            [0-5492] row
+              [0-5493] cell: ORD-20221
+              [0-5495] cell: 2026-04-23
+              [0-5497] cell: Farah Haddad
+              [0-5499] cell: North
+              [0-5501] cell: Keyboard
+              [0-5503] cell: 4
+              [0-5505] cell: $99.00
+              [0-5507] cell: $396.00
+              [0-5509] cell: Cancelled
+            [0-5511] row
+              [0-5512] cell: ORD-20222
+              [0-5514] cell: 2026-04-25
+              [0-5516] cell: Hiro Tanaka
+              [0-5518] cell: South
+              [0-5520] cell: Footrest
+              [0-5522] cell: 3
+              [0-5524] cell: $42.00
+              [0-5526] cell: $126.00
+              [0-5528] cell: Returned
+            [0-5530] row
+              [0-5531] cell: ORD-20223
+              [0-5533] cell: 2026-04-11
+              [0-5535] cell: Lucas Moreau
+              [0-5537] cell: East
+              [0-5539] cell: Noise-cancelling Headset
+              [0-5541] cell: 6
+              [0-5543] cell: $199.00
+              [0-5545] cell: $1,194.00
+              [0-5547] cell: Processing
+            [0-5549] row
+              [0-5550] cell: ORD-20224
+              [0-5552] cell: 2026-05-01
+              [0-5554] cell: Pedro Santos
+              [0-5556] cell: North
+              [0-5558] cell: Noise-cancelling Headset
+              [0-5560] cell: 8
+              [0-5562] cell: $199.00
+              [0-5564] cell: $1,592.00
+              [0-5566] cell: Shipped
+            [0-5568] row
+              [0-5569] cell: ORD-20225
+              [0-5571] cell: 2026-05-07
+              [0-5573] cell: Nikolai Petrov
+              [0-5575] cell: Central
+              [0-5577] cell: Keyboard
+              [0-5579] cell: 8
+              [0-5581] cell: $99.00
+              [0-5583] cell: $792.00
+              [0-5585] cell: Shipped
+            [0-5587] row
+              [0-5588] cell: ORD-20226
+              [0-5590] cell: 2026-05-25
+              [0-5592] cell: Tess Walker
+              [0-5594] cell: North
+              [0-5596] cell: Noise-cancelling Headset
+              [0-5598] cell: 9
+              [0-5600] cell: $199.00
+              [0-5602] cell: $1,791.00
+              [0-5604] cell: Processing
+            [0-5606] row
+              [0-5607] cell: ORD-20227
+              [0-5609] cell: 2026-05-15
+              [0-5611] cell: Nikolai Petrov
+              [0-5613] cell: East
+              [0-5615] cell: Ergonomic Chair
+              [0-5617] cell: 4
+              [0-5619] cell: $289.00
+              [0-5621] cell: $1,156.00
+              [0-5623] cell: Delivered
+            [0-5625] row
+              [0-5626] cell: ORD-20228
+              [0-5628] cell: 2026-05-25
+              [0-5630] cell: Nikolai Petrov
+              [0-5632] cell: East
+              [0-5634] cell: Ergonomic Chair
+              [0-5636] cell: 8
+              [0-5638] cell: $289.00
+              [0-5640] cell: $2,312.00
+              [0-5642] cell: Cancelled
+            [0-5644] row
+              [0-5645] cell: ORD-20229
+              [0-5647] cell: 2026-05-19
+              [0-5649] cell: Rosa Delgado
+              [0-5651] cell: North
+              [0-5653] cell: Keyboard
+              [0-5655] cell: 7
+              [0-5657] cell: $99.00
+              [0-5659] cell: $693.00
+              [0-5661] cell: Returned
+            [0-5663] row
+              [0-5664] cell: ORD-20230
+              [0-5666] cell: 2026-05-05
+              [0-5668] cell: Pedro Santos
+              [0-5670] cell: West
+              [0-5672] cell: Noise-cancelling Headset
+              [0-5674] cell: 5
+              [0-5676] cell: $199.00
+              [0-5678] cell: $995.00
+              [0-5680] cell: Cancelled
+            [0-5682] row
+              [0-5683] cell: ORD-20231
+              [0-5685] cell: 2026-05-19
+              [0-5687] cell: Ximena Ortiz
+              [0-5689] cell: South
+              [0-5691] cell: Ergonomic Chair
+              [0-5693] cell: 6
+              [0-5695] cell: $289.00
+              [0-5697] cell: $1,734.00
+              [0-5699] cell: Delivered
+            [0-5701] row
+              [0-5702] cell: ORD-20232
+              [0-5704] cell: 2026-05-21
+              [0-5706] cell: Pedro Santos
+              [0-5708] cell: Central
+              [0-5710] cell: Ergonomic Chair
+              [0-5712] cell: 8
+              [0-5714] cell: $289.00
+              [0-5716] cell: $2,312.00
+              [0-5718] cell: Processing
+            [0-5720] row
+              [0-5721] cell: ORD-20233
+              [0-5723] cell: 2026-05-03
+              [0-5725] cell: Valentina Ricci
+              [0-5727] cell: West
+              [0-5729] cell: Keyboard
+              [0-5731] cell: 2
+              [0-5733] cell: $99.00
+              [0-5735] cell: $198.00
+              [0-5737] cell: Processing
+            [0-5739] row
+              [0-5740] cell: ORD-20234
+              [0-5742] cell: 2026-05-01
+              [0-5744] cell: Zoe Fischer
+              [0-5746] cell: South
+              [0-5748] cell: USB-C Dock
+              [0-5750] cell: 3
+              [0-5752] cell: $149.99
+              [0-5754] cell: $449.97
+              [0-5756] cell: Processing
+            [0-5758] row
+              [0-5759] cell: ORD-20235
+              [0-5761] cell: 2026-05-11
+              [0-5763] cell: Hiro Tanaka
+              [0-5765] cell: South
+              [0-5767] cell: Keyboard
+              [0-5769] cell: 2
+              [0-5771] cell: $99.00
+              [0-5773] cell: $198.00
+              [0-5775] cell: Cancelled
+            [0-5777] row
+              [0-5778] cell: ORD-20236
+              [0-5780] cell: 2026-05-01
+              [0-5782] cell: Ximena Ortiz
+              [0-5784] cell: West
+              [0-5786] cell: Ergonomic Chair
+              [0-5788] cell: 9
+              [0-5790] cell: $289.00
+              [0-5792] cell: $2,601.00
+              [0-5794] cell: Delivered
+            [0-5796] row
+              [0-5797] cell: ORD-20237
+              [0-5799] cell: 2026-05-23
+              [0-5801] cell: Jonas Berg
+              [0-5803] cell: West
+              [0-5805] cell: Keyboard
+              [0-5807] cell: 3
+              [0-5809] cell: $99.00
+              [0-5811] cell: $297.00
+              [0-5813] cell: Cancelled
+            [0-5815] row
+              [0-5816] cell: ORD-20238
+              [0-5818] cell: 2026-05-25
+              [0-5820] cell: Jonas Berg
+              [0-5822] cell: West
+              [0-5824] cell: USB-C Dock
+              [0-5826] cell: 7
+              [0-5828] cell: $149.99
+              [0-5830] cell: $1,049.93
+              [0-5832] cell: Shipped
+            [0-5834] row
+              [0-5835] cell: ORD-20239
+              [0-5837] cell: 2026-05-15
+              [0-5839] cell: Ximena Ortiz
+              [0-5841] cell: West
+              [0-5843] cell: Noise-cancelling Headset
+              [0-5845] cell: 3
+              [0-5847] cell: $199.00
+              [0-5849] cell: $597.00
+              [0-5851] cell: Returned
+            [0-5853] row
+              [0-5854] cell: ORD-20240
+              [0-5856] cell: 2026-05-25
+              [0-5858] cell: Lucas Moreau
+              [0-5860] cell: West
+              [0-5862] cell: USB-C Dock
+              [0-5864] cell: 6
+              [0-5866] cell: $149.99
+              [0-5868] cell: $899.94
+              [0-5870] cell: Delivered
+            [0-5872] row
+              [0-5873] cell: ORD-20241
+              [0-5875] cell: 2026-05-03
+              [0-5877] cell: Lucas Moreau
+              [0-5879] cell: East
+              [0-5881] cell: USB-C Dock
+              [0-5883] cell: 2
+              [0-5885] cell: $149.99
+              [0-5887] cell: $299.98
+              [0-5889] cell: Delivered
+            [0-5891] row
+              [0-5892] cell: ORD-20242
+              [0-5894] cell: 2026-05-25
+              [0-5896] cell: Zoe Fischer
+              [0-5898] cell: Central
+              [0-5900] cell: Keyboard
+              [0-5902] cell: 3
+              [0-5904] cell: $99.00
+              [0-5906] cell: $297.00
+              [0-5908] cell: Cancelled
+            [0-5910] row
+              [0-5911] cell: ORD-20243
+              [0-5913] cell: 2026-05-15
+              [0-5915] cell: Farah Haddad
+              [0-5917] cell: South
+              [0-5919] cell: Keyboard
+              [0-5921] cell: 2
+              [0-5923] cell: $99.00
+              [0-5925] cell: $198.00
+              [0-5927] cell: Delivered
+            [0-5929] row
+              [0-5930] cell: ORD-20244
+              [0-5932] cell: 2026-05-01
+              [0-5934] cell: Ximena Ortiz
+              [0-5936] cell: East
+              [0-5938] cell: Keyboard
+              [0-5940] cell: 6
+              [0-5942] cell: $99.00
+              [0-5944] cell: $594.00
+              [0-5946] cell: Shipped
+            [0-5948] row
+              [0-5949] cell: ORD-20245
+              [0-5951] cell: 2026-05-03
+              [0-5953] cell: Rosa Delgado
+              [0-5955] cell: East
+              [0-5957] cell: Footrest
+              [0-5959] cell: 7
+              [0-5961] cell: $42.00
+              [0-5963] cell: $294.00
+              [0-5965] cell: Delivered
+            [0-5967] row
+              [0-5968] cell: ORD-20246
+              [0-5970] cell: 2026-05-13
+              [0-5972] cell: Zoe Fischer
+              [0-5974] cell: East
+              [0-5976] cell: Ergonomic Chair
+              [0-5978] cell: 2
+              [0-5980] cell: $289.00
+              [0-5982] cell: $578.00
+              [0-5984] cell: Delivered
+            [0-5986] row
+              [0-5987] cell: ORD-20247
+              [0-5989] cell: 2026-05-27
+              [0-5991] cell: Lucas Moreau
+              [0-5993] cell: West
+              [0-5995] cell: USB-C Dock
+              [0-5997] cell: 7
+              [0-5999] cell: $149.99
+              [0-6001] cell: $1,049.93
+              [0-6003] cell: Delivered
+            [0-6005] row
+              [0-6006] cell: ORD-20248
+              [0-6008] cell: 2026-05-01
+              [0-6010] cell: Jonas Berg
+              [0-6012] cell: East
+              [0-6014] cell: Keyboard
+              [0-6016] cell: 5
+              [0-6018] cell: $99.00
+              [0-6020] cell: $495.00
+              [0-6022] cell: Cancelled
+            [0-6024] row
+              [0-6025] cell: ORD-20249
+              [0-6027] cell: 2026-05-27
+              [0-6029] cell: Rosa Delgado
+              [0-6031] cell: West
+              [0-6033] cell: Footrest
+              [0-6035] cell: 3
+              [0-6037] cell: $42.00
+              [0-6039] cell: $126.00
+              [0-6041] cell: Cancelled
+            [0-6043] row
+              [0-6044] cell: ORD-20250
+              [0-6046] cell: 2026-05-17
+              [0-6048] cell: Ximena Ortiz
+              [0-6050] cell: South
+              [0-6052] cell: USB-C Dock
+              [0-6054] cell: 7
+              [0-6056] cell: $149.99
+              [0-6058] cell: $1,049.93
+              [0-6060] cell: Delivered
+            [0-6062] row
+              [0-6063] cell: ORD-20251
+              [0-6065] cell: 2026-05-23
+              [0-6067] cell: Valentina Ricci
+              [0-6069] cell: North
+              [0-6071] cell: Ergonomic Chair
+              [0-6073] cell: 2
+              [0-6075] cell: $289.00
+              [0-6077] cell: $578.00
+              [0-6079] cell: Cancelled
+            [0-6081] row
+              [0-6082] cell: ORD-20252
+              [0-6084] cell: 2026-05-17
+              [0-6086] cell: Nikolai Petrov
+              [0-6088] cell: East
+              [0-6090] cell: Footrest
+              [0-6092] cell: 5
+              [0-6094] cell: $42.00
+              [0-6096] cell: $210.00
+              [0-6098] cell: Cancelled
+            [0-6100] row
+              [0-6101] cell: ORD-20253
+              [0-6103] cell: 2026-05-19
+              [0-6105] cell: Zoe Fischer
+              [0-6107] cell: North
+              [0-6109] cell: Keyboard
+              [0-6111] cell: 6
+              [0-6113] cell: $99.00
+              [0-6115] cell: $594.00
+              [0-6117] cell: Delivered
+            [0-6119] row
+              [0-6120] cell: ORD-20254
+              [0-6122] cell: 2026-05-21
+              [0-6124] cell: Tess Walker
+              [0-6126] cell: West
+              [0-6128] cell: USB-C Dock
+              [0-6130] cell: 7
+              [0-6132] cell: $149.99
+              [0-6134] cell: $1,049.93
+              [0-6136] cell: Shipped
+            [0-6138] row
+              [0-6139] cell: ORD-20255
+              [0-6141] cell: 2026-05-19
+              [0-6143] cell: Jonas Berg
+              [0-6145] cell: East
+              [0-6147] cell: USB-C Dock
+              [0-6149] cell: 6
+              [0-6151] cell: $149.99
+              [0-6153] cell: $899.94
+              [0-6155] cell: Shipped
+            [0-6157] row
+              [0-6158] cell: ORD-20256
+              [0-6160] cell: 2026-05-17
+              [0-6162] cell: Zoe Fischer
+              [0-6164] cell: West
+              [0-6166] cell: Ergonomic Chair
+              [0-6168] cell: 6
+              [0-6170] cell: $289.00
+              [0-6172] cell: $1,734.00
+              [0-6174] cell: Delivered
+            [0-6176] row
+              [0-6177] cell: ORD-20257
+              [0-6179] cell: 2026-05-27
+              [0-6181] cell: Lucas Moreau
+              [0-6183] cell: West
+              [0-6185] cell: Ergonomic Chair
+              [0-6187] cell: 7
+              [0-6189] cell: $289.00
+              [0-6191] cell: $2,023.00
+              [0-6193] cell: Shipped
+            [0-6195] row
+              [0-6196] cell: ORD-20258
+              [0-6198] cell: 2026-05-01
+              [0-6200] cell: Tess Walker
+              [0-6202] cell: East
+              [0-6204] cell: USB-C Dock
+              [0-6206] cell: 5
+              [0-6208] cell: $149.99
+              [0-6210] cell: $749.95
+              [0-6212] cell: Delivered
+            [0-6214] row
+              [0-6215] cell: ORD-20259
+              [0-6217] cell: 2026-05-03
+              [0-6219] cell: Pedro Santos
+              [0-6221] cell: West
+              [0-6223] cell: Ergonomic Chair
+              [0-6225] cell: 6
+              [0-6227] cell: $289.00
+              [0-6229] cell: $1,734.00
+              [0-6231] cell: Delivered
+            [0-6233] row
+              [0-6234] cell: ORD-20260
+              [0-6236] cell: 2026-05-21
+              [0-6238] cell: Nikolai Petrov
+              [0-6240] cell: South
+              [0-6242] cell: Footrest
+              [0-6244] cell: 4
+              [0-6246] cell: $42.00
+              [0-6248] cell: $168.00
+              [0-6250] cell: Delivered
+            [0-6252] row
+              [0-6253] cell: ORD-20261
+              [0-6255] cell: 2026-05-07
+              [0-6257] cell: Jonas Berg
+              [0-6259] cell: South
+              [0-6261] cell: USB-C Dock
+              [0-6263] cell: 5
+              [0-6265] cell: $149.99
+              [0-6267] cell: $749.95
+              [0-6269] cell: Returned
+            [0-6271] row
+              [0-6272] cell: ORD-20262
+              [0-6274] cell: 2026-05-09
+              [0-6276] cell: Jonas Berg
+              [0-6278] cell: West
+              [0-6280] cell: Noise-cancelling Headset
+              [0-6282] cell: 7
+              [0-6284] cell: $199.00
+              [0-6286] cell: $1,393.00
+              [0-6288] cell: Processing
+            [0-6290] row
+              [0-6291] cell: ORD-20263
+              [0-6293] cell: 2026-05-23
+              [0-6295] cell: Ximena Ortiz
+              [0-6297] cell: West
+              [0-6299] cell: Noise-cancelling Headset
+              [0-6301] cell: 2
+              [0-6303] cell: $199.00
+              [0-6305] cell: $398.00
+              [0-6307] cell: Delivered
+            [0-6309] row
+              [0-6310] cell: ORD-20264
+              [0-6312] cell: 2026-05-13
+              [0-6314] cell: Dmitri Volkov
+              [0-6316] cell: Central
+              [0-6318] cell: Noise-cancelling Headset
+              [0-6320] cell: 3
+              [0-6322] cell: $199.00
+              [0-6324] cell: $597.00
+              [0-6326] cell: Shipped
+            [0-6328] row
+              [0-6329] cell: ORD-20265
+              [0-6331] cell: 2026-05-19
+              [0-6333] cell: Jonas Berg
+              [0-6335] cell: Central
+              [0-6337] cell: Keyboard
+              [0-6339] cell: 6
+              [0-6341] cell: $99.00
+              [0-6343] cell: $594.00
+              [0-6345] cell: Cancelled
+            [0-6347] row
+              [0-6348] cell: ORD-20266
+              [0-6350] cell: 2026-05-25
+              [0-6352] cell: Dmitri Volkov
+              [0-6354] cell: Central
+              [0-6356] cell: Keyboard
+              [0-6358] cell: 9
+              [0-6360] cell: $99.00
+              [0-6362] cell: $891.00
+              [0-6364] cell: Delivered
+            [0-6366] row
+              [0-6367] cell: ORD-20267
+              [0-6369] cell: 2026-05-15
+              [0-6371] cell: Farah Haddad
+              [0-6373] cell: West
+              [0-6375] cell: Footrest
+              [0-6377] cell: 2
+              [0-6379] cell: $42.00
+              [0-6381] cell: $84.00
+              [0-6383] cell: Delivered
+            [0-6385] row
+              [0-6386] cell: ORD-20268
+              [0-6388] cell: 2026-05-13
+              [0-6390] cell: Rosa Delgado
+              [0-6392] cell: North
+              [0-6394] cell: USB-C Dock
+              [0-6396] cell: 9
+              [0-6398] cell: $149.99
+              [0-6400] cell: $1,349.91
+              [0-6402] cell: Delivered
+            [0-6404] row
+              [0-6405] cell: ORD-20269
+              [0-6407] cell: 2026-05-11
+              [0-6409] cell: Valentina Ricci
+              [0-6411] cell: East
+              [0-6413] cell: Keyboard
+              [0-6415] cell: 7
+              [0-6417] cell: $99.00
+              [0-6419] cell: $693.00
+              [0-6421] cell: Cancelled
+            [0-6423] row
+              [0-6424] cell: ORD-20270
+              [0-6426] cell: 2026-05-13
+              [0-6428] cell: Ximena Ortiz
+              [0-6430] cell: North
+              [0-6432] cell: Noise-cancelling Headset
+              [0-6434] cell: 7
+              [0-6436] cell: $199.00
+              [0-6438] cell: $1,393.00
+              [0-6440] cell: Cancelled
+            [0-6442] row
+              [0-6443] cell: ORD-20271
+              [0-6445] cell: 2026-05-23
+              [0-6447] cell: Farah Haddad
+              [0-6449] cell: Central
+              [0-6451] cell: Keyboard
+              [0-6453] cell: 6
+              [0-6455] cell: $99.00
+              [0-6457] cell: $594.00
+              [0-6459] cell: Shipped
+            [0-6461] row
+              [0-6462] cell: ORD-20272
+              [0-6464] cell: 2026-05-01
+              [0-6466] cell: Bruno Silva
+              [0-6468] cell: East
+              [0-6470] cell: Noise-cancelling Headset
+              [0-6472] cell: 4
+              [0-6474] cell: $199.00
+              [0-6476] cell: $796.00
+              [0-6478] cell: Shipped
+            [0-6480] row
+              [0-6481] cell: ORD-20273
+              [0-6483] cell: 2026-05-19
+              [0-6485] cell: Jonas Berg
+              [0-6487] cell: North
+              [0-6489] cell: Noise-cancelling Headset
+              [0-6491] cell: 3
+              [0-6493] cell: $199.00
+              [0-6495] cell: $597.00
+              [0-6497] cell: Delivered
+            [0-6499] row
+              [0-6500] cell: ORD-20274
+              [0-6502] cell: 2026-05-09
+              [0-6504] cell: Tess Walker
+              [0-6506] cell: Central
+              [0-6508] cell: Ergonomic Chair
+              [0-6510] cell: 7
+              [0-6512] cell: $289.00
+              [0-6514] cell: $2,023.00
+              [0-6516] cell: Delivered
+            [0-6518] row
+              [0-6519] cell: ORD-20275
+              [0-6521] cell: 2026-05-07
+              [0-6523] cell: Nikolai Petrov
+              [0-6525] cell: East
+              [0-6527] cell: Footrest
+              [0-6529] cell: 2
+              [0-6531] cell: $42.00
+              [0-6533] cell: $84.00
+              [0-6535] cell: Returned
+            [0-6537] row
+              [0-6538] cell: ORD-20276
+              [0-6540] cell: 2026-05-17
+              [0-6542] cell: Pedro Santos
+              [0-6544] cell: South
+              [0-6546] cell: Noise-cancelling Headset
+              [0-6548] cell: 3
+              [0-6550] cell: $199.00
+              [0-6552] cell: $597.00
+              [0-6554] cell: Processing
+            [0-6556] row
+              [0-6557] cell: ORD-20277
+              [0-6559] cell: 2026-05-27
+              [0-6561] cell: Lucas Moreau
+              [0-6563] cell: West
+              [0-6565] cell: Noise-cancelling Headset
+              [0-6567] cell: 1
+              [0-6569] cell: $199.00
+              [0-6571] cell: $199.00
+              [0-6573] cell: Shipped
+            [0-6575] row
+              [0-6576] cell: ORD-20278
+              [0-6578] cell: 2026-05-25
+              [0-6580] cell: Ximena Ortiz
+              [0-6582] cell: West
+              [0-6584] cell: Keyboard
+              [0-6586] cell: 5
+              [0-6588] cell: $99.00
+              [0-6590] cell: $495.00
+              [0-6592] cell: Delivered
+            [0-6594] row
+              [0-6595] cell: ORD-20279
+              [0-6597] cell: 2026-06-11
+              [0-6599] cell: Ximena Ortiz
+              [0-6601] cell: North
+              [0-6603] cell: Footrest
+              [0-6605] cell: 2
+              [0-6607] cell: $42.00
+              [0-6609] cell: $84.00
+              [0-6611] cell: Processing
+            [0-6613] row
+              [0-6614] cell: ORD-20280
+              [0-6616] cell: 2026-06-13
+              [0-6618] cell: Pedro Santos
+              [0-6620] cell: West
+              [0-6622] cell: Keyboard
+              [0-6624] cell: 9
+              [0-6626] cell: $99.00
+              [0-6628] cell: $891.00
+              [0-6630] cell: Cancelled
+            [0-6632] row
+              [0-6633] cell: ORD-20281
+              [0-6635] cell: 2026-06-27
+              [0-6637] cell: Hiro Tanaka
+              [0-6639] cell: North
+              [0-6641] cell: Footrest
+              [0-6643] cell: 3
+              [0-6645] cell: $42.00
+              [0-6647] cell: $126.00
+              [0-6649] cell: Processing
+            [0-6651] row
+              [0-6652] cell: ORD-20282
+              [0-6654] cell: 2026-06-01
+              [0-6656] cell: Jonas Berg
+              [0-6658] cell: South
+              [0-6660] cell: Footrest
+              [0-6662] cell: 9
+              [0-6664] cell: $42.00
+              [0-6666] cell: $378.00
+              [0-6668] cell: Shipped
+            [0-6670] row
+              [0-6671] cell: ORD-20283
+              [0-6673] cell: 2026-06-27
+              [0-6675] cell: Ximena Ortiz
+              [0-6677] cell: Central
+              [0-6679] cell: Keyboard
+              [0-6681] cell: 3
+              [0-6683] cell: $99.00
+              [0-6685] cell: $297.00
+              [0-6687] cell: Cancelled
+            [0-6689] row
+              [0-6690] cell: ORD-20284
+              [0-6692] cell: 2026-06-21
+              [0-6694] cell: Bruno Silva
+              [0-6696] cell: Central
+              [0-6698] cell: Noise-cancelling Headset
+              [0-6700] cell: 7
+              [0-6702] cell: $199.00
+              [0-6704] cell: $1,393.00
+              [0-6706] cell: Delivered
+            [0-6708] row
+              [0-6709] cell: ORD-20285
+              [0-6711] cell: 2026-06-23
+              [0-6713] cell: Nikolai Petrov
+              [0-6715] cell: East
+              [0-6717] cell: Noise-cancelling Headset
+              [0-6719] cell: 8
+              [0-6721] cell: $199.00
+              [0-6723] cell: $1,592.00
+              [0-6725] cell: Returned
+            [0-6727] row
+              [0-6728] cell: ORD-20286
+              [0-6730] cell: 2026-06-25
+              [0-6732] cell: Rosa Delgado
+              [0-6734] cell: Central
+              [0-6736] cell: Noise-cancelling Headset
+              [0-6738] cell: 2
+              [0-6740] cell: $199.00
+              [0-6742] cell: $398.00
+              [0-6744] cell: Returned
+            [0-6746] row
+              [0-6747] cell: ORD-20287
+              [0-6749] cell: 2026-06-19
+              [0-6751] cell: Bruno Silva
+              [0-6753] cell: South
+              [0-6755] cell: Ergonomic Chair
+              [0-6757] cell: 3
+              [0-6759] cell: $289.00
+              [0-6761] cell: $867.00
+              [0-6763] cell: Cancelled
+            [0-6765] row
+              [0-6766] cell: ORD-20288
+              [0-6768] cell: 2026-06-09
+              [0-6770] cell: Jonas Berg
+              [0-6772] cell: East
+              [0-6774] cell: USB-C Dock
+              [0-6776] cell: 9
+              [0-6778] cell: $149.99
+              [0-6780] cell: $1,349.91
+              [0-6782] cell: Cancelled
+            [0-6784] row
+              [0-6785] cell: ORD-20289
+              [0-6787] cell: 2026-06-27
+              [0-6789] cell: Lucas Moreau
+              [0-6791] cell: South
+              [0-6793] cell: Keyboard
+              [0-6795] cell: 7
+              [0-6797] cell: $99.00
+              [0-6799] cell: $693.00
+              [0-6801] cell: Shipped
+            [0-6803] row
+              [0-6804] cell: ORD-20290
+              [0-6806] cell: 2026-06-17
+              [0-6808] cell: Zoe Fischer
+              [0-6810] cell: North
+              [0-6812] cell: Ergonomic Chair
+              [0-6814] cell: 3
+              [0-6816] cell: $289.00
+              [0-6818] cell: $867.00
+              [0-6820] cell: Shipped
+            [0-6822] row
+              [0-6823] cell: ORD-20291
+              [0-6825] cell: 2026-06-03
+              [0-6827] cell: Hiro Tanaka
+              [0-6829] cell: West
+              [0-6831] cell: USB-C Dock
+              [0-6833] cell: 6
+              [0-6835] cell: $149.99
+              [0-6837] cell: $899.94
+              [0-6839] cell: Returned
+            [0-6841] row
+              [0-6842] cell: ORD-20292
+              [0-6844] cell: 2026-06-25
+              [0-6846] cell: Bruno Silva
+              [0-6848] cell: North
+              [0-6850] cell: Keyboard
+              [0-6852] cell: 1
+              [0-6854] cell: $99.00
+              [0-6856] cell: $99.00
+              [0-6858] cell: Cancelled
+            [0-6860] row
+              [0-6861] cell: ORD-20293
+              [0-6863] cell: 2026-06-07
+              [0-6865] cell: Pedro Santos
+              [0-6867] cell: North
+              [0-6869] cell: USB-C Dock
+              [0-6871] cell: 6
+              [0-6873] cell: $149.99
+              [0-6875] cell: $899.94
+              [0-6877] cell: Shipped
+            [0-6879] row
+              [0-6880] cell: ORD-20294
+              [0-6882] cell: 2026-06-13
+              [0-6884] cell: Bruno Silva
+              [0-6886] cell: West
+              [0-6888] cell: Keyboard
+              [0-6890] cell: 8
+              [0-6892] cell: $99.00
+              [0-6894] cell: $792.00
+              [0-6896] cell: Delivered
+            [0-6898] row
+              [0-6899] cell: ORD-20295
+              [0-6901] cell: 2026-06-11
+              [0-6903] cell: Nikolai Petrov
+              [0-6905] cell: East
+              [0-6907] cell: Footrest
+              [0-6909] cell: 5
+              [0-6911] cell: $42.00
+              [0-6913] cell: $210.00
+              [0-6915] cell: Delivered
+            [0-6917] row
+              [0-6918] cell: ORD-20296
+              [0-6920] cell: 2026-06-17
+              [0-6922] cell: Lucas Moreau
+              [0-6924] cell: South
+              [0-6926] cell: Noise-cancelling Headset
+              [0-6928] cell: 4
+              [0-6930] cell: $199.00
+              [0-6932] cell: $796.00
+              [0-6934] cell: Processing
+            [0-6936] row
+              [0-6937] cell: ORD-20297
+              [0-6939] cell: 2026-06-07
+              [0-6941] cell: Dmitri Volkov
+              [0-6943] cell: North
+              [0-6945] cell: USB-C Dock
+              [0-6947] cell: 1
+              [0-6949] cell: $149.99
+              [0-6951] cell: $149.99
+              [0-6953] cell: Processing
+            [0-6955] row
+              [0-6956] cell: ORD-20298
+              [0-6958] cell: 2026-06-13
+              [0-6960] cell: Valentina Ricci
+              [0-6962] cell: Central
+              [0-6964] cell: Keyboard
+              [0-6966] cell: 9
+              [0-6968] cell: $99.00
+              [0-6970] cell: $891.00
+              [0-6972] cell: Delivered
+            [0-6974] row
+              [0-6975] cell: ORD-20299
+              [0-6977] cell: 2026-06-15
+              [0-6979] cell: Farah Haddad
+              [0-6981] cell: Central
+              [0-6983] cell: Ergonomic Chair
+              [0-6985] cell: 2
+              [0-6987] cell: $289.00
+              [0-6989] cell: $578.00
+              [0-6991] cell: Delivered
+            [0-6993] row
+              [0-6994] cell: ORD-20300
+              [0-6996] cell: 2026-06-13
+              [0-6998] cell: Ximena Ortiz
+              [0-7000] cell: North
+              [0-7002] cell: Ergonomic Chair
+              [0-7004] cell: 9
+              [0-7006] cell: $289.00
+              [0-7008] cell: $2,601.00
+              [0-7010] cell: Delivered
+            [0-7012] row
+              [0-7013] cell: ORD-20301
+              [0-7015] cell: 2026-06-11
+              [0-7017] cell: Tess Walker
+              [0-7019] cell: West
+              [0-7021] cell: Noise-cancelling Headset
+              [0-7023] cell: 6
+              [0-7025] cell: $199.00
+              [0-7027] cell: $1,194.00
+              [0-7029] cell: Delivered
+            [0-7031] row
+              [0-7032] cell: ORD-20302
+              [0-7034] cell: 2026-06-13
+              [0-7036] cell: Bruno Silva
+              [0-7038] cell: East
+              [0-7040] cell: Noise-cancelling Headset
+              [0-7042] cell: 5
+              [0-7044] cell: $199.00
+              [0-7046] cell: $995.00
+              [0-7048] cell: Delivered
+            [0-7050] row
+              [0-7051] cell: ORD-20303
+              [0-7053] cell: 2026-06-19
+              [0-7055] cell: Pedro Santos
+              [0-7057] cell: East
+              [0-7059] cell: Keyboard
+              [0-7061] cell: 7
+              [0-7063] cell: $99.00
+              [0-7065] cell: $693.00
+              [0-7067] cell: Processing
+            [0-7069] row
+              [0-7070] cell: ORD-20304
+              [0-7072] cell: 2026-06-17
+              [0-7074] cell: Hiro Tanaka
+              [0-7076] cell: Central
+              [0-7078] cell: Noise-cancelling Headset
+              [0-7080] cell: 6
+              [0-7082] cell: $199.00
+              [0-7084] cell: $1,194.00
+              [0-7086] cell: Delivered
+            [0-7088] row
+              [0-7089] cell: ORD-20305
+              [0-7091] cell: 2026-06-07
+              [0-7093] cell: Rosa Delgado
+              [0-7095] cell: South
+              [0-7097] cell: USB-C Dock
+              [0-7099] cell: 3
+              [0-7101] cell: $149.99
+              [0-7103] cell: $449.97
+              [0-7105] cell: Delivered
+            [0-7107] row
+              [0-7108] cell: ORD-20306
+              [0-7110] cell: 2026-06-17
+              [0-7112] cell: Tess Walker
+              [0-7114] cell: Central
+              [0-7116] cell: Ergonomic Chair
+              [0-7118] cell: 8
+              [0-7120] cell: $289.00
+              [0-7122] cell: $2,312.00
+              [0-7124] cell: Delivered
+            [0-7126] row
+              [0-7127] cell: ORD-20307
+              [0-7129] cell: 2026-06-03
+              [0-7131] cell: Ximena Ortiz
+              [0-7133] cell: North
+              [0-7135] cell: Noise-cancelling Headset
+              [0-7137] cell: 5
+              [0-7139] cell: $199.00
+              [0-7141] cell: $995.00
+              [0-7143] cell: Delivered
+            [0-7145] row
+              [0-7146] cell: ORD-20308
+              [0-7148] cell: 2026-06-09
+              [0-7150] cell: Rosa Delgado
+              [0-7152] cell: Central
+              [0-7154] cell: Keyboard
+              [0-7156] cell: 2
+              [0-7158] cell: $99.00
+              [0-7160] cell: $198.00
+              [0-7162] cell: Delivered
+            [0-7164] row
+              [0-7165] cell: ORD-20309
+              [0-7167] cell: 2026-06-07
+              [0-7169] cell: Pedro Santos
+              [0-7171] cell: Central
+              [0-7173] cell: Footrest
+              [0-7175] cell: 8
+              [0-7177] cell: $42.00
+              [0-7179] cell: $336.00
+              [0-7181] cell: Delivered
+            [0-7183] row
+              [0-7184] cell: ORD-20310
+              [0-7186] cell: 2026-06-21
+              [0-7188] cell: Pedro Santos
+              [0-7190] cell: South
+              [0-7192] cell: USB-C Dock
+              [0-7194] cell: 1
+              [0-7196] cell: $149.99
+              [0-7198] cell: $149.99
+              [0-7200] cell: Delivered
+            [0-7202] row
+              [0-7203] cell: ORD-20311
+              [0-7205] cell: 2026-06-11
+              [0-7207] cell: Nikolai Petrov
+              [0-7209] cell: East
+              [0-7211] cell: Footrest
+              [0-7213] cell: 4
+              [0-7215] cell: $42.00
+              [0-7217] cell: $168.00
+              [0-7219] cell: Shipped
+            [0-7221] row
+              [0-7222] cell: ORD-20312
+              [0-7224] cell: 2026-06-21
+              [0-7226] cell: Zoe Fischer
+              [0-7228] cell: Central
+              [0-7230] cell: USB-C Dock
+              [0-7232] cell: 2
+              [0-7234] cell: $149.99
+              [0-7236] cell: $299.98
+              [0-7238] cell: Delivered
+            [0-7240] row
+              [0-7241] cell: ORD-20313
+              [0-7243] cell: 2026-06-03
+              [0-7245] cell: Pedro Santos
+              [0-7247] cell: Central
+              [0-7249] cell: USB-C Dock
+              [0-7251] cell: 5
+              [0-7253] cell: $149.99
+              [0-7255] cell: $749.95
+              [0-7257] cell: Cancelled
+            [0-7259] row
+              [0-7260] cell: ORD-20314
+              [0-7262] cell: 2026-06-21
+              [0-7264] cell: Bruno Silva
+              [0-7266] cell: Central
+              [0-7268] cell: USB-C Dock
+              [0-7270] cell: 9
+              [0-7272] cell: $149.99
+              [0-7274] cell: $1,349.91
+              [0-7276] cell: Processing
+            [0-7278] row
+              [0-7279] cell: ORD-20315
+              [0-7281] cell: 2026-06-27
+              [0-7283] cell: Tess Walker
+              [0-7285] cell: East
+              [0-7287] cell: USB-C Dock
+              [0-7289] cell: 4
+              [0-7291] cell: $149.99
+              [0-7293] cell: $599.96
+              [0-7295] cell: Cancelled
+            [0-7297] row
+              [0-7298] cell: ORD-20316
+              [0-7300] cell: 2026-06-25
+              [0-7302] cell: Pedro Santos
+              [0-7304] cell: Central
+              [0-7306] cell: Keyboard
+              [0-7308] cell: 1
+              [0-7310] cell: $99.00
+              [0-7312] cell: $99.00
+              [0-7314] cell: Processing
+            [0-7316] row
+              [0-7317] cell: ORD-20317
+              [0-7319] cell: 2026-06-23
+              [0-7321] cell: Lucas Moreau
+              [0-7323] cell: West
+              [0-7325] cell: Ergonomic Chair
+              [0-7327] cell: 3
+              [0-7329] cell: $289.00
+              [0-7331] cell: $867.00
+              [0-7333] cell: Delivered
+            [0-7335] row
+              [0-7336] cell: ORD-20318
+              [0-7338] cell: 2026-06-09
+              [0-7340] cell: Tess Walker
+              [0-7342] cell: South
+              [0-7344] cell: Footrest
+              [0-7346] cell: 5
+              [0-7348] cell: $42.00
+              [0-7350] cell: $210.00
+              [0-7352] cell: Delivered
+            [0-7354] row
+              [0-7355] cell: ORD-20319
+              [0-7357] cell: 2026-06-11
+              [0-7359] cell: Pedro Santos
+              [0-7361] cell: South
+              [0-7363] cell: USB-C Dock
+              [0-7365] cell: 4
+              [0-7367] cell: $149.99
+              [0-7369] cell: $599.96
+              [0-7371] cell: Shipped
+            [0-7373] row
+              [0-7374] cell: ORD-20320
+              [0-7376] cell: 2026-06-17
+              [0-7378] cell: Dmitri Volkov
+              [0-7380] cell: South
+              [0-7382] cell: Ergonomic Chair
+              [0-7384] cell: 6
+              [0-7386] cell: $289.00
+              [0-7388] cell: $1,734.00
+              [0-7390] cell: Delivered
+            [0-7392] row
+              [0-7393] cell: ORD-20321
+              [0-7395] cell: 2026-06-15
+              [0-7397] cell: Lucas Moreau
+              [0-7399] cell: North
+              [0-7401] cell: Footrest
+              [0-7403] cell: 3
+              [0-7405] cell: $42.00
+              [0-7407] cell: $126.00
+              [0-7409] cell: Processing
+            [0-7411] row
+              [0-7412] cell: ORD-20322
+              [0-7414] cell: 2026-06-09
+              [0-7416] cell: Ximena Ortiz
+              [0-7418] cell: North
+              [0-7420] cell: Footrest
+              [0-7422] cell: 7
+              [0-7424] cell: $42.00
+              [0-7426] cell: $294.00
+              [0-7428] cell: Processing
+            [0-7430] row
+              [0-7431] cell: ORD-20323
+              [0-7433] cell: 2026-06-23
+              [0-7435] cell: Ximena Ortiz
+              [0-7437] cell: Central
+              [0-7439] cell: Noise-cancelling Headset
+              [0-7441] cell: 8
+              [0-7443] cell: $199.00
+              [0-7445] cell: $1,592.00
+              [0-7447] cell: Returned
+            [0-7449] row
+              [0-7450] cell: ORD-20324
+              [0-7452] cell: 2026-06-21
+              [0-7454] cell: Bruno Silva
+              [0-7456] cell: Central
+              [0-7458] cell: Noise-cancelling Headset
+              [0-7460] cell: 2
+              [0-7462] cell: $199.00
+              [0-7464] cell: $398.00
+              [0-7466] cell: Processing
+            [0-7468] row
+              [0-7469] cell: ORD-20325
+              [0-7471] cell: 2026-06-07
+              [0-7473] cell: Lucas Moreau
+              [0-7475] cell: Central
+              [0-7477] cell: Keyboard
+              [0-7479] cell: 2
+              [0-7481] cell: $99.00
+              [0-7483] cell: $198.00
+              [0-7485] cell: Delivered
+            [0-7487] row
+              [0-7488] cell: ORD-20326
+              [0-7490] cell: 2026-06-13
+              [0-7492] cell: Tess Walker
+              [0-7494] cell: North
+              [0-7496] cell: Keyboard
+              [0-7498] cell: 8
+              [0-7500] cell: $99.00
+              [0-7502] cell: $792.00
+              [0-7504] cell: Delivered
+            [0-7506] row
+              [0-7507] cell: ORD-20327
+              [0-7509] cell: 2026-06-15
+              [0-7511] cell: Farah Haddad
+              [0-7513] cell: South
+              [0-7515] cell: Ergonomic Chair
+              [0-7517] cell: 3
+              [0-7519] cell: $289.00
+              [0-7521] cell: $867.00
+              [0-7523] cell: Delivered
+            [0-7525] row
+              [0-7526] cell: ORD-20328
+              [0-7528] cell: 2026-06-05
+              [0-7530] cell: Nikolai Petrov
+              [0-7532] cell: South
+              [0-7534] cell: Keyboard
+              [0-7536] cell: 7
+              [0-7538] cell: $99.00
+              [0-7540] cell: $693.00
+              [0-7542] cell: Delivered
+            [0-7544] row
+              [0-7545] cell: ORD-20329
+              [0-7547] cell: 2026-06-07
+              [0-7549] cell: Nikolai Petrov
+              [0-7551] cell: East
+              [0-7553] cell: USB-C Dock
+              [0-7555] cell: 1
+              [0-7557] cell: $149.99
+              [0-7559] cell: $149.99
+              [0-7561] cell: Delivered
+            [0-7563] row
+              [0-7564] cell: ORD-20330
+              [0-7566] cell: 2026-06-01
+              [0-7568] cell: Zoe Fischer
+              [0-7570] cell: North
+              [0-7572] cell: Keyboard
+              [0-7574] cell: 5
+              [0-7576] cell: $99.00
+              [0-7578] cell: $495.00
+              [0-7580] cell: Cancelled
+            [0-7582] row
+              [0-7583] cell: ORD-20331
+              [0-7585] cell: 2026-06-19
+              [0-7587] cell: Ximena Ortiz
+              [0-7589] cell: West
+              [0-7591] cell: Keyboard
+              [0-7593] cell: 5
+              [0-7595] cell: $99.00
+              [0-7597] cell: $495.00
+              [0-7599] cell: Delivered
+            [0-7601] row
+              [0-7602] cell: ORD-20332
+              [0-7604] cell: 2026-06-05
+              [0-7606] cell: Dmitri Volkov
+              [0-7608] cell: South
+              [0-7610] cell: Keyboard
+              [0-7612] cell: 3
+              [0-7614] cell: $99.00
+              [0-7616] cell: $297.00
+              [0-7618] cell: Processing
+            [0-7620] row
+              [0-7621] cell: ORD-20333
+              [0-7623] cell: 2026-06-19
+              [0-7625] cell: Pedro Santos
+              [0-7627] cell: West
+              [0-7629] cell: USB-C Dock
+              [0-7631] cell: 4
+              [0-7633] cell: $149.99
+              [0-7635] cell: $599.96
+              [0-7637] cell: Shipped
+            [0-7639] row
+              [0-7640] cell: ORD-20334
+              [0-7642] cell: 2026-06-13
+              [0-7644] cell: Lucas Moreau
+              [0-7646] cell: East
+              [0-7648] cell: Ergonomic Chair
+              [0-7650] cell: 2
+              [0-7652] cell: $289.00
+              [0-7654] cell: $578.00
+              [0-7656] cell: Delivered
+            [0-7658] row
+              [0-7659] cell: ORD-20335
+              [0-7661] cell: 2026-07-15
+              [0-7663] cell: Ximena Ortiz
+              [0-7665] cell: East
+              [0-7667] cell: Ergonomic Chair
+              [0-7669] cell: 8
+              [0-7671] cell: $289.00
+              [0-7673] cell: $2,312.00
+              [0-7675] cell: Returned
+            [0-7677] row
+              [0-7678] cell: ORD-20336
+              [0-7680] cell: 2026-07-25
+              [0-7682] cell: Farah Haddad
+              [0-7684] cell: West
+              [0-7686] cell: Footrest
+              [0-7688] cell: 6
+              [0-7690] cell: $42.00
+              [0-7692] cell: $252.00
+              [0-7694] cell: Processing
+            [0-7696] row
+              [0-7697] cell: ORD-20337
+              [0-7699] cell: 2026-07-27
+              [0-7701] cell: Bruno Silva
+              [0-7703] cell: Central
+              [0-7705] cell: USB-C Dock
+              [0-7707] cell: 1
+              [0-7709] cell: $149.99
+              [0-7711] cell: $149.99
+              [0-7713] cell: Cancelled
+            [0-7715] row
+              [0-7716] cell: ORD-20338
+              [0-7718] cell: 2026-07-13
+              [0-7720] cell: Jonas Berg
+              [0-7722] cell: South
+              [0-7724] cell: Footrest
+              [0-7726] cell: 9
+              [0-7728] cell: $42.00
+              [0-7730] cell: $378.00
+              [0-7732] cell: Shipped
+            [0-7734] row
+              [0-7735] cell: ORD-20339
+              [0-7737] cell: 2026-07-11
+              [0-7739] cell: Lucas Moreau
+              [0-7741] cell: West
+              [0-7743] cell: Footrest
+              [0-7745] cell: 6
+              [0-7747] cell: $42.00
+              [0-7749] cell: $252.00
+              [0-7751] cell: Delivered
+            [0-7753] row
+              [0-7754] cell: ORD-20340
+              [0-7756] cell: 2026-07-01
+              [0-7758] cell: Ximena Ortiz
+              [0-7760] cell: South
+              [0-7762] cell: USB-C Dock
+              [0-7764] cell: 5
+              [0-7766] cell: $149.99
+              [0-7768] cell: $749.95
+              [0-7770] cell: Processing
+            [0-7772] row
+              [0-7773] cell: ORD-20341
+              [0-7775] cell: 2026-07-11
+              [0-7777] cell: Bruno Silva
+              [0-7779] cell: North
+              [0-7781] cell: Footrest
+              [0-7783] cell: 2
+              [0-7785] cell: $42.00
+              [0-7787] cell: $84.00
+              [0-7789] cell: Delivered
+            [0-7791] row
+              [0-7792] cell: ORD-20342
+              [0-7794] cell: 2026-07-17
+              [0-7796] cell: Bruno Silva
+              [0-7798] cell: East
+              [0-7800] cell: Keyboard
+              [0-7802] cell: 5
+              [0-7804] cell: $99.00
+              [0-7806] cell: $495.00
+              [0-7808] cell: Delivered
+            [0-7810] row
+              [0-7811] cell: ORD-20343
+              [0-7813] cell: 2026-07-15
+              [0-7815] cell: Nikolai Petrov
+              [0-7817] cell: South
+              [0-7819] cell: USB-C Dock
+              [0-7821] cell: 3
+              [0-7823] cell: $149.99
+              [0-7825] cell: $449.97
+              [0-7827] cell: Processing
+            [0-7829] row
+              [0-7830] cell: ORD-20344
+              [0-7832] cell: 2026-07-09
+              [0-7834] cell: Zoe Fischer
+              [0-7836] cell: East
+              [0-7838] cell: Footrest
+              [0-7840] cell: 2
+              [0-7842] cell: $42.00
+              [0-7844] cell: $84.00
+              [0-7846] cell: Returned
+            [0-7848] row
+              [0-7849] cell: ORD-20345
+              [0-7851] cell: 2026-07-03
+              [0-7853] cell: Rosa Delgado
+              [0-7855] cell: East
+              [0-7857] cell: Keyboard
+              [0-7859] cell: 9
+              [0-7861] cell: $99.00
+              [0-7863] cell: $891.00
+              [0-7865] cell: Cancelled
+            [0-7867] row
+              [0-7868] cell: ORD-20346
+              [0-7870] cell: 2026-07-01
+              [0-7872] cell: Valentina Ricci
+              [0-7874] cell: East
+              [0-7876] cell: Footrest
+              [0-7878] cell: 9
+              [0-7880] cell: $42.00
+              [0-7882] cell: $378.00
+              [0-7884] cell: Delivered
+            [0-7886] row
+              [0-7887] cell: ORD-20347
+              [0-7889] cell: 2026-07-19
+              [0-7891] cell: Pedro Santos
+              [0-7893] cell: North
+              [0-7895] cell: Keyboard
+              [0-7897] cell: 7
+              [0-7899] cell: $99.00
+              [0-7901] cell: $693.00
+              [0-7903] cell: Shipped
+            [0-7905] row
+              [0-7906] cell: ORD-20348
+              [0-7908] cell: 2026-07-17
+              [0-7910] cell: Nikolai Petrov
+              [0-7912] cell: West
+              [0-7914] cell: Noise-cancelling Headset
+              [0-7916] cell: 8
+              [0-7918] cell: $199.00
+              [0-7920] cell: $1,592.00
+              [0-7922] cell: Delivered
+            [0-7924] row
+              [0-7925] cell: ORD-20349
+              [0-7927] cell: 2026-07-19
+              [0-7929] cell: Farah Haddad
+              [0-7931] cell: South
+              [0-7933] cell: Ergonomic Chair
+              [0-7935] cell: 8
+              [0-7937] cell: $289.00
+              [0-7939] cell: $2,312.00
+              [0-7941] cell: Returned
+            [0-7943] row
+              [0-7944] cell: ORD-20350
+              [0-7946] cell: 2026-07-01
+              [0-7948] cell: Lucas Moreau
+              [0-7950] cell: North
+              [0-7952] cell: USB-C Dock
+              [0-7954] cell: 3
+              [0-7956] cell: $149.99
+              [0-7958] cell: $449.97
+              [0-7960] cell: Delivered
+            [0-7962] row
+              [0-7963] cell: ORD-20351
+              [0-7965] cell: 2026-07-15
+              [0-7967] cell: Pedro Santos
+              [0-7969] cell: East
+              [0-7971] cell: Noise-cancelling Headset
+              [0-7973] cell: 4
+              [0-7975] cell: $199.00
+              [0-7977] cell: $796.00
+              [0-7979] cell: Delivered
+            [0-7981] row
+              [0-7982] cell: ORD-20352
+              [0-7984] cell: 2026-07-25
+              [0-7986] cell: Jonas Berg
+              [0-7988] cell: North
+              [0-7990] cell: Footrest
+              [0-7992] cell: 2
+              [0-7994] cell: $42.00
+              [0-7996] cell: $84.00
+              [0-7998] cell: Shipped
+            [0-8000] row
+              [0-8001] cell: ORD-20353
+              [0-8003] cell: 2026-07-03
+              [0-8005] cell: Zoe Fischer
+              [0-8007] cell: West
+              [0-8009] cell: USB-C Dock
+              [0-8011] cell: 2
+              [0-8013] cell: $149.99
+              [0-8015] cell: $299.98
+              [0-8017] cell: Delivered
+            [0-8019] row
+              [0-8020] cell: ORD-20354
+              [0-8022] cell: 2026-07-21
+              [0-8024] cell: Pedro Santos
+              [0-8026] cell: East
+              [0-8028] cell: Keyboard
+              [0-8030] cell: 4
+              [0-8032] cell: $99.00
+              [0-8034] cell: $396.00
+              [0-8036] cell: Shipped
+            [0-8038] row
+              [0-8039] cell: ORD-20355
+              [0-8041] cell: 2026-07-07
+              [0-8043] cell: Farah Haddad
+              [0-8045] cell: West
+              [0-8047] cell: Ergonomic Chair
+              [0-8049] cell: 2
+              [0-8051] cell: $289.00
+              [0-8053] cell: $578.00
+              [0-8055] cell: Delivered
+            [0-8057] row
+              [0-8058] cell: ORD-20356
+              [0-8060] cell: 2026-07-01
+              [0-8062] cell: Jonas Berg
+              [0-8064] cell: East
+              [0-8066] cell: Noise-cancelling Headset
+              [0-8068] cell: 8
+              [0-8070] cell: $199.00
+              [0-8072] cell: $1,592.00
+              [0-8074] cell: Delivered
+            [0-8076] row
+              [0-8077] cell: ORD-20357
+              [0-8079] cell: 2026-07-19
+              [0-8081] cell: Pedro Santos
+              [0-8083] cell: Central
+              [0-8085] cell: Ergonomic Chair
+              [0-8087] cell: 2
+              [0-8089] cell: $289.00
+              [0-8091] cell: $578.00
+              [0-8093] cell: Delivered
+            [0-8095] row
+              [0-8096] cell: ORD-20358
+              [0-8098] cell: 2026-07-13
+              [0-8100] cell: Hiro Tanaka
+              [0-8102] cell: West
+              [0-8104] cell: USB-C Dock
+              [0-8106] cell: 3
+              [0-8108] cell: $149.99
+              [0-8110] cell: $449.97
+              [0-8112] cell: Processing
+            [0-8114] row
+              [0-8115] cell: ORD-20359
+              [0-8117] cell: 2026-07-27
+              [0-8119] cell: Zoe Fischer
+              [0-8121] cell: Central
+              [0-8123] cell: Noise-cancelling Headset
+              [0-8125] cell: 5
+              [0-8127] cell: $199.00
+              [0-8129] cell: $995.00
+              [0-8131] cell: Delivered
+            [0-8133] row
+              [0-8134] cell: ORD-20360
+              [0-8136] cell: 2026-07-13
+              [0-8138] cell: Nikolai Petrov
+              [0-8140] cell: East
+              [0-8142] cell: Footrest
+              [0-8144] cell: 5
+              [0-8146] cell: $42.00
+              [0-8148] cell: $210.00
+              [0-8150] cell: Processing
+            [0-8152] row
+              [0-8153] cell: ORD-20361
+              [0-8155] cell: 2026-07-23
+              [0-8157] cell: Dmitri Volkov
+              [0-8159] cell: North
+              [0-8161] cell: Footrest
+              [0-8163] cell: 3
+              [0-8165] cell: $42.00
+              [0-8167] cell: $126.00
+              [0-8169] cell: Returned
+            [0-8171] row
+              [0-8172] cell: ORD-20362
+              [0-8174] cell: 2026-07-25
+              [0-8176] cell: Bruno Silva
+              [0-8178] cell: North
+              [0-8180] cell: Footrest
+              [0-8182] cell: 1
+              [0-8184] cell: $42.00
+              [0-8186] cell: $42.00
+              [0-8188] cell: Processing
+            [0-8190] row
+              [0-8191] cell: ORD-20363
+              [0-8193] cell: 2026-07-07
+              [0-8195] cell: Lucas Moreau
+              [0-8197] cell: West
+              [0-8199] cell: Footrest
+              [0-8201] cell: 8
+              [0-8203] cell: $42.00
+              [0-8205] cell: $336.00
+              [0-8207] cell: Shipped
+            [0-8209] row
+              [0-8210] cell: ORD-20364
+              [0-8212] cell: 2026-07-25
+              [0-8214] cell: Jonas Berg
+              [0-8216] cell: Central
+              [0-8218] cell: Footrest
+              [0-8220] cell: 9
+              [0-8222] cell: $42.00
+              [0-8224] cell: $378.00
+              [0-8226] cell: Delivered
+            [0-8228] row
+              [0-8229] cell: ORD-20365
+              [0-8231] cell: 2026-07-07
+              [0-8233] cell: Jonas Berg
+              [0-8235] cell: North
+              [0-8237] cell: USB-C Dock
+              [0-8239] cell: 4
+              [0-8241] cell: $149.99
+              [0-8243] cell: $599.96
+              [0-8245] cell: Delivered
+            [0-8247] row
+              [0-8248] cell: ORD-20366
+              [0-8250] cell: 2026-07-17
+              [0-8252] cell: Dmitri Volkov
+              [0-8254] cell: South
+              [0-8256] cell: Ergonomic Chair
+              [0-8258] cell: 4
+              [0-8260] cell: $289.00
+              [0-8262] cell: $1,156.00
+              [0-8264] cell: Cancelled
+            [0-8266] row
+              [0-8267] cell: ORD-20367
+              [0-8269] cell: 2026-07-27
+              [0-8271] cell: Nikolai Petrov
+              [0-8273] cell: North
+              [0-8275] cell: USB-C Dock
+              [0-8277] cell: 3
+              [0-8279] cell: $149.99
+              [0-8281] cell: $449.97
+              [0-8283] cell: Returned
+            [0-8285] row
+              [0-8286] cell: ORD-20368
+              [0-8288] cell: 2026-07-21
+              [0-8290] cell: Pedro Santos
+              [0-8292] cell: North
+              [0-8294] cell: USB-C Dock
+              [0-8296] cell: 7
+              [0-8298] cell: $149.99
+              [0-8300] cell: $1,049.93
+              [0-8302] cell: Processing
+            [0-8304] row
+              [0-8305] cell: ORD-20369
+              [0-8307] cell: 2026-07-23
+              [0-8309] cell: Tess Walker
+              [0-8311] cell: South
+              [0-8313] cell: Ergonomic Chair
+              [0-8315] cell: 6
+              [0-8317] cell: $289.00
+              [0-8319] cell: $1,734.00
+              [0-8321] cell: Processing
+            [0-8323] row
+              [0-8324] cell: ORD-20370
+              [0-8326] cell: 2026-07-09
+              [0-8328] cell: Hiro Tanaka
+              [0-8330] cell: West
+              [0-8332] cell: Ergonomic Chair
+              [0-8334] cell: 8
+              [0-8336] cell: $289.00
+              [0-8338] cell: $2,312.00
+              [0-8340] cell: Returned
+            [0-8342] row
+              [0-8343] cell: ORD-20371
+              [0-8345] cell: 2026-07-27
+              [0-8347] cell: Nikolai Petrov
+              [0-8349] cell: West
+              [0-8351] cell: Noise-cancelling Headset
+              [0-8353] cell: 7
+              [0-8355] cell: $199.00
+              [0-8357] cell: $1,393.00
+              [0-8359] cell: Processing
+            [0-8361] row
+              [0-8362] cell: ORD-20372
+              [0-8364] cell: 2026-07-21
+              [0-8366] cell: Tess Walker
+              [0-8368] cell: Central
+              [0-8370] cell: Noise-cancelling Headset
+              [0-8372] cell: 6
+              [0-8374] cell: $199.00
+              [0-8376] cell: $1,194.00
+              [0-8378] cell: Delivered
+            [0-8380] row
+              [0-8381] cell: ORD-20373
+              [0-8383] cell: 2026-07-03
+              [0-8385] cell: Dmitri Volkov
+              [0-8387] cell: West
+              [0-8389] cell: USB-C Dock
+              [0-8391] cell: 9
+              [0-8393] cell: $149.99
+              [0-8395] cell: $1,349.91
+              [0-8397] cell: Cancelled
+            [0-8399] row
+              [0-8400] cell: ORD-20374
+              [0-8402] cell: 2026-07-01
+              [0-8404] cell: Rosa Delgado
+              [0-8406] cell: North
+              [0-8408] cell: USB-C Dock
+              [0-8410] cell: 6
+              [0-8412] cell: $149.99
+              [0-8414] cell: $899.94
+              [0-8416] cell: Shipped
+            [0-8418] row
+              [0-8419] cell: ORD-20375
+              [0-8421] cell: 2026-07-15
+              [0-8423] cell: Rosa Delgado
+              [0-8425] cell: North
+              [0-8427] cell: Footrest
+              [0-8429] cell: 7
+              [0-8431] cell: $42.00
+              [0-8433] cell: $294.00
+              [0-8435] cell: Returned
+            [0-8437] row
+              [0-8438] cell: ORD-20376
+              [0-8440] cell: 2026-07-05
+              [0-8442] cell: Tess Walker
+              [0-8444] cell: North
+              [0-8446] cell: USB-C Dock
+              [0-8448] cell: 6
+              [0-8450] cell: $149.99
+              [0-8452] cell: $899.94
+              [0-8454] cell: Cancelled
+            [0-8456] row
+              [0-8457] cell: ORD-20377
+              [0-8459] cell: 2026-07-03
+              [0-8461] cell: Zoe Fischer
+              [0-8463] cell: Central
+              [0-8465] cell: USB-C Dock
+              [0-8467] cell: 2
+              [0-8469] cell: $149.99
+              [0-8471] cell: $299.98
+              [0-8473] cell: Processing
+            [0-8475] row
+              [0-8476] cell: ORD-20378
+              [0-8478] cell: 2026-07-13
+              [0-8480] cell: Rosa Delgado
+              [0-8482] cell: West
+              [0-8484] cell: USB-C Dock
+              [0-8486] cell: 5
+              [0-8488] cell: $149.99
+              [0-8490] cell: $749.95
+              [0-8492] cell: Delivered
+            [0-8494] row
+              [0-8495] cell: ORD-20379
+              [0-8497] cell: 2026-07-23
+              [0-8499] cell: Lucas Moreau
+              [0-8501] cell: West
+              [0-8503] cell: Footrest
+              [0-8505] cell: 9
+              [0-8507] cell: $42.00
+              [0-8509] cell: $378.00
+              [0-8511] cell: Cancelled
+            [0-8513] row
+              [0-8514] cell: ORD-20380
+              [0-8516] cell: 2026-07-17
+              [0-8518] cell: Jonas Berg
+              [0-8520] cell: North
+              [0-8522] cell: Ergonomic Chair
+              [0-8524] cell: 9
+              [0-8526] cell: $289.00
+              [0-8528] cell: $2,601.00
+              [0-8530] cell: Delivered
+            [0-8532] row
+              [0-8533] cell: ORD-20381
+              [0-8535] cell: 2026-07-23
+              [0-8537] cell: Jonas Berg
+              [0-8539] cell: East
+              [0-8541] cell: Footrest
+              [0-8543] cell: 1
+              [0-8545] cell: $42.00
+              [0-8547] cell: $42.00
+              [0-8549] cell: Delivered
+            [0-8551] row
+              [0-8552] cell: ORD-20382
+              [0-8554] cell: 2026-07-01
+              [0-8556] cell: Nikolai Petrov
+              [0-8558] cell: Central
+              [0-8560] cell: Noise-cancelling Headset
+              [0-8562] cell: 6
+              [0-8564] cell: $199.00
+              [0-8566] cell: $1,194.00
+              [0-8568] cell: Delivered
+            [0-8570] row
+              [0-8571] cell: ORD-20383
+              [0-8573] cell: 2026-07-03
+              [0-8575] cell: Bruno Silva
+              [0-8577] cell: North
+              [0-8579] cell: Noise-cancelling Headset
+              [0-8581] cell: 3
+              [0-8583] cell: $199.00
+              [0-8585] cell: $597.00
+              [0-8587] cell: Delivered
+            [0-8589] row
+              [0-8590] cell: ORD-20384
+              [0-8592] cell: 2026-07-01
+              [0-8594] cell: Lucas Moreau
+              [0-8596] cell: East
+              [0-8598] cell: Footrest
+              [0-8600] cell: 4
+              [0-8602] cell: $42.00
+              [0-8604] cell: $168.00
+              [0-8606] cell: Delivered
+            [0-8608] row
+              [0-8609] cell: ORD-20385
+              [0-8611] cell: 2026-07-27
+              [0-8613] cell: Ximena Ortiz
+              [0-8615] cell: North
+              [0-8617] cell: Keyboard
+              [0-8619] cell: 6
+              [0-8621] cell: $99.00
+              [0-8623] cell: $594.00
+              [0-8625] cell: Processing
+            [0-8627] row
+              [0-8628] cell: ORD-20386
+              [0-8630] cell: 2026-07-13
+              [0-8632] cell: Pedro Santos
+              [0-8634] cell: North
+              [0-8636] cell: Keyboard
+              [0-8638] cell: 7
+              [0-8640] cell: $99.00
+              [0-8642] cell: $693.00
+              [0-8644] cell: Returned
+            [0-8646] row
+              [0-8647] cell: ORD-20387
+              [0-8649] cell: 2026-07-23
+              [0-8651] cell: Jonas Berg
+              [0-8653] cell: Central
+              [0-8655] cell: Ergonomic Chair
+              [0-8657] cell: 3
+              [0-8659] cell: $289.00
+              [0-8661] cell: $867.00
+              [0-8663] cell: Processing
+            [0-8665] row
+              [0-8666] cell: ORD-20388
+              [0-8668] cell: 2026-07-05
+              [0-8670] cell: Zoe Fischer
+              [0-8672] cell: Central
+              [0-8674] cell: Footrest
+              [0-8676] cell: 1
+              [0-8678] cell: $42.00
+              [0-8680] cell: $42.00
+              [0-8682] cell: Processing
+            [0-8684] row
+              [0-8685] cell: ORD-20389
+              [0-8687] cell: 2026-07-03
+              [0-8689] cell: Bruno Silva
+              [0-8691] cell: East
+              [0-8693] cell: USB-C Dock
+              [0-8695] cell: 7
+              [0-8697] cell: $149.99
+              [0-8699] cell: $1,049.93
+              [0-8701] cell: Returned
+            [0-8703] row
+              [0-8704] cell: ORD-20390
+              [0-8706] cell: 2026-08-21
+              [0-8708] cell: Tess Walker
+              [0-8710] cell: North
+              [0-8712] cell: USB-C Dock
+              [0-8714] cell: 7
+              [0-8716] cell: $149.99
+              [0-8718] cell: $1,049.93
+              [0-8720] cell: Delivered
+            [0-8722] row
+              [0-8723] cell: ORD-20391
+              [0-8725] cell: 2026-08-15
+              [0-8727] cell: Hiro Tanaka
+              [0-8729] cell: North
+              [0-8731] cell: Ergonomic Chair
+              [0-8733] cell: 3
+              [0-8735] cell: $289.00
+              [0-8737] cell: $867.00
+              [0-8739] cell: Returned
+            [0-8741] row
+              [0-8742] cell: ORD-20392
+              [0-8744] cell: 2026-08-25
+              [0-8746] cell: Jonas Berg
+              [0-8748] cell: North
+              [0-8750] cell: Ergonomic Chair
+              [0-8752] cell: 3
+              [0-8754] cell: $289.00
+              [0-8756] cell: $867.00
+              [0-8758] cell: Returned
+            [0-8760] row
+              [0-8761] cell: ORD-20393
+              [0-8763] cell: 2026-08-11
+              [0-8765] cell: Lucas Moreau
+              [0-8767] cell: East
+              [0-8769] cell: Keyboard
+              [0-8771] cell: 7
+              [0-8773] cell: $99.00
+              [0-8775] cell: $693.00
+              [0-8777] cell: Delivered
+            [0-8779] row
+              [0-8780] cell: ORD-20394
+              [0-8782] cell: 2026-08-13
+              [0-8784] cell: Zoe Fischer
+              [0-8786] cell: North
+              [0-8788] cell: USB-C Dock
+              [0-8790] cell: 4
+              [0-8792] cell: $149.99
+              [0-8794] cell: $599.96
+              [0-8796] cell: Delivered
+            [0-8798] row
+              [0-8799] cell: ORD-20395
+              [0-8801] cell: 2026-08-23
+              [0-8803] cell: Lucas Moreau
+              [0-8805] cell: West
+              [0-8807] cell: Ergonomic Chair
+              [0-8809] cell: 5
+              [0-8811] cell: $289.00
+              [0-8813] cell: $1,445.00
+              [0-8815] cell: Delivered
+            [0-8817] row
+              [0-8818] cell: ORD-20396
+              [0-8820] cell: 2026-08-09
+              [0-8822] cell: Bruno Silva
+              [0-8824] cell: East
+              [0-8826] cell: Keyboard
+              [0-8828] cell: 8
+              [0-8830] cell: $99.00
+              [0-8832] cell: $792.00
+              [0-8834] cell: Delivered
+            [0-8836] row
+              [0-8837] cell: ORD-20397
+              [0-8839] cell: 2026-08-23
+              [0-8841] cell: Nikolai Petrov
+              [0-8843] cell: North
+              [0-8845] cell: Keyboard
+              [0-8847] cell: 1
+              [0-8849] cell: $99.00
+              [0-8851] cell: $99.00
+              [0-8853] cell: Returned
+            [0-8855] row
+              [0-8856] cell: ORD-20398
+              [0-8858] cell: 2026-08-01
+              [0-8860] cell: Tess Walker
+              [0-8862] cell: West
+              [0-8864] cell: Footrest
+              [0-8866] cell: 5
+              [0-8868] cell: $42.00
+              [0-8870] cell: $210.00
+              [0-8872] cell: Cancelled
+            [0-8874] row
+              [0-8875] cell: ORD-20399
+              [0-8877] cell: 2026-08-23
+              [0-8879] cell: Farah Haddad
+              [0-8881] cell: East
+              [0-8883] cell: Footrest
+              [0-8885] cell: 3
+              [0-8887] cell: $42.00
+              [0-8889] cell: $126.00
+              [0-8891] cell: Cancelled
+            [0-8893] row
+              [0-8894] cell: ORD-20400
+              [0-8896] cell: 2026-08-13
+              [0-8898] cell: Nikolai Petrov
+              [0-8900] cell: South
+              [0-8902] cell: Ergonomic Chair
+              [0-8904] cell: 6
+              [0-8906] cell: $289.00
+              [0-8908] cell: $1,734.00
+              [0-8910] cell: Cancelled
+            [0-8912] row
+              [0-8913] cell: ORD-20401
+              [0-8915] cell: 2026-08-23
+              [0-8917] cell: Hiro Tanaka
+              [0-8919] cell: Central
+              [0-8921] cell: USB-C Dock
+              [0-8923] cell: 1
+              [0-8925] cell: $149.99
+              [0-8927] cell: $149.99
+              [0-8929] cell: Delivered
+            [0-8931] row
+              [0-8932] cell: ORD-20402
+              [0-8934] cell: 2026-08-17
+              [0-8936] cell: Valentina Ricci
+              [0-8938] cell: East
+              [0-8940] cell: Ergonomic Chair
+              [0-8942] cell: 4
+              [0-8944] cell: $289.00
+              [0-8946] cell: $1,156.00
+              [0-8948] cell: Delivered
+            [0-8950] row
+              [0-8951] cell: ORD-20403
+              [0-8953] cell: 2026-08-03
+              [0-8955] cell: Hiro Tanaka
+              [0-8957] cell: West
+              [0-8959] cell: Ergonomic Chair
+              [0-8961] cell: 7
+              [0-8963] cell: $289.00
+              [0-8965] cell: $2,023.00
+              [0-8967] cell: Returned
+            [0-8969] row
+              [0-8970] cell: ORD-20404
+              [0-8972] cell: 2026-08-21
+              [0-8974] cell: Bruno Silva
+              [0-8976] cell: East
+              [0-8978] cell: Keyboard
+              [0-8980] cell: 9
+              [0-8982] cell: $99.00
+              [0-8984] cell: $891.00
+              [0-8986] cell: Delivered
+            [0-8988] row
+              [0-8989] cell: ORD-20405
+              [0-8991] cell: 2026-08-11
+              [0-8993] cell: Tess Walker
+              [0-8995] cell: West
+              [0-8997] cell: Footrest
+              [0-8999] cell: 7
+              [0-9001] cell: $42.00
+              [0-9003] cell: $294.00
+              [0-9005] cell: Cancelled
+            [0-9007] row
+              [0-9008] cell: ORD-20406
+              [0-9010] cell: 2026-08-05
+              [0-9012] cell: Lucas Moreau
+              [0-9014] cell: South
+              [0-9016] cell: Ergonomic Chair
+              [0-9018] cell: 1
+              [0-9020] cell: $289.00
+              [0-9022] cell: $289.00
+              [0-9024] cell: Processing
+            [0-9026] row
+              [0-9027] cell: ORD-20407
+              [0-9029] cell: 2026-08-27
+              [0-9031] cell: Dmitri Volkov
+              [0-9033] cell: East
+              [0-9035] cell: Keyboard
+              [0-9037] cell: 8
+              [0-9039] cell: $99.00
+              [0-9041] cell: $792.00
+              [0-9043] cell: Processing
+            [0-9045] row
+              [0-9046] cell: ORD-20408
+              [0-9048] cell: 2026-08-21
+              [0-9050] cell: Tess Walker
+              [0-9052] cell: North
+              [0-9054] cell: Ergonomic Chair
+              [0-9056] cell: 7
+              [0-9058] cell: $289.00
+              [0-9060] cell: $2,023.00
+              [0-9062] cell: Delivered
+            [0-9064] row
+              [0-9065] cell: ORD-20409
+              [0-9067] cell: 2026-08-23
+              [0-9069] cell: Rosa Delgado
+              [0-9071] cell: East
+              [0-9073] cell: Noise-cancelling Headset
+              [0-9075] cell: 2
+              [0-9077] cell: $199.00
+              [0-9079] cell: $398.00
+              [0-9081] cell: Delivered
+            [0-9083] row
+              [0-9084] cell: ORD-20410
+              [0-9086] cell: 2026-08-09
+              [0-9088] cell: Jonas Berg
+              [0-9090] cell: East
+              [0-9092] cell: Footrest
+              [0-9094] cell: 6
+              [0-9096] cell: $42.00
+              [0-9098] cell: $252.00
+              [0-9100] cell: Delivered
+            [0-9102] row
+              [0-9103] cell: ORD-20411
+              [0-9105] cell: 2026-08-03
+              [0-9107] cell: Rosa Delgado
+              [0-9109] cell: Central
+              [0-9111] cell: Noise-cancelling Headset
+              [0-9113] cell: 3
+              [0-9115] cell: $199.00
+              [0-9117] cell: $597.00
+              [0-9119] cell: Returned
+            [0-9121] row
+              [0-9122] cell: ORD-20412
+              [0-9124] cell: 2026-08-09
+              [0-9126] cell: Pedro Santos
+              [0-9128] cell: East
+              [0-9130] cell: Footrest
+              [0-9132] cell: 7
+              [0-9134] cell: $42.00
+              [0-9136] cell: $294.00
+              [0-9138] cell: Delivered
+            [0-9140] row
+              [0-9141] cell: ORD-20413
+              [0-9143] cell: 2026-08-15
+              [0-9145] cell: Farah Haddad
+              [0-9147] cell: North
+              [0-9149] cell: Noise-cancelling Headset
+              [0-9151] cell: 1
+              [0-9153] cell: $199.00
+              [0-9155] cell: $199.00
+              [0-9157] cell: Returned
+            [0-9159] row
+              [0-9160] cell: ORD-20414
+              [0-9162] cell: 2026-08-25
+              [0-9164] cell: Lucas Moreau
+              [0-9166] cell: South
+              [0-9168] cell: Noise-cancelling Headset
+              [0-9170] cell: 5
+              [0-9172] cell: $199.00
+              [0-9174] cell: $995.00
+              [0-9176] cell: Returned
+            [0-9178] row
+              [0-9179] cell: ORD-20415
+              [0-9181] cell: 2026-08-19
+              [0-9183] cell: Rosa Delgado
+              [0-9185] cell: West
+              [0-9187] cell: USB-C Dock
+              [0-9189] cell: 5
+              [0-9191] cell: $149.99
+              [0-9193] cell: $749.95
+              [0-9195] cell: Delivered
+            [0-9197] row
+              [0-9198] cell: ORD-20416
+              [0-9200] cell: 2026-08-05
+              [0-9202] cell: Hiro Tanaka
+              [0-9204] cell: North
+              [0-9206] cell: USB-C Dock
+              [0-9208] cell: 1
+              [0-9210] cell: $149.99
+              [0-9212] cell: $149.99
+              [0-9214] cell: Shipped
+            [0-9216] row
+              [0-9217] cell: ORD-20417
+              [0-9219] cell: 2026-08-03
+              [0-9221] cell: Rosa Delgado
+              [0-9223] cell: South
+              [0-9225] cell: Keyboard
+              [0-9227] cell: 4
+              [0-9229] cell: $99.00
+              [0-9231] cell: $396.00
+              [0-9233] cell: Returned
+            [0-9235] row
+              [0-9236] cell: ORD-20418
+              [0-9238] cell: 2026-08-17
+              [0-9240] cell: Ximena Ortiz
+              [0-9242] cell: Central
+              [0-9244] cell: USB-C Dock
+              [0-9246] cell: 5
+              [0-9248] cell: $149.99
+              [0-9250] cell: $749.95
+              [0-9252] cell: Delivered
+            [0-9254] row
+              [0-9255] cell: ORD-20419
+              [0-9257] cell: 2026-08-27
+              [0-9259] cell: Hiro Tanaka
+              [0-9261] cell: North
+              [0-9263] cell: Keyboard
+              [0-9265] cell: 3
+              [0-9267] cell: $99.00
+              [0-9269] cell: $297.00
+              [0-9271] cell: Delivered
+            [0-9273] row
+              [0-9274] cell: ORD-20420
+              [0-9276] cell: 2026-08-21
+              [0-9278] cell: Pedro Santos
+              [0-9280] cell: Central
+              [0-9282] cell: Keyboard
+              [0-9284] cell: 3
+              [0-9286] cell: $99.00
+              [0-9288] cell: $297.00
+              [0-9290] cell: Shipped
+            [0-9292] row
+              [0-9293] cell: ORD-20421
+              [0-9295] cell: 2026-08-23
+              [0-9297] cell: Pedro Santos
+              [0-9299] cell: Central
+              [0-9301] cell: Ergonomic Chair
+              [0-9303] cell: 8
+              [0-9305] cell: $289.00
+              [0-9307] cell: $2,312.00
+              [0-9309] cell: Returned
+            [0-9311] row
+              [0-9312] cell: ORD-20422
+              [0-9314] cell: 2026-08-25
+              [0-9316] cell: Zoe Fischer
+              [0-9318] cell: North
+              [0-9320] cell: USB-C Dock
+              [0-9322] cell: 9
+              [0-9324] cell: $149.99
+              [0-9326] cell: $1,349.91
+              [0-9328] cell: Returned
+            [0-9330] row
+              [0-9331] cell: ORD-20423
+              [0-9333] cell: 2026-08-27
+              [0-9335] cell: Bruno Silva
+              [0-9337] cell: South
+              [0-9339] cell: Ergonomic Chair
+              [0-9341] cell: 4
+              [0-9343] cell: $289.00
+              [0-9345] cell: $1,156.00
+              [0-9347] cell: Shipped
+            [0-9349] row
+              [0-9350] cell: ORD-20424
+              [0-9352] cell: 2026-08-09
+              [0-9354] cell: Hiro Tanaka
+              [0-9356] cell: South
+              [0-9358] cell: Ergonomic Chair
+              [0-9360] cell: 5
+              [0-9362] cell: $289.00
+              [0-9364] cell: $1,445.00
+              [0-9366] cell: Delivered
+            [0-9368] row
+              [0-9369] cell: ORD-20425
+              [0-9371] cell: 2026-08-07
+              [0-9373] cell: Bruno Silva
+              [0-9375] cell: South
+              [0-9377] cell: USB-C Dock
+              [0-9379] cell: 1
+              [0-9381] cell: $149.99
+              [0-9383] cell: $149.99
+              [0-9385] cell: Shipped
+            [0-9387] row
+              [0-9388] cell: ORD-20426
+              [0-9390] cell: 2026-08-25
+              [0-9392] cell: Zoe Fischer
+              [0-9394] cell: South
+              [0-9396] cell: Noise-cancelling Headset
+              [0-9398] cell: 6
+              [0-9400] cell: $199.00
+              [0-9402] cell: $1,194.00
+              [0-9404] cell: Processing
+            [0-9406] row
+              [0-9407] cell: ORD-20427
+              [0-9409] cell: 2026-08-03
+              [0-9411] cell: Dmitri Volkov
+              [0-9413] cell: Central
+              [0-9415] cell: Noise-cancelling Headset
+              [0-9417] cell: 4
+              [0-9419] cell: $199.00
+              [0-9421] cell: $796.00
+              [0-9423] cell: Processing
+            [0-9425] row
+              [0-9426] cell: ORD-20428
+              [0-9428] cell: 2026-08-09
+              [0-9430] cell: Farah Haddad
+              [0-9432] cell: East
+              [0-9434] cell: Noise-cancelling Headset
+              [0-9436] cell: 4
+              [0-9438] cell: $199.00
+              [0-9440] cell: $796.00
+              [0-9442] cell: Delivered
+            [0-9444] row
+              [0-9445] cell: ORD-20429
+              [0-9447] cell: 2026-08-15
+              [0-9449] cell: Zoe Fischer
+              [0-9451] cell: South
+              [0-9453] cell: USB-C Dock
+              [0-9455] cell: 7
+              [0-9457] cell: $149.99
+              [0-9459] cell: $1,049.93
+              [0-9461] cell: Shipped
+            [0-9463] row
+              [0-9464] cell: ORD-20430
+              [0-9466] cell: 2026-08-13
+              [0-9468] cell: Jonas Berg
+              [0-9470] cell: Central
+              [0-9472] cell: Footrest
+              [0-9474] cell: 9
+              [0-9476] cell: $42.00
+              [0-9478] cell: $378.00
+              [0-9480] cell: Returned
+            [0-9482] row
+              [0-9483] cell: ORD-20431
+              [0-9485] cell: 2026-08-15
+              [0-9487] cell: Lucas Moreau
+              [0-9489] cell: East
+              [0-9491] cell: Ergonomic Chair
+              [0-9493] cell: 7
+              [0-9495] cell: $289.00
+              [0-9497] cell: $2,023.00
+              [0-9499] cell: Delivered
+            [0-9501] row
+              [0-9502] cell: ORD-20432
+              [0-9504] cell: 2026-08-13
+              [0-9506] cell: Valentina Ricci
+              [0-9508] cell: North
+              [0-9510] cell: Ergonomic Chair
+              [0-9512] cell: 3
+              [0-9514] cell: $289.00
+              [0-9516] cell: $867.00
+              [0-9518] cell: Delivered
+            [0-9520] row
+              [0-9521] cell: ORD-20433
+              [0-9523] cell: 2026-08-27
+              [0-9525] cell: Zoe Fischer
+              [0-9527] cell: North
+              [0-9529] cell: Noise-cancelling Headset
+              [0-9531] cell: 2
+              [0-9533] cell: $199.00
+              [0-9535] cell: $398.00
+              [0-9537] cell: Delivered
+            [0-9539] row
+              [0-9540] cell: ORD-20434
+              [0-9542] cell: 2026-08-25
+              [0-9544] cell: Valentina Ricci
+              [0-9546] cell: South
+              [0-9548] cell: Noise-cancelling Headset
+              [0-9550] cell: 1
+              [0-9552] cell: $199.00
+              [0-9554] cell: $199.00
+              [0-9556] cell: Shipped
+            [0-9558] row
+              [0-9559] cell: ORD-20435
+              [0-9561] cell: 2026-08-03
+              [0-9563] cell: Dmitri Volkov
+              [0-9565] cell: West
+              [0-9567] cell: Footrest
+              [0-9569] cell: 9
+              [0-9571] cell: $42.00
+              [0-9573] cell: $378.00
+              [0-9575] cell: Processing
+            [0-9577] row
+              [0-9578] cell: ORD-20436
+              [0-9580] cell: 2026-08-17
+              [0-9582] cell: Farah Haddad
+              [0-9584] cell: Central
+              [0-9586] cell: USB-C Dock
+              [0-9588] cell: 6
+              [0-9590] cell: $149.99
+              [0-9592] cell: $899.94
+              [0-9594] cell: Shipped
+            [0-9596] row
+              [0-9597] cell: ORD-20437
+              [0-9599] cell: 2026-08-27
+              [0-9601] cell: Farah Haddad
+              [0-9603] cell: Central
+              [0-9605] cell: Noise-cancelling Headset
+              [0-9607] cell: 2
+              [0-9609] cell: $199.00
+              [0-9611] cell: $398.00
+              [0-9613] cell: Delivered
+            [0-9615] row
+              [0-9616] cell: ORD-20438
+              [0-9618] cell: 2026-08-01
+              [0-9620] cell: Ximena Ortiz
+              [0-9622] cell: North
+              [0-9624] cell: USB-C Dock
+              [0-9626] cell: 4
+              [0-9628] cell: $149.99
+              [0-9630] cell: $599.96
+              [0-9632] cell: Processing
+            [0-9634] row
+              [0-9635] cell: ORD-20439
+              [0-9637] cell: 2026-08-15
+              [0-9639] cell: Pedro Santos
+              [0-9641] cell: West
+              [0-9643] cell: Keyboard
+              [0-9645] cell: 1
+              [0-9647] cell: $99.00
+              [0-9649] cell: $99.00
+              [0-9651] cell: Returned
+            [0-9653] row
+              [0-9654] cell: ORD-20440
+              [0-9656] cell: 2026-08-21
+              [0-9658] cell: Bruno Silva
+              [0-9660] cell: South
+              [0-9662] cell: Keyboard
+              [0-9664] cell: 6
+              [0-9666] cell: $99.00
+              [0-9668] cell: $594.00
+              [0-9670] cell: Shipped
+            [0-9672] row
+              [0-9673] cell: ORD-20441
+              [0-9675] cell: 2026-08-11
+              [0-9677] cell: Farah Haddad
+              [0-9679] cell: Central
+              [0-9681] cell: Ergonomic Chair
+              [0-9683] cell: 1
+              [0-9685] cell: $289.00
+              [0-9687] cell: $289.00
+              [0-9689] cell: Delivered
+            [0-9691] row
+              [0-9692] cell: ORD-20442
+              [0-9694] cell: 2026-08-05
+              [0-9696] cell: Bruno Silva
+              [0-9698] cell: East
+              [0-9700] cell: Footrest
+              [0-9702] cell: 6
+              [0-9704] cell: $42.00
+              [0-9706] cell: $252.00
+              [0-9708] cell: Delivered
+            [0-9710] row
+              [0-9711] cell: ORD-20443
+              [0-9713] cell: 2026-08-07
+              [0-9715] cell: Farah Haddad
+              [0-9717] cell: Central
+              [0-9719] cell: Keyboard
+              [0-9721] cell: 1
+              [0-9723] cell: $99.00
+              [0-9725] cell: $99.00
+              [0-9727] cell: Delivered
+            [0-9729] row
+              [0-9730] cell: ORD-20444
+              [0-9732] cell: 2026-08-01
+              [0-9734] cell: Valentina Ricci
+              [0-9736] cell: West
+              [0-9738] cell: Footrest
+              [0-9740] cell: 1
+              [0-9742] cell: $42.00
+              [0-9744] cell: $42.00
+              [0-9746] cell: Processing
+            [0-9748] row
+              [0-9749] cell: ORD-20445
+              [0-9751] cell: 2026-08-15
+              [0-9753] cell: Nikolai Petrov
+              [0-9755] cell: Central
+              [0-9757] cell: Footrest
+              [0-9759] cell: 6
+              [0-9761] cell: $42.00
+              [0-9763] cell: $252.00
+              [0-9765] cell: Cancelled
+            [0-9767] row
+              [0-9768] cell: ORD-20446
+              [0-9770] cell: 2026-09-05
+              [0-9772] cell: Ximena Ortiz
+              [0-9774] cell: South
+              [0-9776] cell: Noise-cancelling Headset
+              [0-9778] cell: 8
+              [0-9780] cell: $199.00
+              [0-9782] cell: $1,592.00
+              [0-9784] cell: Returned
+            [0-9786] row
+              [0-9787] cell: ORD-20447
+              [0-9789] cell: 2026-09-23
+              [0-9791] cell: Jonas Berg
+              [0-9793] cell: Central
+              [0-9795] cell: Keyboard
+              [0-9797] cell: 8
+              [0-9799] cell: $99.00
+              [0-9801] cell: $792.00
+              [0-9803] cell: Processing
+            [0-9805] row
+              [0-9806] cell: ORD-20448
+              [0-9808] cell: 2026-09-01
+              [0-9810] cell: Jonas Berg
+              [0-9812] cell: North
+              [0-9814] cell: USB-C Dock
+              [0-9816] cell: 9
+              [0-9818] cell: $149.99
+              [0-9820] cell: $1,349.91
+              [0-9822] cell: Delivered
+            [0-9824] row
+              [0-9825] cell: ORD-20449
+              [0-9827] cell: 2026-09-23
+              [0-9829] cell: Farah Haddad
+              [0-9831] cell: South
+              [0-9833] cell: USB-C Dock
+              [0-9835] cell: 7
+              [0-9837] cell: $149.99
+              [0-9839] cell: $1,049.93
+              [0-9841] cell: Delivered
+            [0-9843] row
+              [0-9844] cell: ORD-20450
+              [0-9846] cell: 2026-09-25
+              [0-9848] cell: Bruno Silva
+              [0-9850] cell: East
+              [0-9852] cell: Ergonomic Chair
+              [0-9854] cell: 7
+              [0-9856] cell: $289.00
+              [0-9858] cell: $2,023.00
+              [0-9860] cell: Delivered
+            [0-9862] row
+              [0-9863] cell: ORD-20451
+              [0-9865] cell: 2026-09-15
+              [0-9867] cell: Dmitri Volkov
+              [0-9869] cell: North
+              [0-9871] cell: Keyboard
+              [0-9873] cell: 6
+              [0-9875] cell: $99.00
+              [0-9877] cell: $594.00
+              [0-9879] cell: Delivered
+            [0-9881] row
+              [0-9882] cell: ORD-20452
+              [0-9884] cell: 2026-09-21
+              [0-9886] cell: Hiro Tanaka
+              [0-9888] cell: Central
+              [0-9890] cell: USB-C Dock
+              [0-9892] cell: 7
+              [0-9894] cell: $149.99
+              [0-9896] cell: $1,049.93
+              [0-9898] cell: Delivered
+            [0-9900] row
+              [0-9901] cell: ORD-20453
+              [0-9903] cell: 2026-09-27
+              [0-9905] cell: Farah Haddad
+              [0-9907] cell: East
+              [0-9909] cell: Footrest
+              [0-9911] cell: 1
+              [0-9913] cell: $42.00
+              [0-9915] cell: $42.00
+              [0-9917] cell: Delivered
+            [0-9919] row
+              [0-9920] cell: ORD-20454
+              [0-9922] cell: 2026-09-21
+              [0-9924] cell: Dmitri Volkov
+              [0-9926] cell: North
+              [0-9928] cell: USB-C Dock
+              [0-9930] cell: 7
+              [0-9932] cell: $149.99
+              [0-9934] cell: $1,049.93
+              [0-9936] cell: Processing
+            [0-9938] row
+              [0-9939] cell: ORD-20455
+              [0-9941] cell: 2026-09-15
+              [0-9943] cell: Tess Walker
+              [0-9945] cell: Central
+              [0-9947] cell: Footrest
+              [0-9949] cell: 7
+              [0-9951] cell: $42.00
+              [0-9953] cell: $294.00
+              [0-9955] cell: Cancelled
+            [0-9957] row
+              [0-9958] cell: ORD-20456
+              [0-9960] cell: 2026-09-05
+              [0-9962] cell: Dmitri Volkov
+              [0-9964] cell: West
+              [0-9966] cell: USB-C Dock
+              [0-9968] cell: 7
+              [0-9970] cell: $149.99
+              [0-9972] cell: $1,049.93
+              [0-9974] cell: Cancelled
+            [0-9976] row
+              [0-9977] cell: ORD-20457
+              [0-9979] cell: 2026-09-19
+              [0-9981] cell: Nikolai Petrov
+              [0-9983] cell: East
+              [0-9985] cell: Noise-cancelling Headset
+              [0-9987] cell: 8
+              [0-9989] cell: $199.00
+              [0-9991] cell: $1,592.00
+              [0-9993] cell: Delivered
+            [0-9995] row
+              [0-9996] cell: ORD-20458
+              [0-9998] cell: 2026-09-05
+              [0-10000] cell: Dmitri Volkov
+              [0-10002] cell: Central
+              [0-10004] cell: Keyboard
+              [0-10006] cell: 3
+              [0-10008] cell: $99.00
+              [0-10010] cell: $297.00
+              [0-10012] cell: Processing
+            [0-10014] row
+              [0-10015] cell: ORD-20459
+              [0-10017] cell: 2026-09-27
+              [0-10019] cell: Bruno Silva
+              [0-10021] cell: North
+              [0-10023] cell: Ergonomic Chair
+              [0-10025] cell: 1
+              [0-10027] cell: $289.00
+              [0-10029] cell: $289.00
+              [0-10031] cell: Delivered
+            [0-10033] row
+              [0-10034] cell: ORD-20460
+              [0-10036] cell: 2026-09-25
+              [0-10038] cell: Jonas Berg
+              [0-10040] cell: Central
+              [0-10042] cell: Keyboard
+              [0-10044] cell: 3
+              [0-10046] cell: $99.00
+              [0-10048] cell: $297.00
+              [0-10050] cell: Delivered
+            [0-10052] row
+              [0-10053] cell: ORD-20461
+              [0-10055] cell: 2026-09-03
+              [0-10057] cell: Jonas Berg
+              [0-10059] cell: South
+              [0-10061] cell: Keyboard
+              [0-10063] cell: 8
+              [0-10065] cell: $99.00
+              [0-10067] cell: $792.00
+              [0-10069] cell: Returned
+            [0-10071] row
+              [0-10072] cell: ORD-20462
+              [0-10074] cell: 2026-09-13
+              [0-10076] cell: Pedro Santos
+              [0-10078] cell: East
+              [0-10080] cell: Footrest
+              [0-10082] cell: 1
+              [0-10084] cell: $42.00
+              [0-10086] cell: $42.00
+              [0-10088] cell: Shipped
+            [0-10090] row
+              [0-10091] cell: ORD-20463
+              [0-10093] cell: 2026-09-03
+              [0-10095] cell: Valentina Ricci
+              [0-10097] cell: South
+              [0-10099] cell: USB-C Dock
+              [0-10101] cell: 1
+              [0-10103] cell: $149.99
+              [0-10105] cell: $149.99
+              [0-10107] cell: Processing
+            [0-10109] row
+              [0-10110] cell: ORD-20464
+              [0-10112] cell: 2026-09-25
+              [0-10114] cell: Rosa Delgado
+              [0-10116] cell: North
+              [0-10118] cell: Ergonomic Chair
+              [0-10120] cell: 2
+              [0-10122] cell: $289.00
+              [0-10124] cell: $578.00
+              [0-10126] cell: Delivered
+            [0-10128] row
+              [0-10129] cell: ORD-20465
+              [0-10131] cell: 2026-09-07
+              [0-10133] cell: Lucas Moreau
+              [0-10135] cell: South
+              [0-10137] cell: USB-C Dock
+              [0-10139] cell: 1
+              [0-10141] cell: $149.99
+              [0-10143] cell: $149.99
+              [0-10145] cell: Cancelled
+            [0-10147] row
+              [0-10148] cell: ORD-20466
+              [0-10150] cell: 2026-09-05
+              [0-10152] cell: Nikolai Petrov
+              [0-10154] cell: Central
+              [0-10156] cell: Keyboard
+              [0-10158] cell: 7
+              [0-10160] cell: $99.00
+              [0-10162] cell: $693.00
+              [0-10164] cell: Shipped
+            [0-10166] row
+              [0-10167] cell: ORD-20467
+              [0-10169] cell: 2026-09-07
+              [0-10171] cell: Farah Haddad
+              [0-10173] cell: West
+              [0-10175] cell: Keyboard
+              [0-10177] cell: 5
+              [0-10179] cell: $99.00
+              [0-10181] cell: $495.00
+              [0-10183] cell: Delivered
+            [0-10185] row
+              [0-10186] cell: ORD-20468
+              [0-10188] cell: 2026-09-05
+              [0-10190] cell: Bruno Silva
+              [0-10192] cell: West
+              [0-10194] cell: Noise-cancelling Headset
+              [0-10196] cell: 3
+              [0-10198] cell: $199.00
+              [0-10200] cell: $597.00
+              [0-10202] cell: Delivered
+            [0-10204] row
+              [0-10205] cell: ORD-20469
+              [0-10207] cell: 2026-09-23
+              [0-10209] cell: Jonas Berg
+              [0-10211] cell: Central
+              [0-10213] cell: Noise-cancelling Headset
+              [0-10215] cell: 8
+              [0-10217] cell: $199.00
+              [0-10219] cell: $1,592.00
+              [0-10221] cell: Returned
+            [0-10223] row
+              [0-10224] cell: ORD-20470
+              [0-10226] cell: 2026-09-21
+              [0-10228] cell: Zoe Fischer
+              [0-10230] cell: East
+              [0-10232] cell: Noise-cancelling Headset
+              [0-10234] cell: 3
+              [0-10236] cell: $199.00
+              [0-10238] cell: $597.00
+              [0-10240] cell: Processing
+            [0-10242] row
+              [0-10243] cell: ORD-20471
+              [0-10245] cell: 2026-09-07
+              [0-10247] cell: Farah Haddad
+              [0-10249] cell: Central
+              [0-10251] cell: Footrest
+              [0-10253] cell: 9
+              [0-10255] cell: $42.00
+              [0-10257] cell: $378.00
+              [0-10259] cell: Shipped
+            [0-10261] row
+              [0-10262] cell: ORD-20472
+              [0-10264] cell: 2026-09-01
+              [0-10266] cell: Jonas Berg
+              [0-10268] cell: East
+              [0-10270] cell: Footrest
+              [0-10272] cell: 8
+              [0-10274] cell: $42.00
+              [0-10276] cell: $336.00
+              [0-10278] cell: Delivered
+            [0-10280] row
+              [0-10281] cell: ORD-20473
+              [0-10283] cell: 2026-09-19
+              [0-10285] cell: Rosa Delgado
+              [0-10287] cell: Central
+              [0-10289] cell: USB-C Dock
+              [0-10291] cell: 5
+              [0-10293] cell: $149.99
+              [0-10295] cell: $749.95
+              [0-10297] cell: Delivered
+            [0-10299] row
+              [0-10300] cell: ORD-20474
+              [0-10302] cell: 2026-09-25
+              [0-10304] cell: Hiro Tanaka
+              [0-10306] cell: West
+              [0-10308] cell: USB-C Dock
+              [0-10310] cell: 9
+              [0-10312] cell: $149.99
+              [0-10314] cell: $1,349.91
+              [0-10316] cell: Delivered
+            [0-10318] row
+              [0-10319] cell: ORD-20475
+              [0-10321] cell: 2026-09-03
+              [0-10323] cell: Jonas Berg
+              [0-10325] cell: West
+              [0-10327] cell: Keyboard
+              [0-10329] cell: 1
+              [0-10331] cell: $99.00
+              [0-10333] cell: $99.00
+              [0-10335] cell: Returned
+            [0-10337] row
+              [0-10338] cell: ORD-20476
+              [0-10340] cell: 2026-09-05
+              [0-10342] cell: Lucas Moreau
+              [0-10344] cell: East
+              [0-10346] cell: Keyboard
+              [0-10348] cell: 3
+              [0-10350] cell: $99.00
+              [0-10352] cell: $297.00
+              [0-10354] cell: Returned
+            [0-10356] row
+              [0-10357] cell: ORD-20477
+              [0-10359] cell: 2026-09-19
+              [0-10361] cell: Lucas Moreau
+              [0-10363] cell: North
+              [0-10365] cell: Footrest
+              [0-10367] cell: 6
+              [0-10369] cell: $42.00
+              [0-10371] cell: $252.00
+              [0-10373] cell: Shipped
+            [0-10375] row
+              [0-10376] cell: ORD-20478
+              [0-10378] cell: 2026-09-09
+              [0-10380] cell: Jonas Berg
+              [0-10382] cell: North
+              [0-10384] cell: Noise-cancelling Headset
+              [0-10386] cell: 4
+              [0-10388] cell: $199.00
+              [0-10390] cell: $796.00
+              [0-10392] cell: Delivered
+            [0-10394] row
+              [0-10395] cell: ORD-20479
+              [0-10397] cell: 2026-09-07
+              [0-10399] cell: Valentina Ricci
+              [0-10401] cell: South
+              [0-10403] cell: Noise-cancelling Headset
+              [0-10405] cell: 7
+              [0-10407] cell: $199.00
+              [0-10409] cell: $1,393.00
+              [0-10411] cell: Processing
+            [0-10413] row
+              [0-10414] cell: ORD-20480
+              [0-10416] cell: 2026-09-21
+              [0-10418] cell: Nikolai Petrov
+              [0-10420] cell: Central
+              [0-10422] cell: USB-C Dock
+              [0-10424] cell: 4
+              [0-10426] cell: $149.99
+              [0-10428] cell: $599.96
+              [0-10430] cell: Returned
+            [0-10432] row
+              [0-10433] cell: ORD-20481
+              [0-10435] cell: 2026-09-15
+              [0-10437] cell: Ximena Ortiz
+              [0-10439] cell: West
+              [0-10441] cell: Footrest
+              [0-10443] cell: 4
+              [0-10445] cell: $42.00
+              [0-10447] cell: $168.00
+              [0-10449] cell: Cancelled
+            [0-10451] row
+              [0-10452] cell: ORD-20482
+              [0-10454] cell: 2026-09-09
+              [0-10456] cell: Dmitri Volkov
+              [0-10458] cell: North
+              [0-10460] cell: Ergonomic Chair
+              [0-10462] cell: 6
+              [0-10464] cell: $289.00
+              [0-10466] cell: $1,734.00
+              [0-10468] cell: Shipped
+            [0-10470] row
+              [0-10471] cell: ORD-20483
+              [0-10473] cell: 2026-09-15
+              [0-10475] cell: Tess Walker
+              [0-10477] cell: Central
+              [0-10479] cell: USB-C Dock
+              [0-10481] cell: 6
+              [0-10483] cell: $149.99
+              [0-10485] cell: $899.94
+              [0-10487] cell: Processing
+            [0-10489] row
+              [0-10490] cell: ORD-20484
+              [0-10492] cell: 2026-09-21
+              [0-10494] cell: Rosa Delgado
+              [0-10496] cell: South
+              [0-10498] cell: Keyboard
+              [0-10500] cell: 1
+              [0-10502] cell: $99.00
+              [0-10504] cell: $99.00
+              [0-10506] cell: Delivered
+            [0-10508] row
+              [0-10509] cell: ORD-20485
+              [0-10511] cell: 2026-09-11
+              [0-10513] cell: Nikolai Petrov
+              [0-10515] cell: Central
+              [0-10517] cell: Noise-cancelling Headset
+              [0-10519] cell: 9
+              [0-10521] cell: $199.00
+              [0-10523] cell: $1,791.00
+              [0-10525] cell: Shipped
+            [0-10527] row
+              [0-10528] cell: ORD-20486
+              [0-10530] cell: 2026-09-25
+              [0-10532] cell: Zoe Fischer
+              [0-10534] cell: Central
+              [0-10536] cell: USB-C Dock
+              [0-10538] cell: 2
+              [0-10540] cell: $149.99
+              [0-10542] cell: $299.98
+              [0-10544] cell: Delivered
+            [0-10546] row
+              [0-10547] cell: ORD-20487
+              [0-10549] cell: 2026-09-15
+              [0-10551] cell: Hiro Tanaka
+              [0-10553] cell: East
+              [0-10555] cell: Ergonomic Chair
+              [0-10557] cell: 3
+              [0-10559] cell: $289.00
+              [0-10561] cell: $867.00
+              [0-10563] cell: Delivered
+            [0-10565] row
+              [0-10566] cell: ORD-20488
+              [0-10568] cell: 2026-09-09
+              [0-10570] cell: Hiro Tanaka
+              [0-10572] cell: Central
+              [0-10574] cell: Keyboard
+              [0-10576] cell: 4
+              [0-10578] cell: $99.00
+              [0-10580] cell: $396.00
+              [0-10582] cell: Cancelled
+            [0-10584] row
+              [0-10585] cell: ORD-20489
+              [0-10587] cell: 2026-09-27
+              [0-10589] cell: Lucas Moreau
+              [0-10591] cell: South
+              [0-10593] cell: Noise-cancelling Headset
+              [0-10595] cell: 9
+              [0-10597] cell: $199.00
+              [0-10599] cell: $1,791.00
+              [0-10601] cell: Delivered
+            [0-10603] row
+              [0-10604] cell: ORD-20490
+              [0-10606] cell: 2026-09-25
+              [0-10608] cell: Valentina Ricci
+              [0-10610] cell: East
+              [0-10612] cell: USB-C Dock
+              [0-10614] cell: 1
+              [0-10616] cell: $149.99
+              [0-10618] cell: $149.99
+              [0-10620] cell: Processing
+            [0-10622] row
+              [0-10623] cell: ORD-20491
+              [0-10625] cell: 2026-09-07
+              [0-10627] cell: Jonas Berg
+              [0-10629] cell: Central
+              [0-10631] cell: Keyboard
+              [0-10633] cell: 7
+              [0-10635] cell: $99.00
+              [0-10637] cell: $693.00
+              [0-10639] cell: Returned
+            [0-10641] row
+              [0-10642] cell: ORD-20492
+              [0-10644] cell: 2026-09-25
+              [0-10646] cell: Nikolai Petrov
+              [0-10648] cell: North
+              [0-10650] cell: Keyboard
+              [0-10652] cell: 9
+              [0-10654] cell: $99.00
+              [0-10656] cell: $891.00
+              [0-10658] cell: Delivered
+            [0-10660] row
+              [0-10661] cell: ORD-20493
+              [0-10663] cell: 2026-09-03
+              [0-10665] cell: Pedro Santos
+              [0-10667] cell: West
+              [0-10669] cell: Ergonomic Chair
+              [0-10671] cell: 7
+              [0-10673] cell: $289.00
+              [0-10675] cell: $2,023.00
+              [0-10677] cell: Processing
+            [0-10679] row
+              [0-10680] cell: ORD-20494
+              [0-10682] cell: 2026-09-21
+              [0-10684] cell: Nikolai Petrov
+              [0-10686] cell: Central
+              [0-10688] cell: Noise-cancelling Headset
+              [0-10690] cell: 3
+              [0-10692] cell: $199.00
+              [0-10694] cell: $597.00
+              [0-10696] cell: Delivered
+            [0-10698] row
+              [0-10699] cell: ORD-20495
+              [0-10701] cell: 2026-09-15
+              [0-10703] cell: Ximena Ortiz
+              [0-10705] cell: West
+              [0-10707] cell: Noise-cancelling Headset
+              [0-10709] cell: 2
+              [0-10711] cell: $199.00
+              [0-10713] cell: $398.00
+              [0-10715] cell: Processing
+            [0-10717] row
+              [0-10718] cell: ORD-20496
+              [0-10720] cell: 2026-09-21
+              [0-10722] cell: Pedro Santos
+              [0-10724] cell: West
+              [0-10726] cell: Keyboard
+              [0-10728] cell: 3
+              [0-10730] cell: $99.00
+              [0-10732] cell: $297.00
+              [0-10734] cell: Delivered
+            [0-10736] row
+              [0-10737] cell: ORD-20497
+              [0-10739] cell: 2026-09-15
+              [0-10741] cell: Ximena Ortiz
+              [0-10743] cell: Central
+              [0-10745] cell: USB-C Dock
+              [0-10747] cell: 9
+              [0-10749] cell: $149.99
+              [0-10751] cell: $1,349.91
+              [0-10753] cell: Processing
+            [0-10755] row
+              [0-10756] cell: ORD-20498
+              [0-10758] cell: 2026-09-25
+              [0-10760] cell: Pedro Santos
+              [0-10762] cell: East
+              [0-10764] cell: Footrest
+              [0-10766] cell: 2
+              [0-10768] cell: $42.00
+              [0-10770] cell: $84.00
+              [0-10772] cell: Cancelled
+            [0-10774] row
+              [0-10775] cell: ORD-20499
+              [0-10777] cell: 2026-09-23
+              [0-10779] cell: Zoe Fischer
+              [0-10781] cell: East
+              [0-10783] cell: Noise-cancelling Headset
+              [0-10785] cell: 4
+              [0-10787] cell: $199.00
+              [0-10789] cell: $796.00
+              [0-10791] cell: Delivered
+            [0-10793] row
+              [0-10794] cell: ORD-20500
+              [0-10796] cell: 2026-09-09
+              [0-10798] cell: Bruno Silva
+              [0-10800] cell: West
+              [0-10802] cell: Keyboard
+              [0-10804] cell: 3
+              [0-10806] cell: $99.00
+              [0-10808] cell: $297.00
+              [0-10810] cell: Returned
+          [0-10812] rowgroup
+            [0-10813] row
+              [0-10814] cell: Grand total
+              [0-10816] cell: $393,538.73
+              [0-10818] cell
+        [0-10819] div
+          [0-10820] button: Previous page
+          [0-10823] StaticText: Page 1 of 1
+          [0-10824] button: Next page
+          [0-10826] link: Back to top

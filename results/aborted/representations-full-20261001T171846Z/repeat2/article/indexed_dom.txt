@@ -1,0 +1,124 @@
+The Meridian Review
+[33]<a />
+	World
+[35]<a />
+	Business
+[37]<a />
+	Travel
+[39]<a />
+	Climate
+[41]<a />
+	Culture
+[43]<a />
+	Opinion
+|SHADOW(open)|[3]<input type=search name=q placeholder=Search articles aria-label=Search articles />
+[47]<a />
+	Sign in
+Travel · Long read
+The Quiet Return of the Night Train
+After decades of cuts, overnight rail routes are being revived across Europe. Can sleeper carriages compete with budget flights?
+By
+[66]<a />
+	Helena Marsh
+· Published
+14 March 2026
+· 9 min read
+[74]<button />
+	Share
+[76]<button />
+	Save article
+At 19:42 on a wet Tuesday, the Nordlys sleeper eases out of Hamburg Altona with 312 passengers on board. By the time most of them wake, the train will have crossed two borders and covered 1,140 kilometres to reach Stockholm Central. Five years ago the route did not exist.
+The revival is not confined to Scandinavia. Operators have added fourteen new overnight services since 2022, according to figures compiled by the European Rail Passengers Forum, bringing the continent's total to 47 regular routes. Most run three to seven nights a week; only a handful operate daily all year.
+Why now?
+Part of the answer is policy. Several governments have tied airline support packages to commitments on short-haul flights, and the European Commission's 2024 rail action plan set aside €380 million for rolling stock. Part of it is demand: in a survey of 6,200 travellers carried out last autumn, 58 percent said they would choose a night train over a flight for journeys under 1,500 kilometres if the fares were comparable.
+"People do not miss the airport. They miss arriving somewhere rested, in the middle of a city, at eight in the morning."
+— Matteo Ricci, head of planning at Alpina Nachtzug
+Fares remain the sticking point. A berth in a six-bed couchette on the Vienna–Brussels line starts at €69, while a private sleeper compartment for two can exceed €400 in peak season. Budget airlines frequently undercut both, although the comparison changes once airport transfers and an extra hotel night are included.
+The rolling stock problem
+New sleeper carriages are expensive and slow to build. Alpina ordered 33 seven-car trainsets in 2021; the first entered service in December 2023 and the last is not expected until 2027. In the meantime many routes still rely on refurbished carriages built in the 1980s, which lack showers and step-free access.
+Selected overnight routes, winter 2025/26 timetable
+[110]<tr />
+	Route
+	Distance
+	Journey time
+	Nights per week
+[122]<tr />
+	[123]<td />
+		Hamburg – Stockholm
+	[125]<td />
+		1,140 km
+	[127]<td />
+		12 h 50 min
+	[129]<td />
+[132]<tr />
+	[133]<td />
+		Vienna – Brussels
+	[135]<td />
+		1,180 km
+	[137]<td />
+		14 h 05 min
+	[139]<td />
+[142]<tr />
+	[143]<td />
+		Paris – Berlin
+	[145]<td />
+		1,090 km
+	[147]<td />
+		13 h 40 min
+	[149]<td />
+[152]<tr />
+	[153]<td />
+		Zurich – Amsterdam
+	[155]<td />
+		860 km
+	[157]<td />
+		11 h 20 min
+	[159]<td />
+What passengers say
+On board the Nordlys, the dining car is full by eight. Ingrid Solberg, a 34-year-old architect travelling to a client meeting, says she now takes the train twice a month. "I lose an evening, but I gain a morning," she says. Others are less convinced. A family of four from Lübeck describes their compartment as "cramped but fun" and says they would not repeat the trip without a discount.
+Punctuality is another concern. Overnight services share tracks with freight, and maintenance work is usually scheduled at night. Across the routes tracked by the passenger forum, 71 percent of night trains arrived within fifteen minutes of schedule last year, compared with 86 percent of daytime long-distance trains.
+The road ahead
+Operators are betting that a network effect will kick in: the more cities the trains connect, the more useful each route becomes. Three further services, including a long-awaited Barcelona–Milan link, are scheduled to launch in spring 2027. Whether they last will depend on fares, reliability and, not least, whether passengers can get a good night's sleep.
+[180]<a />
+	Read 128 comments
+Get the weekly travel briefing
+Email address
+|SHADOW(open)|[4]<input id=nl-email type=email name=email placeholder=you@example.com />
+[193]<button type=submit />
+	Subscribe
+Most read
+[210]<a />
+	Inside the race to build Europe's largest heat pump
+[215]<a />
+	Why your phone battery drains faster in winter
+[220]<a />
+	The town that banned cars from its centre — and thrived
+[225]<a />
+	Review: a week on the world's slowest express
+[230]<a />
+	How airlines set the price of your seat
+Related
+[244]<a />
+	A beginner's guide to Interrail passes
+[249]<a />
+	Ten stations worth the detour
+Advertisement
+Explore the Alps by rail this winter. Packages from €299.
+[262]<a />
+	Learn more
+[271]<a />
+	About us
+[273]<a />
+	Contact
+[275]<a />
+	Privacy policy
+[277]<a />
+	Terms of use
+[279]<a />
+	Careers
+© 2026 The Meridian Review Ltd. All rights reserved.
+We use cookies to measure readership and personalise content.
+[292]<button />
+	Manage preferences
+[295]<button />
+	Accept all

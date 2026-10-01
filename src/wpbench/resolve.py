@@ -87,20 +87,27 @@ async def resolve_raw_html(ps: PageSession, truth: TargetTruth, answer: dict) ->
     selector = answer.get("selector")
     if not isinstance(selector, str) or not selector.strip():
         return _fail("malformed_answer")
-    session = ps.cdp
-    doc = await session.send("DOM.getDocument", {"depth": 0})
+    # A dedicated CDP session per resolution: DOM.getDocument resets the node ids
+    # of the session it runs on, so concurrent resolutions must not share one.
+    session = await ps.page.context.new_cdp_session(ps.page)
     try:
-        res = await session.send("DOM.querySelectorAll", {"nodeId": doc["root"]["nodeId"], "selector": selector})
-    except Exception:
-        return _fail("invalid_selector", {"selector": selector})
-    ids = res["nodeIds"]
-    if not ids:
-        return _fail("no_match", {"selector": selector})
-    if len(ids) > 1:
-        return _fail("ambiguous", {"selector": selector, "matches": len(ids)})
-    desc = await session.send("DOM.describeNode", {"nodeId": ids[0]})
-    bnid = desc["node"]["backendNodeId"]
-    resolved = {"selector": selector, "backend_node_id": bnid, **await _describe_backend(session, bnid)}
+        doc = await session.send("DOM.getDocument", {"depth": 0})
+        try:
+            res = await session.send("DOM.querySelectorAll", {"nodeId": doc["root"]["nodeId"], "selector": selector})
+        except Exception as e:
+            if "Could not find node" in str(e):
+                raise  # a harness problem, never the model's fault
+            return _fail("invalid_selector", {"selector": selector, "error": str(e)[:200]})
+        ids = res["nodeIds"]
+        if not ids:
+            return _fail("no_match", {"selector": selector})
+        if len(ids) > 1:
+            return _fail("ambiguous", {"selector": selector, "matches": len(ids)})
+        desc = await session.send("DOM.describeNode", {"nodeId": ids[0]})
+        bnid = desc["node"]["backendNodeId"]
+        resolved = {"selector": selector, "backend_node_id": bnid, **await _describe_backend(session, bnid)}
+    finally:
+        await session.detach()
     ok = truth.main.target_id == ps.page_target_id and truth.main.backend_node_id == bnid
     return ActResult(ok, "correct" if ok else "wrong_element", resolved)
 

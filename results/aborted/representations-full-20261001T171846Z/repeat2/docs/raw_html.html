@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Client.request() — Ferrite HTTP 3.2 documentation</title>
+<style>
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: #1f2328; }
+  .topbar { height: 56px; border-bottom: 1px solid #d0d7de; display: flex; align-items: center; padding: 0 24px; gap: 24px; }
+  .topbar .brand { font-weight: 700; font-size: 18px; }
+  .topbar input { width: 280px; padding: 6px 10px; }
+  .layout { display: flex; }
+  nav.sidebar { width: 260px; border-right: 1px solid #d0d7de; padding: 20px; font-size: 14px; min-height: 100vh; box-sizing: border-box; }
+  nav.sidebar h3 { font-size: 12px; text-transform: uppercase; color: #656d76; margin: 18px 0 6px; }
+  nav.sidebar ul { list-style: none; padding: 0; margin: 0; }
+  nav.sidebar li a { display: block; padding: 4px 8px; color: #1f2328; text-decoration: none; border-radius: 4px; }
+  nav.sidebar li a[aria-current="page"] { background: #ddf4ff; font-weight: 600; }
+  main { flex: 1; padding: 24px 48px; max-width: 860px; }
+  .breadcrumbs { font-size: 13px; color: #656d76; }
+  h1 code { font-size: 30px; }
+  pre { background: #f6f8fa; border: 1px solid #d0d7de; padding: 14px; border-radius: 6px; overflow: auto; position: relative; font-size: 13px; }
+  pre button { position: absolute; top: 6px; right: 6px; font-size: 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { border: 1px solid #d0d7de; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f6f8fa; }
+  .note { border-left: 4px solid #0969da; background: #ddf4ff; padding: 10px 14px; margin: 16px 0; }
+  .warning { border-left: 4px solid #9a6700; background: #fff8c5; padding: 10px 14px; margin: 16px 0; }
+  .pager { display: flex; justify-content: space-between; margin-top: 40px; border-top: 1px solid #d0d7de; padding-top: 16px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .toc { width: 220px; padding: 24px 16px; font-size: 13px; }
+  .toc ul { list-style: none; padding-left: 0; } .toc li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <span class="brand">Ferrite HTTP</span>
+  <label for="version" class="visually-hidden">Version</label>
+  <select id="version" name="version">
+    <option>4.0 (beta)</option>
+    <option selected="">3.2</option>
+    <option>3.1</option>
+    <option>2.9</option>
+  </select>
+  <input type="search" placeholder="Search docs" aria-label="Search docs">
+  <a href="#">GitHub</a>
+  <a href="#">Changelog</a>
+</div>
+<div class="layout">
+  <nav class="sidebar" aria-label="Documentation">
+    <h3>Getting started</h3>
+    <ul>
+      <li><a href="#">Installation</a></li>
+      <li><a href="#">Quickstart</a></li>
+      <li><a href="#">Migrating from 2.x</a></li>
+    </ul>
+    <h3>API reference</h3>
+    <ul>
+      <li><a href="#">Client</a></li>
+      <li><a href="#" aria-current="page">Client.request()</a></li>
+      <li><a href="#">Client.stream()</a></li>
+      <li><a href="#">Response</a></li>
+      <li><a href="#">Timeout</a></li>
+      <li><a href="#">RetryPolicy</a></li>
+      <li><a href="#">Exceptions</a></li>
+    </ul>
+    <h3>Guides</h3>
+    <ul>
+      <li><a href="#">Authentication</a></li>
+      <li><a href="#">Connection pooling</a></li>
+      <li><a href="#">Testing with mocks</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="breadcrumbs"><a href="#">Docs</a> / <a href="#">API reference</a> / Client.request()</div>
+    <h1><code>Client.request()</code></h1>
+    <p>Send an HTTP request and return a <a href="#"><code>Response</code></a>. This is the low-level method that all verb helpers such as <code>client.get()</code> and <code>client.post()</code> call internally.</p>
+
+    <pre><button type="button">Copy</button><code>response = client.request(
+    method, url, *, params=None, headers=None, json=None,
+    data=None, timeout=DEFAULT_TIMEOUT, follow_redirects=True,
+    max_redirects=20, retry=None,
+)</code></pre>
+
+    <h2 id="parameters">Parameters</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>method</code></td><td><code>str</code></td><td>required</td><td>HTTP method, for example <code>"GET"</code> or <code>"PATCH"</code>. Case-insensitive.</td></tr>
+        <tr><td><code>url</code></td><td><code>str | URL</code></td><td>required</td><td>Absolute URL, or a path relative to the client's <code>base_url</code>.</td></tr>
+        <tr><td><code>params</code></td><td><code>dict | None</code></td><td><code>None</code></td><td>Query string parameters. Lists are encoded as repeated keys.</td></tr>
+        <tr><td><code>headers</code></td><td><code>dict | None</code></td><td><code>None</code></td><td>Headers merged over the client's default headers.</td></tr>
+        <tr><td><code>json</code></td><td><code>Any</code></td><td><code>None</code></td><td>Body encoded as JSON. Sets <code>Content-Type: application/json</code>. Cannot be combined with <code>data</code>.</td></tr>
+        <tr><td><code>timeout</code></td><td><code>float | Timeout</code></td><td><code>5.0</code></td><td>Seconds to wait for the whole request. Pass a <code>Timeout</code> for separate connect and read limits.</td></tr>
+        <tr><td><code>follow_redirects</code></td><td><code>bool</code></td><td><code>True</code></td><td>Whether to follow 3xx responses automatically.</td></tr>
+        <tr><td><code>max_redirects</code></td><td><code>int</code></td><td><code>20</code></td><td>Raise <code>TooManyRedirects</code> after this many hops.</td></tr>
+        <tr><td><code>retry</code></td><td><code>RetryPolicy | None</code></td><td><code>None</code></td><td>Retry policy for idempotent methods. Non-idempotent methods are never retried.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note"><strong>Note:</strong> Since version 3.0, <code>timeout</code> applies to the entire request rather than to each socket operation.</div>
+
+    <h2 id="returns">Returns</h2>
+    <p>A <code>Response</code> object. The body is read eagerly unless you use <a href="#"><code>Client.stream()</code></a>.</p>
+
+    <h2 id="raises">Raises</h2>
+    <ul>
+      <li><code>ConnectTimeout</code> — the connection could not be established in time.</li>
+      <li><code>TooManyRedirects</code> — more than <code>max_redirects</code> redirects were followed.</li>
+      <li><code>InvalidURL</code> — the URL could not be parsed.</li>
+    </ul>
+
+    <div class="warning"><strong>Deprecated:</strong> The <code>verify_ssl</code> argument was removed in 3.2. Configure TLS on the <code>Client</code> instead.</div>
+
+    <h2 id="example">Example</h2>
+    <pre><button type="button">Copy</button><code>from ferrite import Client, RetryPolicy
+
+with Client(base_url="https://api.example.com") as client:
+    response = client.request(
+        "PATCH", "/orders/42",
+        json={"status": "shipped"},
+        retry=RetryPolicy(attempts=3),
+    )
+    response.raise_for_status()</code></pre>
+
+    <p><a href="#">Edit this page</a> · Last updated on 2 February 2026</p>
+    <div class="pager">
+      <a href="#" rel="prev">← Previous: Client</a>
+      <a href="#" rel="next">Next: Client.stream() →</a>
+    </div>
+    <p>Was this page helpful? <button type="button">Yes</button> <button type="button">No</button></p>
+  </main>
+
+  <aside class="toc" aria-label="On this page">
+    <strong>On this page</strong>
+    <ul>
+      <li><a href="#parameters">Parameters</a></li>
+      <li><a href="#returns">Returns</a></li>
+      <li><a href="#raises">Raises</a></li>
+      <li><a href="#example">Example</a></li>
+    </ul>
+  </aside>
+</div>
+
+
+</body></html>

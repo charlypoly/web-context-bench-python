@@ -1,0 +1,156 @@
+[0-11512] RootWebArea: Create your account — Northwind Outfitters
+  [0-11515] scrollable, html
+    [0-11523] body
+      [0-11524] banner
+        [0-11526] StaticText: Northwind Outfitters
+        [0-11527] list: Checkout progress
+          [0-11528] listitem
+            [0-11529] StaticText: 1. Cart
+          [0-11530] listitem
+            [0-11531] StaticText: 2. Account & shipping
+          [0-11532] listitem
+            [0-11533] StaticText: 3. Payment
+          [0-11534] listitem
+            [0-11535] StaticText: 4. Review
+      [0-11536] main
+        [0-11537] heading: Create your account
+        [0-11539] paragraph
+          [0-11540] StaticText: Fields marked
+          [0-11542] StaticText: *
+          [0-11543] StaticText: are required. Your cart total is
+          [0-11544] strong
+            [0-11545] StaticText: $186.40
+          [0-11546] StaticText: (3 items).
+        [0-11484] form
+          [0-11506] group: Account details
+            [0-11547] Legend
+              [0-11548] StaticText: Account details
+            [0-11549] div
+              [0-11550] div
+                [0-11551] LabelText
+                  [0-11552] StaticText: First name
+                  [0-11554] StaticText: *
+                [0-11485] textbox: First name *
+              [0-11557] div
+                [0-11558] LabelText
+                  [0-11559] StaticText: Last name
+                  [0-11561] StaticText: *
+                [0-11486] textbox: Last name *
+            [0-11565] div
+              [0-11566] LabelText
+                [0-11567] StaticText: Email address
+                [0-11569] StaticText: *
+              [0-11487] textbox: Email address *
+              [0-11573] StaticText: We'll send your order confirmation here.
+            [0-11574] div
+              [0-11575] div
+                [0-11576] LabelText
+                  [0-11577] StaticText: Password
+                  [0-11579] StaticText: *
+                [0-11488] textbox: Password *
+                [0-11583] StaticText: At least 12 characters, including one number.
+              [0-11584] div
+                [0-11585] LabelText
+                  [0-11586] StaticText: Confirm password
+                  [0-11588] StaticText: *
+                [0-11489] textbox: Confirm password *
+          [0-11507] group: Shipping address
+            [0-11591] Legend
+              [0-11592] StaticText: Shipping address
+            [0-11593] div
+              [0-11594] div
+                [0-11595] LabelText
+                  [0-11596] StaticText: Country / region
+                [0-11490] select: Country / region
+                  [0-11601] MenuListPopup
+                    [0-11603] option: Canada
+                    [0-11604] option: Mexico
+                    [0-11605] option: United States [selected]
+                    [0-11606] option: United Kingdom
+              [0-11629] div
+                [0-11630] LabelText
+                  [0-11631] StaticText: State
+                [0-11491] select: State
+                  [0-11636] MenuListPopup
+                    [0-11638] option: Select a state
+                    [0-11639] option: California
+                    [0-11640] option: New York
+                    [0-11641] option: Oregon [selected]
+                    [0-11642] option: Washington
+            [0-11671] div
+              [0-11672] LabelText
+                [0-11673] StaticText: Street address
+                [0-11675] StaticText: *
+              [0-11492] textbox: Street address *
+            [0-11493] textbox: Apartment, suite, unit (optional)
+            [0-11684] div
+              [0-11685] div
+                [0-11686] LabelText
+                  [0-11687] StaticText: City
+                  [0-11689] StaticText: *
+                [0-11494] textbox: City *
+                  [0-11692] StaticText: Portland
+              [0-11693] div
+                [0-11694] LabelText
+                  [0-11695] StaticText: ZIP code
+                  [0-11697] StaticText: *
+                [0-11495] textbox: ZIP code *
+                [0-11703] StaticText: 5 digits
+              [0-11704] div
+                [0-11706] StaticText: Phone
+                [0-11496] textbox: Mobile phone number
+          [0-11508] group: Delivery speed
+            [0-11709] Legend
+              [0-11710] StaticText: Delivery speed
+            [0-11711] radiogroup
+              [0-11500] radio: Standard (5–7 business days) — Free [checked]
+              [0-11501] radio: Express (2–3 business days) — $9.99
+              [0-11502] radio: Overnight (next business day) — $24.50
+            [0-11719] div
+              [0-11720] LabelText
+                [0-11721] StaticText: Preferred delivery date
+              [0-11497] Date: Preferred delivery date
+                [0-11723] div
+                  [0-11725] div
+                    [0-11726] spinbutton: Day Day
+                      [0-11727] StaticText: dd
+                    [0-11729] StaticText: /
+                    [0-11730] spinbutton: Month Month
+                      [0-11731] StaticText: mm
+                    [0-11733] StaticText: /
+                    [0-11734] spinbutton: Year Year
+                      [0-11735] StaticText: yyyy
+                  [0-11736] button: Show date picker Show date picker
+              [0-11738] StaticText: Weekdays only. Earliest available: 5 October 2026.
+          [0-11509] group: Extras
+            [0-11739] Legend
+              [0-11740] StaticText: Extras
+            [0-11742] div
+              [0-11743] LabelText
+                [0-11744] StaticText: Gift message
+              [0-11498] textbox: Gift message
+              [0-11749] StaticText: Up to 200 characters. Printed on the packing slip.
+            [0-11751] div
+              [0-11752] LabelText
+                [0-11753] StaticText: Promo code
+              [0-11499] textbox: Promo code
+                [0-11756] StaticText: WELCOME5
+              [0-11758] StaticText: WELCOME5 takes $5 off orders over $50.
+            [0-11759] div
+              [0-11503] checkbox: Email me about new arrivals and sales [checked]
+              [0-11504] checkbox: Send shipping updates by text message
+              [0-11764] LabelText
+                [0-11505] checkbox: I agree to the Terms of Service and Privacy Policy *
+                [0-11765] StaticText: I agree to the
+                [0-11766] link: Terms of Service
+                [0-11768] StaticText: and
+                [0-11769] link: Privacy Policy
+                [0-11788] StaticText: 
+                [0-11772] StaticText: *
+          [0-11773] div
+            [0-11510] button: Create account and continue
+            [0-11511] button: Save as draft
+            [0-11776] link: Cancel and return to cart
+          [0-11778] paragraph
+            [0-11779] StaticText: Already have an account?
+            [0-11780] link: Sign in

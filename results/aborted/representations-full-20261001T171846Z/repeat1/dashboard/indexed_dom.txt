@@ -1,0 +1,178 @@
+Lumen Analytics
+[29]<a />
+	Overview
+[32]<a />
+	Orders
+[35]<a />
+	Products
+[38]<a />
+	Customers
+[41]<a />
+	Marketing
+[44]<a />
+	Reports
+[47]<a />
+	Settings
+Store overview
+Date range
+|SHADOW(open)|*[2]<select id=range expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=4,options=Today|Last 7 days|Last 30 days|Quarter to date) />
+Store
+|SHADOW(open)|*[3]<select id=store expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=3,options=All stores|Online|Seattle flagship) />
+[91]<button />
+	Export CSV
+[94]<button aria-label=Notifications (3 unread) />
+	🔔 3
+Revenue
+$128,430
+▲ 12.4% vs previous period
+Orders
+1,284
+▲ 8.1% vs previous period
+Conversion rate
+3.42%
+▼ 0.3 pts vs previous period
+Refunds
+27
+▲ 5 more than previous period
+Weekly revenue
+<svg role=img aria-label=Bar chart of weekly revenue /> <!-- SVG content collapsed -->
+Alerts
+Low stock:
+Trail Runner 2 (size 10) — 4 left
+Payment failed:
+order #10473 — card declined
+Review flagged:
+Summit Daypack — 1-star review awaiting moderation
+[202]<a />
+	View all alerts
+Recent orders
+[217]<tr />
+	Order
+	Customer
+	Date
+	Total
+	Status
+	Actions
+[234]<tr />
+	[235]<td />
+		#10481
+	[237]<td />
+		Priya Natarajan
+	[239]<td />
+		29 Sep 2026
+	[241]<td />
+		$212.00
+	[243]<td />
+		[244]<span />
+			Paid
+	[246]<td />
+		[247]<button />
+			View
+[250]<tr />
+	[251]<td />
+		#10480
+	[253]<td />
+		Diego Alvarez
+	[255]<td />
+		29 Sep 2026
+	[257]<td />
+		$64.50
+	[259]<td />
+		Pending
+	[262]<td />
+		[263]<button />
+			View
+[266]<tr />
+	[267]<td />
+		#10479
+	[269]<td />
+		Hannah Becker
+	[271]<td />
+		28 Sep 2026
+	[273]<td />
+		$129.99
+	[275]<td />
+		[276]<span />
+			Paid
+	[278]<td />
+		[279]<button />
+			View
+[282]<tr />
+	[283]<td />
+		#10478
+	[285]<td />
+		Kwame Mensah
+	[287]<td />
+		28 Sep 2026
+	[289]<td />
+		$45.00
+	[291]<td />
+		Refunded
+	[294]<td />
+		[295]<button />
+			View
+[298]<tr />
+	[299]<td />
+		#10477
+	[301]<td />
+		Sofia Rossi
+	[303]<td />
+		27 Sep 2026
+	[305]<td />
+		$318.75
+	[307]<td />
+		[308]<span />
+			Paid
+	[310]<td />
+		[311]<button />
+			View
+[314]<tr />
+	[315]<td />
+		#10476
+	[317]<td />
+		Liam O'Connor
+	[319]<td />
+		27 Sep 2026
+	[6]<td />
+		$89.20
+	[322]<td />
+		Pending
+	[325]<td />
+		[326]<button />
+			View
+[331]<a />
+	See all orders
+Top products
+[343]<tr />
+	Product
+	Units
+	Revenue
+[353]<tr />
+	[354]<td />
+		Summit Daypack
+	[356]<td />
+		342
+	[358]<td />
+		$27,018
+[361]<tr />
+	[362]<td />
+		Trail Runner 2
+	[364]<td />
+		288
+	[366]<td />
+		$37,440
+[369]<tr />
+	[370]<td />
+		Merino Base Layer
+	[372]<td />
+		251
+	[374]<td />
+		$17,570
+[377]<tr />
+	[378]<td />
+		Insulated Bottle 1L
+	[380]<td />
+		198
+	[382]<td />
+		$6,930
+Data last refreshed 30 Sep 2026, 06:00 UTC.

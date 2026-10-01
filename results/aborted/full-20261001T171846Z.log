@@ -1,0 +1,32 @@
+repeat 1 books_listing: 41/48 correct, 0 API errors
+repeat 1 article: 44/48 correct, 0 API errors
+repeat 1 table: 43/48 correct, 0 API errors
+repeat 1 serp: 42/48 correct, 0 API errors
+repeat 1 docs: 40/48 correct, 0 API errors
+repeat 1 form: 39/48 correct, 0 API errors
+repeat 1 dashboard: 45/48 correct, 0 API errors
+repeat 1 saucedemo_login: 45/48 correct, 0 API errors
+repeat 1 books_product: 41/48 correct, 0 API errors
+repeat 1 embed: 27/48 correct, 0 API errors
+repeat 2 article: 44/48 correct, 0 API errors
+repeat 2 table: 44/48 correct, 0 API errors
+repeat 2 dashboard: 45/48 correct, 0 API errors
+repeat 2 form: 39/48 correct, 0 API errors
+repeat 2 books_listing: 41/48 correct, 0 API errors
+repeat 2 saucedemo_login: 45/48 correct, 0 API errors
+repeat 2 serp: 39/48 correct, 0 API errors
+repeat 2 books_product: 41/48 correct, 0 API errors
+repeat 2 embed: 26/48 correct, 0 API errors
+repeat 2 docs: 40/48 correct, 0 API errors
+repeat 3 embed: 27/48 correct, 0 API errors
+repeat 3 serp: 41/48 correct, 0 API errors
+repeat 3 books_listing: 40/48 correct, 0 API errors
+repeat 3 dashboard: 45/48 correct, 0 API errors
+repeat 3 books_product: 40/48 correct, 0 API errors
+repeat 3 article: 43/48 correct, 0 API errors
+repeat 3 table: 44/48 correct, 0 API errors
+repeat 3 docs: 40/48 correct, 0 API errors
+repeat 3 saucedemo_login: 45/48 correct, 0 API errors
+repeat 3 form: 39/48 correct, 0 API errors
+run full-20261001T171846Z done; metadata in results/runs/full-20261001T171846Z.json
+exit=0

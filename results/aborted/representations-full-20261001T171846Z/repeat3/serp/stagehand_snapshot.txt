@@ -1,0 +1,160 @@
+[0-25142] RootWebArea: solar panel installation cost - Kestrel Search
+  [0-25144] scrollable, html
+    [0-25152] body
+      [0-25153] banner
+        [0-25155] StaticText: Kestrel
+        [0-25140] search
+          [0-25141] searchbox: Search
+            [0-25160] StaticText: solar panel installation cost
+          [0-25162] button: Search
+            [0-25163] StaticText: 🔍
+        [0-25164] link: Settings
+      [0-25166] navigation: Result types
+        [0-25167] link: All
+        [0-25169] link: Images
+        [0-25171] link: News
+        [0-25173] link: Videos
+        [0-25175] link: Shopping
+      [0-25177] div
+        [0-25178] main
+          [0-25180] StaticText: About 4,120,000 results (0.42 seconds)
+          [0-25181] div
+            [0-25183] StaticText: Sponsored
+            [0-25184] div
+              [0-25186] StaticText: BrightRoof Solar
+              [0-25187] StaticText: www.brightroof-solar.example
+            [0-25188] heading: Free Solar Quote in 60 Seconds — Save Up to 30% With Tax Credit
+              [0-25189] link: Free Solar Quote in 60 Seconds — Save Up to 30% With Tax Credit
+            [0-25191] paragraph
+              [0-25192] StaticText: Licensed installers in 40 states. 25-year panel warranty. Book a free roof assessment today.
+          [0-25193] div
+            [0-25194] div
+              [0-25196] StaticText: EnergyWise
+              [0-25197] StaticText: energywise.example › guides › solar-cost
+            [0-25198] heading: How Much Do Solar Panels Cost in 2026? (Full Price Breakdown)
+              [0-25199] link: How Much Do Solar Panels Cost in 2026? (Full Price Breakdown)
+            [0-25201] paragraph
+              [0-25203] StaticText: 12 Aug 2026 —
+              [0-25204] StaticText: The average residential system costs
+              [0-25206] StaticText: $2.86 per watt
+              [0-25207] StaticText: before incentives, or about $17,160 for a 6 kW installation. Labour accounts for roughly 10% of the total ...
+          [0-25208] div
+            [0-25209] div
+              [0-25211] StaticText: HomeCalc
+              [0-25212] StaticText: homecalc.example › solar › calculator
+            [0-25213] heading: Solar Panel Cost Calculator by ZIP Code
+              [0-25214] link: Solar Panel Cost Calculator by ZIP Code
+            [0-25216] paragraph
+              [0-25217] StaticText: Enter your ZIP code and monthly electric bill to estimate system size, upfront cost and payback period. Rated 4.6 out of 5 from 2,318 reviews.
+          [0-25218] region: People also ask
+            [0-25219] heading: People also ask
+            [0-25221] group
+              [0-25224] DisclosureTriangle: Is solar worth it for a small house?
+            [0-25234] group
+              [0-25237] DisclosureTriangle: How long does a solar installation take?
+            [0-25247] group
+              [0-25250] DisclosureTriangle: Do solar panels increase home value?
+          [0-25260] div
+            [0-25261] div
+              [0-25263] StaticText: The Daily Ledger
+              [0-25264] StaticText: dailyledger.example › personal-finance
+            [0-25265] heading: Solar Panels: Are They Still a Good Investment After the 2025 Rate Changes?
+              [0-25266] link: Solar Panels: Are They Still a Good Investment After the 2025 Rate Changes?
+            [0-25268] paragraph
+              [0-25270] StaticText: 3 Jun 2026 —
+              [0-25271] StaticText: New net-metering rules in several states have lengthened payback times from about 7 years to closer to 10 ...
+          [0-25272] div
+            [0-25273] div
+              [0-25275] StaticText: Reddit
+              [0-25276] StaticText: reddit.example › r/solar
+            [0-25277] heading: What did you actually pay for your install? : r/solar
+              [0-25278] link: What did you actually pay for your install? : r/solar
+            [0-25280] paragraph
+              [0-25281] StaticText: 418 comments · "Paid $21,400 for 8.2 kW with a Tesla inverter in Arizona, before the 30% credit ..."
+          [0-25282] div
+            [0-25283] div
+              [0-25285] StaticText: US Department of Energy
+              [0-25286] StaticText: energy.example.gov › eere › solar
+            [0-25287] heading: Homeowner's Guide to Going Solar
+              [0-25288] link: Homeowner's Guide to Going Solar
+            [0-25290] paragraph
+              [0-25291] StaticText: Learn about the federal solar tax credit, financing options, and how to evaluate quotes from installers.
+          [0-25292] div
+            [0-25293] div
+              [0-25295] StaticText: SunMetrics
+              [0-25296] StaticText: sunmetrics.example › reports › installed-cost
+            [0-25297] heading: 2026 Installed Cost Report: Residential Solar by State
+              [0-25298] link: 2026 Installed Cost Report: Residential Solar by State
+            [0-25300] paragraph
+              [0-25302] StaticText: 21 Jul 2026 —
+              [0-25303] StaticText: Massachusetts had the highest median cost at $3.41/W; Nevada the lowest at $2.39/W ...
+          [0-25304] div
+            [0-25305] div
+              [0-25307] StaticText: YouTube
+              [0-25308] StaticText: youtube.example › watch
+            [0-25309] heading: I Installed Solar Myself and Saved $9,000 — Here's How
+              [0-25310] link: I Installed Solar Myself and Saved $9,000 — Here's How
+            [0-25312] paragraph
+              [0-25314] StaticText: 18:42 · 1.2M views · DIY Dan
+          [0-25315] div
+            [0-25316] div
+              [0-25318] StaticText: ConsumerFirst
+              [0-25319] StaticText: consumerfirst.example › solar › installers
+            [0-25320] heading: Best Solar Installers of 2026: Ratings and Reviews
+              [0-25321] link: Best Solar Installers of 2026: Ratings and Reviews
+            [0-25323] paragraph
+              [0-25324] StaticText: We compared 14 national installers on price, warranty and customer service. SunPeak ranked first overall.
+          [0-25325] div
+            [0-25326] div
+              [0-25328] StaticText: GreenBuild Forum
+              [0-25329] StaticText: greenbuild.example › threads
+            [0-25330] heading: Hidden costs nobody tells you about (roof repairs, permits, panel upgrades)
+              [0-25331] link: Hidden costs nobody tells you about (roof repairs, permits, panel upgrades)
+            [0-25333] paragraph
+              [0-25334] StaticText: A main panel upgrade added $2,800 to my quote. Check whether your service is 100A or 200A before signing ...
+          [0-25335] div
+            [0-25336] div
+              [0-25338] StaticText: SolarLease Co
+              [0-25339] StaticText: solarlease.example
+            [0-25340] heading: Lease vs. Buy: Which Solar Option Saves More?
+              [0-25341] link: Lease vs. Buy: Which Solar Option Saves More?
+            [0-25343] paragraph
+              [0-25344] StaticText: Leasing means $0 upfront, but buying typically saves twice as much over 20 years.
+          [0-25345] heading: Related searches
+          [0-25347] div
+            [0-25348] link: solar panel cost per watt
+            [0-25350] link: solar tax credit 2026
+            [0-25352] link: solar battery cost
+            [0-25354] link: cheapest solar installers near me
+          [0-25356] navigation: Pagination
+            [0-25358] StaticText: 1
+            [0-25359] link: 2
+            [0-25361] link: 3
+            [0-25363] link: 4
+            [0-25365] link: 5
+            [0-25367] link: 6
+            [0-25369] link: 7
+            [0-25371] link: 8
+            [0-25373] link: 9
+            [0-25375] link: 10
+            [0-25377] link: Next
+        [0-25379] complementary: Knowledge panel
+          [0-25380] heading: Residential solar costs
+          [0-25382] paragraph
+            [0-25383] StaticText: Typical price range for a 6 kW system in the United States:
+          [0-25384] LayoutTable
+            [0-25385] tbody
+              [0-25386] LayoutTableRow
+                [0-25387] LayoutTableCell: Low
+                [0-25389] LayoutTableCell: $13,000
+              [0-25392] LayoutTableRow
+                [0-25393] LayoutTableCell: Median
+                [0-25395] LayoutTableCell: $17,160
+              [0-25398] LayoutTableRow
+                [0-25399] LayoutTableCell: High
+                [0-25401] LayoutTableCell: $24,500
+          [0-25404] paragraph
+            [0-25405] StaticText: Federal tax credit: 30% through 2032.
+          [0-25406] paragraph
+            [0-25407] StaticText: Source: SunMetrics 2026 Installed Cost Report
+          [0-25408] button: Feedback

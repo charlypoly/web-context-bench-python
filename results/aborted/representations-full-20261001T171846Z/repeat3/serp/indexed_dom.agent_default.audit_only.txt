@@ -1,0 +1,108 @@
+Kestrel
+[2]<form role=search />
+	|SHADOW(open)|[3]<input type=search name=q value=solar panel installation cost aria-label=Search />
+	[30]<button type=submit aria-label=Search />
+[34]<a />
+	Settings
+[40]<a />
+	All
+[42]<a />
+	Images
+[44]<a />
+	News
+[46]<a />
+	Videos
+[48]<a />
+	Shopping
+About 4,120,000 results (0.42 seconds)
+Sponsored
+BrightRoof Solar
+www.brightroof-solar.example
+[69]<a />
+	Free Solar Quote in 60 Seconds — Save Up to 30% With Tax Credit
+Licensed installers in 40 states. 25-year panel warranty. Book a free roof assessment today.
+EnergyWise
+energywise.example › guides › solar-cost
+[84]<a />
+	How Much Do Solar Panels Cost in 2026? (Full Price Breakdown)
+12 Aug 2026 —
+The average residential system costs
+$2.86 per watt
+before incentives, or about $17,160 for a 6 kW installation. Labour accounts for roughly 10% of the total ...
+HomeCalc
+homecalc.example › solar › calculator
+[104]<a />
+	Solar Panel Cost Calculator by ZIP Code
+Enter your ZIP code and monthly electric bill to estimate system size, upfront cost and payback period. Rated 4.6 out of 5 from 2,318 reviews.
+People also ask
+|SHADOW(open)|*[116]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />
+	[117]<summary expanded=false />
+		Is solar worth it for a small house?
+	For homes using under 500 kWh a month, payback periods often exceed 12 years.
+|SHADOW(open)|*[123]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />
+	[124]<summary expanded=false />
+		How long does a solar installation take?
+	Most residential installs take 1 to 3 days once permits are approved.
+|SHADOW(open)|*[130]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />
+	[131]<summary expanded=false />
+		Do solar panels increase home value?
+	Studies have found a premium of around 4% for homes with owned systems.
+The Daily Ledger
+dailyledger.example › personal-finance
+[146]<a />
+	Solar Panels: Are They Still a Good Investment After the 2025 Rate Changes?
+3 Jun 2026 —
+New net-metering rules in several states have lengthened payback times from about 7 years to closer to 10 ...
+Reddit
+reddit.example › r/solar
+[163]<a />
+	What did you actually pay for your install? : r/solar
+418 comments · "Paid $21,400 for 8.2 kW with a Tesla inverter in Arizona, before the 30% credit ..."
+US Department of Energy
+energy.example.gov › eere › solar
+[178]<a />
+	Homeowner's Guide to Going Solar
+Learn about the federal solar tax credit, financing options, and how to evaluate quotes from installers.
+SunMetrics
+sunmetrics.example › reports › installed-cost
+[193]<a />
+	2026 Installed Cost Report: Residential Solar by State
+21 Jul 2026 —
+Massachusetts had the highest median cost at $3.41/W; Nevada the lowest at $2.39/W ...
+YouTube
+youtube.example › watch
+[210]<a />
+	I Installed Solar Myself and Saved $9,000 — Here's How
+18:42 · 1.2M views · DIY Dan
+ConsumerFirst
+consumerfirst.example › solar › installers
+[226]<a />
+	Best Solar Installers of 2026: Ratings and Reviews
+We compared 14 national installers on price, warranty and customer service. SunPeak ranked first overall.
+GreenBuild Forum
+greenbuild.example › threads
+[241]<a />
+	Hidden costs nobody tells you about (roof repairs, permits, panel upgrades)
+A main panel upgrade added $2,800 to my quote. Check whether your service is 100A or 200A before signing ...
+SolarLease Co
+solarlease.example
+[256]<a />
+	Lease vs. Buy: Which Solar Option Saves More?
+Leasing means $0 upfront, but buying typically saves twice as much over 20 years.
+Related searches
+[268]<a />
+	solar panel cost per watt
+[270]<a />
+	solar tax credit 2026
+Residential solar costs
+Typical price range for a 6 kW system in the United States:
+Low
+$13,000
+Median
+$17,160
+High
+$24,500
+Federal tax credit: 30% through 2032.
+Source: SunMetrics 2026 Installed Cost Report
+[345]<button />
+	Feedback

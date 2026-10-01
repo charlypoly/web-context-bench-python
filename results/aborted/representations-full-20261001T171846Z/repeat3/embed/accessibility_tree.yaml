@@ -1,0 +1,45 @@
+- banner:
+  - strong: Pinecone Coffee Roasters
+  - navigation "Account":
+    - link "Help":
+      - /url: "#"
+    - link "My account":
+      - /url: "#"
+- heading "Checkout" [level=1]
+- heading "Contact" [level=2]
+- paragraph:
+  - text: Signed in as
+  - strong: m.alvarez@example.com
+  - text: ·
+  - link "Not you?":
+    - /url: "#"
+- heading "Shipping estimate" [level=2]
+- iframe
+- heading "Payment" [level=2]
+- iframe
+- paragraph: Card details are handled by our payment partner, Cobalt Pay, and never touch our servers.
+- heading "Order summary" [level=2]
+- table:
+  - rowgroup:
+    - row "Ethiopia Guji, 340 g × 2 $38.00":
+      - cell "Ethiopia Guji, 340 g × 2"
+      - cell "$38.00"
+    - row "House Espresso Blend, 1 kg $34.50":
+      - cell "House Espresso Blend, 1 kg"
+      - cell "$34.50"
+    - row "Paper filters (100) $6.20":
+      - cell "Paper filters (100)"
+      - cell "$6.20"
+    - row "Shipping $5.50":
+      - cell "Shipping"
+      - cell "$5.50"
+    - row "Total $84.20":
+      - cell "Total"
+      - cell "$84.20"
+- heading "Discounts" [level=2]
+- button "Place order"
+- paragraph:
+  - text: By placing your order you agree to our
+  - link "terms of sale":
+    - /url: "#"
+  - text: .

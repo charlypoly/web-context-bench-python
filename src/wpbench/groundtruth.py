@@ -114,9 +114,12 @@ async def resolve_chain(page, chain: list[str], page_session=None) -> ResolvedEl
 async def _child_playwright_frame(parent_frame, iframe_node: dict):
     """Find the Playwright Frame for an <iframe> node, matched by its id/name/src attributes."""
     attrs = dict(zip(iframe_node.get("attributes", [])[::2], iframe_node.get("attributes", [])[1::2]))
-    candidates = parent_frame.child_frames
+    candidates = [f for f in parent_frame.child_frames if not f.is_detached()]
     for f in candidates:
-        el = await f.frame_element()
+        try:
+            el = await f.frame_element()
+        except Exception:  # detached between listing and lookup
+            continue
         same = await el.evaluate(
             "(e, a) => (a.id ? e.id === a.id : true) && (a.src ? e.getAttribute('src') === a.src : true)",
             {"id": attrs.get("id"), "src": attrs.get("src")},

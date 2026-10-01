@@ -66,7 +66,14 @@ async def launch(req: dict) -> dict:
 
 
 async def capture(req: dict) -> dict:
-    page = State.page
+    # A fresh tab per page session (the benchmark browser likewise uses a fresh
+    # context per load). Reusing one tab across navigations left stale entries
+    # from the previous document's frames in xpath_map.
+    old = State.page
+    page = await State.browser.context.new_page()
+    if old is not None:
+        await old.close()
+    State.page = page
     # launch(viewport_*) only sets the window size; set the page viewport explicitly.
     await page.set_viewport_size(*VIEWPORT)
     await page.goto(req["url"])

@@ -72,18 +72,42 @@ def trim_trailing_text_node(path: str) -> str:
     return re.sub(r"/text\(\)(\[\d+\])?$", "", path, flags=re.IGNORECASE)
 
 
-def stagehand_key_for(xpath_map: dict[str, str], el: ResolvedElement) -> tuple[str | None, str | None]:
+def stagehand_key_for(xpath_map: dict[str, str], el: ResolvedElement, tree: str,
+                      frame_prefix: str | None = None) -> tuple[str | None, str | None]:
     """Find the Stagehand encoded id ('<frame ordinal>-<backendNodeId>') of a ground-truth element.
 
     Stagehand embeds the CDP backendNodeId in the id. Out-of-process frames
-    have their own backendNodeId space, so a collision is possible; the
-    iframe depth encoded in Stagehand's own xpath disambiguates.
+    have their own backendNodeId space, so the same number can belong to nodes
+    in different frames. Candidates are narrowed by iframe depth and, for
+    elements inside an iframe, by the Stagehand xpath of that <iframe> element
+    (frame_prefix). Remaining keys must share one xpath (same element); the key
+    the formatted tree shows is preferred.
     """
     suffix = f"-{el.backend_node_id}"
-    keys = [k for k, xp in xpath_map.items() if k.endswith(suffix) and stagehand_depth(xp) == el.frame_depth]
-    if len(keys) != 1:
+    keys = [k for k, xp in xpath_map.items()
+            if k.endswith(suffix) and stagehand_depth(xp) == el.frame_depth
+            and (frame_prefix is None or xp.startswith(frame_prefix + "/"))]
+    xpaths = {trim_trailing_text_node(xpath_map[k]) for k in keys}
+    if not keys or len(xpaths) != 1:
         return None, None
-    return keys[0], trim_trailing_text_node(xpath_map[keys[0]])
+    shown = [k for k in keys if f"[{k}]" in tree]
+    return (shown or keys)[0], xpaths.pop()
+
+
+async def stagehand_truth(sh_page, chain: list[str], xpath_map: dict[str, str], tree: str):
+    """Resolve a ground-truth chain in Stagehand's browser to its Stagehand id and xpath."""
+    el = await resolve_chain(sh_page, chain)
+    prefix = None
+    if el.frame_depth:
+        # The innermost <iframe> on the chain is the last hop that changed frame depth.
+        for i in range(len(chain) - 1, 0, -1):
+            host = await resolve_chain(sh_page, chain[:i])
+            if host.frame_depth == el.frame_depth - 1:
+                _, prefix = await stagehand_truth(sh_page, chain[:i], xpath_map, tree)
+                break
+        if prefix is None:
+            return None, None
+    return stagehand_key_for(xpath_map, el, tree, prefix)
 
 
 async def capture_page_session(
@@ -135,7 +159,15 @@ async def capture_page_session(
     sh_out = await asyncio.to_thread(sh.call, cmd="capture", url=url)
     reps["stagehand_snapshot"] = sh_out["formatted_tree"]
     integrity["stagehand_inner_viewport"] = sh_out["inner_viewport"]
-    sh_page = next(p for c in sh_playwright_browser.contexts for p in c.pages if p.url == sh_out["url"])
+    sh_page = None
+    for _ in range(50):  # Playwright's attached view picks up Stagehand's new tab asynchronously
+        found = [p for c in sh_playwright_browser.contexts for p in c.pages if p.url == sh_out["url"] and not p.is_closed()]
+        if len(found) == 1:
+            sh_page = found[0]
+            break
+        await asyncio.sleep(0.1)
+    if sh_page is None:
+        raise RuntimeError(f"Stagehand tab for {sh_out['url']} not found exactly once in Playwright's view")
 
     ps = PageSession(
         page_id=page_id, url=url, page=page, cdp=session, page_target_id=page_target_id, reps=reps,
@@ -150,14 +182,16 @@ async def capture_page_session(
     )
 
     # --- ground truth in both loads ------------------------------------------
+    # Every target was validated to resolve uniquely (scripts/validate_tasks.py),
+    # so a ground-truth failure here is a harness bug: abort rather than score it.
     for task in act_tasks:
         try:
             main_el = await resolve_chain(page, task["target"], page_session=session)
             box = await bounding_box(page, main_el)
-            sh_el = await resolve_chain(sh_page, task["target"])
-            key, xpath = stagehand_key_for(ps.stagehand_xpath_map, sh_el)
-            ps.truths[task["id"]] = TargetTruth(task["id"], main_el, box, key, xpath,
-                                                None if key else "ground truth has no unique Stagehand id")
+            key, xpath = await stagehand_truth(sh_page, task["target"], ps.stagehand_xpath_map, reps["stagehand_snapshot"])
         except GroundTruthError as e:
-            ps.truths[task["id"]] = TargetTruth(task["id"], None, None, None, None, str(e))
+            raise RuntimeError(f"ground truth failed for {task['id']} on {page_id}: {e}") from e
+        if key is None:
+            raise RuntimeError(f"no Stagehand id for ground truth of {task['id']} on {page_id}")
+        ps.truths[task["id"]] = TargetTruth(task["id"], main_el, box, key, xpath)
     return ps

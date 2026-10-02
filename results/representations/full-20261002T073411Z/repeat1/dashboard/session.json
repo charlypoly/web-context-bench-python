@@ -1,0 +1,154 @@
+{
+ "page_id": "dashboard",
+ "url": "http://localhost:8100/dashboard/index.html",
+ "integrity": {
+  "raw_html_sha256": "e3b36ff8a2df64e3420236c542677a83a6cc3a158d21f83a7ef7990aedebc29c",
+  "unchanged_after_browser_use": true,
+  "diff_after_browser_use": null,
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 82,
+  "index_count": 82
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-223": "http://localhost:8100/dashboard/index.html",
+   "0-237": "http://localhost:8100/dashboard/index.html#",
+   "0-239": "http://localhost:8100/dashboard/index.html#",
+   "0-241": "http://localhost:8100/dashboard/index.html#",
+   "0-243": "http://localhost:8100/dashboard/index.html#",
+   "0-245": "http://localhost:8100/dashboard/index.html#",
+   "0-247": "http://localhost:8100/dashboard/index.html#",
+   "0-249": "http://localhost:8100/dashboard/index.html#",
+   "0-397": "http://localhost:8100/dashboard/index.html#",
+   "0-510": "http://localhost:8100/dashboard/index.html#"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "dashboard.act.1": {
+   "backend_node_id": 263,
+   "target_id": "183658B4BBCA8095B63CB0BD45B5BDAA",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 817.046875,
+    "y": 572,
+    "width": 44.65625,
+    "height": 21
+   },
+   "stagehand_key": "0-448",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[3]/section[1]/table[1]/tbody[1]/tr[2]/td[6]/button[1]",
+   "error": null
+  },
+  "dashboard.act.2": {
+   "backend_node_id": 91,
+   "target_id": "183658B4BBCA8095B63CB0BD45B5BDAA",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 1112.234375,
+    "y": 23.5,
+    "width": 85.640625,
+    "height": 21
+   },
+   "stagehand_key": "0-318",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/button[1]",
+   "error": null
+  },
+  "dashboard.act.3": {
+   "backend_node_id": 94,
+   "target_id": "183658B4BBCA8095B63CB0BD45B5BDAA",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 1207.875,
+    "y": 20,
+    "width": 44.125,
+    "height": 28
+   },
+   "stagehand_key": "0-320",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/button[2]",
+   "error": null
+  }
+ }
+}

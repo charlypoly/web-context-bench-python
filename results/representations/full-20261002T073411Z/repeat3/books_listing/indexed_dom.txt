@@ -1,0 +1,378 @@
+[100]<a />
+	Books to Scrape
+We love being scraped!
+[121]<a />
+	Home
+All products
+[149]<a />
+	Books
+[157]<a />
+	Travel
+[24]<a />
+	Mystery
+[170]<a />
+	Historical Fiction
+[177]<a />
+	Sequential Art
+[184]<a />
+	Classics
+[191]<a />
+	Philosophy
+[198]<a />
+	Romance
+[205]<a />
+	Womens Fiction
+[212]<a />
+	Fiction
+[219]<a />
+	Childrens
+[226]<a />
+	Religion
+[233]<a />
+	Nonfiction
+[240]<a />
+	Music
+[247]<a />
+	Default
+[254]<a />
+	Science Fiction
+[261]<a />
+	Sports and Games
+[268]<a />
+	Add a comment
+[275]<a />
+	Fantasy
+[282]<a />
+	New Adult
+[289]<a />
+	Young Adult
+[27]<a />
+	Science
+[302]<a />
+	Poetry
+[309]<a />
+	Paranormal
+[316]<a />
+	Art
+[323]<a />
+	Psychology
+[330]<a />
+	Autobiography
+[337]<a />
+	Parenting
+[344]<a />
+	Adult Fiction
+[351]<a />
+	Humor
+[358]<a />
+	Horror
+[365]<a />
+	History
+[372]<a />
+	Food and Drink
+[379]<a />
+	Christian Fiction
+[386]<a />
+	Business
+[393]<a />
+	Biography
+[400]<a />
+	Thriller
+[407]<a />
+	Contemporary
+[414]<a />
+	Spirituality
+[421]<a />
+	Academic
+[428]<a />
+	Self Help
+[435]<a />
+	Historical
+[442]<a />
+	Christian
+[449]<a />
+	Suspense
+[456]<a />
+	Short Stories
+[463]<a />
+	Novels
+[470]<a />
+	Health
+[477]<a />
+	Politics
+[484]<a />
+	Cultural
+[491]<a />
+	Erotica
+[25]<a />
+	Crime
+All products
+1000
+results - showing
+to
+20
+Warning!
+This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.
+[553]<a image_alt=A Light in the Attic image_src=2cdad67c44b002e7ead0cc35693c0e8b.jpg />
+[559]<i />
+[560]<i />
+[562]<i />
+[565]<i />
+[567]<i />
+[571]<a title=A Light in the Attic />
+	A Light in the ...
+£51.77
+[581]<i />
+In stock
+[588]<button type=submit />
+	Add to basket
+[601]<a image_alt=Tipping the Velvet image_src=260c6ae16bce31c8f8c95daddd9f4a1c.jpg />
+[607]<i />
+[608]<i />
+[610]<i />
+[613]<i />
+[615]<i />
+[619]<a title=Tipping the Velvet />
+	Tipping the Velvet
+£53.74
+[628]<i />
+In stock
+[635]<button type=submit />
+	Add to basket
+[648]<a image_alt=Soumission image_src=3eef99c9d9adef34639f510662022830.jpg />
+[654]<i />
+[655]<i />
+[657]<i />
+[660]<i />
+[662]<i />
+[666]<a title=Soumission />
+	Soumission
+£50.10
+[676]<i />
+In stock
+[683]<button type=submit />
+	Add to basket
+[696]<a image_alt=Sharp Objects image_src=3251cf3a3412f53f339e42cac2134093.jpg />
+[702]<i />
+[703]<i />
+[705]<i />
+[708]<i />
+[710]<i />
+[714]<a title=Sharp Objects />
+	Sharp Objects
+£47.82
+[724]<i />
+In stock
+[731]<button type=submit />
+	Add to basket
+[744]<a image_alt=Sapiens: A Brief History of Humankind image_src=bea5697f2534a2f86a3ef27b5a8c12a6.jpg />
+[750]<i />
+[753]<i />
+[756]<i />
+[759]<i />
+[762]<i />
+[767]<a title=Sapiens: A Brief History of Humankind />
+	Sapiens: A Brief History ...
+£54.23
+[777]<i />
+In stock
+[784]<button type=submit />
+	Add to basket
+[797]<a image_alt=The Requiem Red image_src=68339b4c9bc034267e1da611ab3b34f8.jpg />
+[803]<i />
+[806]<i />
+[809]<i />
+[812]<i />
+[815]<i />
+[820]<a title=The Requiem Red />
+	The Requiem Red
+£22.65
+[830]<i />
+In stock
+[837]<button type=submit />
+	Add to basket
+[850]<a image_alt=The Dirty Little Secrets of Getting Your Dream Job image_src=92274a95b7c251fea59a2b8a78275ab4.jpg />
+[856]<i />
+[859]<i />
+[862]<i />
+[865]<i />
+[868]<i />
+[873]<a title=The Dirty Little Secrets of Getting Your Dream Job />
+	The Dirty Little Secrets ...
+£33.34
+[883]<i />
+In stock
+[890]<button type=submit />
+	Add to basket
+[903]<a image_alt=The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull image_src=3d54940e57e662c4dd1f3ff00c78cc64.jpg />
+[909]<i />
+[912]<i />
+[915]<i />
+[918]<i />
+[921]<i />
+[926]<a title=The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull />
+	The Coming Woman: A ...
+£17.93
+[936]<i />
+In stock
+[943]<button type=submit />
+	Add to basket
+[956]<a image_alt=The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics image_src=66883b91f6804b2323c8369331cb7dd1.jpg />
+[962]<i />
+[965]<i />
+[968]<i />
+[971]<i />
+[974]<i />
+[979]<a title=The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics />
+	The Boys in the ...
+£22.60
+[989]<i />
+In stock
+[996]<button type=submit />
+	Add to basket
+[1009]<a image_alt=The Black Maria image_src=5846057e28022268153beff6d352b06c.jpg />
+[1015]<i />
+[1018]<i />
+[1021]<i />
+[1024]<i />
+[1027]<i />
+[1032]<a title=The Black Maria />
+	The Black Maria
+£52.15
+[1042]<i />
+In stock
+[1049]<button type=submit />
+	Add to basket
+[1062]<a image_alt=Starving Hearts (Triangular Trade Trilogy, #1) image_src=bef44da28c98f905a3ebec0b87be8530.jpg />
+[1068]<i />
+[1071]<i />
+[1074]<i />
+[1077]<i />
+[1080]<i />
+[1085]<a title=Starving Hearts (Triangular Trade Trilogy, #1) />
+	Starving Hearts (Triangular Trade ...
+£13.99
+[1095]<i />
+In stock
+[1102]<button type=submit />
+	Add to basket
+[1115]<a image_alt=Shakespeare's Sonnets image_src=1048f63d3b5061cd2f424d20b3f9b666.jpg />
+[1121]<i />
+[1124]<i />
+[1127]<i />
+[1130]<i />
+[1133]<i />
+[1138]<a title=Shakespeare's Sonnets />
+	Shakespeare's Sonnets
+£20.66
+[1148]<i />
+In stock
+[1155]<button type=submit />
+	Add to basket
+[1168]<a image_alt=Set Me Free image_src=5b88c52633f53cacf162c15f4f823153.jpg />
+[1174]<i />
+[1177]<i />
+[1180]<i />
+[1183]<i />
+[1186]<i />
+[1191]<a title=Set Me Free />
+	Set Me Free
+£17.46
+[1201]<i />
+In stock
+[1208]<button type=submit />
+	Add to basket
+[1221]<a image_alt=Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) image_src=94b1b8b244bce9677c2f29ccc890d4d2.jpg />
+[1227]<i />
+[1230]<i />
+[1233]<i />
+[1236]<i />
+[1239]<i />
+[1244]<a title=Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) />
+	Scott Pilgrim's Precious Little ...
+£52.29
+[1254]<i />
+In stock
+[1261]<button type=submit />
+	Add to basket
+[1274]<a image_alt=Rip it Up and Start Again image_src=81c4a973364e17d01f217e1188253d5e.jpg />
+[1280]<i />
+[1283]<i />
+[1286]<i />
+[1289]<i />
+[1292]<i />
+[1297]<a title=Rip it Up and Start Again />
+	Rip it Up and ...
+£35.02
+[1307]<i />
+In stock
+[1314]<button type=submit />
+	Add to basket
+[1327]<a image_alt=Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 image_src=54607fe8945897cdcced0044103b10b6.jpg />
+[1333]<i />
+[1336]<i />
+[1339]<i />
+[1342]<i />
+[1345]<i />
+[1350]<a title=Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 />
+	Our Band Could Be ...
+£57.25
+[1360]<i />
+In stock
+[1367]<button type=submit />
+	Add to basket
+[1380]<a image_alt=Olio image_src=553310a7162dfbc2c6d19a84da0df9e1.jpg />
+[1386]<i />
+[1389]<i />
+[1392]<i />
+[1395]<i />
+[1398]<i />
+[1403]<a title=Olio />
+	Olio
+£23.88
+[1413]<i />
+In stock
+[1420]<button type=submit />
+	Add to basket
+[1433]<a image_alt=Mesaerion: The Best Science Fiction Stories 1800-1849 image_src=09a3aef48557576e1a85ba7efea8ecb7.jpg />
+[1439]<i />
+[1442]<i />
+[1445]<i />
+[1448]<i />
+[1451]<i />
+[1456]<a title=Mesaerion: The Best Science Fiction Stories 1800-1849 />
+	Mesaerion: The Best Science ...
+£37.59
+[1466]<i />
+In stock
+[1473]<button type=submit />
+	Add to basket
+[1486]<a image_alt=Libertarianism for Beginners image_src=0bbcd0a6f4bcd81ccb1049a52736406e.jpg />
+[1492]<i />
+[1495]<i />
+[1498]<i />
+[1501]<i />
+[1504]<i />
+[1509]<a title=Libertarianism for Beginners />
+	Libertarianism for Beginners
+£51.33
+[1519]<i />
+In stock
+[1526]<button type=submit />
+	Add to basket
+[1539]<a image_alt=It's Only the Himalayas image_src=27a53d0bb95bdd88288eaf66c9230d7e.jpg />
+[1545]<i />
+[1548]<i />
+[1551]<i />
+[1554]<i />
+[1557]<i />
+[1562]<a title=It's Only the Himalayas />
+	It's Only the Himalayas
+£45.17
+[1572]<i />
+In stock
+[1579]<button type=submit />
+	Add to basket
+Page 1 of 50
+[26]<a />
+	next

@@ -1,0 +1,54 @@
+- banner:
+  - link "Books to Scrape":
+    - /url: ../../index.html
+  - text: We love being scraped!
+- list:
+  - listitem:
+    - link "Home":
+      - /url: ../../index.html
+  - listitem:
+    - text: /
+    - link "Books":
+      - /url: ../category/books_1/index.html
+  - listitem:
+    - text: /
+    - link "Poetry":
+      - /url: ../category/books/poetry_23/index.html
+  - listitem: / A Light in the Attic
+- article:
+  - img "A Light in the Attic"
+  - heading "A Light in the Attic" [level=1]
+  - paragraph: £51.77
+  - paragraph:  In stock (22 available)
+  - paragraph:     
+  - separator
+  - alert:
+    - strong: Warning!
+    - text: This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.
+  - heading "Product Description" [level=2]
+  - paragraph: It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love th It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love that Silverstein. Need proof of his genius? RockabyeRockabye baby, in the treetopDon't you know a treetopIs no safe place to rock?And who put you up there,And your cradle, too?Baby, I think someone down here'sGot it in for you. Shel, you never sounded so good. ...more
+  - heading "Product Information" [level=2]
+  - table:
+    - rowgroup:
+      - row "UPC a897fe39b1053632":
+        - rowheader "UPC"
+        - cell "a897fe39b1053632"
+      - row "Product Type Books":
+        - rowheader "Product Type"
+        - cell "Books"
+      - row "Price (excl. tax) £51.77":
+        - rowheader "Price (excl. tax)"
+        - cell "£51.77"
+      - row "Price (incl. tax) £51.77":
+        - rowheader "Price (incl. tax)"
+        - cell "£51.77"
+      - row "Tax £0.00":
+        - rowheader "Tax"
+        - cell "£0.00"
+      - row "Availability In stock (22 available)":
+        - rowheader "Availability"
+        - cell "In stock (22 available)"
+      - row "Number of reviews 0":
+        - rowheader "Number of reviews"
+        - cell "0"
+- contentinfo

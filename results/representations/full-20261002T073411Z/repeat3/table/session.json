@@ -1,0 +1,150 @@
+{
+ "page_id": "table",
+ "url": "http://localhost:8100/table/index.html",
+ "integrity": {
+  "raw_html_sha256": "10c54f31fb0b19349ca6ab910263428aa09af4555508a0ca9732823d547ea72f",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -26 +26 @@\n-    <input id=\"filter\" type=\"search\" placeholder=\"Customer, product or order ID\">\n+    <input id=\"filter\" type=\"search\" placeholder=\"Customer, product or order ID\" style=\"\">",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": true,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 626,
+  "index_count": 5021
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-26194": "http://localhost:8100/table/index.html",
+   "0-35827": "http://localhost:8100/table/index.html#",
+   "0-26209": "http://localhost:8100/table/index.html#",
+   "0-26211": "http://localhost:8100/table/index.html#",
+   "0-26213": "http://localhost:8100/table/index.html#",
+   "0-26215": "http://localhost:8100/table/index.html#"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "table.act.1": {
+   "backend_node_id": 104,
+   "target_id": "CF1E857F2E4A9F28101628EDFBFF2266",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 993.6875,
+    "y": 211.875,
+    "width": 30.09375,
+    "height": 15
+   },
+   "stagehand_key": "0-26307",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/table[1]/thead[1]/tr[1]/th[8]/button[1]",
+   "error": null
+  },
+  "table.act.2": {
+   "backend_node_id": 64,
+   "target_id": "CF1E857F2E4A9F28101628EDFBFF2266",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 434.390625,
+    "y": 145.875,
+    "width": 106.40625,
+    "height": 21
+   },
+   "stagehand_key": "0-26276",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/div[1]/button[1]",
+   "error": null
+  },
+  "table.act.3": {
+   "backend_node_id": 10133,
+   "target_id": "CF1E857F2E4A9F28101628EDFBFF2266",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 307.640625,
+    "y": 13275.375,
+    "width": 70.046875,
+    "height": 16
+   },
+   "stagehand_key": "0-35827",
+   "stagehand_xpath": "/html[1]/body[1]/main[1]/div[2]/a[1]",
+   "error": null
+  }
+ }
+}

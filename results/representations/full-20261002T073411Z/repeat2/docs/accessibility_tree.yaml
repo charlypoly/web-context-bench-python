@@ -1,0 +1,238 @@
+- text: Ferrite HTTP Version
+- combobox "Version":
+  - option "4.0 (beta)"
+  - option "3.2" [selected]
+  - option "3.1"
+  - option "2.9"
+- searchbox "Search docs"
+- link "GitHub":
+  - /url: "#"
+- link "Changelog":
+  - /url: "#"
+- navigation "Documentation":
+  - heading "Getting started" [level=3]
+  - list:
+    - listitem:
+      - link "Installation":
+        - /url: "#"
+    - listitem:
+      - link "Quickstart":
+        - /url: "#"
+    - listitem:
+      - link "Migrating from 2.x":
+        - /url: "#"
+  - heading "API reference" [level=3]
+  - list:
+    - listitem:
+      - link "Client":
+        - /url: "#"
+    - listitem:
+      - link "Client.request()":
+        - /url: "#"
+    - listitem:
+      - link "Client.stream()":
+        - /url: "#"
+    - listitem:
+      - link "Response":
+        - /url: "#"
+    - listitem:
+      - link "Timeout":
+        - /url: "#"
+    - listitem:
+      - link "RetryPolicy":
+        - /url: "#"
+    - listitem:
+      - link "Exceptions":
+        - /url: "#"
+  - heading "Guides" [level=3]
+  - list:
+    - listitem:
+      - link "Authentication":
+        - /url: "#"
+    - listitem:
+      - link "Connection pooling":
+        - /url: "#"
+    - listitem:
+      - link "Testing with mocks":
+        - /url: "#"
+- main:
+  - link "Docs":
+    - /url: "#"
+  - text: /
+  - link "API reference":
+    - /url: "#"
+  - text: / Client.request()
+  - heading "Client.request()" [level=1]:
+    - code: Client.request()
+  - paragraph:
+    - text: Send an HTTP request and return a
+    - link "Response":
+      - /url: "#"
+      - code: Response
+    - text: . This is the low-level method that all verb helpers such as
+    - code: client.get()
+    - text: and
+    - code: client.post()
+    - text: call internally.
+  - button "Copy"
+  - code: response = client.request( method, url, *, params=None, headers=None, json=None, data=None, timeout=DEFAULT_TIMEOUT, follow_redirects=True, max_redirects=20, retry=None, )
+  - heading "Parameters" [level=2]
+  - table:
+    - rowgroup:
+      - row "Name Type Default Description":
+        - columnheader "Name"
+        - columnheader "Type"
+        - columnheader "Default"
+        - columnheader "Description"
+    - rowgroup:
+      - row "method str required HTTP method, for example \"GET\" or \"PATCH\". Case-insensitive.":
+        - cell "method":
+          - code: method
+        - cell "str":
+          - code: str
+        - cell "required"
+        - cell "HTTP method, for example \"GET\" or \"PATCH\". Case-insensitive.":
+          - text: HTTP method, for example
+          - code: "\"GET\""
+          - text: or
+          - code: "\"PATCH\""
+          - text: . Case-insensitive.
+      - row "url str | URL required Absolute URL, or a path relative to the client's base_url.":
+        - cell "url":
+          - code: url
+        - cell "str | URL":
+          - code: str | URL
+        - cell "required"
+        - cell "Absolute URL, or a path relative to the client's base_url.":
+          - text: Absolute URL, or a path relative to the client's
+          - code: base_url
+          - text: .
+      - row "params dict | None None Query string parameters. Lists are encoded as repeated keys.":
+        - cell "params":
+          - code: params
+        - cell "dict | None":
+          - code: dict | None
+        - cell "None":
+          - code: None
+        - cell "Query string parameters. Lists are encoded as repeated keys."
+      - row "headers dict | None None Headers merged over the client's default headers.":
+        - cell "headers":
+          - code: headers
+        - cell "dict | None":
+          - code: dict | None
+        - cell "None":
+          - code: None
+        - cell "Headers merged over the client's default headers."
+      - 'row "json Any None Body encoded as JSON. Sets Content-Type: application/json. Cannot be combined with data."':
+        - cell "json":
+          - code: json
+        - cell "Any":
+          - code: Any
+        - cell "None":
+          - code: None
+        - 'cell "Body encoded as JSON. Sets Content-Type: application/json. Cannot be combined with data."':
+          - text: Body encoded as JSON. Sets
+          - code: "Content-Type: application/json"
+          - text: . Cannot be combined with
+          - code: data
+          - text: .
+      - row "timeout float | Timeout 5.0 Seconds to wait for the whole request. Pass a Timeout for separate connect and read limits.":
+        - cell "timeout":
+          - code: timeout
+        - cell "float | Timeout":
+          - code: float | Timeout
+        - cell "5.0":
+          - code: "5.0"
+        - cell "Seconds to wait for the whole request. Pass a Timeout for separate connect and read limits.":
+          - text: Seconds to wait for the whole request. Pass a
+          - code: Timeout
+          - text: for separate connect and read limits.
+      - row "follow_redirects bool True Whether to follow 3xx responses automatically.":
+        - cell "follow_redirects":
+          - code: follow_redirects
+        - cell "bool":
+          - code: bool
+        - cell "True":
+          - code: "True"
+        - cell "Whether to follow 3xx responses automatically."
+      - row "max_redirects int 20 Raise TooManyRedirects after this many hops.":
+        - cell "max_redirects":
+          - code: max_redirects
+        - cell "int":
+          - code: int
+        - cell "20":
+          - code: "20"
+        - cell "Raise TooManyRedirects after this many hops.":
+          - text: Raise
+          - code: TooManyRedirects
+          - text: after this many hops.
+      - row "retry RetryPolicy | None None Retry policy for idempotent methods. Non-idempotent methods are never retried.":
+        - cell "retry":
+          - code: retry
+        - cell "RetryPolicy | None":
+          - code: RetryPolicy | None
+        - cell "None":
+          - code: None
+        - cell "Retry policy for idempotent methods. Non-idempotent methods are never retried."
+  - strong: "Note:"
+  - text: Since version 3.0,
+  - code: timeout
+  - text: applies to the entire request rather than to each socket operation.
+  - heading "Returns" [level=2]
+  - paragraph:
+    - text: A
+    - code: Response
+    - text: object. The body is read eagerly unless you use
+    - link "Client.stream()":
+      - /url: "#"
+      - code: Client.stream()
+    - text: .
+  - heading "Raises" [level=2]
+  - list:
+    - listitem:
+      - code: ConnectTimeout
+      - text: — the connection could not be established in time.
+    - listitem:
+      - code: TooManyRedirects
+      - text: — more than
+      - code: max_redirects
+      - text: redirects were followed.
+    - listitem:
+      - code: InvalidURL
+      - text: — the URL could not be parsed.
+  - strong: "Deprecated:"
+  - text: The
+  - code: verify_ssl
+  - text: argument was removed in 3.2. Configure TLS on the
+  - code: Client
+  - text: instead.
+  - heading "Example" [level=2]
+  - button "Copy"
+  - code: "from ferrite import Client, RetryPolicy with Client(base_url=\"https://api.example.com\") as client: response = client.request( \"PATCH\", \"/orders/42\", json={\"status\": \"shipped\"}, retry=RetryPolicy(attempts=3), ) response.raise_for_status()"
+  - paragraph:
+    - link "Edit this page":
+      - /url: "#"
+    - text: · Last updated on 2 February 2026
+  - 'link "← Previous: Client"':
+    - /url: "#"
+  - 'link "Next: Client.stream() →"':
+    - /url: "#"
+  - paragraph:
+    - text: Was this page helpful?
+    - button "Yes"
+    - button "No"
+- complementary "On this page":
+  - strong: On this page
+  - list:
+    - listitem:
+      - link "Parameters":
+        - /url: "#parameters"
+    - listitem:
+      - link "Returns":
+        - /url: "#returns"
+    - listitem:
+      - link "Raises":
+        - /url: "#raises"
+    - listitem:
+      - link "Example":
+        - /url: "#example"

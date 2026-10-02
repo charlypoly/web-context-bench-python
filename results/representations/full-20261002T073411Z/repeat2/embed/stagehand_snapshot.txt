@@ -1,0 +1,101 @@
+[2-12574] RootWebArea: Checkout — Pinecone Coffee Roasters
+  [2-12582] scrollable, html
+    [2-12590] body
+      [2-12591] banner
+        [2-12592] strong
+          [2-12593] StaticText: Pinecone Coffee Roasters
+        [2-12594] navigation: Account
+          [2-12595] link: Help
+          [2-12597] link: My account
+      [2-12599] div
+        [2-12600] div
+          [2-12601] heading: Checkout
+          [2-12603] section
+            [2-12604] heading: Contact
+            [2-12606] paragraph
+              [2-12607] StaticText: Signed in as
+              [2-12608] strong
+                [2-12609] StaticText: m.alvarez@example.com
+              [2-12610] StaticText: ·
+              [2-12611] link: Not you?
+          [2-12613] section
+            [2-12614] heading: Shipping estimate
+            [2-12579] Iframe: Shipping estimator
+              [0-12578] RootWebArea: Shipping estimator
+                [0-12617] scrollable, html
+                  [0-12624] body
+                    [0-12625] div
+                      [0-12626] LabelText
+                        [0-12627] StaticText: Delivery ZIP
+                      [0-12577] textbox: Delivery ZIP
+                        [0-12630] StaticText: 94110
+                      [0-12631] button: Update estimate
+                    [0-12633] paragraph
+                      [0-12634] StaticText: Ground (UPS): arrives
+                      [0-12635] strong
+                        [0-12636] StaticText: Thu, 8 Oct
+                      [0-12637] StaticText: — $5.50
+                    [0-12638] paragraph
+                      [0-12639] StaticText: 2-Day Air: arrives
+                      [0-12640] strong
+                        [0-12641] StaticText: Mon, 5 Oct
+                      [0-12642] StaticText: — $14.00
+          [2-12643] section
+            [2-12644] heading: Payment
+            [2-12580] Iframe: Secure payment form
+              [1-1] RootWebArea: Cobalt Pay
+                [1-6] scrollable, html
+                  [1-13] body
+                    [1-15] StaticText: Secured by Cobalt Pay · Test mode
+                    [1-16] LabelText
+                      [1-17] StaticText: Card number
+                    [1-2] textbox: Card number
+                    [1-22] div
+                      [1-23] div
+                        [1-24] LabelText
+                          [1-25] StaticText: Expiry (MM/YY)
+                        [1-3] textbox: Expiry (MM/YY)
+                      [1-28] div
+                        [1-29] LabelText
+                          [1-30] StaticText: Security code
+                        [1-4] textbox: Security code
+                    [1-33] button: Pay $84.20
+                    [1-35] paragraph
+                      [1-36] StaticText: We accept Visa, Mastercard and American Express.
+            [2-12646] paragraph
+              [2-12647] StaticText: Card details are handled by our payment partner, Cobalt Pay, and never touch our servers.
+        [2-12648] div
+          [2-12649] section
+            [2-12650] heading: Order summary
+            [2-12652] table
+              [2-12653] tbody
+                [2-12654] row
+                  [2-12655] cell: Ethiopia Guji, 340 g × 2
+                  [2-12657] cell: $38.00
+                [2-12659] row
+                  [2-12660] cell: House Espresso Blend, 1 kg
+                  [2-12662] cell: $34.50
+                [2-12664] row
+                  [2-12665] cell: Paper filters (100)
+                  [2-12667] cell: $6.20
+                [2-12669] row
+                  [2-12670] cell: Shipping
+                  [2-12672] cell: $5.50
+                [2-12674] row
+                  [2-12675] cell: Total
+                  [2-12677] cell: $84.20
+          [2-12679] section
+            [2-12680] heading: Discounts
+            [2-12686] div
+              [2-12687] paragraph
+                [2-12688] StaticText: Autumn offer: code ROAST15 takes 15% off orders over $60.
+              [2-12689] div
+                [2-12573] textbox: Promo code
+                [2-12694] button: Apply code
+              [2-12696] paragraph
+                [2-12697] StaticText: One code per order. Offer ends 30 November 2026.
+          [2-12698] button: Place order
+          [2-12700] paragraph
+            [2-12701] StaticText: By placing your order you agree to our
+            [2-12702] link: terms of sale
+            [2-12704] StaticText: .

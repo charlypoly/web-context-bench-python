@@ -314,6 +314,15 @@ changes accuracy.
 - **Different browser processes.** Stagehand's representation comes from a
   separate (identical) load in its own browser process. Pages contain no
   randomness, and ground truth is resolved independently in each load.
+- **Representability labels are approximate for short strings.** The checks
+  are substring checks, so a short answer (e.g. "4", "6") or a label that is a
+  substring of other text ("Username" in "Accepted usernames") can be labelled
+  present when it is not. Labels never change accuracy; they only decide
+  whether a failure reads `not representable`.
+- **One task-design ambiguity.** `docs.act.3` ("Switch the documentation to
+  version 3.1") targets the `<select>`, but answering its `<option>3.1</option>`
+  is defensible. Scored as pre-registered. `results/report_tables_full.md`
+  gives a clearly labelled sensitivity line.
 - **Tokenizer counts are estimates.** The Anthropic token counting endpoint is
   documented as an estimate that may differ slightly from billed usage. The
   billed `usage.input_tokens` is recorded for every call.

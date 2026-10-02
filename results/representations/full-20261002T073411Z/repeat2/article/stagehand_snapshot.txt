@@ -1,0 +1,141 @@
+[0-15148] RootWebArea: The Quiet Return of the Night Train | The Meridian Review
+  [0-15150] scrollable, html
+    [0-15158] body
+      [0-15159] banner
+        [0-15161] StaticText: The Meridian Review
+        [0-15162] navigation: Sections
+          [0-15163] link: World
+          [0-15165] link: Business
+          [0-15167] link: Travel
+          [0-15169] link: Climate
+          [0-15171] link: Culture
+          [0-15173] link: Opinion
+          [0-15144] search
+            [0-15145] searchbox: Search articles
+          [0-15182] link: Sign in
+      [0-15184] div
+        [0-15185] article
+          [0-15187] StaticText: TRAVEL · LONG READ
+          [0-15188] heading: The Quiet Return of the Night Train
+          [0-15190] paragraph
+            [0-15191] StaticText: After decades of cuts, overnight rail routes are being revived across Europe. Can sleeper carriages compete with budget flights?
+          [0-15192] div
+            [0-15193] StaticText: By
+            [0-15194] link: Helena Marsh
+            [0-15196] StaticText: · Published
+            [0-15197] time
+              [0-15198] StaticText: 14 March 2026
+            [0-15199] StaticText: · 9 min read
+            [0-15201] StaticText: ·
+            [0-15202] button: Share
+            [0-15204] button: Save article
+          [0-15206] paragraph
+            [0-15207] StaticText: At 19:42 on a wet Tuesday, the Nordlys sleeper eases out of Hamburg Altona with 312 passengers on board. By the time most of them wake, the train will have crossed two borders and covered 1,140 kilometres to reach Stockholm Central. Five years ago the route did not exist.
+          [0-15208] paragraph
+            [0-15209] StaticText: The revival is not confined to Scandinavia. Operators have added fourteen new overnight services since 2022, according to figures compiled by the European Rail Passengers Forum, bringing the continent's total to 47 regular routes. Most run three to seven nights a week; only a handful operate daily all year.
+          [0-15210] heading: Why now?
+          [0-15212] paragraph
+            [0-15213] StaticText: Part of the answer is policy. Several governments have tied airline support packages to commitments on short-haul flights, and the European Commission's 2024 rail action plan set aside €380 million for rolling stock. Part of it is demand: in a survey of 6,200 travellers carried out last autumn, 58 percent said they would choose a night train over a flight for journeys under 1,500 kilometres if the fares were comparable.
+          [0-15214] blockquote
+            [0-15215] StaticText: "People do not miss the airport. They miss arriving somewhere rested, in the middle of a city, at eight in the morning."
+            [0-15216] LineBreak: 
+            [0-15217] StaticText: — Matteo Ricci, head of planning at Alpina Nachtzug
+          [0-15218] paragraph
+            [0-15219] StaticText: Fares remain the sticking point. A berth in a six-bed couchette on the Vienna–Brussels line starts at €69, while a private sleeper compartment for two can exceed €400 in peak season. Budget airlines frequently undercut both, although the comparison changes once airport transfers and an extra hotel night are included.
+          [0-15220] heading: The rolling stock problem
+          [0-15222] paragraph
+            [0-15223] StaticText: New sleeper carriages are expensive and slow to build. Alpina ordered 33 seven-car trainsets in 2021; the first entered service in December 2023 and the last is not expected until 2027. In the meantime many routes still rely on refurbished carriages built in the 1980s, which lack showers and step-free access.
+          [0-15224] table: Selected overnight routes, winter 2025/26 timetable
+            [0-15225] caption
+              [0-15226] StaticText: Selected overnight routes, winter 2025/26 timetable
+            [0-15227] rowgroup
+              [0-15228] row
+                [0-15229] columnheader: Route
+                [0-15231] columnheader: Distance
+                [0-15233] columnheader: Journey time
+                [0-15235] columnheader: Nights per week
+            [0-15237] tbody
+              [0-15238] row
+                [0-15239] cell: Hamburg – Stockholm
+                [0-15241] cell: 1,140 km
+                [0-15243] cell: 12 h 50 min
+                [0-15245] cell: 7
+              [0-15247] row
+                [0-15248] cell: Vienna – Brussels
+                [0-15250] cell: 1,180 km
+                [0-15252] cell: 14 h 05 min
+                [0-15254] cell: 3
+              [0-15256] row
+                [0-15257] cell: Paris – Berlin
+                [0-15259] cell: 1,090 km
+                [0-15261] cell: 13 h 40 min
+                [0-15263] cell: 4
+              [0-15265] row
+                [0-15266] cell: Zurich – Amsterdam
+                [0-15268] cell: 860 km
+                [0-15270] cell: 11 h 20 min
+                [0-15272] cell: 5
+          [0-15274] heading: What passengers say
+          [0-15276] paragraph
+            [0-15277] StaticText: On board the Nordlys, the dining car is full by eight. Ingrid Solberg, a 34-year-old architect travelling to a client meeting, says she now takes the train twice a month. "I lose an evening, but I gain a morning," she says. Others are less convinced. A family of four from Lübeck describes their compartment as "cramped but fun" and says they would not repeat the trip without a discount.
+          [0-15278] paragraph
+            [0-15279] StaticText: Punctuality is another concern. Overnight services share tracks with freight, and maintenance work is usually scheduled at night. Across the routes tracked by the passenger forum, 71 percent of night trains arrived within fifteen minutes of schedule last year, compared with 86 percent of daytime long-distance trains.
+          [0-15280] heading: The road ahead
+          [0-15282] paragraph
+            [0-15283] StaticText: Operators are betting that a network effect will kick in: the more cities the trains connect, the more useful each route becomes. Three further services, including a long-awaited Barcelona–Milan link, are scheduled to launch in spring 2027. Whether they last will depend on fares, reliability and, not least, whether passengers can get a good night's sleep.
+          [0-15284] paragraph
+            [0-15285] link: Read 128 comments
+          [0-15287] section
+            [0-15288] heading: Get the weekly travel briefing
+            [0-15147] form
+              [0-15290] LabelText
+                [0-15291] StaticText: Email address
+              [0-15146] textbox: Email address
+              [0-15296] button: Subscribe
+        [0-15298] complementary
+          [0-15299] section
+            [0-15300] heading: MOST READ
+            [0-15302] list
+              [0-15303] listitem
+                [0-15304] ListMarker: 1.
+                [0-15305] link: Inside the race to build Europe's largest heat pump
+              [0-15307] listitem
+                [0-15308] ListMarker: 2.
+                [0-15309] link: Why your phone battery drains faster in winter
+              [0-15311] listitem
+                [0-15312] ListMarker: 3.
+                [0-15313] link: The town that banned cars from its centre — and thrived
+              [0-15315] listitem
+                [0-15316] ListMarker: 4.
+                [0-15317] link: Review: a week on the world's slowest express
+              [0-15319] listitem
+                [0-15320] ListMarker: 5.
+                [0-15321] link: How airlines set the price of your seat
+          [0-15323] section
+            [0-15324] heading: RELATED
+            [0-15326] list
+              [0-15327] listitem
+                [0-15328] ListMarker: •
+                [0-15329] link: A beginner's guide to Interrail passes
+              [0-15331] listitem
+                [0-15332] ListMarker: •
+                [0-15333] link: Ten stations worth the detour
+          [0-15335] section
+            [0-15336] heading: ADVERTISEMENT
+            [0-15338] paragraph
+              [0-15339] StaticText: Explore the Alps by rail this winter. Packages from €299.
+            [0-15340] link: Learn more
+      [0-15342] contentinfo
+        [0-15343] paragraph
+          [0-15344] link: About us
+          [0-15346] link: Contact
+          [0-15348] link: Privacy policy
+          [0-15350] link: Terms of use
+          [0-15352] link: Careers
+        [0-15354] paragraph
+          [0-15355] StaticText: © 2026 The Meridian Review Ltd. All rights reserved.
+      [0-15356] dialog: Cookie consent
+        [0-15358] StaticText: We use cookies to measure readership and personalise content.
+        [0-15359] span
+          [0-15360] button: Manage preferences
+          [0-15362] button: Accept all

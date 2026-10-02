@@ -1,0 +1,291 @@
+[0-13849] RootWebArea: Client.request() — Ferrite HTTP 3.2 documentation
+  [0-13851] scrollable, html
+    [0-13859] body
+      [0-13860] div
+        [0-13862] StaticText: Ferrite HTTP
+        [0-13863] LabelText
+          [0-13864] StaticText: Version
+        [0-13847] select: Version
+          [0-13869] MenuListPopup
+            [0-13871] option: 4.0 (beta)
+            [0-13872] option: 3.2 [selected]
+            [0-13873] option: 3.1
+            [0-13874] option: 2.9
+        [0-13848] searchbox: Search docs
+        [0-13904] link: GitHub
+        [0-13906] link: Changelog
+      [0-13908] div
+        [0-13909] navigation: Documentation
+          [0-13910] heading: GETTING STARTED
+          [0-13912] list
+            [0-13913] listitem
+              [0-13914] link: Installation
+            [0-13916] listitem
+              [0-13917] link: Quickstart
+            [0-13919] listitem
+              [0-13920] link: Migrating from 2.x
+          [0-13922] heading: API REFERENCE
+          [0-13924] list
+            [0-13925] listitem
+              [0-13926] link: Client
+            [0-13928] listitem
+              [0-13929] link: Client.request()
+            [0-13931] listitem
+              [0-13932] link: Client.stream()
+            [0-13934] listitem
+              [0-13935] link: Response
+            [0-13937] listitem
+              [0-13938] link: Timeout
+            [0-13940] listitem
+              [0-13941] link: RetryPolicy
+            [0-13943] listitem
+              [0-13944] link: Exceptions
+          [0-13946] heading: GUIDES
+          [0-13948] list
+            [0-13949] listitem
+              [0-13950] link: Authentication
+            [0-13952] listitem
+              [0-13953] link: Connection pooling
+            [0-13955] listitem
+              [0-13956] link: Testing with mocks
+        [0-13958] main
+          [0-13959] div
+            [0-13960] link: Docs
+            [0-13962] StaticText: /
+            [0-13963] link: API reference
+            [0-13965] StaticText: / Client.request()
+          [0-13966] heading: Client.request()
+            [0-13967] code
+              [0-13968] StaticText: Client.request()
+          [0-13969] paragraph
+            [0-13970] StaticText: Send an HTTP request and return a
+            [0-13971] link: Response
+              [0-13972] code
+                [0-13973] StaticText: Response
+            [0-13974] StaticText: . This is the low-level method that all verb helpers such as
+            [0-13975] code
+              [0-13976] StaticText: client.get()
+            [0-13977] StaticText: and
+            [0-13978] code
+              [0-13979] StaticText: client.post()
+            [0-13980] StaticText: call internally.
+          [0-13981] pre
+            [0-13982] button: Copy
+            [0-13984] code
+              [0-13985] StaticText: response = client.request(
+    method, url, *, params=None, headers=None, json=None,
+    data=None, timeout=DEFAULT_TIMEOUT, follow_redirects=True,
+    max_redirects=20, retry=None,
+)
+          [0-13986] heading: Parameters
+          [0-13988] table
+            [0-13989] rowgroup
+              [0-13990] row
+                [0-13991] columnheader: Name
+                [0-13993] columnheader: Type
+                [0-13995] columnheader: Default
+                [0-13997] columnheader: Description
+            [0-13999] tbody
+              [0-14000] row
+                [0-14001] cell: method
+                  [0-14002] code
+                    [0-14003] StaticText: method
+                [0-14004] cell: str
+                  [0-14005] code
+                    [0-14006] StaticText: str
+                [0-14007] cell: required
+                [0-14009] cell: HTTP method, for example "GET" or "PATCH". Case-insensitive.
+                  [0-14010] StaticText: HTTP method, for example
+                  [0-14011] code
+                    [0-14012] StaticText: "GET"
+                  [0-14013] StaticText: or
+                  [0-14014] code
+                    [0-14015] StaticText: "PATCH"
+                  [0-14016] StaticText: . Case-insensitive.
+              [0-14017] row
+                [0-14018] cell: url
+                  [0-14019] code
+                    [0-14020] StaticText: url
+                [0-14021] cell: str | URL
+                  [0-14022] code
+                    [0-14023] StaticText: str | URL
+                [0-14024] cell: required
+                [0-14026] cell: Absolute URL, or a path relative to the client's base_url.
+                  [0-14027] StaticText: Absolute URL, or a path relative to the client's
+                  [0-14028] code
+                    [0-14029] StaticText: base_url
+                  [0-14030] StaticText: .
+              [0-14031] row
+                [0-14032] cell: params
+                  [0-14033] code
+                    [0-14034] StaticText: params
+                [0-14035] cell: dict | None
+                  [0-14036] code
+                    [0-14037] StaticText: dict | None
+                [0-14038] cell: None
+                  [0-14039] code
+                    [0-14040] StaticText: None
+                [0-14041] cell: Query string parameters. Lists are encoded as repeated keys.
+              [0-14043] row
+                [0-14044] cell: headers
+                  [0-14045] code
+                    [0-14046] StaticText: headers
+                [0-14047] cell: dict | None
+                  [0-14048] code
+                    [0-14049] StaticText: dict | None
+                [0-14050] cell: None
+                  [0-14051] code
+                    [0-14052] StaticText: None
+                [0-14053] cell: Headers merged over the client's default headers.
+              [0-14055] row
+                [0-14056] cell: json
+                  [0-14057] code
+                    [0-14058] StaticText: json
+                [0-14059] cell: Any
+                  [0-14060] code
+                    [0-14061] StaticText: Any
+                [0-14062] cell: None
+                  [0-14063] code
+                    [0-14064] StaticText: None
+                [0-14065] cell: Body encoded as JSON. Sets Content-Type: application/json. Cannot be combined with data.
+                  [0-14066] StaticText: Body encoded as JSON. Sets
+                  [0-14067] code
+                    [0-14068] StaticText: Content-Type: application/json
+                  [0-14069] StaticText: . Cannot be combined with
+                  [0-14070] code
+                    [0-14071] StaticText: data
+                  [0-14072] StaticText: .
+              [0-14073] row
+                [0-14074] cell: timeout
+                  [0-14075] code
+                    [0-14076] StaticText: timeout
+                [0-14077] cell: float | Timeout
+                  [0-14078] code
+                    [0-14079] StaticText: float | Timeout
+                [0-14080] cell: 5.0
+                  [0-14081] code
+                    [0-14082] StaticText: 5.0
+                [0-14083] cell: Seconds to wait for the whole request. Pass a Timeout for separate connect and read limits.
+                  [0-14084] StaticText: Seconds to wait for the whole request. Pass a
+                  [0-14085] code
+                    [0-14086] StaticText: Timeout
+                  [0-14087] StaticText: for separate connect and read limits.
+              [0-14088] row
+                [0-14089] cell: follow_redirects
+                  [0-14090] code
+                    [0-14091] StaticText: follow_redirects
+                [0-14092] cell: bool
+                  [0-14093] code
+                    [0-14094] StaticText: bool
+                [0-14095] cell: True
+                  [0-14096] code
+                    [0-14097] StaticText: True
+                [0-14098] cell: Whether to follow 3xx responses automatically.
+              [0-14100] row
+                [0-14101] cell: max_redirects
+                  [0-14102] code
+                    [0-14103] StaticText: max_redirects
+                [0-14104] cell: int
+                  [0-14105] code
+                    [0-14106] StaticText: int
+                [0-14107] cell: 20
+                  [0-14108] code
+                    [0-14109] StaticText: 20
+                [0-14110] cell: Raise TooManyRedirects after this many hops.
+                  [0-14111] StaticText: Raise
+                  [0-14112] code
+                    [0-14113] StaticText: TooManyRedirects
+                  [0-14114] StaticText: after this many hops.
+              [0-14115] row
+                [0-14116] cell: retry
+                  [0-14117] code
+                    [0-14118] StaticText: retry
+                [0-14119] cell: RetryPolicy | None
+                  [0-14120] code
+                    [0-14121] StaticText: RetryPolicy | None
+                [0-14122] cell: None
+                  [0-14123] code
+                    [0-14124] StaticText: None
+                [0-14125] cell: Retry policy for idempotent methods. Non-idempotent methods are never retried.
+          [0-14127] div
+            [0-14128] strong
+              [0-14129] StaticText: Note:
+            [0-14130] StaticText: Since version 3.0,
+            [0-14131] code
+              [0-14132] StaticText: timeout
+            [0-14133] StaticText: applies to the entire request rather than to each socket operation.
+          [0-14134] heading: Returns
+          [0-14136] paragraph
+            [0-14137] StaticText: A
+            [0-14138] code
+              [0-14139] StaticText: Response
+            [0-14140] StaticText: object. The body is read eagerly unless you use
+            [0-14141] link: Client.stream()
+              [0-14142] code
+                [0-14143] StaticText: Client.stream()
+            [0-14144] StaticText: .
+          [0-14145] heading: Raises
+          [0-14147] list
+            [0-14148] listitem
+              [0-14149] ListMarker: •
+              [0-14150] code
+                [0-14151] StaticText: ConnectTimeout
+              [0-14152] StaticText: — the connection could not be established in time.
+            [0-14153] listitem
+              [0-14154] ListMarker: •
+              [0-14155] code
+                [0-14156] StaticText: TooManyRedirects
+              [0-14157] StaticText: — more than
+              [0-14158] code
+                [0-14159] StaticText: max_redirects
+              [0-14160] StaticText: redirects were followed.
+            [0-14161] listitem
+              [0-14162] ListMarker: •
+              [0-14163] code
+                [0-14164] StaticText: InvalidURL
+              [0-14165] StaticText: — the URL could not be parsed.
+          [0-14166] div
+            [0-14167] strong
+              [0-14168] StaticText: Deprecated:
+            [0-14169] StaticText: The
+            [0-14170] code
+              [0-14171] StaticText: verify_ssl
+            [0-14172] StaticText: argument was removed in 3.2. Configure TLS on the
+            [0-14173] code
+              [0-14174] StaticText: Client
+            [0-14175] StaticText: instead.
+          [0-14176] heading: Example
+          [0-14178] pre
+            [0-14179] button: Copy
+            [0-14181] code
+              [0-14182] StaticText: from ferrite import Client, RetryPolicy
+
+with Client(base_url="https://api.example.com") as client:
+    response = client.request(
+        "PATCH", "/orders/42",
+        json={"status": "shipped"},
+        retry=RetryPolicy(attempts=3),
+    )
+    response.raise_for_status()
+          [0-14183] paragraph
+            [0-14184] link: Edit this page
+            [0-14186] StaticText: · Last updated on 2 February 2026
+          [0-14187] div
+            [0-14188] link: ← Previous: Client
+            [0-14190] link: Next: Client.stream() →
+          [0-14192] paragraph
+            [0-14193] StaticText: Was this page helpful?
+            [0-14194] button: Yes
+            [0-14196] button: No
+        [0-14198] complementary: On this page
+          [0-14199] strong
+            [0-14200] StaticText: On this page
+          [0-14201] list
+            [0-14202] listitem
+              [0-14203] link: Parameters
+            [0-14205] listitem
+              [0-14206] link: Returns
+            [0-14208] listitem
+              [0-14209] link: Raises
+            [0-14211] listitem
+              [0-14212] link: Example

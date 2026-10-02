@@ -1,0 +1,9047 @@
+Halcyon Office Supply — Admin
+[29]<a />
+	Dashboard
+[31]<a />
+	Orders
+[5]<a />
+	Inventory
+[34]<a />
+	Sign out
+Orders, January–September 2026
+Filter orders
+|SHADOW(open)|[2]<input id=filter type=search placeholder=Customer, product or order ID />
+Status
+|SHADOW(open)|*[3]<select id=status expanded=false compound_components=(name=Dropdown Toggle,role=button),(name=Options,role=listbox,count=6,options=All statuses|Delivered|Shipped|Processing) />
+[64]<button />
+	Download CSV
+500 orders
+All orders, sorted by order ID (ascending)
+[80]<button />
+	Order ID
+[83]<button />
+	Date
+[87]<button />
+	Customer
+[90]<button />
+	Region
+[94]<button />
+	Product
+[97]<button />
+	Qty
+[101]<button />
+	Unit price
+[104]<button />
+	Total
+[108]<button />
+	Status
+[114]<tr />
+	[115]<td />
+		ORD-20001
+	[117]<td />
+		2026-01-11
+	[119]<td />
+		Tess Walker
+	[121]<td />
+		North
+	[123]<td />
+		Noise-cancelling Headset
+	[125]<td />
+	[127]<td />
+		$199.00
+	[129]<td />
+		$199.00
+	[131]<td />
+		Cancelled
+[134]<tr />
+	[135]<td />
+		ORD-20002
+	[137]<td />
+		2026-01-01
+	[139]<td />
+		Lucas Moreau
+	[141]<td />
+		North
+	[143]<td />
+		Footrest
+	[145]<td />
+	[147]<td />
+		$42.00
+	[149]<td />
+		$84.00
+	[151]<td />
+		Processing
+[154]<tr />
+	[155]<td />
+		ORD-20003
+	[157]<td />
+		2026-01-07
+	[159]<td />
+		Jonas Berg
+	[161]<td />
+		Central
+	[163]<td />
+		Noise-cancelling Headset
+	[165]<td />
+	[167]<td />
+		$199.00
+	[169]<td />
+		$1,592.00
+	[171]<td />
+		Delivered
+[174]<tr />
+	[175]<td />
+		ORD-20004
+	[177]<td />
+		2026-01-21
+	[179]<td />
+		Pedro Santos
+	[181]<td />
+		South
+	[183]<td />
+		Footrest
+	[185]<td />
+	[187]<td />
+		$42.00
+	[189]<td />
+		$252.00
+	[191]<td />
+		Cancelled
+[194]<tr />
+	[195]<td />
+		ORD-20005
+	[197]<td />
+		2026-01-19
+	[199]<td />
+		Ximena Ortiz
+	[201]<td />
+		South
+	[203]<td />
+		USB-C Dock
+	[205]<td />
+	[207]<td />
+		$149.99
+	[209]<td />
+		$899.94
+	[211]<td />
+		Shipped
+[214]<tr />
+	[215]<td />
+		ORD-20006
+	[217]<td />
+		2026-01-21
+	[219]<td />
+		Valentina Ricci
+	[221]<td />
+		South
+	[223]<td />
+		USB-C Dock
+	[225]<td />
+	[227]<td />
+		$149.99
+	[229]<td />
+		$1,049.93
+	[231]<td />
+		Cancelled
+[234]<tr />
+	[235]<td />
+		ORD-20007
+	[237]<td />
+		2026-01-03
+	[239]<td />
+		Zoe Fischer
+	[241]<td />
+		West
+	[6]<td />
+		Ergonomic Chair
+	[244]<td />
+	[246]<td />
+		$289.00
+	[248]<td />
+		$2,601.00
+	[250]<td />
+		Delivered
+[253]<tr />
+	[254]<td />
+		ORD-20008
+	[256]<td />
+		2026-01-01
+	[258]<td />
+		Zoe Fischer
+	[260]<td />
+		Central
+	[262]<td />
+		Noise-cancelling Headset
+	[264]<td />
+	[266]<td />
+		$199.00
+	[268]<td />
+		$995.00
+	[270]<td />
+		Processing
+[273]<tr />
+	[274]<td />
+		ORD-20009
+	[276]<td />
+		2026-01-23
+	[278]<td />
+		Zoe Fischer
+	[280]<td />
+		East
+	[282]<td />
+		Keyboard
+	[284]<td />
+	[286]<td />
+		$99.00
+	[288]<td />
+		$99.00
+	[290]<td />
+		Returned
+[293]<tr />
+	[294]<td />
+		ORD-20010
+	[296]<td />
+		2026-01-05
+	[298]<td />
+		Lucas Moreau
+	[300]<td />
+		West
+	[302]<td />
+		Noise-cancelling Headset
+	[304]<td />
+	[306]<td />
+		$199.00
+	[308]<td />
+		$995.00
+	[310]<td />
+		Cancelled
+[313]<tr />
+	[314]<td />
+		ORD-20011
+	[316]<td />
+		2026-01-07
+	[318]<td />
+		Jonas Berg
+	[320]<td />
+		West
+	[322]<td />
+		Ergonomic Chair
+	[324]<td />
+	[326]<td />
+		$289.00
+	[328]<td />
+		$2,601.00
+	[330]<td />
+		Processing
+[333]<tr />
+	[334]<td />
+		ORD-20012
+	[336]<td />
+		2026-01-17
+	[338]<td />
+		Tess Walker
+	[340]<td />
+		East
+	[342]<td />
+		Keyboard
+	[344]<td />
+	[346]<td />
+		$99.00
+	[348]<td />
+		$792.00
+	[350]<td />
+		Cancelled
+[353]<tr />
+	[354]<td />
+		ORD-20013
+	[356]<td />
+		2026-01-11
+	[358]<td />
+		Bruno Silva
+	[360]<td />
+		South
+	[362]<td />
+		Ergonomic Chair
+	[364]<td />
+	[366]<td />
+		$289.00
+	[368]<td />
+		$289.00
+	[370]<td />
+		Cancelled
+[373]<tr />
+	[374]<td />
+		ORD-20014
+	[376]<td />
+		2026-01-09
+	[378]<td />
+		Hiro Tanaka
+	[380]<td />
+		East
+	[382]<td />
+		Noise-cancelling Headset
+	[384]<td />
+	[386]<td />
+		$199.00
+	[388]<td />
+		$1,393.00
+	[390]<td />
+		Returned
+[393]<tr />
+	[394]<td />
+		ORD-20015
+	[396]<td />
+		2026-01-07
+	[398]<td />
+		Rosa Delgado
+	[400]<td />
+		Central
+	[402]<td />
+		Footrest
+	[404]<td />
+	[406]<td />
+		$42.00
+	[408]<td />
+		$84.00
+	[410]<td />
+		Processing
+[413]<tr />
+	[414]<td />
+		ORD-20016
+	[416]<td />
+		2026-01-21
+	[418]<td />
+		Jonas Berg
+	[420]<td />
+		East
+	[422]<td />
+		Ergonomic Chair
+	[424]<td />
+	[426]<td />
+		$289.00
+	[428]<td />
+		$2,312.00
+	[430]<td />
+		Cancelled
+[433]<tr />
+	[434]<td />
+		ORD-20017
+	[436]<td />
+		2026-01-07
+	[438]<td />
+		Zoe Fischer
+	[440]<td />
+		South
+	[442]<td />
+		Footrest
+	[444]<td />
+	[446]<td />
+		$42.00
+	[448]<td />
+		$210.00
+	[450]<td />
+		Shipped
+[453]<tr />
+	[454]<td />
+		ORD-20018
+	[456]<td />
+		2026-01-21
+	[458]<td />
+		Rosa Delgado
+	[460]<td />
+		East
+	[462]<td />
+		Ergonomic Chair
+	[464]<td />
+	[466]<td />
+		$289.00
+	[468]<td />
+		$1,445.00
+	[470]<td />
+		Processing
+[473]<tr />
+	[474]<td />
+		ORD-20019
+	[476]<td />
+		2026-01-19
+	[478]<td />
+		Tess Walker
+	[480]<td />
+		North
+	[7]<td />
+		Keyboard
+	[483]<td />
+	[485]<td />
+		$99.00
+	[487]<td />
+		$891.00
+	[489]<td />
+		Processing
+[492]<tr />
+	[493]<td />
+		ORD-20020
+	[495]<td />
+		2026-01-01
+	[497]<td />
+		Tess Walker
+	[499]<td />
+		Central
+	[501]<td />
+		USB-C Dock
+	[503]<td />
+	[505]<td />
+		$149.99
+	[507]<td />
+		$1,049.93
+	[509]<td />
+		Delivered
+[512]<tr />
+	[513]<td />
+		ORD-20021
+	[515]<td />
+		2026-01-03
+	[517]<td />
+		Lucas Moreau
+	[519]<td />
+		West
+	[521]<td />
+		Keyboard
+	[523]<td />
+	[525]<td />
+		$99.00
+	[527]<td />
+		$891.00
+	[529]<td />
+		Processing
+[532]<tr />
+	[533]<td />
+		ORD-20022
+	[535]<td />
+		2026-01-09
+	[537]<td />
+		Hiro Tanaka
+	[539]<td />
+		Central
+	[541]<td />
+		USB-C Dock
+	[543]<td />
+	[545]<td />
+		$149.99
+	[547]<td />
+		$299.98
+	[549]<td />
+		Cancelled
+[552]<tr />
+	[553]<td />
+		ORD-20023
+	[555]<td />
+		2026-01-23
+	[557]<td />
+		Farah Haddad
+	[559]<td />
+		East
+	[561]<td />
+		USB-C Dock
+	[563]<td />
+	[565]<td />
+		$149.99
+	[567]<td />
+		$1,049.93
+	[569]<td />
+		Processing
+[572]<tr />
+	[573]<td />
+		ORD-20024
+	[575]<td />
+		2026-01-13
+	[577]<td />
+		Farah Haddad
+	[579]<td />
+		West
+	[581]<td />
+		Footrest
+	[583]<td />
+	[585]<td />
+		$42.00
+	[587]<td />
+		$294.00
+	[589]<td />
+		Returned
+[592]<tr />
+	[593]<td />
+		ORD-20025
+	[595]<td />
+		2026-01-23
+	[597]<td />
+		Nikolai Petrov
+	[599]<td />
+		North
+	[601]<td />
+		Noise-cancelling Headset
+	[603]<td />
+	[605]<td />
+		$199.00
+	[607]<td />
+		$1,194.00
+	[609]<td />
+		Returned
+[612]<tr />
+	[613]<td />
+		ORD-20026
+	[615]<td />
+		2026-01-17
+	[617]<td />
+		Bruno Silva
+	[619]<td />
+		North
+	[621]<td />
+		Keyboard
+	[623]<td />
+	[625]<td />
+		$99.00
+	[627]<td />
+		$891.00
+	[629]<td />
+		Shipped
+[632]<tr />
+	[633]<td />
+		ORD-20027
+	[635]<td />
+		2026-01-27
+	[637]<td />
+		Nikolai Petrov
+	[639]<td />
+		East
+	[641]<td />
+		Footrest
+	[643]<td />
+	[645]<td />
+		$42.00
+	[647]<td />
+		$42.00
+	[649]<td />
+		Returned
+[652]<tr />
+	[653]<td />
+		ORD-20028
+	[655]<td />
+		2026-01-01
+	[657]<td />
+		Rosa Delgado
+	[659]<td />
+		North
+	[661]<td />
+		USB-C Dock
+	[663]<td />
+	[665]<td />
+		$149.99
+	[667]<td />
+		$899.94
+	[669]<td />
+		Returned
+[672]<tr />
+	[673]<td />
+		ORD-20029
+	[675]<td />
+		2026-01-07
+	[677]<td />
+		Hiro Tanaka
+	[679]<td />
+		Central
+	[681]<td />
+		Ergonomic Chair
+	[683]<td />
+	[685]<td />
+		$289.00
+	[687]<td />
+		$2,023.00
+	[689]<td />
+		Delivered
+[692]<tr />
+	[693]<td />
+		ORD-20030
+	[695]<td />
+		2026-01-25
+	[697]<td />
+		Lucas Moreau
+	[699]<td />
+		West
+	[701]<td />
+		USB-C Dock
+	[703]<td />
+	[705]<td />
+		$149.99
+	[707]<td />
+		$899.94
+	[709]<td />
+		Shipped
+[712]<tr />
+	[713]<td />
+		ORD-20031
+	[715]<td />
+		2026-01-15
+	[717]<td />
+		Nikolai Petrov
+	[719]<td />
+		East
+	[721]<td />
+		Noise-cancelling Headset
+	[723]<td />
+	[725]<td />
+		$199.00
+	[727]<td />
+		$398.00
+	[729]<td />
+		Delivered
+[732]<tr />
+	[733]<td />
+		ORD-20032
+	[735]<td />
+		2026-01-17
+	[737]<td />
+		Hiro Tanaka
+	[739]<td />
+		North
+	[741]<td />
+		Noise-cancelling Headset
+	[743]<td />
+	[745]<td />
+		$199.00
+	[747]<td />
+		$398.00
+	[749]<td />
+		Delivered
+[752]<tr />
+	[753]<td />
+		ORD-20033
+	[755]<td />
+		2026-01-19
+	[757]<td />
+		Nikolai Petrov
+	[759]<td />
+		South
+	[761]<td />
+		Footrest
+	[763]<td />
+	[765]<td />
+		$42.00
+	[767]<td />
+		$210.00
+	[769]<td />
+		Returned
+[772]<tr />
+	[773]<td />
+		ORD-20034
+	[775]<td />
+		2026-01-17
+	[777]<td />
+		Zoe Fischer
+	[779]<td />
+		West
+	[781]<td />
+		Ergonomic Chair
+	[783]<td />
+	[785]<td />
+		$289.00
+	[787]<td />
+		$2,023.00
+	[789]<td />
+		Delivered
+[792]<tr />
+	[793]<td />
+		ORD-20035
+	[795]<td />
+		2026-01-07
+	[797]<td />
+		Lucas Moreau
+	[799]<td />
+		West
+	[801]<td />
+		Footrest
+	[803]<td />
+	[805]<td />
+		$42.00
+	[807]<td />
+		$294.00
+	[809]<td />
+		Returned
+[812]<tr />
+	[813]<td />
+		ORD-20036
+	[815]<td />
+		2026-01-13
+	[817]<td />
+		Zoe Fischer
+	[819]<td />
+		West
+	[821]<td />
+		USB-C Dock
+	[823]<td />
+	[825]<td />
+		$149.99
+	[827]<td />
+		$1,349.91
+	[829]<td />
+		Delivered
+[832]<tr />
+	[833]<td />
+		ORD-20037
+	[835]<td />
+		2026-01-23
+	[837]<td />
+		Ximena Ortiz
+	[839]<td />
+		South
+	[841]<td />
+		Ergonomic Chair
+	[843]<td />
+	[845]<td />
+		$289.00
+	[847]<td />
+		$867.00
+	[849]<td />
+		Returned
+[852]<tr />
+	[853]<td />
+		ORD-20038
+	[855]<td />
+		2026-01-17
+	[857]<td />
+		Ximena Ortiz
+	[859]<td />
+		East
+	[861]<td />
+		Ergonomic Chair
+	[863]<td />
+	[865]<td />
+		$289.00
+	[867]<td />
+		$2,601.00
+	[869]<td />
+		Delivered
+[872]<tr />
+	[873]<td />
+		ORD-20039
+	[875]<td />
+		2026-01-07
+	[877]<td />
+		Dmitri Volkov
+	[879]<td />
+		North
+	[881]<td />
+		Ergonomic Chair
+	[883]<td />
+	[885]<td />
+		$289.00
+	[887]<td />
+		$1,156.00
+	[889]<td />
+		Cancelled
+[892]<tr />
+	[893]<td />
+		ORD-20040
+	[895]<td />
+		2026-01-13
+	[897]<td />
+		Farah Haddad
+	[899]<td />
+		South
+	[901]<td />
+		Ergonomic Chair
+	[903]<td />
+	[905]<td />
+		$289.00
+	[907]<td />
+		$2,312.00
+	[909]<td />
+		Returned
+[912]<tr />
+	[913]<td />
+		ORD-20041
+	[915]<td />
+		2026-01-15
+	[917]<td />
+		Jonas Berg
+	[919]<td />
+		East
+	[921]<td />
+		USB-C Dock
+	[923]<td />
+	[925]<td />
+		$149.99
+	[927]<td />
+		$1,049.93
+	[929]<td />
+		Processing
+[932]<tr />
+	[933]<td />
+		ORD-20042
+	[935]<td />
+		2026-01-01
+	[937]<td />
+		Bruno Silva
+	[939]<td />
+		North
+	[941]<td />
+		Noise-cancelling Headset
+	[943]<td />
+	[945]<td />
+		$199.00
+	[947]<td />
+		$1,592.00
+	[949]<td />
+		Returned
+[952]<tr />
+	[953]<td />
+		ORD-20043
+	[955]<td />
+		2026-01-11
+	[957]<td />
+		Ximena Ortiz
+	[959]<td />
+		East
+	[961]<td />
+		Noise-cancelling Headset
+	[963]<td />
+	[965]<td />
+		$199.00
+	[967]<td />
+		$1,592.00
+	[969]<td />
+		Returned
+[972]<tr />
+	[973]<td />
+		ORD-20044
+	[975]<td />
+		2026-01-05
+	[977]<td />
+		Farah Haddad
+	[979]<td />
+		North
+	[981]<td />
+		USB-C Dock
+	[983]<td />
+	[985]<td />
+		$149.99
+	[987]<td />
+		$899.94
+	[989]<td />
+		Delivered
+[992]<tr />
+	[993]<td />
+		ORD-20045
+	[995]<td />
+		2026-01-19
+	[997]<td />
+		Dmitri Volkov
+	[999]<td />
+		South
+	[1001]<td />
+		Ergonomic Chair
+	[1003]<td />
+	[1005]<td />
+		$289.00
+	[1007]<td />
+		$2,601.00
+	[1009]<td />
+		Returned
+[1012]<tr />
+	[1013]<td />
+		ORD-20046
+	[1015]<td />
+		2026-01-05
+	[1017]<td />
+		Bruno Silva
+	[1019]<td />
+		North
+	[1021]<td />
+		Footrest
+	[1023]<td />
+	[1025]<td />
+		$42.00
+	[1027]<td />
+		$42.00
+	[1029]<td />
+		Delivered
+[1032]<tr />
+	[1033]<td />
+		ORD-20047
+	[1035]<td />
+		2026-01-07
+	[1037]<td />
+		Jonas Berg
+	[1039]<td />
+		East
+	[1041]<td />
+		Noise-cancelling Headset
+	[1043]<td />
+	[1045]<td />
+		$199.00
+	[1047]<td />
+		$597.00
+	[1049]<td />
+		Cancelled
+[1052]<tr />
+	[1053]<td />
+		ORD-20048
+	[1055]<td />
+		2026-01-13
+	[1057]<td />
+		Nikolai Petrov
+	[1059]<td />
+		South
+	[1061]<td />
+		Keyboard
+	[1063]<td />
+	[1065]<td />
+		$99.00
+	[1067]<td />
+		$99.00
+	[1069]<td />
+		Delivered
+[1072]<tr />
+	[1073]<td />
+		ORD-20049
+	[1075]<td />
+		2026-01-23
+	[1077]<td />
+		Ximena Ortiz
+	[1079]<td />
+		West
+	[1081]<td />
+		Ergonomic Chair
+	[1083]<td />
+	[1085]<td />
+		$289.00
+	[1087]<td />
+		$2,312.00
+	[1089]<td />
+		Processing
+[1092]<tr />
+	[1093]<td />
+		ORD-20050
+	[1095]<td />
+		2026-01-25
+	[1097]<td />
+		Jonas Berg
+	[1099]<td />
+		West
+	[1101]<td />
+		Noise-cancelling Headset
+	[1103]<td />
+	[1105]<td />
+		$199.00
+	[1107]<td />
+		$597.00
+	[1109]<td />
+		Returned
+[1112]<tr />
+	[1113]<td />
+		ORD-20051
+	[1115]<td />
+		2026-01-03
+	[1117]<td />
+		Zoe Fischer
+	[1119]<td />
+		North
+	[1121]<td />
+		Keyboard
+	[1123]<td />
+	[1125]<td />
+		$99.00
+	[1127]<td />
+		$693.00
+	[1129]<td />
+		Cancelled
+[1132]<tr />
+	[1133]<td />
+		ORD-20052
+	[1135]<td />
+		2026-01-25
+	[1137]<td />
+		Pedro Santos
+	[1139]<td />
+		South
+	[1141]<td />
+		Keyboard
+	[1143]<td />
+	[1145]<td />
+		$99.00
+	[1147]<td />
+		$792.00
+	[1149]<td />
+		Delivered
+[1152]<tr />
+	[1153]<td />
+		ORD-20053
+	[1155]<td />
+		2026-01-23
+	[1157]<td />
+		Lucas Moreau
+	[1159]<td />
+		West
+	[1161]<td />
+		Noise-cancelling Headset
+	[1163]<td />
+	[1165]<td />
+		$199.00
+	[1167]<td />
+		$1,393.00
+	[1169]<td />
+		Delivered
+[1172]<tr />
+	[1173]<td />
+		ORD-20054
+	[1175]<td />
+		2026-01-05
+	[1177]<td />
+		Bruno Silva
+	[1179]<td />
+		East
+	[1181]<td />
+		Noise-cancelling Headset
+	[1183]<td />
+	[1185]<td />
+		$199.00
+	[1187]<td />
+		$597.00
+	[1189]<td />
+		Delivered
+[1192]<tr />
+	[1193]<td />
+		ORD-20055
+	[1195]<td />
+		2026-01-15
+	[1197]<td />
+		Dmitri Volkov
+	[1199]<td />
+		North
+	[1201]<td />
+		Noise-cancelling Headset
+	[1203]<td />
+	[1205]<td />
+		$199.00
+	[1207]<td />
+		$398.00
+	[1209]<td />
+		Returned
+[1212]<tr />
+	[1213]<td />
+		ORD-20056
+	[1215]<td />
+		2026-01-09
+	[1217]<td />
+		Tess Walker
+	[1219]<td />
+		East
+	[1221]<td />
+		USB-C Dock
+	[1223]<td />
+	[1225]<td />
+		$149.99
+	[1227]<td />
+		$149.99
+	[1229]<td />
+		Returned
+[1232]<tr />
+	[1233]<td />
+		ORD-20057
+	[1235]<td />
+		2026-02-15
+	[1237]<td />
+		Rosa Delgado
+	[1239]<td />
+		East
+	[1241]<td />
+		USB-C Dock
+	[1243]<td />
+	[1245]<td />
+		$149.99
+	[1247]<td />
+		$149.99
+	[1249]<td />
+		Delivered
+[1252]<tr />
+	[1253]<td />
+		ORD-20058
+	[1255]<td />
+		2026-02-05
+	[1257]<td />
+		Pedro Santos
+	[1259]<td />
+		North
+	[1261]<td />
+		Keyboard
+	[1263]<td />
+	[1265]<td />
+		$99.00
+	[1267]<td />
+		$297.00
+	[1269]<td />
+		Processing
+[1272]<tr />
+	[1273]<td />
+		ORD-20059
+	[1275]<td />
+		2026-02-15
+	[1277]<td />
+		Tess Walker
+	[1279]<td />
+		North
+	[1281]<td />
+		Footrest
+	[1283]<td />
+	[1285]<td />
+		$42.00
+	[1287]<td />
+		$378.00
+	[1289]<td />
+		Delivered
+[1292]<tr />
+	[1293]<td />
+		ORD-20060
+	[1295]<td />
+		2026-02-01
+	[1297]<td />
+		Zoe Fischer
+	[1299]<td />
+		North
+	[1301]<td />
+		USB-C Dock
+	[1303]<td />
+	[1305]<td />
+		$149.99
+	[1307]<td />
+		$299.98
+	[1309]<td />
+		Returned
+[1312]<tr />
+	[1313]<td />
+		ORD-20061
+	[1315]<td />
+		2026-02-15
+	[1317]<td />
+		Zoe Fischer
+	[1319]<td />
+		West
+	[1321]<td />
+		Noise-cancelling Headset
+	[1323]<td />
+	[1325]<td />
+		$199.00
+	[1327]<td />
+		$1,393.00
+	[1329]<td />
+		Delivered
+[1332]<tr />
+	[1333]<td />
+		ORD-20062
+	[1335]<td />
+		2026-02-09
+	[1337]<td />
+		Hiro Tanaka
+	[1339]<td />
+		West
+	[1341]<td />
+		Noise-cancelling Headset
+	[1343]<td />
+	[1345]<td />
+		$199.00
+	[1347]<td />
+		$1,592.00
+	[1349]<td />
+		Processing
+[1352]<tr />
+	[1353]<td />
+		ORD-20063
+	[1355]<td />
+		2026-02-07
+	[1357]<td />
+		Nikolai Petrov
+	[1359]<td />
+		West
+	[1361]<td />
+		Noise-cancelling Headset
+	[1363]<td />
+	[1365]<td />
+		$199.00
+	[1367]<td />
+		$995.00
+	[1369]<td />
+		Processing
+[1372]<tr />
+	[1373]<td />
+		ORD-20064
+	[1375]<td />
+		2026-02-25
+	[1377]<td />
+		Tess Walker
+	[1379]<td />
+		North
+	[1381]<td />
+		Keyboard
+	[1383]<td />
+	[1385]<td />
+		$99.00
+	[1387]<td />
+		$792.00
+	[1389]<td />
+		Delivered
+[1392]<tr />
+	[1393]<td />
+		ORD-20065
+	[1395]<td />
+		2026-02-15
+	[1397]<td />
+		Zoe Fischer
+	[1399]<td />
+		North
+	[1401]<td />
+		Keyboard
+	[1403]<td />
+	[1405]<td />
+		$99.00
+	[1407]<td />
+		$495.00
+	[1409]<td />
+		Delivered
+[1412]<tr />
+	[1413]<td />
+		ORD-20066
+	[1415]<td />
+		2026-02-25
+	[1417]<td />
+		Bruno Silva
+	[1419]<td />
+		West
+	[1421]<td />
+		Noise-cancelling Headset
+	[1423]<td />
+	[1425]<td />
+		$199.00
+	[1427]<td />
+		$995.00
+	[1429]<td />
+		Processing
+[1432]<tr />
+	[1433]<td />
+		ORD-20067
+	[1435]<td />
+		2026-02-15
+	[1437]<td />
+		Jonas Berg
+	[1439]<td />
+		South
+	[1441]<td />
+		Noise-cancelling Headset
+	[1443]<td />
+	[1445]<td />
+		$199.00
+	[1447]<td />
+		$1,791.00
+	[1449]<td />
+		Processing
+[1452]<tr />
+	[1453]<td />
+		ORD-20068
+	[1455]<td />
+		2026-02-01
+	[1457]<td />
+		Ximena Ortiz
+	[1459]<td />
+		North
+	[1461]<td />
+		Noise-cancelling Headset
+	[1463]<td />
+	[1465]<td />
+		$199.00
+	[1467]<td />
+		$199.00
+	[1469]<td />
+		Cancelled
+[1472]<tr />
+	[1473]<td />
+		ORD-20069
+	[1475]<td />
+		2026-02-19
+	[1477]<td />
+		Pedro Santos
+	[1479]<td />
+		Central
+	[1481]<td />
+		USB-C Dock
+	[1483]<td />
+	[1485]<td />
+		$149.99
+	[1487]<td />
+		$449.97
+	[1489]<td />
+		Delivered
+[1492]<tr />
+	[1493]<td />
+		ORD-20070
+	[1495]<td />
+		2026-02-05
+	[1497]<td />
+		Jonas Berg
+	[1499]<td />
+		East
+	[1501]<td />
+		Ergonomic Chair
+	[1503]<td />
+	[1505]<td />
+		$289.00
+	[1507]<td />
+		$578.00
+	[1509]<td />
+		Shipped
+[1512]<tr />
+	[1513]<td />
+		ORD-20071
+	[1515]<td />
+		2026-02-19
+	[1517]<td />
+		Valentina Ricci
+	[1519]<td />
+		West
+	[1521]<td />
+		Ergonomic Chair
+	[1523]<td />
+	[1525]<td />
+		$289.00
+	[1527]<td />
+		$2,601.00
+	[1529]<td />
+		Delivered
+[1532]<tr />
+	[1533]<td />
+		ORD-20072
+	[1535]<td />
+		2026-02-09
+	[1537]<td />
+		Pedro Santos
+	[1539]<td />
+		Central
+	[1541]<td />
+		Noise-cancelling Headset
+	[1543]<td />
+	[1545]<td />
+		$199.00
+	[1547]<td />
+		$796.00
+	[1549]<td />
+		Delivered
+[1552]<tr />
+	[1553]<td />
+		ORD-20073
+	[1555]<td />
+		2026-02-15
+	[1557]<td />
+		Valentina Ricci
+	[1559]<td />
+		East
+	[1561]<td />
+		Footrest
+	[1563]<td />
+	[1565]<td />
+		$42.00
+	[1567]<td />
+		$294.00
+	[1569]<td />
+		Delivered
+[1572]<tr />
+	[1573]<td />
+		ORD-20074
+	[1575]<td />
+		2026-02-13
+	[1577]<td />
+		Ximena Ortiz
+	[1579]<td />
+		West
+	[1581]<td />
+		Ergonomic Chair
+	[1583]<td />
+	[1585]<td />
+		$289.00
+	[1587]<td />
+		$1,445.00
+	[1589]<td />
+		Returned
+[1592]<tr />
+	[1593]<td />
+		ORD-20075
+	[1595]<td />
+		2026-02-11
+	[1597]<td />
+		Zoe Fischer
+	[1599]<td />
+		North
+	[1601]<td />
+		Ergonomic Chair
+	[1603]<td />
+	[1605]<td />
+		$289.00
+	[1607]<td />
+		$1,734.00
+	[1609]<td />
+		Cancelled
+[1612]<tr />
+	[1613]<td />
+		ORD-20076
+	[1615]<td />
+		2026-02-01
+	[1617]<td />
+		Rosa Delgado
+	[1619]<td />
+		West
+	[1621]<td />
+		Ergonomic Chair
+	[1623]<td />
+	[1625]<td />
+		$289.00
+	[1627]<td />
+		$289.00
+	[1629]<td />
+		Delivered
+[1632]<tr />
+	[1633]<td />
+		ORD-20077
+	[1635]<td />
+		2026-02-11
+	[1637]<td />
+		Hiro Tanaka
+	[1639]<td />
+		North
+	[1641]<td />
+		USB-C Dock
+	[1643]<td />
+	[1645]<td />
+		$149.99
+	[1647]<td />
+		$1,199.92
+	[1649]<td />
+		Processing
+[1652]<tr />
+	[1653]<td />
+		ORD-20078
+	[1655]<td />
+		2026-02-21
+	[1657]<td />
+		Jonas Berg
+	[1659]<td />
+		East
+	[1661]<td />
+		USB-C Dock
+	[1663]<td />
+	[1665]<td />
+		$149.99
+	[1667]<td />
+		$599.96
+	[1669]<td />
+		Delivered
+[1672]<tr />
+	[1673]<td />
+		ORD-20079
+	[1675]<td />
+		2026-02-27
+	[1677]<td />
+		Hiro Tanaka
+	[1679]<td />
+		East
+	[1681]<td />
+		USB-C Dock
+	[1683]<td />
+	[1685]<td />
+		$149.99
+	[1687]<td />
+		$149.99
+	[1689]<td />
+		Shipped
+[1692]<tr />
+	[1693]<td />
+		ORD-20080
+	[1695]<td />
+		2026-02-09
+	[1697]<td />
+		Valentina Ricci
+	[1699]<td />
+		West
+	[1701]<td />
+		Keyboard
+	[1703]<td />
+	[1705]<td />
+		$99.00
+	[1707]<td />
+		$99.00
+	[1709]<td />
+		Cancelled
+[1712]<tr />
+	[1713]<td />
+		ORD-20081
+	[1715]<td />
+		2026-02-03
+	[1717]<td />
+		Nikolai Petrov
+	[1719]<td />
+		East
+	[1721]<td />
+		Footrest
+	[1723]<td />
+	[1725]<td />
+		$42.00
+	[1727]<td />
+		$378.00
+	[1729]<td />
+		Delivered
+[1732]<tr />
+	[1733]<td />
+		ORD-20082
+	[1735]<td />
+		2026-02-01
+	[1737]<td />
+		Lucas Moreau
+	[1739]<td />
+		Central
+	[1741]<td />
+		Keyboard
+	[1743]<td />
+	[1745]<td />
+		$99.00
+	[1747]<td />
+		$594.00
+	[1749]<td />
+		Cancelled
+[1752]<tr />
+	[1753]<td />
+		ORD-20083
+	[1755]<td />
+		2026-02-15
+	[1757]<td />
+		Farah Haddad
+	[1759]<td />
+		West
+	[1761]<td />
+		Keyboard
+	[1763]<td />
+	[1765]<td />
+		$99.00
+	[1767]<td />
+		$99.00
+	[1769]<td />
+		Delivered
+[1772]<tr />
+	[1773]<td />
+		ORD-20084
+	[1775]<td />
+		2026-02-25
+	[1777]<td />
+		Tess Walker
+	[1779]<td />
+		Central
+	[1781]<td />
+		USB-C Dock
+	[1783]<td />
+	[1785]<td />
+		$149.99
+	[1787]<td />
+		$1,049.93
+	[1789]<td />
+		Delivered
+[1792]<tr />
+	[1793]<td />
+		ORD-20085
+	[1795]<td />
+		2026-02-19
+	[1797]<td />
+		Valentina Ricci
+	[1799]<td />
+		South
+	[1801]<td />
+		Keyboard
+	[1803]<td />
+	[1805]<td />
+		$99.00
+	[1807]<td />
+		$198.00
+	[1809]<td />
+		Delivered
+[1812]<tr />
+	[1813]<td />
+		ORD-20086
+	[1815]<td />
+		2026-02-01
+	[1817]<td />
+		Valentina Ricci
+	[1819]<td />
+		Central
+	[1821]<td />
+		USB-C Dock
+	[1823]<td />
+	[1825]<td />
+		$149.99
+	[1827]<td />
+		$599.96
+	[1829]<td />
+		Processing
+[1832]<tr />
+	[1833]<td />
+		ORD-20087
+	[1835]<td />
+		2026-02-07
+	[1837]<td />
+		Tess Walker
+	[1839]<td />
+		East
+	[1841]<td />
+		Keyboard
+	[1843]<td />
+	[1845]<td />
+		$99.00
+	[1847]<td />
+		$198.00
+	[1849]<td />
+		Delivered
+[1852]<tr />
+	[1853]<td />
+		ORD-20088
+	[1855]<td />
+		2026-02-09
+	[1857]<td />
+		Jonas Berg
+	[1859]<td />
+		South
+	[1861]<td />
+		Footrest
+	[1863]<td />
+	[1865]<td />
+		$42.00
+	[1867]<td />
+		$168.00
+	[1869]<td />
+		Cancelled
+[1872]<tr />
+	[1873]<td />
+		ORD-20089
+	[1875]<td />
+		2026-02-03
+	[1877]<td />
+		Farah Haddad
+	[1879]<td />
+		West
+	[1881]<td />
+		Footrest
+	[1883]<td />
+	[1885]<td />
+		$42.00
+	[1887]<td />
+		$294.00
+	[1889]<td />
+		Delivered
+[1892]<tr />
+	[1893]<td />
+		ORD-20090
+	[1895]<td />
+		2026-02-25
+	[1897]<td />
+		Valentina Ricci
+	[1899]<td />
+		North
+	[1901]<td />
+		Keyboard
+	[1903]<td />
+	[1905]<td />
+		$99.00
+	[1907]<td />
+		$396.00
+	[1909]<td />
+		Shipped
+[1912]<tr />
+	[1913]<td />
+		ORD-20091
+	[1915]<td />
+		2026-02-11
+	[1917]<td />
+		Zoe Fischer
+	[1919]<td />
+		Central
+	[1921]<td />
+		Ergonomic Chair
+	[1923]<td />
+	[1925]<td />
+		$289.00
+	[1927]<td />
+		$1,156.00
+	[1929]<td />
+		Delivered
+[1932]<tr />
+	[1933]<td />
+		ORD-20092
+	[1935]<td />
+		2026-02-09
+	[1937]<td />
+		Pedro Santos
+	[1939]<td />
+		South
+	[1941]<td />
+		Noise-cancelling Headset
+	[1943]<td />
+	[1945]<td />
+		$199.00
+	[1947]<td />
+		$1,393.00
+	[1949]<td />
+		Cancelled
+[1952]<tr />
+	[1953]<td />
+		ORD-20093
+	[1955]<td />
+		2026-02-15
+	[1957]<td />
+		Nikolai Petrov
+	[1959]<td />
+		Central
+	[1961]<td />
+		Noise-cancelling Headset
+	[1963]<td />
+	[1965]<td />
+		$199.00
+	[1967]<td />
+		$1,393.00
+	[1969]<td />
+		Delivered
+[1972]<tr />
+	[1973]<td />
+		ORD-20094
+	[1975]<td />
+		2026-02-09
+	[1977]<td />
+		Zoe Fischer
+	[1979]<td />
+		Central
+	[1981]<td />
+		USB-C Dock
+	[1983]<td />
+	[1985]<td />
+		$149.99
+	[1987]<td />
+		$899.94
+	[1989]<td />
+		Returned
+[1992]<tr />
+	[1993]<td />
+		ORD-20095
+	[1995]<td />
+		2026-02-19
+	[1997]<td />
+		Jonas Berg
+	[1999]<td />
+		North
+	[2001]<td />
+		USB-C Dock
+	[2003]<td />
+	[2005]<td />
+		$149.99
+	[2007]<td />
+		$599.96
+	[2009]<td />
+		Shipped
+[2012]<tr />
+	[2013]<td />
+		ORD-20096
+	[2015]<td />
+		2026-02-21
+	[2017]<td />
+		Dmitri Volkov
+	[2019]<td />
+		West
+	[2021]<td />
+		Noise-cancelling Headset
+	[2023]<td />
+	[2025]<td />
+		$199.00
+	[2027]<td />
+		$1,194.00
+	[2029]<td />
+		Cancelled
+[2032]<tr />
+	[2033]<td />
+		ORD-20097
+	[2035]<td />
+		2026-02-23
+	[2037]<td />
+		Nikolai Petrov
+	[2039]<td />
+		North
+	[2041]<td />
+		USB-C Dock
+	[2043]<td />
+	[2045]<td />
+		$149.99
+	[2047]<td />
+		$1,199.92
+	[2049]<td />
+		Returned
+[2052]<tr />
+	[2053]<td />
+		ORD-20098
+	[2055]<td />
+		2026-02-25
+	[2057]<td />
+		Nikolai Petrov
+	[2059]<td />
+		North
+	[2061]<td />
+		Noise-cancelling Headset
+	[2063]<td />
+	[2065]<td />
+		$199.00
+	[2067]<td />
+		$597.00
+	[2069]<td />
+		Cancelled
+[2072]<tr />
+	[2073]<td />
+		ORD-20099
+	[2075]<td />
+		2026-02-07
+	[2077]<td />
+		Tess Walker
+	[2079]<td />
+		South
+	[2081]<td />
+		Ergonomic Chair
+	[2083]<td />
+	[2085]<td />
+		$289.00
+	[2087]<td />
+		$867.00
+	[2089]<td />
+		Shipped
+[2092]<tr />
+	[2093]<td />
+		ORD-20100
+	[2095]<td />
+		2026-02-21
+	[2097]<td />
+		Zoe Fischer
+	[2099]<td />
+		West
+	[2101]<td />
+		Noise-cancelling Headset
+	[2103]<td />
+	[2105]<td />
+		$199.00
+	[2107]<td />
+		$199.00
+	[2109]<td />
+		Delivered
+[2112]<tr />
+	[2113]<td />
+		ORD-20101
+	[2115]<td />
+		2026-02-19
+	[2117]<td />
+		Tess Walker
+	[2119]<td />
+		South
+	[2121]<td />
+		Keyboard
+	[2123]<td />
+	[2125]<td />
+		$99.00
+	[2127]<td />
+		$792.00
+	[2129]<td />
+		Delivered
+[2132]<tr />
+	[2133]<td />
+		ORD-20102
+	[2135]<td />
+		2026-02-13
+	[2137]<td />
+		Valentina Ricci
+	[2139]<td />
+		North
+	[2141]<td />
+		Footrest
+	[2143]<td />
+	[2145]<td />
+		$42.00
+	[2147]<td />
+		$126.00
+	[2149]<td />
+		Shipped
+[2152]<tr />
+	[2153]<td />
+		ORD-20103
+	[2155]<td />
+		2026-02-27
+	[2157]<td />
+		Ximena Ortiz
+	[2159]<td />
+		Central
+	[2161]<td />
+		Noise-cancelling Headset
+	[2163]<td />
+	[2165]<td />
+		$199.00
+	[2167]<td />
+		$1,194.00
+	[2169]<td />
+		Shipped
+[2172]<tr />
+	[2173]<td />
+		ORD-20104
+	[2175]<td />
+		2026-02-21
+	[2177]<td />
+		Nikolai Petrov
+	[2179]<td />
+		East
+	[2181]<td />
+		Ergonomic Chair
+	[2183]<td />
+	[2185]<td />
+		$289.00
+	[2187]<td />
+		$1,734.00
+	[2189]<td />
+		Cancelled
+[2192]<tr />
+	[2193]<td />
+		ORD-20105
+	[2195]<td />
+		2026-02-19
+	[2197]<td />
+		Hiro Tanaka
+	[2199]<td />
+		North
+	[2201]<td />
+		Ergonomic Chair
+	[2203]<td />
+	[2205]<td />
+		$289.00
+	[2207]<td />
+		$1,156.00
+	[2209]<td />
+		Processing
+[2212]<tr />
+	[2213]<td />
+		ORD-20106
+	[2215]<td />
+		2026-02-09
+	[2217]<td />
+		Jonas Berg
+	[2219]<td />
+		North
+	[2221]<td />
+		USB-C Dock
+	[2223]<td />
+	[2225]<td />
+		$149.99
+	[2227]<td />
+		$1,349.91
+	[2229]<td />
+		Cancelled
+[2232]<tr />
+	[2233]<td />
+		ORD-20107
+	[2235]<td />
+		2026-02-27
+	[2237]<td />
+		Tess Walker
+	[2239]<td />
+		West
+	[2241]<td />
+		USB-C Dock
+	[2243]<td />
+	[2245]<td />
+		$149.99
+	[2247]<td />
+		$1,349.91
+	[2249]<td />
+		Processing
+[2252]<tr />
+	[2253]<td />
+		ORD-20108
+	[2255]<td />
+		2026-02-21
+	[2257]<td />
+		Bruno Silva
+	[2259]<td />
+		West
+	[2261]<td />
+		Footrest
+	[2263]<td />
+	[2265]<td />
+		$42.00
+	[2267]<td />
+		$378.00
+	[2269]<td />
+		Returned
+[2272]<tr />
+	[2273]<td />
+		ORD-20109
+	[2275]<td />
+		2026-02-19
+	[2277]<td />
+		Lucas Moreau
+	[2279]<td />
+		North
+	[2281]<td />
+		Footrest
+	[2283]<td />
+	[2285]<td />
+		$42.00
+	[2287]<td />
+		$42.00
+	[2289]<td />
+		Delivered
+[2292]<tr />
+	[2293]<td />
+		ORD-20110
+	[2295]<td />
+		2026-02-25
+	[2297]<td />
+		Dmitri Volkov
+	[2299]<td />
+		West
+	[2301]<td />
+		USB-C Dock
+	[2303]<td />
+	[2305]<td />
+		$149.99
+	[2307]<td />
+		$1,349.91
+	[2309]<td />
+		Delivered
+[2312]<tr />
+	[2313]<td />
+		ORD-20111
+	[2315]<td />
+		2026-02-19
+	[2317]<td />
+		Ximena Ortiz
+	[2319]<td />
+		East
+	[2321]<td />
+		Noise-cancelling Headset
+	[2323]<td />
+	[2325]<td />
+		$199.00
+	[2327]<td />
+		$1,194.00
+	[2329]<td />
+		Returned
+[2332]<tr />
+	[2333]<td />
+		ORD-20112
+	[2335]<td />
+		2026-02-05
+	[2337]<td />
+		Bruno Silva
+	[2339]<td />
+		West
+	[2341]<td />
+		Footrest
+	[2343]<td />
+	[2345]<td />
+		$42.00
+	[2347]<td />
+		$252.00
+	[2349]<td />
+		Returned
+[2352]<tr />
+	[2353]<td />
+		ORD-20113
+	[2355]<td />
+		2026-03-27
+	[2357]<td />
+		Zoe Fischer
+	[2359]<td />
+		South
+	[2361]<td />
+		Noise-cancelling Headset
+	[2363]<td />
+	[2365]<td />
+		$199.00
+	[2367]<td />
+		$1,592.00
+	[2369]<td />
+		Delivered
+[2372]<tr />
+	[2373]<td />
+		ORD-20114
+	[2375]<td />
+		2026-03-21
+	[2377]<td />
+		Pedro Santos
+	[2379]<td />
+		East
+	[2381]<td />
+		USB-C Dock
+	[2383]<td />
+	[2385]<td />
+		$149.99
+	[2387]<td />
+		$1,049.93
+	[2389]<td />
+		Delivered
+[2392]<tr />
+	[2393]<td />
+		ORD-20115
+	[2395]<td />
+		2026-03-27
+	[2397]<td />
+		Ximena Ortiz
+	[2399]<td />
+		North
+	[2401]<td />
+		Footrest
+	[2403]<td />
+	[2405]<td />
+		$42.00
+	[2407]<td />
+		$378.00
+	[2409]<td />
+		Shipped
+[2412]<tr />
+	[2413]<td />
+		ORD-20116
+	[2415]<td />
+		2026-03-05
+	[2417]<td />
+		Lucas Moreau
+	[2419]<td />
+		South
+	[2421]<td />
+		Noise-cancelling Headset
+	[2423]<td />
+	[2425]<td />
+		$199.00
+	[2427]<td />
+		$1,393.00
+	[2429]<td />
+		Delivered
+[2432]<tr />
+	[2433]<td />
+		ORD-20117
+	[2435]<td />
+		2026-03-11
+	[2437]<td />
+		Zoe Fischer
+	[2439]<td />
+		South
+	[2441]<td />
+		USB-C Dock
+	[2443]<td />
+	[2445]<td />
+		$149.99
+	[2447]<td />
+		$299.98
+	[2449]<td />
+		Delivered
+[2452]<tr />
+	[2453]<td />
+		ORD-20118
+	[2455]<td />
+		2026-03-17
+	[2457]<td />
+		Zoe Fischer
+	[2459]<td />
+		East
+	[2461]<td />
+		Noise-cancelling Headset
+	[2463]<td />
+	[2465]<td />
+		$199.00
+	[2467]<td />
+		$1,194.00
+	[2469]<td />
+		Shipped
+[2472]<tr />
+	[2473]<td />
+		ORD-20119
+	[2475]<td />
+		2026-03-19
+	[2477]<td />
+		Valentina Ricci
+	[2479]<td />
+		East
+	[2481]<td />
+		Noise-cancelling Headset
+	[2483]<td />
+	[2485]<td />
+		$199.00
+	[2487]<td />
+		$1,791.00
+	[2489]<td />
+		Delivered
+[2492]<tr />
+	[2493]<td />
+		ORD-20120
+	[2495]<td />
+		2026-03-17
+	[2497]<td />
+		Farah Haddad
+	[2499]<td />
+		South
+	[2501]<td />
+		Keyboard
+	[2503]<td />
+	[2505]<td />
+		$99.00
+	[2507]<td />
+		$792.00
+	[2509]<td />
+		Delivered
+[2512]<tr />
+	[2513]<td />
+		ORD-20121
+	[2515]<td />
+		2026-03-19
+	[2517]<td />
+		Pedro Santos
+	[2519]<td />
+		East
+	[2521]<td />
+		Keyboard
+	[2523]<td />
+	[2525]<td />
+		$99.00
+	[2527]<td />
+		$891.00
+	[2529]<td />
+		Returned
+[2532]<tr />
+	[2533]<td />
+		ORD-20122
+	[2535]<td />
+		2026-03-21
+	[2537]<td />
+		Zoe Fischer
+	[2539]<td />
+		South
+	[2541]<td />
+		Keyboard
+	[2543]<td />
+	[2545]<td />
+		$99.00
+	[2547]<td />
+		$594.00
+	[2549]<td />
+		Delivered
+[2552]<tr />
+	[2553]<td />
+		ORD-20123
+	[2555]<td />
+		2026-03-07
+	[2557]<td />
+		Zoe Fischer
+	[2559]<td />
+		Central
+	[2561]<td />
+		Footrest
+	[2563]<td />
+	[2565]<td />
+		$42.00
+	[2567]<td />
+		$126.00
+	[2569]<td />
+		Shipped
+[2572]<tr />
+	[2573]<td />
+		ORD-20124
+	[2575]<td />
+		2026-03-01
+	[2577]<td />
+		Farah Haddad
+	[2579]<td />
+		West
+	[2581]<td />
+		Keyboard
+	[2583]<td />
+	[2585]<td />
+		$99.00
+	[2587]<td />
+		$693.00
+	[2589]<td />
+		Returned
+[2592]<tr />
+	[2593]<td />
+		ORD-20125
+	[2595]<td />
+		2026-03-15
+	[2597]<td />
+		Rosa Delgado
+	[2599]<td />
+		East
+	[2601]<td />
+		Keyboard
+	[2603]<td />
+	[2605]<td />
+		$99.00
+	[2607]<td />
+		$693.00
+	[2609]<td />
+		Delivered
+[2612]<tr />
+	[2613]<td />
+		ORD-20126
+	[2615]<td />
+		2026-03-13
+	[2617]<td />
+		Hiro Tanaka
+	[2619]<td />
+		Central
+	[2621]<td />
+		Noise-cancelling Headset
+	[2623]<td />
+	[2625]<td />
+		$199.00
+	[2627]<td />
+		$1,194.00
+	[2629]<td />
+		Delivered
+[2632]<tr />
+	[2633]<td />
+		ORD-20127
+	[2635]<td />
+		2026-03-27
+	[2637]<td />
+		Zoe Fischer
+	[2639]<td />
+		Central
+	[2641]<td />
+		USB-C Dock
+	[2643]<td />
+	[2645]<td />
+		$149.99
+	[2647]<td />
+		$899.94
+	[2649]<td />
+		Processing
+[2652]<tr />
+	[2653]<td />
+		ORD-20128
+	[2655]<td />
+		2026-03-09
+	[2657]<td />
+		Tess Walker
+	[2659]<td />
+		West
+	[2661]<td />
+		Ergonomic Chair
+	[2663]<td />
+	[2665]<td />
+		$289.00
+	[2667]<td />
+		$1,445.00
+	[2669]<td />
+		Returned
+[2672]<tr />
+	[2673]<td />
+		ORD-20129
+	[2675]<td />
+		2026-03-27
+	[2677]<td />
+		Bruno Silva
+	[2679]<td />
+		North
+	[2681]<td />
+		Keyboard
+	[2683]<td />
+	[2685]<td />
+		$99.00
+	[2687]<td />
+		$693.00
+	[2689]<td />
+		Shipped
+[2692]<tr />
+	[2693]<td />
+		ORD-20130
+	[2695]<td />
+		2026-03-21
+	[2697]<td />
+		Bruno Silva
+	[2699]<td />
+		West
+	[2701]<td />
+		Noise-cancelling Headset
+	[2703]<td />
+	[2705]<td />
+		$199.00
+	[2707]<td />
+		$1,393.00
+	[2709]<td />
+		Processing
+[2712]<tr />
+	[2713]<td />
+		ORD-20131
+	[2715]<td />
+		2026-03-03
+	[2717]<td />
+		Zoe Fischer
+	[2719]<td />
+		Central
+	[2721]<td />
+		Footrest
+	[2723]<td />
+	[2725]<td />
+		$42.00
+	[2727]<td />
+		$294.00
+	[2729]<td />
+		Delivered
+[2732]<tr />
+	[2733]<td />
+		ORD-20132
+	[2735]<td />
+		2026-03-13
+	[2737]<td />
+		Lucas Moreau
+	[2739]<td />
+		East
+	[2741]<td />
+		Keyboard
+	[2743]<td />
+	[2745]<td />
+		$99.00
+	[2747]<td />
+		$693.00
+	[2749]<td />
+		Processing
+[2752]<tr />
+	[2753]<td />
+		ORD-20133
+	[2755]<td />
+		2026-03-27
+	[2757]<td />
+		Jonas Berg
+	[2759]<td />
+		East
+	[2761]<td />
+		USB-C Dock
+	[2763]<td />
+	[2765]<td />
+		$149.99
+	[2767]<td />
+		$149.99
+	[2769]<td />
+		Shipped
+[2772]<tr />
+	[2773]<td />
+		ORD-20134
+	[2775]<td />
+		2026-03-09
+	[2777]<td />
+		Lucas Moreau
+	[2779]<td />
+		West
+	[2781]<td />
+		Footrest
+	[2783]<td />
+	[2785]<td />
+		$42.00
+	[2787]<td />
+		$210.00
+	[2789]<td />
+		Cancelled
+[2792]<tr />
+	[2793]<td />
+		ORD-20135
+	[2795]<td />
+		2026-03-03
+	[2797]<td />
+		Valentina Ricci
+	[2799]<td />
+		West
+	[2801]<td />
+		Ergonomic Chair
+	[2803]<td />
+	[2805]<td />
+		$289.00
+	[2807]<td />
+		$289.00
+	[2809]<td />
+		Processing
+[2812]<tr />
+	[2813]<td />
+		ORD-20136
+	[2815]<td />
+		2026-03-25
+	[2817]<td />
+		Rosa Delgado
+	[2819]<td />
+		North
+	[2821]<td />
+		Noise-cancelling Headset
+	[2823]<td />
+	[2825]<td />
+		$199.00
+	[2827]<td />
+		$597.00
+	[2829]<td />
+		Cancelled
+[2832]<tr />
+	[2833]<td />
+		ORD-20137
+	[2835]<td />
+		2026-03-11
+	[2837]<td />
+		Ximena Ortiz
+	[2839]<td />
+		South
+	[2841]<td />
+		Footrest
+	[2843]<td />
+	[2845]<td />
+		$42.00
+	[2847]<td />
+		$42.00
+	[2849]<td />
+		Delivered
+[2852]<tr />
+	[2853]<td />
+		ORD-20138
+	[2855]<td />
+		2026-03-09
+	[2857]<td />
+		Jonas Berg
+	[2859]<td />
+		West
+	[2861]<td />
+		USB-C Dock
+	[2863]<td />
+	[2865]<td />
+		$149.99
+	[2867]<td />
+		$299.98
+	[2869]<td />
+		Processing
+[2872]<tr />
+	[2873]<td />
+		ORD-20139
+	[2875]<td />
+		2026-03-15
+	[2877]<td />
+		Ximena Ortiz
+	[2879]<td />
+		East
+	[2881]<td />
+		Noise-cancelling Headset
+	[2883]<td />
+	[2885]<td />
+		$199.00
+	[2887]<td />
+		$398.00
+	[2889]<td />
+		Shipped
+[2892]<tr />
+	[2893]<td />
+		ORD-20140
+	[2895]<td />
+		2026-03-21
+	[2897]<td />
+		Zoe Fischer
+	[2899]<td />
+		West
+	[2901]<td />
+		Keyboard
+	[2903]<td />
+	[2905]<td />
+		$99.00
+	[2907]<td />
+		$396.00
+	[2909]<td />
+		Delivered
+[2912]<tr />
+	[2913]<td />
+		ORD-20141
+	[2915]<td />
+		2026-03-07
+	[2917]<td />
+		Bruno Silva
+	[2919]<td />
+		West
+	[2921]<td />
+		Noise-cancelling Headset
+	[2923]<td />
+	[2925]<td />
+		$199.00
+	[2927]<td />
+		$199.00
+	[2929]<td />
+		Delivered
+[2932]<tr />
+	[2933]<td />
+		ORD-20142
+	[2935]<td />
+		2026-03-17
+	[2937]<td />
+		Dmitri Volkov
+	[2939]<td />
+		North
+	[2941]<td />
+		USB-C Dock
+	[2943]<td />
+	[2945]<td />
+		$149.99
+	[2947]<td />
+		$149.99
+	[2949]<td />
+		Cancelled
+[2952]<tr />
+	[2953]<td />
+		ORD-20143
+	[2955]<td />
+		2026-03-19
+	[2957]<td />
+		Zoe Fischer
+	[2959]<td />
+		Central
+	[2961]<td />
+		Noise-cancelling Headset
+	[2963]<td />
+	[2965]<td />
+		$199.00
+	[2967]<td />
+		$398.00
+	[2969]<td />
+		Delivered
+[2972]<tr />
+	[2973]<td />
+		ORD-20144
+	[2975]<td />
+		2026-03-09
+	[2977]<td />
+		Jonas Berg
+	[2979]<td />
+		South
+	[2981]<td />
+		Footrest
+	[2983]<td />
+	[2985]<td />
+		$42.00
+	[2987]<td />
+		$168.00
+	[2989]<td />
+		Delivered
+[2992]<tr />
+	[2993]<td />
+		ORD-20145
+	[2995]<td />
+		2026-03-27
+	[2997]<td />
+		Zoe Fischer
+	[2999]<td />
+		South
+	[3001]<td />
+		Keyboard
+	[3003]<td />
+	[3005]<td />
+		$99.00
+	[3007]<td />
+		$792.00
+	[3009]<td />
+		Returned
+[3012]<tr />
+	[3013]<td />
+		ORD-20146
+	[3015]<td />
+		2026-03-01
+	[3017]<td />
+		Bruno Silva
+	[3019]<td />
+		North
+	[3021]<td />
+		Keyboard
+	[3023]<td />
+	[3025]<td />
+		$99.00
+	[3027]<td />
+		$297.00
+	[3029]<td />
+		Delivered
+[3032]<tr />
+	[3033]<td />
+		ORD-20147
+	[3035]<td />
+		2026-03-11
+	[3037]<td />
+		Bruno Silva
+	[3039]<td />
+		East
+	[3041]<td />
+		Ergonomic Chair
+	[3043]<td />
+	[3045]<td />
+		$289.00
+	[3047]<td />
+		$2,312.00
+	[3049]<td />
+		Delivered
+[3052]<tr />
+	[3053]<td />
+		ORD-20148
+	[3055]<td />
+		2026-03-09
+	[3057]<td />
+		Nikolai Petrov
+	[3059]<td />
+		East
+	[3061]<td />
+		Ergonomic Chair
+	[3063]<td />
+	[3065]<td />
+		$289.00
+	[3067]<td />
+		$867.00
+	[3069]<td />
+		Cancelled
+[3072]<tr />
+	[3073]<td />
+		ORD-20149
+	[3075]<td />
+		2026-03-11
+	[3077]<td />
+		Tess Walker
+	[3079]<td />
+		Central
+	[3081]<td />
+		Keyboard
+	[3083]<td />
+	[3085]<td />
+		$99.00
+	[3087]<td />
+		$99.00
+	[3089]<td />
+		Returned
+[3092]<tr />
+	[3093]<td />
+		ORD-20150
+	[3095]<td />
+		2026-03-09
+	[3097]<td />
+		Pedro Santos
+	[3099]<td />
+		North
+	[3101]<td />
+		Footrest
+	[3103]<td />
+	[3105]<td />
+		$42.00
+	[3107]<td />
+		$42.00
+	[3109]<td />
+		Processing
+[3112]<tr />
+	[3113]<td />
+		ORD-20151
+	[3115]<td />
+		2026-03-11
+	[3117]<td />
+		Pedro Santos
+	[3119]<td />
+		East
+	[3121]<td />
+		Footrest
+	[3123]<td />
+	[3125]<td />
+		$42.00
+	[3127]<td />
+		$42.00
+	[3129]<td />
+		Processing
+[3132]<tr />
+	[3133]<td />
+		ORD-20152
+	[3135]<td />
+		2026-03-01
+	[3137]<td />
+		Valentina Ricci
+	[3139]<td />
+		East
+	[3141]<td />
+		Noise-cancelling Headset
+	[3143]<td />
+	[3145]<td />
+		$199.00
+	[3147]<td />
+		$1,791.00
+	[3149]<td />
+		Shipped
+[3152]<tr />
+	[3153]<td />
+		ORD-20153
+	[3155]<td />
+		2026-03-27
+	[3157]<td />
+		Zoe Fischer
+	[3159]<td />
+		Central
+	[3161]<td />
+		USB-C Dock
+	[3163]<td />
+	[3165]<td />
+		$149.99
+	[3167]<td />
+		$299.98
+	[3169]<td />
+		Processing
+[3172]<tr />
+	[3173]<td />
+		ORD-20154
+	[3175]<td />
+		2026-03-17
+	[3177]<td />
+		Pedro Santos
+	[3179]<td />
+		North
+	[3181]<td />
+		Ergonomic Chair
+	[3183]<td />
+	[3185]<td />
+		$289.00
+	[3187]<td />
+		$1,156.00
+	[3189]<td />
+		Processing
+[3192]<tr />
+	[3193]<td />
+		ORD-20155
+	[3195]<td />
+		2026-03-11
+	[3197]<td />
+		Farah Haddad
+	[3199]<td />
+		South
+	[3201]<td />
+		Noise-cancelling Headset
+	[3203]<td />
+	[3205]<td />
+		$199.00
+	[3207]<td />
+		$199.00
+	[3209]<td />
+		Cancelled
+[3212]<tr />
+	[3213]<td />
+		ORD-20156
+	[3215]<td />
+		2026-03-05
+	[3217]<td />
+		Dmitri Volkov
+	[3219]<td />
+		South
+	[3221]<td />
+		Footrest
+	[3223]<td />
+	[3225]<td />
+		$42.00
+	[3227]<td />
+		$378.00
+	[3229]<td />
+		Returned
+[3232]<tr />
+	[3233]<td />
+		ORD-20157
+	[3235]<td />
+		2026-03-07
+	[3237]<td />
+		Nikolai Petrov
+	[3239]<td />
+		East
+	[3241]<td />
+		USB-C Dock
+	[3243]<td />
+	[3245]<td />
+		$149.99
+	[3247]<td />
+		$599.96
+	[3249]<td />
+		Delivered
+[3252]<tr />
+	[3253]<td />
+		ORD-20158
+	[3255]<td />
+		2026-03-21
+	[3257]<td />
+		Rosa Delgado
+	[3259]<td />
+		West
+	[3261]<td />
+		Noise-cancelling Headset
+	[3263]<td />
+	[3265]<td />
+		$199.00
+	[3267]<td />
+		$199.00
+	[3269]<td />
+		Returned
+[3272]<tr />
+	[3273]<td />
+		ORD-20159
+	[3275]<td />
+		2026-03-03
+	[3277]<td />
+		Dmitri Volkov
+	[3279]<td />
+		North
+	[3281]<td />
+		USB-C Dock
+	[3283]<td />
+	[3285]<td />
+		$149.99
+	[3287]<td />
+		$1,199.92
+	[3289]<td />
+		Delivered
+[3292]<tr />
+	[3293]<td />
+		ORD-20160
+	[3295]<td />
+		2026-03-09
+	[3297]<td />
+		Rosa Delgado
+	[3299]<td />
+		Central
+	[3301]<td />
+		Keyboard
+	[3303]<td />
+	[3305]<td />
+		$99.00
+	[3307]<td />
+		$792.00
+	[3309]<td />
+		Delivered
+[3312]<tr />
+	[3313]<td />
+		ORD-20161
+	[3315]<td />
+		2026-03-11
+	[3317]<td />
+		Bruno Silva
+	[3319]<td />
+		Central
+	[3321]<td />
+		Noise-cancelling Headset
+	[3323]<td />
+	[3325]<td />
+		$199.00
+	[3327]<td />
+		$1,791.00
+	[3329]<td />
+		Delivered
+[3332]<tr />
+	[3333]<td />
+		ORD-20162
+	[3335]<td />
+		2026-03-05
+	[3337]<td />
+		Rosa Delgado
+	[3339]<td />
+		North
+	[3341]<td />
+		Footrest
+	[3343]<td />
+	[3345]<td />
+		$42.00
+	[3347]<td />
+		$378.00
+	[3349]<td />
+		Delivered
+[3352]<tr />
+	[3353]<td />
+		ORD-20163
+	[3355]<td />
+		2026-03-19
+	[3357]<td />
+		Tess Walker
+	[3359]<td />
+		South
+	[3361]<td />
+		Noise-cancelling Headset
+	[3363]<td />
+	[3365]<td />
+		$199.00
+	[3367]<td />
+		$1,592.00
+	[3369]<td />
+		Processing
+[3372]<tr />
+	[3373]<td />
+		ORD-20164
+	[3375]<td />
+		2026-03-09
+	[3377]<td />
+		Valentina Ricci
+	[3379]<td />
+		South
+	[3381]<td />
+		Noise-cancelling Headset
+	[3383]<td />
+	[3385]<td />
+		$199.00
+	[3387]<td />
+		$1,393.00
+	[3389]<td />
+		Cancelled
+[3392]<tr />
+	[3393]<td />
+		ORD-20165
+	[3395]<td />
+		2026-03-07
+	[3397]<td />
+		Bruno Silva
+	[3399]<td />
+		East
+	[3401]<td />
+		Keyboard
+	[3403]<td />
+	[3405]<td />
+		$99.00
+	[3407]<td />
+		$891.00
+	[3409]<td />
+		Processing
+[3412]<tr />
+	[3413]<td />
+		ORD-20166
+	[3415]<td />
+		2026-03-25
+	[3417]<td />
+		Bruno Silva
+	[3419]<td />
+		North
+	[3421]<td />
+		Footrest
+	[3423]<td />
+	[3425]<td />
+		$42.00
+	[3427]<td />
+		$84.00
+	[3429]<td />
+		Delivered
+[3432]<tr />
+	[3433]<td />
+		ORD-20167
+	[3435]<td />
+		2026-03-15
+	[3437]<td />
+		Pedro Santos
+	[3439]<td />
+		East
+	[3441]<td />
+		USB-C Dock
+	[3443]<td />
+	[3445]<td />
+		$149.99
+	[3447]<td />
+		$449.97
+	[3449]<td />
+		Delivered
+[3452]<tr />
+	[3453]<td />
+		ORD-20168
+	[3455]<td />
+		2026-04-09
+	[3457]<td />
+		Lucas Moreau
+	[3459]<td />
+		Central
+	[3461]<td />
+		Ergonomic Chair
+	[3463]<td />
+	[3465]<td />
+		$289.00
+	[3467]<td />
+		$2,312.00
+	[3469]<td />
+		Shipped
+[3472]<tr />
+	[3473]<td />
+		ORD-20169
+	[3475]<td />
+		2026-04-07
+	[3477]<td />
+		Pedro Santos
+	[3479]<td />
+		South
+	[3481]<td />
+		Footrest
+	[3483]<td />
+	[3485]<td />
+		$42.00
+	[3487]<td />
+		$168.00
+	[3489]<td />
+		Shipped
+[3492]<tr />
+	[3493]<td />
+		ORD-20170
+	[3495]<td />
+		2026-04-09
+	[3497]<td />
+		Farah Haddad
+	[3499]<td />
+		Central
+	[3501]<td />
+		USB-C Dock
+	[3503]<td />
+	[3505]<td />
+		$149.99
+	[3507]<td />
+		$899.94
+	[3509]<td />
+		Shipped
+[3512]<tr />
+	[3513]<td />
+		ORD-20171
+	[3515]<td />
+		2026-04-27
+	[3517]<td />
+		Nikolai Petrov
+	[3519]<td />
+		West
+	[3521]<td />
+		Ergonomic Chair
+	[3523]<td />
+	[3525]<td />
+		$289.00
+	[3527]<td />
+		$578.00
+	[3529]<td />
+		Delivered
+[3532]<tr />
+	[3533]<td />
+		ORD-20172
+	[3535]<td />
+		2026-04-25
+	[3537]<td />
+		Hiro Tanaka
+	[3539]<td />
+		Central
+	[3541]<td />
+		Keyboard
+	[3543]<td />
+	[3545]<td />
+		$99.00
+	[3547]<td />
+		$792.00
+	[3549]<td />
+		Delivered
+[3552]<tr />
+	[3553]<td />
+		ORD-20173
+	[3555]<td />
+		2026-04-03
+	[3557]<td />
+		Farah Haddad
+	[3559]<td />
+		North
+	[3561]<td />
+		Noise-cancelling Headset
+	[3563]<td />
+	[3565]<td />
+		$199.00
+	[3567]<td />
+		$1,791.00
+	[3569]<td />
+		Returned
+[3572]<tr />
+	[3573]<td />
+		ORD-20174
+	[3575]<td />
+		2026-04-17
+	[3577]<td />
+		Jonas Berg
+	[3579]<td />
+		North
+	[3581]<td />
+		Keyboard
+	[3583]<td />
+	[3585]<td />
+		$99.00
+	[3587]<td />
+		$396.00
+	[3589]<td />
+		Delivered
+[3592]<tr />
+	[3593]<td />
+		ORD-20175
+	[3595]<td />
+		2026-04-27
+	[3597]<td />
+		Ximena Ortiz
+	[3599]<td />
+		West
+	[3601]<td />
+		Ergonomic Chair
+	[3603]<td />
+	[3605]<td />
+		$289.00
+	[3607]<td />
+		$2,312.00
+	[3609]<td />
+		Returned
+[3612]<tr />
+	[3613]<td />
+		ORD-20176
+	[3615]<td />
+		2026-04-17
+	[3617]<td />
+		Nikolai Petrov
+	[3619]<td />
+		East
+	[3621]<td />
+		USB-C Dock
+	[3623]<td />
+	[3625]<td />
+		$149.99
+	[3627]<td />
+		$1,349.91
+	[3629]<td />
+		Delivered
+[3632]<tr />
+	[3633]<td />
+		ORD-20177
+	[3635]<td />
+		2026-04-15
+	[3637]<td />
+		Rosa Delgado
+	[3639]<td />
+		West
+	[3641]<td />
+		Footrest
+	[3643]<td />
+	[3645]<td />
+		$42.00
+	[3647]<td />
+		$210.00
+	[3649]<td />
+		Processing
+[3652]<tr />
+	[3653]<td />
+		ORD-20178
+	[3655]<td />
+		2026-04-09
+	[3657]<td />
+		Rosa Delgado
+	[3659]<td />
+		South
+	[3661]<td />
+		Footrest
+	[3663]<td />
+	[3665]<td />
+		$42.00
+	[3667]<td />
+		$210.00
+	[3669]<td />
+		Delivered
+[3672]<tr />
+	[3673]<td />
+		ORD-20179
+	[3675]<td />
+		2026-04-27
+	[3677]<td />
+		Farah Haddad
+	[3679]<td />
+		Central
+	[3681]<td />
+		Noise-cancelling Headset
+	[3683]<td />
+	[3685]<td />
+		$199.00
+	[3687]<td />
+		$1,791.00
+	[3689]<td />
+		Returned
+[3692]<tr />
+	[3693]<td />
+		ORD-20180
+	[3695]<td />
+		2026-04-17
+	[3697]<td />
+		Nikolai Petrov
+	[3699]<td />
+		Central
+	[3701]<td />
+		USB-C Dock
+	[3703]<td />
+	[3705]<td />
+		$149.99
+	[3707]<td />
+		$749.95
+	[3709]<td />
+		Delivered
+[3712]<tr />
+	[3713]<td />
+		ORD-20181
+	[3715]<td />
+		2026-04-11
+	[3717]<td />
+		Lucas Moreau
+	[3719]<td />
+		South
+	[3721]<td />
+		Noise-cancelling Headset
+	[3723]<td />
+	[3725]<td />
+		$199.00
+	[3727]<td />
+		$1,393.00
+	[3729]<td />
+		Delivered
+[3732]<tr />
+	[3733]<td />
+		ORD-20182
+	[3735]<td />
+		2026-04-13
+	[3737]<td />
+		Bruno Silva
+	[3739]<td />
+		East
+	[3741]<td />
+		Keyboard
+	[3743]<td />
+	[3745]<td />
+		$99.00
+	[3747]<td />
+		$297.00
+	[3749]<td />
+		Returned
+[3752]<tr />
+	[3753]<td />
+		ORD-20183
+	[3755]<td />
+		2026-04-03
+	[3757]<td />
+		Tess Walker
+	[3759]<td />
+		West
+	[3761]<td />
+		Noise-cancelling Headset
+	[3763]<td />
+	[3765]<td />
+		$199.00
+	[3767]<td />
+		$1,791.00
+	[3769]<td />
+		Processing
+[3772]<tr />
+	[3773]<td />
+		ORD-20184
+	[3775]<td />
+		2026-04-09
+	[3777]<td />
+		Hiro Tanaka
+	[3779]<td />
+		Central
+	[3781]<td />
+		Keyboard
+	[3783]<td />
+	[3785]<td />
+		$99.00
+	[3787]<td />
+		$99.00
+	[3789]<td />
+		Processing
+[3792]<tr />
+	[3793]<td />
+		ORD-20185
+	[3795]<td />
+		2026-04-19
+	[3797]<td />
+		Valentina Ricci
+	[3799]<td />
+		South
+	[3801]<td />
+		USB-C Dock
+	[3803]<td />
+	[3805]<td />
+		$149.99
+	[3807]<td />
+		$749.95
+	[3809]<td />
+		Processing
+[3812]<tr />
+	[3813]<td />
+		ORD-20186
+	[3815]<td />
+		2026-04-17
+	[3817]<td />
+		Zoe Fischer
+	[3819]<td />
+		West
+	[3821]<td />
+		Footrest
+	[3823]<td />
+	[3825]<td />
+		$42.00
+	[3827]<td />
+		$252.00
+	[3829]<td />
+		Delivered
+[3832]<tr />
+	[3833]<td />
+		ORD-20187
+	[3835]<td />
+		2026-04-15
+	[3837]<td />
+		Pedro Santos
+	[3839]<td />
+		West
+	[3841]<td />
+		Ergonomic Chair
+	[3843]<td />
+	[3845]<td />
+		$289.00
+	[3847]<td />
+		$1,734.00
+	[3849]<td />
+		Delivered
+[3852]<tr />
+	[3853]<td />
+		ORD-20188
+	[3855]<td />
+		2026-04-13
+	[3857]<td />
+		Bruno Silva
+	[3859]<td />
+		West
+	[3861]<td />
+		Footrest
+	[3863]<td />
+	[3865]<td />
+		$42.00
+	[3867]<td />
+		$252.00
+	[3869]<td />
+		Delivered
+[3872]<tr />
+	[3873]<td />
+		ORD-20189
+	[3875]<td />
+		2026-04-19
+	[3877]<td />
+		Zoe Fischer
+	[3879]<td />
+		Central
+	[3881]<td />
+		Ergonomic Chair
+	[3883]<td />
+	[3885]<td />
+		$289.00
+	[3887]<td />
+		$2,023.00
+	[3889]<td />
+		Delivered
+[3892]<tr />
+	[3893]<td />
+		ORD-20190
+	[3895]<td />
+		2026-04-21
+	[3897]<td />
+		Ximena Ortiz
+	[3899]<td />
+		East
+	[3901]<td />
+		Footrest
+	[3903]<td />
+	[3905]<td />
+		$42.00
+	[3907]<td />
+		$252.00
+	[3909]<td />
+		Delivered
+[3912]<tr />
+	[3913]<td />
+		ORD-20191
+	[3915]<td />
+		2026-04-07
+	[3917]<td />
+		Tess Walker
+	[3919]<td />
+		East
+	[3921]<td />
+		Footrest
+	[3923]<td />
+	[3925]<td />
+		$42.00
+	[3927]<td />
+		$168.00
+	[3929]<td />
+		Processing
+[3932]<tr />
+	[3933]<td />
+		ORD-20192
+	[3935]<td />
+		2026-04-01
+	[3937]<td />
+		Jonas Berg
+	[3939]<td />
+		West
+	[3941]<td />
+		Keyboard
+	[3943]<td />
+	[3945]<td />
+		$99.00
+	[3947]<td />
+		$792.00
+	[3949]<td />
+		Returned
+[3952]<tr />
+	[3953]<td />
+		ORD-20193
+	[3955]<td />
+		2026-04-23
+	[3957]<td />
+		Lucas Moreau
+	[3959]<td />
+		South
+	[3961]<td />
+		Ergonomic Chair
+	[3963]<td />
+	[3965]<td />
+		$289.00
+	[3967]<td />
+		$2,023.00
+	[3969]<td />
+		Returned
+[3972]<tr />
+	[3973]<td />
+		ORD-20194
+	[3975]<td />
+		2026-04-05
+	[3977]<td />
+		Ximena Ortiz
+	[3979]<td />
+		Central
+	[3981]<td />
+		Keyboard
+	[3983]<td />
+	[3985]<td />
+		$99.00
+	[3987]<td />
+		$99.00
+	[3989]<td />
+		Shipped
+[3992]<tr />
+	[3993]<td />
+		ORD-20195
+	[3995]<td />
+		2026-04-23
+	[3997]<td />
+		Jonas Berg
+	[3999]<td />
+		North
+	[4001]<td />
+		Noise-cancelling Headset
+	[4003]<td />
+	[4005]<td />
+		$199.00
+	[4007]<td />
+		$1,194.00
+	[4009]<td />
+		Returned
+[4012]<tr />
+	[4013]<td />
+		ORD-20196
+	[4015]<td />
+		2026-04-21
+	[4017]<td />
+		Jonas Berg
+	[4019]<td />
+		East
+	[4021]<td />
+		Footrest
+	[4023]<td />
+	[4025]<td />
+		$42.00
+	[4027]<td />
+		$126.00
+	[4029]<td />
+		Processing
+[4032]<tr />
+	[4033]<td />
+		ORD-20197
+	[4035]<td />
+		2026-04-19
+	[4037]<td />
+		Zoe Fischer
+	[4039]<td />
+		South
+	[4041]<td />
+		Noise-cancelling Headset
+	[4043]<td />
+	[4045]<td />
+		$199.00
+	[4047]<td />
+		$1,592.00
+	[4049]<td />
+		Delivered
+[4052]<tr />
+	[4053]<td />
+		ORD-20198
+	[4055]<td />
+		2026-04-13
+	[4057]<td />
+		Ximena Ortiz
+	[4059]<td />
+		South
+	[4061]<td />
+		Footrest
+	[4063]<td />
+	[4065]<td />
+		$42.00
+	[4067]<td />
+		$42.00
+	[4069]<td />
+		Delivered
+[4072]<tr />
+	[4073]<td />
+		ORD-20199
+	[4075]<td />
+		2026-04-11
+	[4077]<td />
+		Pedro Santos
+	[4079]<td />
+		West
+	[4081]<td />
+		Keyboard
+	[4083]<td />
+	[4085]<td />
+		$99.00
+	[4087]<td />
+		$594.00
+	[4089]<td />
+		Shipped
+[4092]<tr />
+	[4093]<td />
+		ORD-20200
+	[4095]<td />
+		2026-04-21
+	[4097]<td />
+		Rosa Delgado
+	[4099]<td />
+		North
+	[4101]<td />
+		Ergonomic Chair
+	[4103]<td />
+	[4105]<td />
+		$289.00
+	[4107]<td />
+		$1,156.00
+	[4109]<td />
+		Processing
+[4112]<tr />
+	[4113]<td />
+		ORD-20201
+	[4115]<td />
+		2026-04-07
+	[4117]<td />
+		Rosa Delgado
+	[4119]<td />
+		East
+	[4121]<td />
+		Ergonomic Chair
+	[4123]<td />
+	[4125]<td />
+		$289.00
+	[4127]<td />
+		$1,734.00
+	[4129]<td />
+		Cancelled
+[4132]<tr />
+	[4133]<td />
+		ORD-20202
+	[4135]<td />
+		2026-04-05
+	[4137]<td />
+		Zoe Fischer
+	[4139]<td />
+		North
+	[4141]<td />
+		Keyboard
+	[4143]<td />
+	[4145]<td />
+		$99.00
+	[4147]<td />
+		$495.00
+	[4149]<td />
+		Shipped
+[4152]<tr />
+	[4153]<td />
+		ORD-20203
+	[4155]<td />
+		2026-04-19
+	[4157]<td />
+		Farah Haddad
+	[4159]<td />
+		North
+	[4161]<td />
+		Ergonomic Chair
+	[4163]<td />
+	[4165]<td />
+		$289.00
+	[4167]<td />
+		$867.00
+	[4169]<td />
+		Delivered
+[4172]<tr />
+	[4173]<td />
+		ORD-20204
+	[4175]<td />
+		2026-04-25
+	[4177]<td />
+		Pedro Santos
+	[4179]<td />
+		Central
+	[4181]<td />
+		Footrest
+	[4183]<td />
+	[4185]<td />
+		$42.00
+	[4187]<td />
+		$378.00
+	[4189]<td />
+		Cancelled
+[4192]<tr />
+	[4193]<td />
+		ORD-20205
+	[4195]<td />
+		2026-04-03
+	[4197]<td />
+		Hiro Tanaka
+	[4199]<td />
+		South
+	[4201]<td />
+		Footrest
+	[4203]<td />
+	[4205]<td />
+		$42.00
+	[4207]<td />
+		$84.00
+	[4209]<td />
+		Processing
+[4212]<tr />
+	[4213]<td />
+		ORD-20206
+	[4215]<td />
+		2026-04-25
+	[4217]<td />
+		Lucas Moreau
+	[4219]<td />
+		Central
+	[4221]<td />
+		USB-C Dock
+	[4223]<td />
+	[4225]<td />
+		$149.99
+	[4227]<td />
+		$449.97
+	[4229]<td />
+		Delivered
+[4232]<tr />
+	[4233]<td />
+		ORD-20207
+	[4235]<td />
+		2026-04-11
+	[4237]<td />
+		Lucas Moreau
+	[4239]<td />
+		East
+	[4241]<td />
+		Noise-cancelling Headset
+	[4243]<td />
+	[4245]<td />
+		$199.00
+	[4247]<td />
+		$1,592.00
+	[4249]<td />
+		Shipped
+[4252]<tr />
+	[4253]<td />
+		ORD-20208
+	[4255]<td />
+		2026-04-09
+	[4257]<td />
+		Pedro Santos
+	[4259]<td />
+		South
+	[4261]<td />
+		Footrest
+	[4263]<td />
+	[4265]<td />
+		$42.00
+	[4267]<td />
+		$84.00
+	[4269]<td />
+		Shipped
+[4272]<tr />
+	[4273]<td />
+		ORD-20209
+	[4275]<td />
+		2026-04-23
+	[4277]<td />
+		Valentina Ricci
+	[4279]<td />
+		East
+	[4281]<td />
+		Noise-cancelling Headset
+	[4283]<td />
+	[4285]<td />
+		$199.00
+	[4287]<td />
+		$1,791.00
+	[4289]<td />
+		Returned
+[4292]<tr />
+	[4293]<td />
+		ORD-20210
+	[4295]<td />
+		2026-04-17
+	[4297]<td />
+		Tess Walker
+	[4299]<td />
+		South
+	[4301]<td />
+		Keyboard
+	[4303]<td />
+	[4305]<td />
+		$99.00
+	[4307]<td />
+		$495.00
+	[4309]<td />
+		Cancelled
+[4312]<tr />
+	[4313]<td />
+		ORD-20211
+	[4315]<td />
+		2026-04-19
+	[4317]<td />
+		Lucas Moreau
+	[4319]<td />
+		Central
+	[4321]<td />
+		USB-C Dock
+	[4323]<td />
+	[4325]<td />
+		$149.99
+	[4327]<td />
+		$1,049.93
+	[4329]<td />
+		Returned
+[4332]<tr />
+	[4333]<td />
+		ORD-20212
+	[4335]<td />
+		2026-04-17
+	[4337]<td />
+		Dmitri Volkov
+	[4339]<td />
+		North
+	[4341]<td />
+		Footrest
+	[4343]<td />
+	[4345]<td />
+		$42.00
+	[4347]<td />
+		$336.00
+	[4349]<td />
+		Returned
+[4352]<tr />
+	[4353]<td />
+		ORD-20213
+	[4355]<td />
+		2026-04-11
+	[4357]<td />
+		Zoe Fischer
+	[4359]<td />
+		North
+	[4361]<td />
+		Footrest
+	[4363]<td />
+	[4365]<td />
+		$42.00
+	[4367]<td />
+		$294.00
+	[4369]<td />
+		Processing
+[4372]<tr />
+	[4373]<td />
+		ORD-20214
+	[4375]<td />
+		2026-04-25
+	[4377]<td />
+		Jonas Berg
+	[4379]<td />
+		South
+	[4381]<td />
+		USB-C Dock
+	[4383]<td />
+	[4385]<td />
+		$149.99
+	[4387]<td />
+		$1,049.93
+	[4389]<td />
+		Delivered
+[4392]<tr />
+	[4393]<td />
+		ORD-20215
+	[4395]<td />
+		2026-04-11
+	[4397]<td />
+		Lucas Moreau
+	[4399]<td />
+		East
+	[4401]<td />
+		Footrest
+	[4403]<td />
+	[4405]<td />
+		$42.00
+	[4407]<td />
+		$378.00
+	[4409]<td />
+		Returned
+[4412]<tr />
+	[4413]<td />
+		ORD-20216
+	[4415]<td />
+		2026-04-21
+	[4417]<td />
+		Bruno Silva
+	[4419]<td />
+		East
+	[4421]<td />
+		Footrest
+	[4423]<td />
+	[4425]<td />
+		$42.00
+	[4427]<td />
+		$378.00
+	[4429]<td />
+		Delivered
+[4432]<tr />
+	[4433]<td />
+		ORD-20217
+	[4435]<td />
+		2026-04-27
+	[4437]<td />
+		Farah Haddad
+	[4439]<td />
+		South
+	[4441]<td />
+		Keyboard
+	[4443]<td />
+	[4445]<td />
+		$99.00
+	[4447]<td />
+		$891.00
+	[4449]<td />
+		Delivered
+[4452]<tr />
+	[4453]<td />
+		ORD-20218
+	[4455]<td />
+		2026-04-25
+	[4457]<td />
+		Rosa Delgado
+	[4459]<td />
+		East
+	[4461]<td />
+		Ergonomic Chair
+	[4463]<td />
+	[4465]<td />
+		$289.00
+	[4467]<td />
+		$578.00
+	[4469]<td />
+		Cancelled
+[4472]<tr />
+	[4473]<td />
+		ORD-20219
+	[4475]<td />
+		2026-04-27
+	[4477]<td />
+		Nikolai Petrov
+	[4479]<td />
+		East
+	[4481]<td />
+		Keyboard
+	[4483]<td />
+	[4485]<td />
+		$99.00
+	[4487]<td />
+		$891.00
+	[4489]<td />
+		Delivered
+[4492]<tr />
+	[4493]<td />
+		ORD-20220
+	[4495]<td />
+		2026-04-09
+	[4497]<td />
+		Hiro Tanaka
+	[4499]<td />
+		North
+	[4501]<td />
+		Keyboard
+	[4503]<td />
+	[4505]<td />
+		$99.00
+	[4507]<td />
+		$495.00
+	[4509]<td />
+		Delivered
+[4512]<tr />
+	[4513]<td />
+		ORD-20221
+	[4515]<td />
+		2026-04-23
+	[4517]<td />
+		Farah Haddad
+	[4519]<td />
+		North
+	[4521]<td />
+		Keyboard
+	[4523]<td />
+	[4525]<td />
+		$99.00
+	[4527]<td />
+		$396.00
+	[4529]<td />
+		Cancelled
+[4532]<tr />
+	[4533]<td />
+		ORD-20222
+	[4535]<td />
+		2026-04-25
+	[4537]<td />
+		Hiro Tanaka
+	[4539]<td />
+		South
+	[4541]<td />
+		Footrest
+	[4543]<td />
+	[4545]<td />
+		$42.00
+	[4547]<td />
+		$126.00
+	[4549]<td />
+		Returned
+[4552]<tr />
+	[4553]<td />
+		ORD-20223
+	[4555]<td />
+		2026-04-11
+	[4557]<td />
+		Lucas Moreau
+	[4559]<td />
+		East
+	[4561]<td />
+		Noise-cancelling Headset
+	[4563]<td />
+	[4565]<td />
+		$199.00
+	[4567]<td />
+		$1,194.00
+	[4569]<td />
+		Processing
+[4572]<tr />
+	[4573]<td />
+		ORD-20224
+	[4575]<td />
+		2026-05-01
+	[4577]<td />
+		Pedro Santos
+	[4579]<td />
+		North
+	[4581]<td />
+		Noise-cancelling Headset
+	[4583]<td />
+	[4585]<td />
+		$199.00
+	[4587]<td />
+		$1,592.00
+	[4589]<td />
+		Shipped
+[4592]<tr />
+	[4593]<td />
+		ORD-20225
+	[4595]<td />
+		2026-05-07
+	[4597]<td />
+		Nikolai Petrov
+	[4599]<td />
+		Central
+	[4601]<td />
+		Keyboard
+	[4603]<td />
+	[4605]<td />
+		$99.00
+	[4607]<td />
+		$792.00
+	[4609]<td />
+		Shipped
+[4612]<tr />
+	[4613]<td />
+		ORD-20226
+	[4615]<td />
+		2026-05-25
+	[4617]<td />
+		Tess Walker
+	[4619]<td />
+		North
+	[4621]<td />
+		Noise-cancelling Headset
+	[4623]<td />
+	[4625]<td />
+		$199.00
+	[4627]<td />
+		$1,791.00
+	[4629]<td />
+		Processing
+[4632]<tr />
+	[4633]<td />
+		ORD-20227
+	[4635]<td />
+		2026-05-15
+	[4637]<td />
+		Nikolai Petrov
+	[4639]<td />
+		East
+	[4641]<td />
+		Ergonomic Chair
+	[4643]<td />
+	[4645]<td />
+		$289.00
+	[4647]<td />
+		$1,156.00
+	[4649]<td />
+		Delivered
+[4652]<tr />
+	[4653]<td />
+		ORD-20228
+	[4655]<td />
+		2026-05-25
+	[4657]<td />
+		Nikolai Petrov
+	[4659]<td />
+		East
+	[4661]<td />
+		Ergonomic Chair
+	[4663]<td />
+	[4665]<td />
+		$289.00
+	[4667]<td />
+		$2,312.00
+	[4669]<td />
+		Cancelled
+[4672]<tr />
+	[4673]<td />
+		ORD-20229
+	[4675]<td />
+		2026-05-19
+	[4677]<td />
+		Rosa Delgado
+	[4679]<td />
+		North
+	[4681]<td />
+		Keyboard
+	[4683]<td />
+	[4685]<td />
+		$99.00
+	[4687]<td />
+		$693.00
+	[4689]<td />
+		Returned
+[4692]<tr />
+	[4693]<td />
+		ORD-20230
+	[4695]<td />
+		2026-05-05
+	[4697]<td />
+		Pedro Santos
+	[4699]<td />
+		West
+	[4701]<td />
+		Noise-cancelling Headset
+	[4703]<td />
+	[4705]<td />
+		$199.00
+	[4707]<td />
+		$995.00
+	[4709]<td />
+		Cancelled
+[4712]<tr />
+	[4713]<td />
+		ORD-20231
+	[4715]<td />
+		2026-05-19
+	[4717]<td />
+		Ximena Ortiz
+	[4719]<td />
+		South
+	[4721]<td />
+		Ergonomic Chair
+	[4723]<td />
+	[4725]<td />
+		$289.00
+	[4727]<td />
+		$1,734.00
+	[4729]<td />
+		Delivered
+[4732]<tr />
+	[4733]<td />
+		ORD-20232
+	[4735]<td />
+		2026-05-21
+	[4737]<td />
+		Pedro Santos
+	[4739]<td />
+		Central
+	[4741]<td />
+		Ergonomic Chair
+	[4743]<td />
+	[4745]<td />
+		$289.00
+	[4747]<td />
+		$2,312.00
+	[4749]<td />
+		Processing
+[4752]<tr />
+	[4753]<td />
+		ORD-20233
+	[4755]<td />
+		2026-05-03
+	[4757]<td />
+		Valentina Ricci
+	[4759]<td />
+		West
+	[4761]<td />
+		Keyboard
+	[4763]<td />
+	[4765]<td />
+		$99.00
+	[4767]<td />
+		$198.00
+	[4769]<td />
+		Processing
+[4772]<tr />
+	[4773]<td />
+		ORD-20234
+	[4775]<td />
+		2026-05-01
+	[4777]<td />
+		Zoe Fischer
+	[4779]<td />
+		South
+	[4781]<td />
+		USB-C Dock
+	[4783]<td />
+	[4785]<td />
+		$149.99
+	[4787]<td />
+		$449.97
+	[4789]<td />
+		Processing
+[4792]<tr />
+	[4793]<td />
+		ORD-20235
+	[4795]<td />
+		2026-05-11
+	[4797]<td />
+		Hiro Tanaka
+	[4799]<td />
+		South
+	[4801]<td />
+		Keyboard
+	[4803]<td />
+	[4805]<td />
+		$99.00
+	[4807]<td />
+		$198.00
+	[4809]<td />
+		Cancelled
+[4812]<tr />
+	[4813]<td />
+		ORD-20236
+	[4815]<td />
+		2026-05-01
+	[4817]<td />
+		Ximena Ortiz
+	[4819]<td />
+		West
+	[4821]<td />
+		Ergonomic Chair
+	[4823]<td />
+	[4825]<td />
+		$289.00
+	[4827]<td />
+		$2,601.00
+	[4829]<td />
+		Delivered
+[4832]<tr />
+	[4833]<td />
+		ORD-20237
+	[4835]<td />
+		2026-05-23
+	[4837]<td />
+		Jonas Berg
+	[4839]<td />
+		West
+	[4841]<td />
+		Keyboard
+	[4843]<td />
+	[4845]<td />
+		$99.00
+	[4847]<td />
+		$297.00
+	[4849]<td />
+		Cancelled
+[4852]<tr />
+	[4853]<td />
+		ORD-20238
+	[4855]<td />
+		2026-05-25
+	[4857]<td />
+		Jonas Berg
+	[4859]<td />
+		West
+	[4861]<td />
+		USB-C Dock
+	[4863]<td />
+	[4865]<td />
+		$149.99
+	[4867]<td />
+		$1,049.93
+	[4869]<td />
+		Shipped
+[4872]<tr />
+	[4873]<td />
+		ORD-20239
+	[4875]<td />
+		2026-05-15
+	[4877]<td />
+		Ximena Ortiz
+	[4879]<td />
+		West
+	[4881]<td />
+		Noise-cancelling Headset
+	[4883]<td />
+	[4885]<td />
+		$199.00
+	[4887]<td />
+		$597.00
+	[4889]<td />
+		Returned
+[4892]<tr />
+	[4893]<td />
+		ORD-20240
+	[4895]<td />
+		2026-05-25
+	[4897]<td />
+		Lucas Moreau
+	[4899]<td />
+		West
+	[4901]<td />
+		USB-C Dock
+	[4903]<td />
+	[4905]<td />
+		$149.99
+	[4907]<td />
+		$899.94
+	[4909]<td />
+		Delivered
+[4912]<tr />
+	[4913]<td />
+		ORD-20241
+	[4915]<td />
+		2026-05-03
+	[4917]<td />
+		Lucas Moreau
+	[4919]<td />
+		East
+	[4921]<td />
+		USB-C Dock
+	[4923]<td />
+	[4925]<td />
+		$149.99
+	[4927]<td />
+		$299.98
+	[4929]<td />
+		Delivered
+[4932]<tr />
+	[4933]<td />
+		ORD-20242
+	[4935]<td />
+		2026-05-25
+	[4937]<td />
+		Zoe Fischer
+	[4939]<td />
+		Central
+	[4941]<td />
+		Keyboard
+	[4943]<td />
+	[4945]<td />
+		$99.00
+	[4947]<td />
+		$297.00
+	[4949]<td />
+		Cancelled
+[4952]<tr />
+	[4953]<td />
+		ORD-20243
+	[4955]<td />
+		2026-05-15
+	[4957]<td />
+		Farah Haddad
+	[4959]<td />
+		South
+	[4961]<td />
+		Keyboard
+	[4963]<td />
+	[4965]<td />
+		$99.00
+	[4967]<td />
+		$198.00
+	[4969]<td />
+		Delivered
+[4972]<tr />
+	[4973]<td />
+		ORD-20244
+	[4975]<td />
+		2026-05-01
+	[4977]<td />
+		Ximena Ortiz
+	[4979]<td />
+		East
+	[4981]<td />
+		Keyboard
+	[4983]<td />
+	[4985]<td />
+		$99.00
+	[4987]<td />
+		$594.00
+	[4989]<td />
+		Shipped
+[4992]<tr />
+	[4993]<td />
+		ORD-20245
+	[4995]<td />
+		2026-05-03
+	[4997]<td />
+		Rosa Delgado
+	[4999]<td />
+		East
+	[5001]<td />
+		Footrest
+	[5003]<td />
+	[5005]<td />
+		$42.00
+	[5007]<td />
+		$294.00
+	[5009]<td />
+		Delivered
+[5012]<tr />
+	[5013]<td />
+		ORD-20246
+	[5015]<td />
+		2026-05-13
+	[5017]<td />
+		Zoe Fischer
+	[5019]<td />
+		East
+	[5021]<td />
+		Ergonomic Chair
+	[5023]<td />
+	[5025]<td />
+		$289.00
+	[5027]<td />
+		$578.00
+	[5029]<td />
+		Delivered
+[5032]<tr />
+	[5033]<td />
+		ORD-20247
+	[5035]<td />
+		2026-05-27
+	[5037]<td />
+		Lucas Moreau
+	[5039]<td />
+		West
+	[5041]<td />
+		USB-C Dock
+	[5043]<td />
+	[5045]<td />
+		$149.99
+	[5047]<td />
+		$1,049.93
+	[5049]<td />
+		Delivered
+[5052]<tr />
+	[5053]<td />
+		ORD-20248
+	[5055]<td />
+		2026-05-01
+	[5057]<td />
+		Jonas Berg
+	[5059]<td />
+		East
+	[5061]<td />
+		Keyboard
+	[5063]<td />
+	[5065]<td />
+		$99.00
+	[5067]<td />
+		$495.00
+	[5069]<td />
+		Cancelled
+[5072]<tr />
+	[5073]<td />
+		ORD-20249
+	[5075]<td />
+		2026-05-27
+	[5077]<td />
+		Rosa Delgado
+	[5079]<td />
+		West
+	[5081]<td />
+		Footrest
+	[5083]<td />
+	[5085]<td />
+		$42.00
+	[5087]<td />
+		$126.00
+	[5089]<td />
+		Cancelled
+[5092]<tr />
+	[5093]<td />
+		ORD-20250
+	[5095]<td />
+		2026-05-17
+	[5097]<td />
+		Ximena Ortiz
+	[5099]<td />
+		South
+	[5101]<td />
+		USB-C Dock
+	[5103]<td />
+	[5105]<td />
+		$149.99
+	[5107]<td />
+		$1,049.93
+	[5109]<td />
+		Delivered
+[5112]<tr />
+	[5113]<td />
+		ORD-20251
+	[5115]<td />
+		2026-05-23
+	[5117]<td />
+		Valentina Ricci
+	[5119]<td />
+		North
+	[5121]<td />
+		Ergonomic Chair
+	[5123]<td />
+	[5125]<td />
+		$289.00
+	[5127]<td />
+		$578.00
+	[5129]<td />
+		Cancelled
+[5132]<tr />
+	[5133]<td />
+		ORD-20252
+	[5135]<td />
+		2026-05-17
+	[5137]<td />
+		Nikolai Petrov
+	[5139]<td />
+		East
+	[5141]<td />
+		Footrest
+	[5143]<td />
+	[5145]<td />
+		$42.00
+	[5147]<td />
+		$210.00
+	[5149]<td />
+		Cancelled
+[5152]<tr />
+	[5153]<td />
+		ORD-20253
+	[5155]<td />
+		2026-05-19
+	[5157]<td />
+		Zoe Fischer
+	[5159]<td />
+		North
+	[5161]<td />
+		Keyboard
+	[5163]<td />
+	[5165]<td />
+		$99.00
+	[5167]<td />
+		$594.00
+	[5169]<td />
+		Delivered
+[5172]<tr />
+	[5173]<td />
+		ORD-20254
+	[5175]<td />
+		2026-05-21
+	[5177]<td />
+		Tess Walker
+	[5179]<td />
+		West
+	[5181]<td />
+		USB-C Dock
+	[5183]<td />
+	[5185]<td />
+		$149.99
+	[5187]<td />
+		$1,049.93
+	[5189]<td />
+		Shipped
+[5192]<tr />
+	[5193]<td />
+		ORD-20255
+	[5195]<td />
+		2026-05-19
+	[5197]<td />
+		Jonas Berg
+	[5199]<td />
+		East
+	[5201]<td />
+		USB-C Dock
+	[5203]<td />
+	[5205]<td />
+		$149.99
+	[5207]<td />
+		$899.94
+	[5209]<td />
+		Shipped
+[5212]<tr />
+	[5213]<td />
+		ORD-20256
+	[5215]<td />
+		2026-05-17
+	[5217]<td />
+		Zoe Fischer
+	[5219]<td />
+		West
+	[5221]<td />
+		Ergonomic Chair
+	[5223]<td />
+	[5225]<td />
+		$289.00
+	[5227]<td />
+		$1,734.00
+	[5229]<td />
+		Delivered
+[5232]<tr />
+	[5233]<td />
+		ORD-20257
+	[5235]<td />
+		2026-05-27
+	[5237]<td />
+		Lucas Moreau
+	[5239]<td />
+		West
+	[5241]<td />
+		Ergonomic Chair
+	[5243]<td />
+	[5245]<td />
+		$289.00
+	[5247]<td />
+		$2,023.00
+	[5249]<td />
+		Shipped
+[5252]<tr />
+	[5253]<td />
+		ORD-20258
+	[5255]<td />
+		2026-05-01
+	[5257]<td />
+		Tess Walker
+	[5259]<td />
+		East
+	[5261]<td />
+		USB-C Dock
+	[5263]<td />
+	[5265]<td />
+		$149.99
+	[5267]<td />
+		$749.95
+	[5269]<td />
+		Delivered
+[5272]<tr />
+	[5273]<td />
+		ORD-20259
+	[5275]<td />
+		2026-05-03
+	[5277]<td />
+		Pedro Santos
+	[5279]<td />
+		West
+	[5281]<td />
+		Ergonomic Chair
+	[5283]<td />
+	[5285]<td />
+		$289.00
+	[5287]<td />
+		$1,734.00
+	[5289]<td />
+		Delivered
+[5292]<tr />
+	[5293]<td />
+		ORD-20260
+	[5295]<td />
+		2026-05-21
+	[5297]<td />
+		Nikolai Petrov
+	[5299]<td />
+		South
+	[5301]<td />
+		Footrest
+	[5303]<td />
+	[5305]<td />
+		$42.00
+	[5307]<td />
+		$168.00
+	[5309]<td />
+		Delivered
+[5312]<tr />
+	[5313]<td />
+		ORD-20261
+	[5315]<td />
+		2026-05-07
+	[5317]<td />
+		Jonas Berg
+	[5319]<td />
+		South
+	[5321]<td />
+		USB-C Dock
+	[5323]<td />
+	[5325]<td />
+		$149.99
+	[5327]<td />
+		$749.95
+	[5329]<td />
+		Returned
+[5332]<tr />
+	[5333]<td />
+		ORD-20262
+	[5335]<td />
+		2026-05-09
+	[5337]<td />
+		Jonas Berg
+	[5339]<td />
+		West
+	[5341]<td />
+		Noise-cancelling Headset
+	[5343]<td />
+	[5345]<td />
+		$199.00
+	[5347]<td />
+		$1,393.00
+	[5349]<td />
+		Processing
+[5352]<tr />
+	[5353]<td />
+		ORD-20263
+	[5355]<td />
+		2026-05-23
+	[5357]<td />
+		Ximena Ortiz
+	[5359]<td />
+		West
+	[5361]<td />
+		Noise-cancelling Headset
+	[5363]<td />
+	[5365]<td />
+		$199.00
+	[5367]<td />
+		$398.00
+	[5369]<td />
+		Delivered
+[5372]<tr />
+	[5373]<td />
+		ORD-20264
+	[5375]<td />
+		2026-05-13
+	[5377]<td />
+		Dmitri Volkov
+	[5379]<td />
+		Central
+	[5381]<td />
+		Noise-cancelling Headset
+	[5383]<td />
+	[5385]<td />
+		$199.00
+	[5387]<td />
+		$597.00
+	[5389]<td />
+		Shipped
+[5392]<tr />
+	[5393]<td />
+		ORD-20265
+	[5395]<td />
+		2026-05-19
+	[5397]<td />
+		Jonas Berg
+	[5399]<td />
+		Central
+	[5401]<td />
+		Keyboard
+	[5403]<td />
+	[5405]<td />
+		$99.00
+	[5407]<td />
+		$594.00
+	[5409]<td />
+		Cancelled
+[5412]<tr />
+	[5413]<td />
+		ORD-20266
+	[5415]<td />
+		2026-05-25
+	[5417]<td />
+		Dmitri Volkov
+	[5419]<td />
+		Central
+	[5421]<td />
+		Keyboard
+	[5423]<td />
+	[5425]<td />
+		$99.00
+	[5427]<td />
+		$891.00
+	[5429]<td />
+		Delivered
+[5432]<tr />
+	[5433]<td />
+		ORD-20267
+	[5435]<td />
+		2026-05-15
+	[5437]<td />
+		Farah Haddad
+	[5439]<td />
+		West
+	[5441]<td />
+		Footrest
+	[5443]<td />
+	[5445]<td />
+		$42.00
+	[5447]<td />
+		$84.00
+	[5449]<td />
+		Delivered
+[5452]<tr />
+	[5453]<td />
+		ORD-20268
+	[5455]<td />
+		2026-05-13
+	[5457]<td />
+		Rosa Delgado
+	[5459]<td />
+		North
+	[5461]<td />
+		USB-C Dock
+	[5463]<td />
+	[5465]<td />
+		$149.99
+	[5467]<td />
+		$1,349.91
+	[5469]<td />
+		Delivered
+[5472]<tr />
+	[5473]<td />
+		ORD-20269
+	[5475]<td />
+		2026-05-11
+	[5477]<td />
+		Valentina Ricci
+	[5479]<td />
+		East
+	[5481]<td />
+		Keyboard
+	[5483]<td />
+	[5485]<td />
+		$99.00
+	[5487]<td />
+		$693.00
+	[5489]<td />
+		Cancelled
+[5492]<tr />
+	[5493]<td />
+		ORD-20270
+	[5495]<td />
+		2026-05-13
+	[5497]<td />
+		Ximena Ortiz
+	[5499]<td />
+		North
+	[5501]<td />
+		Noise-cancelling Headset
+	[5503]<td />
+	[5505]<td />
+		$199.00
+	[5507]<td />
+		$1,393.00
+	[5509]<td />
+		Cancelled
+[5512]<tr />
+	[5513]<td />
+		ORD-20271
+	[5515]<td />
+		2026-05-23
+	[5517]<td />
+		Farah Haddad
+	[5519]<td />
+		Central
+	[5521]<td />
+		Keyboard
+	[5523]<td />
+	[5525]<td />
+		$99.00
+	[5527]<td />
+		$594.00
+	[5529]<td />
+		Shipped
+[5532]<tr />
+	[5533]<td />
+		ORD-20272
+	[5535]<td />
+		2026-05-01
+	[5537]<td />
+		Bruno Silva
+	[5539]<td />
+		East
+	[5541]<td />
+		Noise-cancelling Headset
+	[5543]<td />
+	[5545]<td />
+		$199.00
+	[5547]<td />
+		$796.00
+	[5549]<td />
+		Shipped
+[5552]<tr />
+	[5553]<td />
+		ORD-20273
+	[5555]<td />
+		2026-05-19
+	[5557]<td />
+		Jonas Berg
+	[5559]<td />
+		North
+	[5561]<td />
+		Noise-cancelling Headset
+	[5563]<td />
+	[5565]<td />
+		$199.00
+	[5567]<td />
+		$597.00
+	[5569]<td />
+		Delivered
+[5572]<tr />
+	[5573]<td />
+		ORD-20274
+	[5575]<td />
+		2026-05-09
+	[5577]<td />
+		Tess Walker
+	[5579]<td />
+		Central
+	[5581]<td />
+		Ergonomic Chair
+	[5583]<td />
+	[5585]<td />
+		$289.00
+	[5587]<td />
+		$2,023.00
+	[5589]<td />
+		Delivered
+[5592]<tr />
+	[5593]<td />
+		ORD-20275
+	[5595]<td />
+		2026-05-07
+	[5597]<td />
+		Nikolai Petrov
+	[5599]<td />
+		East
+	[5601]<td />
+		Footrest
+	[5603]<td />
+	[5605]<td />
+		$42.00
+	[5607]<td />
+		$84.00
+	[5609]<td />
+		Returned
+[5612]<tr />
+	[5613]<td />
+		ORD-20276
+	[5615]<td />
+		2026-05-17
+	[5617]<td />
+		Pedro Santos
+	[5619]<td />
+		South
+	[5621]<td />
+		Noise-cancelling Headset
+	[5623]<td />
+	[5625]<td />
+		$199.00
+	[5627]<td />
+		$597.00
+	[5629]<td />
+		Processing
+[5632]<tr />
+	[5633]<td />
+		ORD-20277
+	[5635]<td />
+		2026-05-27
+	[5637]<td />
+		Lucas Moreau
+	[5639]<td />
+		West
+	[5641]<td />
+		Noise-cancelling Headset
+	[5643]<td />
+	[5645]<td />
+		$199.00
+	[5647]<td />
+		$199.00
+	[5649]<td />
+		Shipped
+[5652]<tr />
+	[5653]<td />
+		ORD-20278
+	[5655]<td />
+		2026-05-25
+	[5657]<td />
+		Ximena Ortiz
+	[5659]<td />
+		West
+	[5661]<td />
+		Keyboard
+	[5663]<td />
+	[5665]<td />
+		$99.00
+	[5667]<td />
+		$495.00
+	[5669]<td />
+		Delivered
+[5672]<tr />
+	[5673]<td />
+		ORD-20279
+	[5675]<td />
+		2026-06-11
+	[5677]<td />
+		Ximena Ortiz
+	[5679]<td />
+		North
+	[5681]<td />
+		Footrest
+	[5683]<td />
+	[5685]<td />
+		$42.00
+	[5687]<td />
+		$84.00
+	[5689]<td />
+		Processing
+[5692]<tr />
+	[5693]<td />
+		ORD-20280
+	[5695]<td />
+		2026-06-13
+	[5697]<td />
+		Pedro Santos
+	[5699]<td />
+		West
+	[5701]<td />
+		Keyboard
+	[5703]<td />
+	[5705]<td />
+		$99.00
+	[5707]<td />
+		$891.00
+	[5709]<td />
+		Cancelled
+[5712]<tr />
+	[5713]<td />
+		ORD-20281
+	[5715]<td />
+		2026-06-27
+	[5717]<td />
+		Hiro Tanaka
+	[5719]<td />
+		North
+	[5721]<td />
+		Footrest
+	[5723]<td />
+	[5725]<td />
+		$42.00
+	[5727]<td />
+		$126.00
+	[5729]<td />
+		Processing
+[5732]<tr />
+	[5733]<td />
+		ORD-20282
+	[5735]<td />
+		2026-06-01
+	[5737]<td />
+		Jonas Berg
+	[5739]<td />
+		South
+	[5741]<td />
+		Footrest
+	[5743]<td />
+	[5745]<td />
+		$42.00
+	[5747]<td />
+		$378.00
+	[5749]<td />
+		Shipped
+[5752]<tr />
+	[5753]<td />
+		ORD-20283
+	[5755]<td />
+		2026-06-27
+	[5757]<td />
+		Ximena Ortiz
+	[5759]<td />
+		Central
+	[5761]<td />
+		Keyboard
+	[5763]<td />
+	[5765]<td />
+		$99.00
+	[5767]<td />
+		$297.00
+	[5769]<td />
+		Cancelled
+[5772]<tr />
+	[5773]<td />
+		ORD-20284
+	[5775]<td />
+		2026-06-21
+	[5777]<td />
+		Bruno Silva
+	[5779]<td />
+		Central
+	[5781]<td />
+		Noise-cancelling Headset
+	[5783]<td />
+	[5785]<td />
+		$199.00
+	[5787]<td />
+		$1,393.00
+	[5789]<td />
+		Delivered
+[5792]<tr />
+	[5793]<td />
+		ORD-20285
+	[5795]<td />
+		2026-06-23
+	[5797]<td />
+		Nikolai Petrov
+	[5799]<td />
+		East
+	[5801]<td />
+		Noise-cancelling Headset
+	[5803]<td />
+	[5805]<td />
+		$199.00
+	[5807]<td />
+		$1,592.00
+	[5809]<td />
+		Returned
+[5812]<tr />
+	[5813]<td />
+		ORD-20286
+	[5815]<td />
+		2026-06-25
+	[5817]<td />
+		Rosa Delgado
+	[5819]<td />
+		Central
+	[5821]<td />
+		Noise-cancelling Headset
+	[5823]<td />
+	[5825]<td />
+		$199.00
+	[5827]<td />
+		$398.00
+	[5829]<td />
+		Returned
+[5832]<tr />
+	[5833]<td />
+		ORD-20287
+	[5835]<td />
+		2026-06-19
+	[5837]<td />
+		Bruno Silva
+	[5839]<td />
+		South
+	[5841]<td />
+		Ergonomic Chair
+	[5843]<td />
+	[5845]<td />
+		$289.00
+	[5847]<td />
+		$867.00
+	[5849]<td />
+		Cancelled
+[5852]<tr />
+	[5853]<td />
+		ORD-20288
+	[5855]<td />
+		2026-06-09
+	[5857]<td />
+		Jonas Berg
+	[5859]<td />
+		East
+	[5861]<td />
+		USB-C Dock
+	[5863]<td />
+	[5865]<td />
+		$149.99
+	[5867]<td />
+		$1,349.91
+	[5869]<td />
+		Cancelled
+[5872]<tr />
+	[5873]<td />
+		ORD-20289
+	[5875]<td />
+		2026-06-27
+	[5877]<td />
+		Lucas Moreau
+	[5879]<td />
+		South
+	[5881]<td />
+		Keyboard
+	[5883]<td />
+	[5885]<td />
+		$99.00
+	[5887]<td />
+		$693.00
+	[5889]<td />
+		Shipped
+[5892]<tr />
+	[5893]<td />
+		ORD-20290
+	[5895]<td />
+		2026-06-17
+	[5897]<td />
+		Zoe Fischer
+	[5899]<td />
+		North
+	[5901]<td />
+		Ergonomic Chair
+	[5903]<td />
+	[5905]<td />
+		$289.00
+	[5907]<td />
+		$867.00
+	[5909]<td />
+		Shipped
+[5912]<tr />
+	[5913]<td />
+		ORD-20291
+	[5915]<td />
+		2026-06-03
+	[5917]<td />
+		Hiro Tanaka
+	[5919]<td />
+		West
+	[5921]<td />
+		USB-C Dock
+	[5923]<td />
+	[5925]<td />
+		$149.99
+	[5927]<td />
+		$899.94
+	[5929]<td />
+		Returned
+[5932]<tr />
+	[5933]<td />
+		ORD-20292
+	[5935]<td />
+		2026-06-25
+	[5937]<td />
+		Bruno Silva
+	[5939]<td />
+		North
+	[5941]<td />
+		Keyboard
+	[5943]<td />
+	[5945]<td />
+		$99.00
+	[5947]<td />
+		$99.00
+	[5949]<td />
+		Cancelled
+[5952]<tr />
+	[5953]<td />
+		ORD-20293
+	[5955]<td />
+		2026-06-07
+	[5957]<td />
+		Pedro Santos
+	[5959]<td />
+		North
+	[5961]<td />
+		USB-C Dock
+	[5963]<td />
+	[5965]<td />
+		$149.99
+	[5967]<td />
+		$899.94
+	[5969]<td />
+		Shipped
+[5972]<tr />
+	[5973]<td />
+		ORD-20294
+	[5975]<td />
+		2026-06-13
+	[5977]<td />
+		Bruno Silva
+	[5979]<td />
+		West
+	[5981]<td />
+		Keyboard
+	[5983]<td />
+	[5985]<td />
+		$99.00
+	[5987]<td />
+		$792.00
+	[5989]<td />
+		Delivered
+[5992]<tr />
+	[5993]<td />
+		ORD-20295
+	[5995]<td />
+		2026-06-11
+	[5997]<td />
+		Nikolai Petrov
+	[5999]<td />
+		East
+	[6001]<td />
+		Footrest
+	[6003]<td />
+	[6005]<td />
+		$42.00
+	[6007]<td />
+		$210.00
+	[6009]<td />
+		Delivered
+[6012]<tr />
+	[6013]<td />
+		ORD-20296
+	[6015]<td />
+		2026-06-17
+	[6017]<td />
+		Lucas Moreau
+	[6019]<td />
+		South
+	[6021]<td />
+		Noise-cancelling Headset
+	[6023]<td />
+	[6025]<td />
+		$199.00
+	[6027]<td />
+		$796.00
+	[6029]<td />
+		Processing
+[6032]<tr />
+	[6033]<td />
+		ORD-20297
+	[6035]<td />
+		2026-06-07
+	[6037]<td />
+		Dmitri Volkov
+	[6039]<td />
+		North
+	[6041]<td />
+		USB-C Dock
+	[6043]<td />
+	[6045]<td />
+		$149.99
+	[6047]<td />
+		$149.99
+	[6049]<td />
+		Processing
+[6052]<tr />
+	[6053]<td />
+		ORD-20298
+	[6055]<td />
+		2026-06-13
+	[6057]<td />
+		Valentina Ricci
+	[6059]<td />
+		Central
+	[6061]<td />
+		Keyboard
+	[6063]<td />
+	[6065]<td />
+		$99.00
+	[6067]<td />
+		$891.00
+	[6069]<td />
+		Delivered
+[6072]<tr />
+	[6073]<td />
+		ORD-20299
+	[6075]<td />
+		2026-06-15
+	[6077]<td />
+		Farah Haddad
+	[6079]<td />
+		Central
+	[6081]<td />
+		Ergonomic Chair
+	[6083]<td />
+	[6085]<td />
+		$289.00
+	[6087]<td />
+		$578.00
+	[6089]<td />
+		Delivered
+[6092]<tr />
+	[6093]<td />
+		ORD-20300
+	[6095]<td />
+		2026-06-13
+	[6097]<td />
+		Ximena Ortiz
+	[6099]<td />
+		North
+	[6101]<td />
+		Ergonomic Chair
+	[6103]<td />
+	[6105]<td />
+		$289.00
+	[6107]<td />
+		$2,601.00
+	[6109]<td />
+		Delivered
+[6112]<tr />
+	[6113]<td />
+		ORD-20301
+	[6115]<td />
+		2026-06-11
+	[6117]<td />
+		Tess Walker
+	[6119]<td />
+		West
+	[6121]<td />
+		Noise-cancelling Headset
+	[6123]<td />
+	[6125]<td />
+		$199.00
+	[6127]<td />
+		$1,194.00
+	[6129]<td />
+		Delivered
+[6132]<tr />
+	[6133]<td />
+		ORD-20302
+	[6135]<td />
+		2026-06-13
+	[6137]<td />
+		Bruno Silva
+	[6139]<td />
+		East
+	[6141]<td />
+		Noise-cancelling Headset
+	[6143]<td />
+	[6145]<td />
+		$199.00
+	[6147]<td />
+		$995.00
+	[6149]<td />
+		Delivered
+[6152]<tr />
+	[6153]<td />
+		ORD-20303
+	[6155]<td />
+		2026-06-19
+	[6157]<td />
+		Pedro Santos
+	[6159]<td />
+		East
+	[6161]<td />
+		Keyboard
+	[6163]<td />
+	[6165]<td />
+		$99.00
+	[6167]<td />
+		$693.00
+	[6169]<td />
+		Processing
+[6172]<tr />
+	[6173]<td />
+		ORD-20304
+	[6175]<td />
+		2026-06-17
+	[6177]<td />
+		Hiro Tanaka
+	[6179]<td />
+		Central
+	[6181]<td />
+		Noise-cancelling Headset
+	[6183]<td />
+	[6185]<td />
+		$199.00
+	[6187]<td />
+		$1,194.00
+	[6189]<td />
+		Delivered
+[6192]<tr />
+	[6193]<td />
+		ORD-20305
+	[6195]<td />
+		2026-06-07
+	[6197]<td />
+		Rosa Delgado
+	[6199]<td />
+		South
+	[6201]<td />
+		USB-C Dock
+	[6203]<td />
+	[6205]<td />
+		$149.99
+	[6207]<td />
+		$449.97
+	[6209]<td />
+		Delivered
+[6212]<tr />
+	[6213]<td />
+		ORD-20306
+	[6215]<td />
+		2026-06-17
+	[6217]<td />
+		Tess Walker
+	[6219]<td />
+		Central
+	[6221]<td />
+		Ergonomic Chair
+	[6223]<td />
+	[6225]<td />
+		$289.00
+	[6227]<td />
+		$2,312.00
+	[6229]<td />
+		Delivered
+[6232]<tr />
+	[6233]<td />
+		ORD-20307
+	[6235]<td />
+		2026-06-03
+	[6237]<td />
+		Ximena Ortiz
+	[6239]<td />
+		North
+	[6241]<td />
+		Noise-cancelling Headset
+	[6243]<td />
+	[6245]<td />
+		$199.00
+	[6247]<td />
+		$995.00
+	[6249]<td />
+		Delivered
+[6252]<tr />
+	[6253]<td />
+		ORD-20308
+	[6255]<td />
+		2026-06-09
+	[6257]<td />
+		Rosa Delgado
+	[6259]<td />
+		Central
+	[6261]<td />
+		Keyboard
+	[6263]<td />
+	[6265]<td />
+		$99.00
+	[6267]<td />
+		$198.00
+	[6269]<td />
+		Delivered
+[6272]<tr />
+	[6273]<td />
+		ORD-20309
+	[6275]<td />
+		2026-06-07
+	[6277]<td />
+		Pedro Santos
+	[6279]<td />
+		Central
+	[6281]<td />
+		Footrest
+	[6283]<td />
+	[6285]<td />
+		$42.00
+	[6287]<td />
+		$336.00
+	[6289]<td />
+		Delivered
+[6292]<tr />
+	[6293]<td />
+		ORD-20310
+	[6295]<td />
+		2026-06-21
+	[6297]<td />
+		Pedro Santos
+	[6299]<td />
+		South
+	[6301]<td />
+		USB-C Dock
+	[6303]<td />
+	[6305]<td />
+		$149.99
+	[6307]<td />
+		$149.99
+	[6309]<td />
+		Delivered
+[6312]<tr />
+	[6313]<td />
+		ORD-20311
+	[6315]<td />
+		2026-06-11
+	[6317]<td />
+		Nikolai Petrov
+	[6319]<td />
+		East
+	[6321]<td />
+		Footrest
+	[6323]<td />
+	[6325]<td />
+		$42.00
+	[6327]<td />
+		$168.00
+	[6329]<td />
+		Shipped
+[6332]<tr />
+	[6333]<td />
+		ORD-20312
+	[6335]<td />
+		2026-06-21
+	[6337]<td />
+		Zoe Fischer
+	[6339]<td />
+		Central
+	[6341]<td />
+		USB-C Dock
+	[6343]<td />
+	[6345]<td />
+		$149.99
+	[6347]<td />
+		$299.98
+	[6349]<td />
+		Delivered
+[6352]<tr />
+	[6353]<td />
+		ORD-20313
+	[6355]<td />
+		2026-06-03
+	[6357]<td />
+		Pedro Santos
+	[6359]<td />
+		Central
+	[6361]<td />
+		USB-C Dock
+	[6363]<td />
+	[6365]<td />
+		$149.99
+	[6367]<td />
+		$749.95
+	[6369]<td />
+		Cancelled
+[6372]<tr />
+	[6373]<td />
+		ORD-20314
+	[6375]<td />
+		2026-06-21
+	[6377]<td />
+		Bruno Silva
+	[6379]<td />
+		Central
+	[6381]<td />
+		USB-C Dock
+	[6383]<td />
+	[6385]<td />
+		$149.99
+	[6387]<td />
+		$1,349.91
+	[6389]<td />
+		Processing
+[6392]<tr />
+	[6393]<td />
+		ORD-20315
+	[6395]<td />
+		2026-06-27
+	[6397]<td />
+		Tess Walker
+	[6399]<td />
+		East
+	[6401]<td />
+		USB-C Dock
+	[6403]<td />
+	[6405]<td />
+		$149.99
+	[6407]<td />
+		$599.96
+	[6409]<td />
+		Cancelled
+[6412]<tr />
+	[6413]<td />
+		ORD-20316
+	[6415]<td />
+		2026-06-25
+	[6417]<td />
+		Pedro Santos
+	[6419]<td />
+		Central
+	[6421]<td />
+		Keyboard
+	[6423]<td />
+	[6425]<td />
+		$99.00
+	[6427]<td />
+		$99.00
+	[6429]<td />
+		Processing
+[6432]<tr />
+	[6433]<td />
+		ORD-20317
+	[6435]<td />
+		2026-06-23
+	[6437]<td />
+		Lucas Moreau
+	[6439]<td />
+		West
+	[6441]<td />
+		Ergonomic Chair
+	[6443]<td />
+	[6445]<td />
+		$289.00
+	[6447]<td />
+		$867.00
+	[6449]<td />
+		Delivered
+[6452]<tr />
+	[6453]<td />
+		ORD-20318
+	[6455]<td />
+		2026-06-09
+	[6457]<td />
+		Tess Walker
+	[6459]<td />
+		South
+	[6461]<td />
+		Footrest
+	[6463]<td />
+	[6465]<td />
+		$42.00
+	[6467]<td />
+		$210.00
+	[6469]<td />
+		Delivered
+[6472]<tr />
+	[6473]<td />
+		ORD-20319
+	[6475]<td />
+		2026-06-11
+	[6477]<td />
+		Pedro Santos
+	[6479]<td />
+		South
+	[6481]<td />
+		USB-C Dock
+	[6483]<td />
+	[6485]<td />
+		$149.99
+	[6487]<td />
+		$599.96
+	[6489]<td />
+		Shipped
+[6492]<tr />
+	[6493]<td />
+		ORD-20320
+	[6495]<td />
+		2026-06-17
+	[6497]<td />
+		Dmitri Volkov
+	[6499]<td />
+		South
+	[6501]<td />
+		Ergonomic Chair
+	[6503]<td />
+	[6505]<td />
+		$289.00
+	[6507]<td />
+		$1,734.00
+	[6509]<td />
+		Delivered
+[6512]<tr />
+	[6513]<td />
+		ORD-20321
+	[6515]<td />
+		2026-06-15
+	[6517]<td />
+		Lucas Moreau
+	[6519]<td />
+		North
+	[6521]<td />
+		Footrest
+	[6523]<td />
+	[6525]<td />
+		$42.00
+	[6527]<td />
+		$126.00
+	[6529]<td />
+		Processing
+[6532]<tr />
+	[6533]<td />
+		ORD-20322
+	[6535]<td />
+		2026-06-09
+	[6537]<td />
+		Ximena Ortiz
+	[6539]<td />
+		North
+	[6541]<td />
+		Footrest
+	[6543]<td />
+	[6545]<td />
+		$42.00
+	[6547]<td />
+		$294.00
+	[6549]<td />
+		Processing
+[6552]<tr />
+	[6553]<td />
+		ORD-20323
+	[6555]<td />
+		2026-06-23
+	[6557]<td />
+		Ximena Ortiz
+	[6559]<td />
+		Central
+	[6561]<td />
+		Noise-cancelling Headset
+	[6563]<td />
+	[6565]<td />
+		$199.00
+	[6567]<td />
+		$1,592.00
+	[6569]<td />
+		Returned
+[6572]<tr />
+	[6573]<td />
+		ORD-20324
+	[6575]<td />
+		2026-06-21
+	[6577]<td />
+		Bruno Silva
+	[6579]<td />
+		Central
+	[6581]<td />
+		Noise-cancelling Headset
+	[6583]<td />
+	[6585]<td />
+		$199.00
+	[6587]<td />
+		$398.00
+	[6589]<td />
+		Processing
+[6592]<tr />
+	[6593]<td />
+		ORD-20325
+	[6595]<td />
+		2026-06-07
+	[6597]<td />
+		Lucas Moreau
+	[6599]<td />
+		Central
+	[6601]<td />
+		Keyboard
+	[6603]<td />
+	[6605]<td />
+		$99.00
+	[6607]<td />
+		$198.00
+	[6609]<td />
+		Delivered
+[6612]<tr />
+	[6613]<td />
+		ORD-20326
+	[6615]<td />
+		2026-06-13
+	[6617]<td />
+		Tess Walker
+	[6619]<td />
+		North
+	[6621]<td />
+		Keyboard
+	[6623]<td />
+	[6625]<td />
+		$99.00
+	[6627]<td />
+		$792.00
+	[6629]<td />
+		Delivered
+[6632]<tr />
+	[6633]<td />
+		ORD-20327
+	[6635]<td />
+		2026-06-15
+	[6637]<td />
+		Farah Haddad
+	[6639]<td />
+		South
+	[6641]<td />
+		Ergonomic Chair
+	[6643]<td />
+	[6645]<td />
+		$289.00
+	[6647]<td />
+		$867.00
+	[6649]<td />
+		Delivered
+[6652]<tr />
+	[6653]<td />
+		ORD-20328
+	[6655]<td />
+		2026-06-05
+	[6657]<td />
+		Nikolai Petrov
+	[6659]<td />
+		South
+	[6661]<td />
+		Keyboard
+	[6663]<td />
+	[6665]<td />
+		$99.00
+	[6667]<td />
+		$693.00
+	[6669]<td />
+		Delivered
+[6672]<tr />
+	[6673]<td />
+		ORD-20329
+	[6675]<td />
+		2026-06-07
+	[6677]<td />
+		Nikolai Petrov
+	[6679]<td />
+		East
+	[6681]<td />
+		USB-C Dock
+	[6683]<td />
+	[6685]<td />
+		$149.99
+	[6687]<td />
+		$149.99
+	[6689]<td />
+		Delivered
+[6692]<tr />
+	[6693]<td />
+		ORD-20330
+	[6695]<td />
+		2026-06-01
+	[6697]<td />
+		Zoe Fischer
+	[6699]<td />
+		North
+	[6701]<td />
+		Keyboard
+	[6703]<td />
+	[6705]<td />
+		$99.00
+	[6707]<td />
+		$495.00
+	[6709]<td />
+		Cancelled
+[6712]<tr />
+	[6713]<td />
+		ORD-20331
+	[6715]<td />
+		2026-06-19
+	[6717]<td />
+		Ximena Ortiz
+	[6719]<td />
+		West
+	[6721]<td />
+		Keyboard
+	[6723]<td />
+	[6725]<td />
+		$99.00
+	[6727]<td />
+		$495.00
+	[6729]<td />
+		Delivered
+[6732]<tr />
+	[6733]<td />
+		ORD-20332
+	[6735]<td />
+		2026-06-05
+	[6737]<td />
+		Dmitri Volkov
+	[6739]<td />
+		South
+	[6741]<td />
+		Keyboard
+	[6743]<td />
+	[6745]<td />
+		$99.00
+	[6747]<td />
+		$297.00
+	[6749]<td />
+		Processing
+[6752]<tr />
+	[6753]<td />
+		ORD-20333
+	[6755]<td />
+		2026-06-19
+	[6757]<td />
+		Pedro Santos
+	[6759]<td />
+		West
+	[6761]<td />
+		USB-C Dock
+	[6763]<td />
+	[6765]<td />
+		$149.99
+	[6767]<td />
+		$599.96
+	[6769]<td />
+		Shipped
+[6772]<tr />
+	[6773]<td />
+		ORD-20334
+	[6775]<td />
+		2026-06-13
+	[6777]<td />
+		Lucas Moreau
+	[6779]<td />
+		East
+	[6781]<td />
+		Ergonomic Chair
+	[6783]<td />
+	[6785]<td />
+		$289.00
+	[6787]<td />
+		$578.00
+	[6789]<td />
+		Delivered
+[6792]<tr />
+	[6793]<td />
+		ORD-20335
+	[6795]<td />
+		2026-07-15
+	[6797]<td />
+		Ximena Ortiz
+	[6799]<td />
+		East
+	[6801]<td />
+		Ergonomic Chair
+	[6803]<td />
+	[6805]<td />
+		$289.00
+	[6807]<td />
+		$2,312.00
+	[6809]<td />
+		Returned
+[6812]<tr />
+	[6813]<td />
+		ORD-20336
+	[6815]<td />
+		2026-07-25
+	[6817]<td />
+		Farah Haddad
+	[6819]<td />
+		West
+	[6821]<td />
+		Footrest
+	[6823]<td />
+	[6825]<td />
+		$42.00
+	[6827]<td />
+		$252.00
+	[6829]<td />
+		Processing
+[6832]<tr />
+	[6833]<td />
+		ORD-20337
+	[6835]<td />
+		2026-07-27
+	[6837]<td />
+		Bruno Silva
+	[6839]<td />
+		Central
+	[6841]<td />
+		USB-C Dock
+	[6843]<td />
+	[6845]<td />
+		$149.99
+	[6847]<td />
+		$149.99
+	[6849]<td />
+		Cancelled
+[6852]<tr />
+	[6853]<td />
+		ORD-20338
+	[6855]<td />
+		2026-07-13
+	[6857]<td />
+		Jonas Berg
+	[6859]<td />
+		South
+	[6861]<td />
+		Footrest
+	[6863]<td />
+	[6865]<td />
+		$42.00
+	[6867]<td />
+		$378.00
+	[6869]<td />
+		Shipped
+[6872]<tr />
+	[6873]<td />
+		ORD-20339
+	[6875]<td />
+		2026-07-11
+	[6877]<td />
+		Lucas Moreau
+	[6879]<td />
+		West
+	[6881]<td />
+		Footrest
+	[6883]<td />
+	[6885]<td />
+		$42.00
+	[6887]<td />
+		$252.00
+	[6889]<td />
+		Delivered
+[6892]<tr />
+	[6893]<td />
+		ORD-20340
+	[6895]<td />
+		2026-07-01
+	[6897]<td />
+		Ximena Ortiz
+	[6899]<td />
+		South
+	[6901]<td />
+		USB-C Dock
+	[6903]<td />
+	[6905]<td />
+		$149.99
+	[6907]<td />
+		$749.95
+	[6909]<td />
+		Processing
+[6912]<tr />
+	[6913]<td />
+		ORD-20341
+	[6915]<td />
+		2026-07-11
+	[6917]<td />
+		Bruno Silva
+	[6919]<td />
+		North
+	[6921]<td />
+		Footrest
+	[6923]<td />
+	[6925]<td />
+		$42.00
+	[6927]<td />
+		$84.00
+	[6929]<td />
+		Delivered
+[6932]<tr />
+	[6933]<td />
+		ORD-20342
+	[6935]<td />
+		2026-07-17
+	[6937]<td />
+		Bruno Silva
+	[6939]<td />
+		East
+	[6941]<td />
+		Keyboard
+	[6943]<td />
+	[6945]<td />
+		$99.00
+	[6947]<td />
+		$495.00
+	[6949]<td />
+		Delivered
+[6952]<tr />
+	[6953]<td />
+		ORD-20343
+	[6955]<td />
+		2026-07-15
+	[6957]<td />
+		Nikolai Petrov
+	[6959]<td />
+		South
+	[6961]<td />
+		USB-C Dock
+	[6963]<td />
+	[6965]<td />
+		$149.99
+	[6967]<td />
+		$449.97
+	[6969]<td />
+		Processing
+[6972]<tr />
+	[6973]<td />
+		ORD-20344
+	[6975]<td />
+		2026-07-09
+	[6977]<td />
+		Zoe Fischer
+	[6979]<td />
+		East
+	[6981]<td />
+		Footrest
+	[6983]<td />
+	[6985]<td />
+		$42.00
+	[6987]<td />
+		$84.00
+	[6989]<td />
+		Returned
+[6992]<tr />
+	[6993]<td />
+		ORD-20345
+	[6995]<td />
+		2026-07-03
+	[6997]<td />
+		Rosa Delgado
+	[6999]<td />
+		East
+	[7001]<td />
+		Keyboard
+	[7003]<td />
+	[7005]<td />
+		$99.00
+	[7007]<td />
+		$891.00
+	[7009]<td />
+		Cancelled
+[7012]<tr />
+	[7013]<td />
+		ORD-20346
+	[7015]<td />
+		2026-07-01
+	[7017]<td />
+		Valentina Ricci
+	[7019]<td />
+		East
+	[7021]<td />
+		Footrest
+	[7023]<td />
+	[7025]<td />
+		$42.00
+	[7027]<td />
+		$378.00
+	[7029]<td />
+		Delivered
+[7032]<tr />
+	[7033]<td />
+		ORD-20347
+	[7035]<td />
+		2026-07-19
+	[7037]<td />
+		Pedro Santos
+	[7039]<td />
+		North
+	[7041]<td />
+		Keyboard
+	[7043]<td />
+	[7045]<td />
+		$99.00
+	[7047]<td />
+		$693.00
+	[7049]<td />
+		Shipped
+[7052]<tr />
+	[7053]<td />
+		ORD-20348
+	[7055]<td />
+		2026-07-17
+	[7057]<td />
+		Nikolai Petrov
+	[7059]<td />
+		West
+	[7061]<td />
+		Noise-cancelling Headset
+	[7063]<td />
+	[7065]<td />
+		$199.00
+	[7067]<td />
+		$1,592.00
+	[7069]<td />
+		Delivered
+[7072]<tr />
+	[7073]<td />
+		ORD-20349
+	[7075]<td />
+		2026-07-19
+	[7077]<td />
+		Farah Haddad
+	[7079]<td />
+		South
+	[7081]<td />
+		Ergonomic Chair
+	[7083]<td />
+	[7085]<td />
+		$289.00
+	[7087]<td />
+		$2,312.00
+	[7089]<td />
+		Returned
+[7092]<tr />
+	[7093]<td />
+		ORD-20350
+	[7095]<td />
+		2026-07-01
+	[7097]<td />
+		Lucas Moreau
+	[7099]<td />
+		North
+	[7101]<td />
+		USB-C Dock
+	[7103]<td />
+	[7105]<td />
+		$149.99
+	[7107]<td />
+		$449.97
+	[7109]<td />
+		Delivered
+[7112]<tr />
+	[7113]<td />
+		ORD-20351
+	[7115]<td />
+		2026-07-15
+	[7117]<td />
+		Pedro Santos
+	[7119]<td />
+		East
+	[7121]<td />
+		Noise-cancelling Headset
+	[7123]<td />
+	[7125]<td />
+		$199.00
+	[7127]<td />
+		$796.00
+	[7129]<td />
+		Delivered
+[7132]<tr />
+	[7133]<td />
+		ORD-20352
+	[7135]<td />
+		2026-07-25
+	[7137]<td />
+		Jonas Berg
+	[7139]<td />
+		North
+	[7141]<td />
+		Footrest
+	[7143]<td />
+	[7145]<td />
+		$42.00
+	[7147]<td />
+		$84.00
+	[7149]<td />
+		Shipped
+[7152]<tr />
+	[7153]<td />
+		ORD-20353
+	[7155]<td />
+		2026-07-03
+	[7157]<td />
+		Zoe Fischer
+	[7159]<td />
+		West
+	[7161]<td />
+		USB-C Dock
+	[7163]<td />
+	[7165]<td />
+		$149.99
+	[7167]<td />
+		$299.98
+	[7169]<td />
+		Delivered
+[7172]<tr />
+	[7173]<td />
+		ORD-20354
+	[7175]<td />
+		2026-07-21
+	[7177]<td />
+		Pedro Santos
+	[7179]<td />
+		East
+	[7181]<td />
+		Keyboard
+	[7183]<td />
+	[7185]<td />
+		$99.00
+	[7187]<td />
+		$396.00
+	[7189]<td />
+		Shipped
+[7192]<tr />
+	[7193]<td />
+		ORD-20355
+	[7195]<td />
+		2026-07-07
+	[7197]<td />
+		Farah Haddad
+	[7199]<td />
+		West
+	[7201]<td />
+		Ergonomic Chair
+	[7203]<td />
+	[7205]<td />
+		$289.00
+	[7207]<td />
+		$578.00
+	[7209]<td />
+		Delivered
+[7212]<tr />
+	[7213]<td />
+		ORD-20356
+	[7215]<td />
+		2026-07-01
+	[7217]<td />
+		Jonas Berg
+	[7219]<td />
+		East
+	[7221]<td />
+		Noise-cancelling Headset
+	[7223]<td />
+	[7225]<td />
+		$199.00
+	[7227]<td />
+		$1,592.00
+	[7229]<td />
+		Delivered
+[7232]<tr />
+	[7233]<td />
+		ORD-20357
+	[7235]<td />
+		2026-07-19
+	[7237]<td />
+		Pedro Santos
+	[7239]<td />
+		Central
+	[7241]<td />
+		Ergonomic Chair
+	[7243]<td />
+	[7245]<td />
+		$289.00
+	[7247]<td />
+		$578.00
+	[7249]<td />
+		Delivered
+[7252]<tr />
+	[7253]<td />
+		ORD-20358
+	[7255]<td />
+		2026-07-13
+	[7257]<td />
+		Hiro Tanaka
+	[7259]<td />
+		West
+	[7261]<td />
+		USB-C Dock
+	[7263]<td />
+	[7265]<td />
+		$149.99
+	[7267]<td />
+		$449.97
+	[7269]<td />
+		Processing
+[7272]<tr />
+	[7273]<td />
+		ORD-20359
+	[7275]<td />
+		2026-07-27
+	[7277]<td />
+		Zoe Fischer
+	[7279]<td />
+		Central
+	[7281]<td />
+		Noise-cancelling Headset
+	[7283]<td />
+	[7285]<td />
+		$199.00
+	[7287]<td />
+		$995.00
+	[7289]<td />
+		Delivered
+[7292]<tr />
+	[7293]<td />
+		ORD-20360
+	[7295]<td />
+		2026-07-13
+	[7297]<td />
+		Nikolai Petrov
+	[7299]<td />
+		East
+	[7301]<td />
+		Footrest
+	[7303]<td />
+	[7305]<td />
+		$42.00
+	[7307]<td />
+		$210.00
+	[7309]<td />
+		Processing
+[7312]<tr />
+	[7313]<td />
+		ORD-20361
+	[7315]<td />
+		2026-07-23
+	[7317]<td />
+		Dmitri Volkov
+	[7319]<td />
+		North
+	[7321]<td />
+		Footrest
+	[7323]<td />
+	[7325]<td />
+		$42.00
+	[7327]<td />
+		$126.00
+	[7329]<td />
+		Returned
+[7332]<tr />
+	[7333]<td />
+		ORD-20362
+	[7335]<td />
+		2026-07-25
+	[7337]<td />
+		Bruno Silva
+	[7339]<td />
+		North
+	[7341]<td />
+		Footrest
+	[7343]<td />
+	[7345]<td />
+		$42.00
+	[7347]<td />
+		$42.00
+	[7349]<td />
+		Processing
+[7352]<tr />
+	[7353]<td />
+		ORD-20363
+	[7355]<td />
+		2026-07-07
+	[7357]<td />
+		Lucas Moreau
+	[7359]<td />
+		West
+	[7361]<td />
+		Footrest
+	[7363]<td />
+	[7365]<td />
+		$42.00
+	[7367]<td />
+		$336.00
+	[7369]<td />
+		Shipped
+[7372]<tr />
+	[7373]<td />
+		ORD-20364
+	[7375]<td />
+		2026-07-25
+	[7377]<td />
+		Jonas Berg
+	[7379]<td />
+		Central
+	[7381]<td />
+		Footrest
+	[7383]<td />
+	[7385]<td />
+		$42.00
+	[7387]<td />
+		$378.00
+	[7389]<td />
+		Delivered
+[7392]<tr />
+	[7393]<td />
+		ORD-20365
+	[7395]<td />
+		2026-07-07
+	[7397]<td />
+		Jonas Berg
+	[7399]<td />
+		North
+	[7401]<td />
+		USB-C Dock
+	[7403]<td />
+	[7405]<td />
+		$149.99
+	[7407]<td />
+		$599.96
+	[7409]<td />
+		Delivered
+[7412]<tr />
+	[7413]<td />
+		ORD-20366
+	[7415]<td />
+		2026-07-17
+	[7417]<td />
+		Dmitri Volkov
+	[7419]<td />
+		South
+	[7421]<td />
+		Ergonomic Chair
+	[7423]<td />
+	[7425]<td />
+		$289.00
+	[7427]<td />
+		$1,156.00
+	[7429]<td />
+		Cancelled
+[7432]<tr />
+	[7433]<td />
+		ORD-20367
+	[7435]<td />
+		2026-07-27
+	[7437]<td />
+		Nikolai Petrov
+	[7439]<td />
+		North
+	[7441]<td />
+		USB-C Dock
+	[7443]<td />
+	[7445]<td />
+		$149.99
+	[7447]<td />
+		$449.97
+	[7449]<td />
+		Returned
+[7452]<tr />
+	[7453]<td />
+		ORD-20368
+	[7455]<td />
+		2026-07-21
+	[7457]<td />
+		Pedro Santos
+	[7459]<td />
+		North
+	[7461]<td />
+		USB-C Dock
+	[7463]<td />
+	[7465]<td />
+		$149.99
+	[7467]<td />
+		$1,049.93
+	[7469]<td />
+		Processing
+[7472]<tr />
+	[7473]<td />
+		ORD-20369
+	[7475]<td />
+		2026-07-23
+	[7477]<td />
+		Tess Walker
+	[7479]<td />
+		South
+	[7481]<td />
+		Ergonomic Chair
+	[7483]<td />
+	[7485]<td />
+		$289.00
+	[7487]<td />
+		$1,734.00
+	[7489]<td />
+		Processing
+[7492]<tr />
+	[7493]<td />
+		ORD-20370
+	[7495]<td />
+		2026-07-09
+	[7497]<td />
+		Hiro Tanaka
+	[7499]<td />
+		West
+	[7501]<td />
+		Ergonomic Chair
+	[7503]<td />
+	[7505]<td />
+		$289.00
+	[7507]<td />
+		$2,312.00
+	[7509]<td />
+		Returned
+[7512]<tr />
+	[7513]<td />
+		ORD-20371
+	[7515]<td />
+		2026-07-27
+	[7517]<td />
+		Nikolai Petrov
+	[7519]<td />
+		West
+	[7521]<td />
+		Noise-cancelling Headset
+	[7523]<td />
+	[7525]<td />
+		$199.00
+	[7527]<td />
+		$1,393.00
+	[7529]<td />
+		Processing
+[7532]<tr />
+	[7533]<td />
+		ORD-20372
+	[7535]<td />
+		2026-07-21
+	[7537]<td />
+		Tess Walker
+	[7539]<td />
+		Central
+	[7541]<td />
+		Noise-cancelling Headset
+	[7543]<td />
+	[7545]<td />
+		$199.00
+	[7547]<td />
+		$1,194.00
+	[7549]<td />
+		Delivered
+[7552]<tr />
+	[7553]<td />
+		ORD-20373
+	[7555]<td />
+		2026-07-03
+	[7557]<td />
+		Dmitri Volkov
+	[7559]<td />
+		West
+	[7561]<td />
+		USB-C Dock
+	[7563]<td />
+	[7565]<td />
+		$149.99
+	[7567]<td />
+		$1,349.91
+	[7569]<td />
+		Cancelled
+[7572]<tr />
+	[7573]<td />
+		ORD-20374
+	[7575]<td />
+		2026-07-01
+	[7577]<td />
+		Rosa Delgado
+	[7579]<td />
+		North
+	[7581]<td />
+		USB-C Dock
+	[7583]<td />
+	[7585]<td />
+		$149.99
+	[7587]<td />
+		$899.94
+	[7589]<td />
+		Shipped
+[7592]<tr />
+	[7593]<td />
+		ORD-20375
+	[7595]<td />
+		2026-07-15
+	[7597]<td />
+		Rosa Delgado
+	[7599]<td />
+		North
+	[7601]<td />
+		Footrest
+	[7603]<td />
+	[7605]<td />
+		$42.00
+	[7607]<td />
+		$294.00
+	[7609]<td />
+		Returned
+[7612]<tr />
+	[7613]<td />
+		ORD-20376
+	[7615]<td />
+		2026-07-05
+	[7617]<td />
+		Tess Walker
+	[7619]<td />
+		North
+	[7621]<td />
+		USB-C Dock
+	[7623]<td />
+	[7625]<td />
+		$149.99
+	[7627]<td />
+		$899.94
+	[7629]<td />
+		Cancelled
+[7632]<tr />
+	[7633]<td />
+		ORD-20377
+	[7635]<td />
+		2026-07-03
+	[7637]<td />
+		Zoe Fischer
+	[7639]<td />
+		Central
+	[7641]<td />
+		USB-C Dock
+	[7643]<td />
+	[7645]<td />
+		$149.99
+	[7647]<td />
+		$299.98
+	[7649]<td />
+		Processing
+[7652]<tr />
+	[7653]<td />
+		ORD-20378
+	[7655]<td />
+		2026-07-13
+	[7657]<td />
+		Rosa Delgado
+	[7659]<td />
+		West
+	[7661]<td />
+		USB-C Dock
+	[7663]<td />
+	[7665]<td />
+		$149.99
+	[7667]<td />
+		$749.95
+	[7669]<td />
+		Delivered
+[7672]<tr />
+	[7673]<td />
+		ORD-20379
+	[7675]<td />
+		2026-07-23
+	[7677]<td />
+		Lucas Moreau
+	[7679]<td />
+		West
+	[7681]<td />
+		Footrest
+	[7683]<td />
+	[7685]<td />
+		$42.00
+	[7687]<td />
+		$378.00
+	[7689]<td />
+		Cancelled
+[7692]<tr />
+	[7693]<td />
+		ORD-20380
+	[7695]<td />
+		2026-07-17
+	[7697]<td />
+		Jonas Berg
+	[7699]<td />
+		North
+	[7701]<td />
+		Ergonomic Chair
+	[7703]<td />
+	[7705]<td />
+		$289.00
+	[7707]<td />
+		$2,601.00
+	[7709]<td />
+		Delivered
+[7712]<tr />
+	[7713]<td />
+		ORD-20381
+	[7715]<td />
+		2026-07-23
+	[7717]<td />
+		Jonas Berg
+	[7719]<td />
+		East
+	[7721]<td />
+		Footrest
+	[7723]<td />
+	[7725]<td />
+		$42.00
+	[7727]<td />
+		$42.00
+	[7729]<td />
+		Delivered
+[7732]<tr />
+	[7733]<td />
+		ORD-20382
+	[7735]<td />
+		2026-07-01
+	[7737]<td />
+		Nikolai Petrov
+	[7739]<td />
+		Central
+	[7741]<td />
+		Noise-cancelling Headset
+	[7743]<td />
+	[7745]<td />
+		$199.00
+	[7747]<td />
+		$1,194.00
+	[7749]<td />
+		Delivered
+[7752]<tr />
+	[7753]<td />
+		ORD-20383
+	[7755]<td />
+		2026-07-03
+	[7757]<td />
+		Bruno Silva
+	[7759]<td />
+		North
+	[7761]<td />
+		Noise-cancelling Headset
+	[7763]<td />
+	[7765]<td />
+		$199.00
+	[7767]<td />
+		$597.00
+	[7769]<td />
+		Delivered
+[7772]<tr />
+	[7773]<td />
+		ORD-20384
+	[7775]<td />
+		2026-07-01
+	[7777]<td />
+		Lucas Moreau
+	[7779]<td />
+		East
+	[7781]<td />
+		Footrest
+	[7783]<td />
+	[7785]<td />
+		$42.00
+	[7787]<td />
+		$168.00
+	[7789]<td />
+		Delivered
+[7792]<tr />
+	[7793]<td />
+		ORD-20385
+	[7795]<td />
+		2026-07-27
+	[7797]<td />
+		Ximena Ortiz
+	[7799]<td />
+		North
+	[7801]<td />
+		Keyboard
+	[7803]<td />
+	[7805]<td />
+		$99.00
+	[7807]<td />
+		$594.00
+	[7809]<td />
+		Processing
+[7812]<tr />
+	[7813]<td />
+		ORD-20386
+	[7815]<td />
+		2026-07-13
+	[7817]<td />
+		Pedro Santos
+	[7819]<td />
+		North
+	[7821]<td />
+		Keyboard
+	[7823]<td />
+	[7825]<td />
+		$99.00
+	[7827]<td />
+		$693.00
+	[7829]<td />
+		Returned
+[7832]<tr />
+	[7833]<td />
+		ORD-20387
+	[7835]<td />
+		2026-07-23
+	[7837]<td />
+		Jonas Berg
+	[7839]<td />
+		Central
+	[7841]<td />
+		Ergonomic Chair
+	[7843]<td />
+	[7845]<td />
+		$289.00
+	[7847]<td />
+		$867.00
+	[7849]<td />
+		Processing
+[7852]<tr />
+	[7853]<td />
+		ORD-20388
+	[7855]<td />
+		2026-07-05
+	[7857]<td />
+		Zoe Fischer
+	[7859]<td />
+		Central
+	[7861]<td />
+		Footrest
+	[7863]<td />
+	[7865]<td />
+		$42.00
+	[7867]<td />
+		$42.00
+	[7869]<td />
+		Processing
+[7872]<tr />
+	[7873]<td />
+		ORD-20389
+	[7875]<td />
+		2026-07-03
+	[7877]<td />
+		Bruno Silva
+	[7879]<td />
+		East
+	[7881]<td />
+		USB-C Dock
+	[7883]<td />
+	[7885]<td />
+		$149.99
+	[7887]<td />
+		$1,049.93
+	[7889]<td />
+		Returned
+[7892]<tr />
+	[7893]<td />
+		ORD-20390
+	[7895]<td />
+		2026-08-21
+	[7897]<td />
+		Tess Walker
+	[7899]<td />
+		North
+	[7901]<td />
+		USB-C Dock
+	[7903]<td />
+	[7905]<td />
+		$149.99
+	[7907]<td />
+		$1,049.93
+	[7909]<td />
+		Delivered
+[7912]<tr />
+	[7913]<td />
+		ORD-20391
+	[7915]<td />
+		2026-08-15
+	[7917]<td />
+		Hiro Tanaka
+	[7919]<td />
+		North
+	[7921]<td />
+		Ergonomic Chair
+	[7923]<td />
+	[7925]<td />
+		$289.00
+	[7927]<td />
+		$867.00
+	[7929]<td />
+		Returned
+[7932]<tr />
+	[7933]<td />
+		ORD-20392
+	[7935]<td />
+		2026-08-25
+	[7937]<td />
+		Jonas Berg
+	[7939]<td />
+		North
+	[7941]<td />
+		Ergonomic Chair
+	[7943]<td />
+	[7945]<td />
+		$289.00
+	[7947]<td />
+		$867.00
+	[7949]<td />
+		Returned
+[7952]<tr />
+	[7953]<td />
+		ORD-20393
+	[7955]<td />
+		2026-08-11
+	[7957]<td />
+		Lucas Moreau
+	[7959]<td />
+		East
+	[7961]<td />
+		Keyboard
+	[7963]<td />
+	[7965]<td />
+		$99.00
+	[7967]<td />
+		$693.00
+	[7969]<td />
+		Delivered
+[7972]<tr />
+	[7973]<td />
+		ORD-20394
+	[7975]<td />
+		2026-08-13
+	[7977]<td />
+		Zoe Fischer
+	[7979]<td />
+		North
+	[7981]<td />
+		USB-C Dock
+	[7983]<td />
+	[7985]<td />
+		$149.99
+	[7987]<td />
+		$599.96
+	[7989]<td />
+		Delivered
+[7992]<tr />
+	[7993]<td />
+		ORD-20395
+	[7995]<td />
+		2026-08-23
+	[7997]<td />
+		Lucas Moreau
+	[7999]<td />
+		West
+	[8001]<td />
+		Ergonomic Chair
+	[8003]<td />
+	[8005]<td />
+		$289.00
+	[8007]<td />
+		$1,445.00
+	[8009]<td />
+		Delivered
+[8012]<tr />
+	[8013]<td />
+		ORD-20396
+	[8015]<td />
+		2026-08-09
+	[8017]<td />
+		Bruno Silva
+	[8019]<td />
+		East
+	[8021]<td />
+		Keyboard
+	[8023]<td />
+	[8025]<td />
+		$99.00
+	[8027]<td />
+		$792.00
+	[8029]<td />
+		Delivered
+[8032]<tr />
+	[8033]<td />
+		ORD-20397
+	[8035]<td />
+		2026-08-23
+	[8037]<td />
+		Nikolai Petrov
+	[8039]<td />
+		North
+	[8041]<td />
+		Keyboard
+	[8043]<td />
+	[8045]<td />
+		$99.00
+	[8047]<td />
+		$99.00
+	[8049]<td />
+		Returned
+[8052]<tr />
+	[8053]<td />
+		ORD-20398
+	[8055]<td />
+		2026-08-01
+	[8057]<td />
+		Tess Walker
+	[8059]<td />
+		West
+	[8061]<td />
+		Footrest
+	[8063]<td />
+	[8065]<td />
+		$42.00
+	[8067]<td />
+		$210.00
+	[8069]<td />
+		Cancelled
+[8072]<tr />
+	[8073]<td />
+		ORD-20399
+	[8075]<td />
+		2026-08-23
+	[8077]<td />
+		Farah Haddad
+	[8079]<td />
+		East
+	[8081]<td />
+		Footrest
+	[8083]<td />
+	[8085]<td />
+		$42.00
+	[8087]<td />
+		$126.00
+	[8089]<td />
+		Cancelled
+[8092]<tr />
+	[8093]<td />
+		ORD-20400
+	[8095]<td />
+		2026-08-13
+	[8097]<td />
+		Nikolai Petrov
+	[8099]<td />
+		South
+	[8101]<td />
+		Ergonomic Chair
+	[8103]<td />
+	[8105]<td />
+		$289.00
+	[8107]<td />
+		$1,734.00
+	[8109]<td />
+		Cancelled
+[8112]<tr />
+	[8113]<td />
+		ORD-20401
+	[8115]<td />
+		2026-08-23
+	[8117]<td />
+		Hiro Tanaka
+	[8119]<td />
+		Central
+	[8121]<td />
+		USB-C Dock
+	[8123]<td />
+	[8125]<td />
+		$149.99
+	[8127]<td />
+		$149.99
+	[8129]<td />
+		Delivered
+[8132]<tr />
+	[8133]<td />
+		ORD-20402
+	[8135]<td />
+		2026-08-17
+	[8137]<td />
+		Valentina Ricci
+	[8139]<td />
+		East
+	[8141]<td />
+		Ergonomic Chair
+	[8143]<td />
+	[8145]<td />
+		$289.00
+	[8147]<td />
+		$1,156.00
+	[8149]<td />
+		Delivered
+[8152]<tr />
+	[8153]<td />
+		ORD-20403
+	[8155]<td />
+		2026-08-03
+	[8157]<td />
+		Hiro Tanaka
+	[8159]<td />
+		West
+	[8161]<td />
+		Ergonomic Chair
+	[8163]<td />
+	[8165]<td />
+		$289.00
+	[8167]<td />
+		$2,023.00
+	[8169]<td />
+		Returned
+[8172]<tr />
+	[8173]<td />
+		ORD-20404
+	[8175]<td />
+		2026-08-21
+	[8177]<td />
+		Bruno Silva
+	[8179]<td />
+		East
+	[8181]<td />
+		Keyboard
+	[8183]<td />
+	[8185]<td />
+		$99.00
+	[8187]<td />
+		$891.00
+	[8189]<td />
+		Delivered
+[8192]<tr />
+	[8193]<td />
+		ORD-20405
+	[8195]<td />
+		2026-08-11
+	[8197]<td />
+		Tess Walker
+	[8199]<td />
+		West
+	[8201]<td />
+		Footrest
+	[8203]<td />
+	[8205]<td />
+		$42.00
+	[8207]<td />
+		$294.00
+	[8209]<td />
+		Cancelled
+[8212]<tr />
+	[8213]<td />
+		ORD-20406
+	[8215]<td />
+		2026-08-05
+	[8217]<td />
+		Lucas Moreau
+	[8219]<td />
+		South
+	[8221]<td />
+		Ergonomic Chair
+	[8223]<td />
+	[8225]<td />
+		$289.00
+	[8227]<td />
+		$289.00
+	[8229]<td />
+		Processing
+[8232]<tr />
+	[8233]<td />
+		ORD-20407
+	[8235]<td />
+		2026-08-27
+	[8237]<td />
+		Dmitri Volkov
+	[8239]<td />
+		East
+	[8241]<td />
+		Keyboard
+	[8243]<td />
+	[8245]<td />
+		$99.00
+	[8247]<td />
+		$792.00
+	[8249]<td />
+		Processing
+[8252]<tr />
+	[8253]<td />
+		ORD-20408
+	[8255]<td />
+		2026-08-21
+	[8257]<td />
+		Tess Walker
+	[8259]<td />
+		North
+	[8261]<td />
+		Ergonomic Chair
+	[8263]<td />
+	[8265]<td />
+		$289.00
+	[8267]<td />
+		$2,023.00
+	[8269]<td />
+		Delivered
+[8272]<tr />
+	[8273]<td />
+		ORD-20409
+	[8275]<td />
+		2026-08-23
+	[8277]<td />
+		Rosa Delgado
+	[8279]<td />
+		East
+	[8281]<td />
+		Noise-cancelling Headset
+	[8283]<td />
+	[8285]<td />
+		$199.00
+	[8287]<td />
+		$398.00
+	[8289]<td />
+		Delivered
+[8292]<tr />
+	[8293]<td />
+		ORD-20410
+	[8295]<td />
+		2026-08-09
+	[8297]<td />
+		Jonas Berg
+	[8299]<td />
+		East
+	[8301]<td />
+		Footrest
+	[8303]<td />
+	[8305]<td />
+		$42.00
+	[8307]<td />
+		$252.00
+	[8309]<td />
+		Delivered
+[8312]<tr />
+	[8313]<td />
+		ORD-20411
+	[8315]<td />
+		2026-08-03
+	[8317]<td />
+		Rosa Delgado
+	[8319]<td />
+		Central
+	[8321]<td />
+		Noise-cancelling Headset
+	[8323]<td />
+	[8325]<td />
+		$199.00
+	[8327]<td />
+		$597.00
+	[8329]<td />
+		Returned
+[8332]<tr />
+	[8333]<td />
+		ORD-20412
+	[8335]<td />
+		2026-08-09
+	[8337]<td />
+		Pedro Santos
+	[8339]<td />
+		East
+	[8341]<td />
+		Footrest
+	[8343]<td />
+	[8345]<td />
+		$42.00
+	[8347]<td />
+		$294.00
+	[8349]<td />
+		Delivered
+[8352]<tr />
+	[8353]<td />
+		ORD-20413
+	[8355]<td />
+		2026-08-15
+	[8357]<td />
+		Farah Haddad
+	[8359]<td />
+		North
+	[8361]<td />
+		Noise-cancelling Headset
+	[8363]<td />
+	[8365]<td />
+		$199.00
+	[8367]<td />
+		$199.00
+	[8369]<td />
+		Returned
+[8372]<tr />
+	[8373]<td />
+		ORD-20414
+	[8375]<td />
+		2026-08-25
+	[8377]<td />
+		Lucas Moreau
+	[8379]<td />
+		South
+	[8381]<td />
+		Noise-cancelling Headset
+	[8383]<td />
+	[8385]<td />
+		$199.00
+	[8387]<td />
+		$995.00
+	[8389]<td />
+		Returned
+[8392]<tr />
+	[8393]<td />
+		ORD-20415
+	[8395]<td />
+		2026-08-19
+	[8397]<td />
+		Rosa Delgado
+	[8399]<td />
+		West
+	[8401]<td />
+		USB-C Dock
+	[8403]<td />
+	[8405]<td />
+		$149.99
+	[8407]<td />
+		$749.95
+	[8409]<td />
+		Delivered
+[8412]<tr />
+	[8413]<td />
+		ORD-20416
+	[8415]<td />
+		2026-08-05
+	[8417]<td />
+		Hiro Tanaka
+	[8419]<td />
+		North
+	[8421]<td />
+		USB-C Dock
+	[8423]<td />
+	[8425]<td />
+		$149.99
+	[8427]<td />
+		$149.99
+	[8429]<td />
+		Shipped
+[8432]<tr />
+	[8433]<td />
+		ORD-20417
+	[8435]<td />
+		2026-08-03
+	[8437]<td />
+		Rosa Delgado
+	[8439]<td />
+		South
+	[8441]<td />
+		Keyboard
+	[8443]<td />
+	[8445]<td />
+		$99.00
+	[8447]<td />
+		$396.00
+	[8449]<td />
+		Returned
+[8452]<tr />
+	[8453]<td />
+		ORD-20418
+	[8455]<td />
+		2026-08-17
+	[8457]<td />
+		Ximena Ortiz
+	[8459]<td />
+		Central
+	[8461]<td />
+		USB-C Dock
+	[8463]<td />
+	[8465]<td />
+		$149.99
+	[8467]<td />
+		$749.95
+	[8469]<td />
+		Delivered
+[8472]<tr />
+	[8473]<td />
+		ORD-20419
+	[8475]<td />
+		2026-08-27
+	[8477]<td />
+		Hiro Tanaka
+	[8479]<td />
+		North
+	[8481]<td />
+		Keyboard
+	[8483]<td />
+	[8485]<td />
+		$99.00
+	[8487]<td />
+		$297.00
+	[8489]<td />
+		Delivered
+[8492]<tr />
+	[8493]<td />
+		ORD-20420
+	[8495]<td />
+		2026-08-21
+	[8497]<td />
+		Pedro Santos
+	[8499]<td />
+		Central
+	[8501]<td />
+		Keyboard
+	[8503]<td />
+	[8505]<td />
+		$99.00
+	[8507]<td />
+		$297.00
+	[8509]<td />
+		Shipped
+[8512]<tr />
+	[8513]<td />
+		ORD-20421
+	[8515]<td />
+		2026-08-23
+	[8517]<td />
+		Pedro Santos
+	[8519]<td />
+		Central
+	[8521]<td />
+		Ergonomic Chair
+	[8523]<td />
+	[8525]<td />
+		$289.00
+	[8527]<td />
+		$2,312.00
+	[8529]<td />
+		Returned
+[8532]<tr />
+	[8533]<td />
+		ORD-20422
+	[8535]<td />
+		2026-08-25
+	[8537]<td />
+		Zoe Fischer
+	[8539]<td />
+		North
+	[8541]<td />
+		USB-C Dock
+	[8543]<td />
+	[8545]<td />
+		$149.99
+	[8547]<td />
+		$1,349.91
+	[8549]<td />
+		Returned
+[8552]<tr />
+	[8553]<td />
+		ORD-20423
+	[8555]<td />
+		2026-08-27
+	[8557]<td />
+		Bruno Silva
+	[8559]<td />
+		South
+	[8561]<td />
+		Ergonomic Chair
+	[8563]<td />
+	[8565]<td />
+		$289.00
+	[8567]<td />
+		$1,156.00
+	[8569]<td />
+		Shipped
+[8572]<tr />
+	[8573]<td />
+		ORD-20424
+	[8575]<td />
+		2026-08-09
+	[8577]<td />
+		Hiro Tanaka
+	[8579]<td />
+		South
+	[8581]<td />
+		Ergonomic Chair
+	[8583]<td />
+	[8585]<td />
+		$289.00
+	[8587]<td />
+		$1,445.00
+	[8589]<td />
+		Delivered
+[8592]<tr />
+	[8593]<td />
+		ORD-20425
+	[8595]<td />
+		2026-08-07
+	[8597]<td />
+		Bruno Silva
+	[8599]<td />
+		South
+	[8601]<td />
+		USB-C Dock
+	[8603]<td />
+	[8605]<td />
+		$149.99
+	[8607]<td />
+		$149.99
+	[8609]<td />
+		Shipped
+[8612]<tr />
+	[8613]<td />
+		ORD-20426
+	[8615]<td />
+		2026-08-25
+	[8617]<td />
+		Zoe Fischer
+	[8619]<td />
+		South
+	[8621]<td />
+		Noise-cancelling Headset
+	[8623]<td />
+	[8625]<td />
+		$199.00
+	[8627]<td />
+		$1,194.00
+	[8629]<td />
+		Processing
+[8632]<tr />
+	[8633]<td />
+		ORD-20427
+	[8635]<td />
+		2026-08-03
+	[8637]<td />
+		Dmitri Volkov
+	[8639]<td />
+		Central
+	[8641]<td />
+		Noise-cancelling Headset
+	[8643]<td />
+	[8645]<td />
+		$199.00
+	[8647]<td />
+		$796.00
+	[8649]<td />
+		Processing
+[8652]<tr />
+	[8653]<td />
+		ORD-20428
+	[8655]<td />
+		2026-08-09
+	[8657]<td />
+		Farah Haddad
+	[8659]<td />
+		East
+	[8661]<td />
+		Noise-cancelling Headset
+	[8663]<td />
+	[8665]<td />
+		$199.00
+	[8667]<td />
+		$796.00
+	[8669]<td />
+		Delivered
+[8672]<tr />
+	[8673]<td />
+		ORD-20429
+	[8675]<td />
+		2026-08-15
+	[8677]<td />
+		Zoe Fischer
+	[8679]<td />
+		South
+	[8681]<td />
+		USB-C Dock
+	[8683]<td />
+	[8685]<td />
+		$149.99
+	[8687]<td />
+		$1,049.93
+	[8689]<td />
+		Shipped
+[8692]<tr />
+	[8693]<td />
+		ORD-20430
+	[8695]<td />
+		2026-08-13
+	[8697]<td />
+		Jonas Berg
+	[8699]<td />
+		Central
+	[8701]<td />
+		Footrest
+	[8703]<td />
+	[8705]<td />
+		$42.00
+	[8707]<td />
+		$378.00
+	[8709]<td />
+		Returned
+[8712]<tr />
+	[8713]<td />
+		ORD-20431
+	[8715]<td />
+		2026-08-15
+	[8717]<td />
+		Lucas Moreau
+	[8719]<td />
+		East
+	[8721]<td />
+		Ergonomic Chair
+	[8723]<td />
+	[8725]<td />
+		$289.00
+	[8727]<td />
+		$2,023.00
+	[8729]<td />
+		Delivered
+[8732]<tr />
+	[8733]<td />
+		ORD-20432
+	[8735]<td />
+		2026-08-13
+	[8737]<td />
+		Valentina Ricci
+	[8739]<td />
+		North
+	[8741]<td />
+		Ergonomic Chair
+	[8743]<td />
+	[8745]<td />
+		$289.00
+	[8747]<td />
+		$867.00
+	[8749]<td />
+		Delivered
+[8752]<tr />
+	[8753]<td />
+		ORD-20433
+	[8755]<td />
+		2026-08-27
+	[8757]<td />
+		Zoe Fischer
+	[8759]<td />
+		North
+	[8761]<td />
+		Noise-cancelling Headset
+	[8763]<td />
+	[8765]<td />
+		$199.00
+	[8767]<td />
+		$398.00
+	[8769]<td />
+		Delivered
+[8772]<tr />
+	[8773]<td />
+		ORD-20434
+	[8775]<td />
+		2026-08-25
+	[8777]<td />
+		Valentina Ricci
+	[8779]<td />
+		South
+	[8781]<td />
+		Noise-cancelling Headset
+	[8783]<td />
+	[8785]<td />
+		$199.00
+	[8787]<td />
+		$199.00
+	[8789]<td />
+		Shipped
+[8792]<tr />
+	[8793]<td />
+		ORD-20435
+	[8795]<td />
+		2026-08-03
+	[8797]<td />
+		Dmitri Volkov
+	[8799]<td />
+		West
+	[8801]<td />
+		Footrest
+	[8803]<td />
+	[8805]<td />
+		$42.00
+	[8807]<td />
+		$378.00
+	[8809]<td />
+		Processing
+[8812]<tr />
+	[8813]<td />
+		ORD-20436
+	[8815]<td />
+		2026-08-17
+	[8817]<td />
+		Farah Haddad
+	[8819]<td />
+		Central
+	[8821]<td />
+		USB-C Dock
+	[8823]<td />
+	[8825]<td />
+		$149.99
+	[8827]<td />
+		$899.94
+	[8829]<td />
+		Shipped
+[8832]<tr />
+	[8833]<td />
+		ORD-20437
+	[8835]<td />
+		2026-08-27
+	[8837]<td />
+		Farah Haddad
+	[8839]<td />
+		Central
+	[8841]<td />
+		Noise-cancelling Headset
+	[8843]<td />
+	[8845]<td />
+		$199.00
+	[8847]<td />
+		$398.00
+	[8849]<td />
+		Delivered
+[8852]<tr />
+	[8853]<td />
+		ORD-20438
+	[8855]<td />
+		2026-08-01
+	[8857]<td />
+		Ximena Ortiz
+	[8859]<td />
+		North
+	[8861]<td />
+		USB-C Dock
+	[8863]<td />
+	[8865]<td />
+		$149.99
+	[8867]<td />
+		$599.96
+	[8869]<td />
+		Processing
+[8872]<tr />
+	[8873]<td />
+		ORD-20439
+	[8875]<td />
+		2026-08-15
+	[8877]<td />
+		Pedro Santos
+	[8879]<td />
+		West
+	[8881]<td />
+		Keyboard
+	[8883]<td />
+	[8885]<td />
+		$99.00
+	[8887]<td />
+		$99.00
+	[8889]<td />
+		Returned
+[8892]<tr />
+	[8893]<td />
+		ORD-20440
+	[8895]<td />
+		2026-08-21
+	[8897]<td />
+		Bruno Silva
+	[8899]<td />
+		South
+	[8901]<td />
+		Keyboard
+	[8903]<td />
+	[8905]<td />
+		$99.00
+	[8907]<td />
+		$594.00
+	[8909]<td />
+		Shipped
+[8912]<tr />
+	[8913]<td />
+		ORD-20441
+	[8915]<td />
+		2026-08-11
+	[8917]<td />
+		Farah Haddad
+	[8919]<td />
+		Central
+	[8921]<td />
+		Ergonomic Chair
+	[8923]<td />
+	[8925]<td />
+		$289.00
+	[8927]<td />
+		$289.00
+	[8929]<td />
+		Delivered
+[8932]<tr />
+	[8933]<td />
+		ORD-20442
+	[8935]<td />
+		2026-08-05
+	[8937]<td />
+		Bruno Silva
+	[8939]<td />
+		East
+	[8941]<td />
+		Footrest
+	[8943]<td />
+	[8945]<td />
+		$42.00
+	[8947]<td />
+		$252.00
+	[8949]<td />
+		Delivered
+[8952]<tr />
+	[8953]<td />
+		ORD-20443
+	[8955]<td />
+		2026-08-07
+	[8957]<td />
+		Farah Haddad
+	[8959]<td />
+		Central
+	[8961]<td />
+		Keyboard
+	[8963]<td />
+	[8965]<td />
+		$99.00
+	[8967]<td />
+		$99.00
+	[8969]<td />
+		Delivered
+[8972]<tr />
+	[8973]<td />
+		ORD-20444
+	[8975]<td />
+		2026-08-01
+	[8977]<td />
+		Valentina Ricci
+	[8979]<td />
+		West
+	[8981]<td />
+		Footrest
+	[8983]<td />
+	[8985]<td />
+		$42.00
+	[8987]<td />
+		$42.00
+	[8989]<td />
+		Processing
+[8992]<tr />
+	[8993]<td />
+		ORD-20445
+	[8995]<td />
+		2026-08-15
+	[8997]<td />
+		Nikolai Petrov
+	[8999]<td />
+		Central
+	[9001]<td />
+		Footrest
+	[9003]<td />
+	[9005]<td />
+		$42.00
+	[9007]<td />
+		$252.00
+	[9009]<td />
+		Cancelled
+[9012]<tr />
+	[9013]<td />
+		ORD-20446
+	[9015]<td />
+		2026-09-05
+	[9017]<td />
+		Ximena Ortiz
+	[9019]<td />
+		South
+	[9021]<td />
+		Noise-cancelling Headset
+	[9023]<td />
+	[9025]<td />
+		$199.00
+	[9027]<td />
+		$1,592.00
+	[9029]<td />
+		Returned
+[9032]<tr />
+	[9033]<td />
+		ORD-20447
+	[9035]<td />
+		2026-09-23
+	[9037]<td />
+		Jonas Berg
+	[9039]<td />
+		Central
+	[9041]<td />
+		Keyboard
+	[9043]<td />
+	[9045]<td />
+		$99.00
+	[9047]<td />
+		$792.00
+	[9049]<td />
+		Processing
+[9052]<tr />
+	[9053]<td />
+		ORD-20448
+	[9055]<td />
+		2026-09-01
+	[9057]<td />
+		Jonas Berg
+	[9059]<td />
+		North
+	[9061]<td />
+		USB-C Dock
+	[9063]<td />
+	[9065]<td />
+		$149.99
+	[9067]<td />
+		$1,349.91
+	[9069]<td />
+		Delivered
+[9072]<tr />
+	[9073]<td />
+		ORD-20449
+	[9075]<td />
+		2026-09-23
+	[9077]<td />
+		Farah Haddad
+	[9079]<td />
+		South
+	[9081]<td />
+		USB-C Dock
+	[9083]<td />
+	[9085]<td />
+		$149.99
+	[9087]<td />
+		$1,049.93
+	[9089]<td />
+		Delivered
+[9092]<tr />
+	[9093]<td />
+		ORD-20450
+	[9095]<td />
+		2026-09-25
+	[9097]<td />
+		Bruno Silva
+	[9099]<td />
+		East
+	[9101]<td />
+		Ergonomic Chair
+	[9103]<td />
+	[9105]<td />
+		$289.00
+	[9107]<td />
+		$2,023.00
+	[9109]<td />
+		Delivered
+[9112]<tr />
+	[9113]<td />
+		ORD-20451
+	[9115]<td />
+		2026-09-15
+	[9117]<td />
+		Dmitri Volkov
+	[9119]<td />
+		North
+	[9121]<td />
+		Keyboard
+	[9123]<td />
+	[9125]<td />
+		$99.00
+	[9127]<td />
+		$594.00
+	[9129]<td />
+		Delivered
+[9132]<tr />
+	[9133]<td />
+		ORD-20452
+	[9135]<td />
+		2026-09-21
+	[9137]<td />
+		Hiro Tanaka
+	[9139]<td />
+		Central
+	[9141]<td />
+		USB-C Dock
+	[9143]<td />
+	[9145]<td />
+		$149.99
+	[9147]<td />
+		$1,049.93
+	[9149]<td />
+		Delivered
+[9152]<tr />
+	[9153]<td />
+		ORD-20453
+	[9155]<td />
+		2026-09-27
+	[9157]<td />
+		Farah Haddad
+	[9159]<td />
+		East
+	[9161]<td />
+		Footrest
+	[9163]<td />
+	[9165]<td />
+		$42.00
+	[9167]<td />
+		$42.00
+	[9169]<td />
+		Delivered
+[9172]<tr />
+	[9173]<td />
+		ORD-20454
+	[9175]<td />
+		2026-09-21
+	[9177]<td />
+		Dmitri Volkov
+	[9179]<td />
+		North
+	[9181]<td />
+		USB-C Dock
+	[9183]<td />
+	[9185]<td />
+		$149.99
+	[9187]<td />
+		$1,049.93
+	[9189]<td />
+		Processing
+[9192]<tr />
+	[9193]<td />
+		ORD-20455
+	[9195]<td />
+		2026-09-15
+	[9197]<td />
+		Tess Walker
+	[9199]<td />
+		Central
+	[9201]<td />
+		Footrest
+	[9203]<td />
+	[9205]<td />
+		$42.00
+	[9207]<td />
+		$294.00
+	[9209]<td />
+		Cancelled
+[9212]<tr />
+	[9213]<td />
+		ORD-20456
+	[9215]<td />
+		2026-09-05
+	[9217]<td />
+		Dmitri Volkov
+	[9219]<td />
+		West
+	[9221]<td />
+		USB-C Dock
+	[9223]<td />
+	[9225]<td />
+		$149.99
+	[9227]<td />
+		$1,049.93
+	[9229]<td />
+		Cancelled
+[9232]<tr />
+	[9233]<td />
+		ORD-20457
+	[9235]<td />
+		2026-09-19
+	[9237]<td />
+		Nikolai Petrov
+	[9239]<td />
+		East
+	[9241]<td />
+		Noise-cancelling Headset
+	[9243]<td />
+	[9245]<td />
+		$199.00
+	[9247]<td />
+		$1,592.00
+	[9249]<td />
+		Delivered
+[9252]<tr />
+	[9253]<td />
+		ORD-20458
+	[9255]<td />
+		2026-09-05
+	[9257]<td />
+		Dmitri Volkov
+	[9259]<td />
+		Central
+	[9261]<td />
+		Keyboard
+	[9263]<td />
+	[9265]<td />
+		$99.00
+	[9267]<td />
+		$297.00
+	[9269]<td />
+		Processing
+[9272]<tr />
+	[9273]<td />
+		ORD-20459
+	[9275]<td />
+		2026-09-27
+	[9277]<td />
+		Bruno Silva
+	[9279]<td />
+		North
+	[9281]<td />
+		Ergonomic Chair
+	[9283]<td />
+	[9285]<td />
+		$289.00
+	[9287]<td />
+		$289.00
+	[9289]<td />
+		Delivered
+[9292]<tr />
+	[9293]<td />
+		ORD-20460
+	[9295]<td />
+		2026-09-25
+	[9297]<td />
+		Jonas Berg
+	[9299]<td />
+		Central
+	[9301]<td />
+		Keyboard
+	[9303]<td />
+	[9305]<td />
+		$99.00
+	[9307]<td />
+		$297.00
+	[9309]<td />
+		Delivered
+[9312]<tr />
+	[9313]<td />
+		ORD-20461
+	[9315]<td />
+		2026-09-03
+	[9317]<td />
+		Jonas Berg
+	[9319]<td />
+		South
+	[9321]<td />
+		Keyboard
+	[9323]<td />
+	[9325]<td />
+		$99.00
+	[9327]<td />
+		$792.00
+	[9329]<td />
+		Returned
+[9332]<tr />
+	[9333]<td />
+		ORD-20462
+	[9335]<td />
+		2026-09-13
+	[9337]<td />
+		Pedro Santos
+	[9339]<td />
+		East
+	[9341]<td />
+		Footrest
+	[9343]<td />
+	[9345]<td />
+		$42.00
+	[9347]<td />
+		$42.00
+	[9349]<td />
+		Shipped
+[9352]<tr />
+	[9353]<td />
+		ORD-20463
+	[9355]<td />
+		2026-09-03
+	[9357]<td />
+		Valentina Ricci
+	[9359]<td />
+		South
+	[9361]<td />
+		USB-C Dock
+	[9363]<td />
+	[9365]<td />
+		$149.99
+	[9367]<td />
+		$149.99
+	[9369]<td />
+		Processing
+[9372]<tr />
+	[9373]<td />
+		ORD-20464
+	[9375]<td />
+		2026-09-25
+	[9377]<td />
+		Rosa Delgado
+	[9379]<td />
+		North
+	[9381]<td />
+		Ergonomic Chair
+	[9383]<td />
+	[9385]<td />
+		$289.00
+	[9387]<td />
+		$578.00
+	[9389]<td />
+		Delivered
+[9392]<tr />
+	[9393]<td />
+		ORD-20465
+	[9395]<td />
+		2026-09-07
+	[9397]<td />
+		Lucas Moreau
+	[9399]<td />
+		South
+	[9401]<td />
+		USB-C Dock
+	[9403]<td />
+	[9405]<td />
+		$149.99
+	[9407]<td />
+		$149.99
+	[9409]<td />
+		Cancelled
+[9412]<tr />
+	[9413]<td />
+		ORD-20466
+	[9415]<td />
+		2026-09-05
+	[9417]<td />
+		Nikolai Petrov
+	[9419]<td />
+		Central
+	[9421]<td />
+		Keyboard
+	[9423]<td />
+	[9425]<td />
+		$99.00
+	[9427]<td />
+		$693.00
+	[9429]<td />
+		Shipped
+[9432]<tr />
+	[9433]<td />
+		ORD-20467
+	[9435]<td />
+		2026-09-07
+	[9437]<td />
+		Farah Haddad
+	[9439]<td />
+		West
+	[9441]<td />
+		Keyboard
+	[9443]<td />
+	[9445]<td />
+		$99.00
+	[9447]<td />
+		$495.00
+	[9449]<td />
+		Delivered
+[9452]<tr />
+	[9453]<td />
+		ORD-20468
+	[9455]<td />
+		2026-09-05
+	[9457]<td />
+		Bruno Silva
+	[9459]<td />
+		West
+	[9461]<td />
+		Noise-cancelling Headset
+	[9463]<td />
+	[9465]<td />
+		$199.00
+	[9467]<td />
+		$597.00
+	[9469]<td />
+		Delivered
+[9472]<tr />
+	[9473]<td />
+		ORD-20469
+	[9475]<td />
+		2026-09-23
+	[9477]<td />
+		Jonas Berg
+	[9479]<td />
+		Central
+	[9481]<td />
+		Noise-cancelling Headset
+	[9483]<td />
+	[9485]<td />
+		$199.00
+	[9487]<td />
+		$1,592.00
+	[9489]<td />
+		Returned
+[9492]<tr />
+	[9493]<td />
+		ORD-20470
+	[9495]<td />
+		2026-09-21
+	[9497]<td />
+		Zoe Fischer
+	[9499]<td />
+		East
+	[9501]<td />
+		Noise-cancelling Headset
+	[9503]<td />
+	[9505]<td />
+		$199.00
+	[9507]<td />
+		$597.00
+	[9509]<td />
+		Processing
+[9512]<tr />
+	[9513]<td />
+		ORD-20471
+	[9515]<td />
+		2026-09-07
+	[9517]<td />
+		Farah Haddad
+	[9519]<td />
+		Central
+	[9521]<td />
+		Footrest
+	[9523]<td />
+	[9525]<td />
+		$42.00
+	[9527]<td />
+		$378.00
+	[9529]<td />
+		Shipped
+[9532]<tr />
+	[9533]<td />
+		ORD-20472
+	[9535]<td />
+		2026-09-01
+	[9537]<td />
+		Jonas Berg
+	[9539]<td />
+		East
+	[9541]<td />
+		Footrest
+	[9543]<td />
+	[9545]<td />
+		$42.00
+	[9547]<td />
+		$336.00
+	[9549]<td />
+		Delivered
+[9552]<tr />
+	[9553]<td />
+		ORD-20473
+	[9555]<td />
+		2026-09-19
+	[9557]<td />
+		Rosa Delgado
+	[9559]<td />
+		Central
+	[9561]<td />
+		USB-C Dock
+	[9563]<td />
+	[9565]<td />
+		$149.99
+	[9567]<td />
+		$749.95
+	[9569]<td />
+		Delivered
+[9572]<tr />
+	[9573]<td />
+		ORD-20474
+	[9575]<td />
+		2026-09-25
+	[9577]<td />
+		Hiro Tanaka
+	[9579]<td />
+		West
+	[9581]<td />
+		USB-C Dock
+	[9583]<td />
+	[9585]<td />
+		$149.99
+	[9587]<td />
+		$1,349.91
+	[9589]<td />
+		Delivered
+[9592]<tr />
+	[9593]<td />
+		ORD-20475
+	[9595]<td />
+		2026-09-03
+	[9597]<td />
+		Jonas Berg
+	[9599]<td />
+		West
+	[9601]<td />
+		Keyboard
+	[9603]<td />
+	[9605]<td />
+		$99.00
+	[9607]<td />
+		$99.00
+	[9609]<td />
+		Returned
+[9612]<tr />
+	[9613]<td />
+		ORD-20476
+	[9615]<td />
+		2026-09-05
+	[9617]<td />
+		Lucas Moreau
+	[9619]<td />
+		East
+	[9621]<td />
+		Keyboard
+	[9623]<td />
+	[9625]<td />
+		$99.00
+	[9627]<td />
+		$297.00
+	[9629]<td />
+		Returned
+[9632]<tr />
+	[9633]<td />
+		ORD-20477
+	[9635]<td />
+		2026-09-19
+	[9637]<td />
+		Lucas Moreau
+	[9639]<td />
+		North
+	[9641]<td />
+		Footrest
+	[9643]<td />
+	[9645]<td />
+		$42.00
+	[9647]<td />
+		$252.00
+	[9649]<td />
+		Shipped
+[9652]<tr />
+	[9653]<td />
+		ORD-20478
+	[9655]<td />
+		2026-09-09
+	[9657]<td />
+		Jonas Berg
+	[9659]<td />
+		North
+	[9661]<td />
+		Noise-cancelling Headset
+	[9663]<td />
+	[9665]<td />
+		$199.00
+	[9667]<td />
+		$796.00
+	[9669]<td />
+		Delivered
+[9672]<tr />
+	[9673]<td />
+		ORD-20479
+	[9675]<td />
+		2026-09-07
+	[9677]<td />
+		Valentina Ricci
+	[9679]<td />
+		South
+	[9681]<td />
+		Noise-cancelling Headset
+	[9683]<td />
+	[9685]<td />
+		$199.00
+	[9687]<td />
+		$1,393.00
+	[9689]<td />
+		Processing
+[9692]<tr />
+	[9693]<td />
+		ORD-20480
+	[9695]<td />
+		2026-09-21
+	[9697]<td />
+		Nikolai Petrov
+	[9699]<td />
+		Central
+	[9701]<td />
+		USB-C Dock
+	[9703]<td />
+	[9705]<td />
+		$149.99
+	[9707]<td />
+		$599.96
+	[9709]<td />
+		Returned
+[9712]<tr />
+	[9713]<td />
+		ORD-20481
+	[9715]<td />
+		2026-09-15
+	[9717]<td />
+		Ximena Ortiz
+	[9719]<td />
+		West
+	[9721]<td />
+		Footrest
+	[9723]<td />
+	[9725]<td />
+		$42.00
+	[9727]<td />
+		$168.00
+	[9729]<td />
+		Cancelled
+[9732]<tr />
+	[9733]<td />
+		ORD-20482
+	[9735]<td />
+		2026-09-09
+	[9737]<td />
+		Dmitri Volkov
+	[9739]<td />
+		North
+	[9741]<td />
+		Ergonomic Chair
+	[9743]<td />
+	[9745]<td />
+		$289.00
+	[9747]<td />
+		$1,734.00
+	[9749]<td />
+		Shipped
+[9752]<tr />
+	[9753]<td />
+		ORD-20483
+	[9755]<td />
+		2026-09-15
+	[9757]<td />
+		Tess Walker
+	[9759]<td />
+		Central
+	[9761]<td />
+		USB-C Dock
+	[9763]<td />
+	[9765]<td />
+		$149.99
+	[9767]<td />
+		$899.94
+	[9769]<td />
+		Processing
+[9772]<tr />
+	[9773]<td />
+		ORD-20484
+	[9775]<td />
+		2026-09-21
+	[9777]<td />
+		Rosa Delgado
+	[9779]<td />
+		South
+	[9781]<td />
+		Keyboard
+	[9783]<td />
+	[9785]<td />
+		$99.00
+	[9787]<td />
+		$99.00
+	[9789]<td />
+		Delivered
+[9792]<tr />
+	[9793]<td />
+		ORD-20485
+	[9795]<td />
+		2026-09-11
+	[9797]<td />
+		Nikolai Petrov
+	[9799]<td />
+		Central
+	[9801]<td />
+		Noise-cancelling Headset
+	[9803]<td />
+	[9805]<td />
+		$199.00
+	[9807]<td />
+		$1,791.00
+	[9809]<td />
+		Shipped
+[9812]<tr />
+	[9813]<td />
+		ORD-20486
+	[9815]<td />
+		2026-09-25
+	[9817]<td />
+		Zoe Fischer
+	[9819]<td />
+		Central
+	[9821]<td />
+		USB-C Dock
+	[9823]<td />
+	[9825]<td />
+		$149.99
+	[9827]<td />
+		$299.98
+	[9829]<td />
+		Delivered
+[9832]<tr />
+	[9833]<td />
+		ORD-20487
+	[9835]<td />
+		2026-09-15
+	[9837]<td />
+		Hiro Tanaka
+	[9839]<td />
+		East
+	[9841]<td />
+		Ergonomic Chair
+	[9843]<td />
+	[9845]<td />
+		$289.00
+	[9847]<td />
+		$867.00
+	[9849]<td />
+		Delivered
+[9852]<tr />
+	[9853]<td />
+		ORD-20488
+	[9855]<td />
+		2026-09-09
+	[9857]<td />
+		Hiro Tanaka
+	[9859]<td />
+		Central
+	[9861]<td />
+		Keyboard
+	[9863]<td />
+	[9865]<td />
+		$99.00
+	[9867]<td />
+		$396.00
+	[9869]<td />
+		Cancelled
+[9872]<tr />
+	[9873]<td />
+		ORD-20489
+	[9875]<td />
+		2026-09-27
+	[9877]<td />
+		Lucas Moreau
+	[9879]<td />
+		South
+	[9881]<td />
+		Noise-cancelling Headset
+	[9883]<td />
+	[9885]<td />
+		$199.00
+	[9887]<td />
+		$1,791.00
+	[9889]<td />
+		Delivered
+[9892]<tr />
+	[9893]<td />
+		ORD-20490
+	[9895]<td />
+		2026-09-25
+	[9897]<td />
+		Valentina Ricci
+	[9899]<td />
+		East
+	[9901]<td />
+		USB-C Dock
+	[9903]<td />
+	[9905]<td />
+		$149.99
+	[9907]<td />
+		$149.99
+	[9909]<td />
+		Processing
+[9912]<tr />
+	[9913]<td />
+		ORD-20491
+	[9915]<td />
+		2026-09-07
+	[9917]<td />
+		Jonas Berg
+	[9919]<td />
+		Central
+	[9921]<td />
+		Keyboard
+	[9923]<td />
+	[9925]<td />
+		$99.00
+	[9927]<td />
+		$693.00
+	[9929]<td />
+		Returned
+[9932]<tr />
+	[9933]<td />
+		ORD-20492
+	[9935]<td />
+		2026-09-25
+	[9937]<td />
+		Nikolai Petrov
+	[9939]<td />
+		North
+	[9941]<td />
+		Keyboard
+	[9943]<td />
+	[9945]<td />
+		$99.00
+	[9947]<td />
+		$891.00
+	[9949]<td />
+		Delivered
+[9952]<tr />
+	[9953]<td />
+		ORD-20493
+	[9955]<td />
+		2026-09-03
+	[9957]<td />
+		Pedro Santos
+	[9959]<td />
+		West
+	[9961]<td />
+		Ergonomic Chair
+	[9963]<td />
+	[9965]<td />
+		$289.00
+	[9967]<td />
+		$2,023.00
+	[9969]<td />
+		Processing
+[9972]<tr />
+	[9973]<td />
+		ORD-20494
+	[9975]<td />
+		2026-09-21
+	[9977]<td />
+		Nikolai Petrov
+	[9979]<td />
+		Central
+	[9981]<td />
+		Noise-cancelling Headset
+	[9983]<td />
+	[9985]<td />
+		$199.00
+	[9987]<td />
+		$597.00
+	[9989]<td />
+		Delivered
+[9992]<tr />
+	[9993]<td />
+		ORD-20495
+	[9995]<td />
+		2026-09-15
+	[9997]<td />
+		Ximena Ortiz
+	[9999]<td />
+		West
+	[10001]<td />
+		Noise-cancelling Headset
+	[10003]<td />
+	[10005]<td />
+		$199.00
+	[10007]<td />
+		$398.00
+	[10009]<td />
+		Processing
+[10012]<tr />
+	[10013]<td />
+		ORD-20496
+	[10015]<td />
+		2026-09-21
+	[10017]<td />
+		Pedro Santos
+	[10019]<td />
+		West
+	[10021]<td />
+		Keyboard
+	[10023]<td />
+	[10025]<td />
+		$99.00
+	[10027]<td />
+		$297.00
+	[10029]<td />
+		Delivered
+[10032]<tr />
+	[10033]<td />
+		ORD-20497
+	[10035]<td />
+		2026-09-15
+	[10037]<td />
+		Ximena Ortiz
+	[10039]<td />
+		Central
+	[10041]<td />
+		USB-C Dock
+	[10043]<td />
+	[10045]<td />
+		$149.99
+	[10047]<td />
+		$1,349.91
+	[10049]<td />
+		Processing
+[10052]<tr />
+	[10053]<td />
+		ORD-20498
+	[10055]<td />
+		2026-09-25
+	[10057]<td />
+		Pedro Santos
+	[10059]<td />
+		East
+	[10061]<td />
+		Footrest
+	[10063]<td />
+	[10065]<td />
+		$42.00
+	[10067]<td />
+		$84.00
+	[10069]<td />
+		Cancelled
+[10072]<tr />
+	[10073]<td />
+		ORD-20499
+	[10075]<td />
+		2026-09-23
+	[10077]<td />
+		Zoe Fischer
+	[10079]<td />
+		East
+	[10081]<td />
+		Noise-cancelling Headset
+	[10083]<td />
+	[10085]<td />
+		$199.00
+	[10087]<td />
+		$796.00
+	[10089]<td />
+		Delivered
+[10092]<tr />
+	[10093]<td />
+		ORD-20500
+	[10095]<td />
+		2026-09-09
+	[10097]<td />
+		Bruno Silva
+	[10099]<td />
+		West
+	[10101]<td />
+		Keyboard
+	[10103]<td />
+	[10105]<td />
+		$99.00
+	[10107]<td />
+		$297.00
+	[10109]<td />
+		Returned
+[10114]<tr />
+	[10115]<td />
+		Grand total
+	[10117]<td />
+		$393,538.73
+	[10119]<td />
+Previous page
+Page 1 of 1
+Next page
+[10133]<a />
+	Back to top

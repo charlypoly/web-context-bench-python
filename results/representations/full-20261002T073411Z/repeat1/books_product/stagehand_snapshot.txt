@@ -1,0 +1,63 @@
+[0-12196] RootWebArea: A Light in the Attic | Books to Scrape - Sandbox
+  [0-12211] scrollable, html
+    [0-12227] body
+      [0-12228] banner
+        [0-12237] div
+          [0-12238] link: Books to Scrape
+          [0-12241] StaticText: We love being scraped!
+      [0-12245] div
+        [0-12248] list
+          [0-12249] listitem
+            [0-12250] link: Home
+          [0-12252] listitem
+            [0-12368] StaticText: 
+            [0-12254] link: Books
+          [0-12256] listitem
+            [0-12369] StaticText: 
+            [0-12258] link: Poetry
+          [0-12260] listitem
+            [0-12262] StaticText: A Light in the Attic
+        [0-12267] article
+          [0-12269] div
+            [0-12277] image: A Light in the Attic
+            [0-12278] div
+              [0-12279] heading: A Light in the Attic
+              [0-12281] paragraph
+                [0-12282] StaticText: £51.77
+              [0-12283] paragraph
+                [0-12197] StaticText: In stock (22 available)
+              [0-12286] paragraph
+                [0-12205] StaticText: 
+              [0-12296] separator
+              [0-12297] alert
+                [0-12298] strong
+                  [0-12299] StaticText: Warning!
+                [0-12300] StaticText: This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning.
+          [0-12304] heading: Product Description
+          [0-12306] paragraph
+            [0-12307] StaticText: It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love th It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love that Silverstein. Need proof of his genius? RockabyeRockabye baby, in the treetopDon't you know a treetopIs no safe place to rock?And who put you up there,And your cradle, too?Baby, I think someone down here'sGot it in for you. Shel, you never sounded so good. ...more
+          [0-12309] heading: Product Information
+          [0-12311] table
+            [0-12312] tbody
+              [0-12313] row
+                [0-12314] rowheader: UPC
+                [0-12316] cell: a897fe39b1053632
+              [0-12318] row
+                [0-12319] rowheader: Product Type
+                [0-12321] cell: Books
+              [0-12323] row
+                [0-12324] rowheader: Price (excl. tax)
+                [0-12326] cell: £51.77
+              [0-12328] row
+                [0-12329] rowheader: Price (incl. tax)
+                [0-12331] cell: £51.77
+              [0-12333] row
+                [0-12334] rowheader: Tax
+                [0-12336] cell: £0.00
+              [0-12338] row
+                [0-12339] rowheader: Availability
+                [0-12341] cell: In stock (22 available)
+              [0-12343] row
+                [0-12344] rowheader: Number of reviews
+                [0-12346] cell: 0
+      [0-12351] contentinfo

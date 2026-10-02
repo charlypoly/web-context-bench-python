@@ -1,0 +1,167 @@
+{
+ "page_id": "article",
+ "url": "http://localhost:8100/article/index.html",
+ "integrity": {
+  "raw_html_sha256": "5d05409faf1061a31d199b0dffabc35766856480a4d4cf5645ce28a0d407093c",
+  "unchanged_after_browser_use": false,
+  "diff_after_browser_use": "--- \n+++ \n@@ -36 +36 @@\n-    <form role=\"search\" action=\"#\"><input type=\"search\" name=\"q\" placeholder=\"Search articles\" aria-label=\"Search articles\"></form>\n+    <form role=\"search\" action=\"#\"><input type=\"search\" name=\"q\" placeholder=\"Search articles\" aria-label=\"Search articles\" style=\"\"></form>\n@@ -88 +88 @@\n-      <input id=\"nl-email\" type=\"email\" name=\"email\" placeholder=\"you@example.com\">\n+      <input id=\"nl-email\" type=\"email\" name=\"email\" placeholder=\"you@example.com\" style=\"\">",
+  "scroll_after_browser_use": [
+   0,
+   0
+  ],
+  "stagehand_inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "indexed_dom_meta": {
+  "config": {
+   "browser_use_version": "0.13.10",
+   "cross_origin_iframes": true,
+   "paint_order_filtering": true,
+   "max_iframes": 100,
+   "max_iframe_depth": 5,
+   "include_attributes": [
+    "title",
+    "type",
+    "checked",
+    "id",
+    "name",
+    "role",
+    "value",
+    "placeholder",
+    "data-date-format",
+    "alt",
+    "aria-label",
+    "aria-expanded",
+    "data-state",
+    "aria-checked",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-placeholder",
+    "pattern",
+    "min",
+    "max",
+    "minlength",
+    "maxlength",
+    "step",
+    "accept",
+    "multiple",
+    "inputmode",
+    "autocomplete",
+    "aria-autocomplete",
+    "list",
+    "data-mask",
+    "data-inputmask",
+    "data-datepicker",
+    "format",
+    "expected_format",
+    "contenteditable",
+    "pseudo",
+    "checked",
+    "selected",
+    "expanded",
+    "pressed",
+    "disabled",
+    "invalid",
+    "valuemin",
+    "valuemax",
+    "valuenow",
+    "keyshortcuts",
+    "haspopup",
+    "multiselectable",
+    "required",
+    "valuetext",
+    "level",
+    "busy",
+    "live",
+    "ax_name"
+   ],
+   "viewport_threshold": null,
+   "path": "DomService.get_serialized_dom_tree (explicit viewport_threshold)"
+  },
+  "agent_would_truncate": false,
+  "agent_max_chars": 40000,
+  "agent_default_index_count": 42,
+  "index_count": 50
+ },
+ "stagehand_meta": {
+  "url_map": {
+   "0-25006": "http://localhost:8100/article/index.html",
+   "0-25021": "http://localhost:8100/article/index.html#",
+   "0-25023": "http://localhost:8100/article/index.html#",
+   "0-25025": "http://localhost:8100/article/index.html#",
+   "0-25027": "http://localhost:8100/article/index.html#",
+   "0-25029": "http://localhost:8100/article/index.html#",
+   "0-25031": "http://localhost:8100/article/index.html#",
+   "0-25040": "http://localhost:8100/article/index.html#",
+   "0-25052": "http://localhost:8100/article/index.html#",
+   "0-25143": "http://localhost:8100/article/index.html#comments",
+   "0-25198": "http://localhost:8100/article/index.html#",
+   "0-25202": "http://localhost:8100/article/index.html#",
+   "0-25204": "http://localhost:8100/article/index.html#",
+   "0-25206": "http://localhost:8100/article/index.html#",
+   "0-25208": "http://localhost:8100/article/index.html#",
+   "0-25210": "http://localhost:8100/article/index.html#",
+   "0-25163": "http://localhost:8100/article/index.html#",
+   "0-25167": "http://localhost:8100/article/index.html#",
+   "0-25171": "http://localhost:8100/article/index.html#",
+   "0-25175": "http://localhost:8100/article/index.html#",
+   "0-25179": "http://localhost:8100/article/index.html#",
+   "0-25187": "http://localhost:8100/article/index.html#",
+   "0-25191": "http://localhost:8100/article/index.html#"
+  },
+  "inner_viewport": [
+   1280,
+   800
+  ]
+ },
+ "ground_truth": {
+  "article.act.1": {
+   "backend_node_id": 4,
+   "target_id": "3EE82B48F11FF41FDDA182571DC6948D",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 154.15625,
+    "y": 1958.78125,
+    "width": 153,
+    "height": 21
+   },
+   "stagehand_key": "0-25004",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/article[1]/section[1]/form[1]/input[1]",
+   "error": null
+  },
+  "article.act.2": {
+   "backend_node_id": 295,
+   "target_id": "3EE82B48F11FF41FDDA182571DC6948D",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 1174.203125,
+    "y": 767,
+    "width": 73.796875,
+    "height": 21
+   },
+   "stagehand_key": "0-25220",
+   "stagehand_xpath": "/html[1]/body[1]/div[2]/span[2]/button[2]",
+   "error": null
+  },
+  "article.act.3": {
+   "backend_node_id": 220,
+   "target_id": "3EE82B48F11FF41FDDA182571DC6948D",
+   "frame_depth": 0,
+   "in_closed_shadow": false,
+   "box": {
+    "x": 887,
+    "y": 205,
+    "width": 215.5625,
+    "height": 32
+   },
+   "stagehand_key": "0-25171",
+   "stagehand_xpath": "/html[1]/body[1]/div[1]/aside[1]/section[1]/ol[1]/li[3]/a[1]",
+   "error": null
+  }
+ }
+}

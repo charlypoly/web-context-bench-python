@@ -1,0 +1,171 @@
+[0-14234] RootWebArea: Overview — Lumen Analytics
+  [0-14236] scrollable, html
+    [0-14244] body
+      [0-14245] navigation: Main
+        [0-14247] StaticText: Lumen Analytics
+        [0-14248] link: Overview
+        [0-14250] link: Orders
+        [0-14252] link: Products
+        [0-14254] link: Customers
+        [0-14256] link: Marketing
+        [0-14258] link: Reports
+        [0-14260] link: Settings
+      [0-14262] div
+        [0-14263] div
+          [0-14264] heading: Store overview
+          [0-14266] div
+            [0-14267] LabelText
+              [0-14268] StaticText: Date range
+            [0-14232] select: Date range
+              [0-14273] MenuListPopup
+                [0-14275] option: Today
+                [0-14276] option: Last 7 days
+                [0-14277] option: Last 30 days [selected]
+                [0-14278] option: Quarter to date
+            [0-14301] LabelText
+              [0-14302] StaticText: Store
+            [0-14233] select: Store
+              [0-14307] MenuListPopup
+                [0-14309] option: All stores [selected]
+                [0-14310] option: Online
+                [0-14311] option: Seattle flagship
+            [0-14329] button: Export CSV
+            [0-14331] button: Notifications (3 unread)
+              [0-14332] StaticText: 🔔 3
+        [0-14333] region: Key metrics
+          [0-14334] div
+            [0-14336] StaticText: Revenue
+            [0-14338] StaticText: $128,430
+            [0-14340] StaticText: ▲ 12.4% vs previous period
+          [0-14341] div
+            [0-14343] StaticText: Orders
+            [0-14345] StaticText: 1,284
+            [0-14347] StaticText: ▲ 8.1% vs previous period
+          [0-14348] div
+            [0-14350] StaticText: Conversion rate
+            [0-14352] StaticText: 3.42%
+            [0-14354] StaticText: ▼ 0.3 pts vs previous period
+          [0-14355] div
+            [0-14357] StaticText: Refunds
+            [0-14359] StaticText: 27
+            [0-14361] StaticText: ▲ 5 more than previous period
+        [0-14362] div
+          [0-14363] section
+            [0-14364] heading: Weekly revenue
+            [0-14366] image: Bar chart of weekly revenue
+              [0-14374] StaticText: $29,800
+              [0-14376] StaticText: $33,150
+              [0-14378] StaticText: $26,240
+              [0-14380] StaticText: $39,240
+              [0-14382] StaticText: Week 1
+              [0-14384] StaticText: Week 2
+              [0-14386] StaticText: Week 3
+              [0-14388] StaticText: Week 4
+          [0-14389] section
+            [0-14390] heading: Alerts
+            [0-14392] list
+              [0-14393] listitem
+                [0-14394] ListMarker: •
+                [0-14395] strong
+                  [0-14396] StaticText: Low stock:
+                [0-14397] StaticText: Trail Runner 2 (size 10) — 4 left
+              [0-14398] listitem
+                [0-14399] ListMarker: •
+                [0-14400] strong
+                  [0-14401] StaticText: Payment failed:
+                [0-14402] StaticText: order #10473 — card declined
+              [0-14403] listitem
+                [0-14404] ListMarker: •
+                [0-14405] strong
+                  [0-14406] StaticText: Review flagged:
+                [0-14407] StaticText: Summit Daypack — 1-star review awaiting moderation
+            [0-14408] link: View all alerts
+        [0-14410] div
+          [0-14411] section
+            [0-14412] heading: Recent orders
+            [0-14414] table
+              [0-14415] rowgroup
+                [0-14416] row
+                  [0-14417] columnheader: Order
+                  [0-14419] columnheader: Customer
+                  [0-14421] columnheader: Date
+                  [0-14423] columnheader: Total
+                  [0-14425] columnheader: Status
+                  [0-14427] columnheader: Actions
+              [0-14430] tbody
+                [0-14431] row
+                  [0-14432] cell: #10481
+                  [0-14434] cell: Priya Natarajan
+                  [0-14436] cell: 29 Sep 2026
+                  [0-14438] cell: $212.00
+                  [0-14440] cell: Paid
+                  [0-14443] cell: View
+                    [0-14444] button: View
+                [0-14446] row
+                  [0-14447] cell: #10480
+                  [0-14449] cell: Diego Alvarez
+                  [0-14451] cell: 29 Sep 2026
+                  [0-14453] cell: $64.50
+                  [0-14455] cell: Pending
+                  [0-14458] cell: View
+                    [0-14459] button: View
+                [0-14461] row
+                  [0-14462] cell: #10479
+                  [0-14464] cell: Hannah Becker
+                  [0-14466] cell: 28 Sep 2026
+                  [0-14468] cell: $129.99
+                  [0-14470] cell: Paid
+                  [0-14473] cell: View
+                    [0-14474] button: View
+                [0-14476] row
+                  [0-14477] cell: #10478
+                  [0-14479] cell: Kwame Mensah
+                  [0-14481] cell: 28 Sep 2026
+                  [0-14483] cell: $45.00
+                  [0-14485] cell: Refunded
+                  [0-14488] cell: View
+                    [0-14489] button: View
+                [0-14491] row
+                  [0-14492] cell: #10477
+                  [0-14494] cell: Sofia Rossi
+                  [0-14496] cell: 27 Sep 2026
+                  [0-14498] cell: $318.75
+                  [0-14500] cell: Paid
+                  [0-14503] cell: View
+                    [0-14504] button: View
+                [0-14506] row
+                  [0-14507] cell: #10476
+                  [0-14509] cell: Liam O'Connor
+                  [0-14511] cell: 27 Sep 2026
+                  [0-14513] cell: $89.20
+                  [0-14515] cell: Pending
+                  [0-14518] cell: View
+                    [0-14519] button: View
+            [0-14521] link: See all orders
+          [0-14523] section
+            [0-14524] heading: Top products
+            [0-14526] table
+              [0-14527] rowgroup
+                [0-14528] row
+                  [0-14529] columnheader: Product
+                  [0-14531] columnheader: Units
+                  [0-14533] columnheader: Revenue
+              [0-14535] tbody
+                [0-14536] row
+                  [0-14537] cell: Summit Daypack
+                  [0-14539] cell: 342
+                  [0-14541] cell: $27,018
+                [0-14543] row
+                  [0-14544] cell: Trail Runner 2
+                  [0-14546] cell: 288
+                  [0-14548] cell: $37,440
+                [0-14550] row
+                  [0-14551] cell: Merino Base Layer
+                  [0-14553] cell: 251
+                  [0-14555] cell: $17,570
+                [0-14557] row
+                  [0-14558] cell: Insulated Bottle 1L
+                  [0-14560] cell: 198
+                  [0-14562] cell: $6,930
+        [0-14564] paragraph
+          [0-14565] StaticText: Data last refreshed 30 Sep 2026, 06:00 UTC.

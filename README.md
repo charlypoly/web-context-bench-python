@@ -58,6 +58,6 @@ uv run python scripts/coverage_report.py       # READ answers / ACT targets pres
 - `results/summary.csv`, `results/charts/`, `results/examples/`
 - `results/report_full.md`: written report of the full run; `results/report_tables_<phase>.md`:
   Wilson intervals, location breakdown, failure reasons (`uv run python scripts/report_tables.py <run_id>`)
-- `results/report_full_excluding_table.md`: post-hoc view without the table page
-  (`cd scripts && uv run python report_excluding_pages.py <run_id> table`)
+- Post-hoc views excluding pages can be generated with
+  `cd scripts && uv run python report_excluding_pages.py <run_id> <page_id> ...` (not part of the pre-registered results)
 - `results/aborted/`: invalid runs stopped by harness bugs, kept for transparency, excluded from analysis

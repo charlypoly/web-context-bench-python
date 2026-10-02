@@ -21,7 +21,7 @@ spends in production.
 
 | Item | Value |
 |---|---|
-| Date | 2026-10-01 |
+| Date | Pilot 2026-10-01 (run `pilot-20261001T170632Z`); full run 2026-10-02 (run `full-20261002T073411Z`) |
 | Machine | Apple M4 Pro, macOS 26.6.2 (arm64) |
 | Python | 3.12.13, managed with uv 0.11.29; three lockfiles (see below) |
 | Browser | Chrome for Testing 153.0.8010.12 bundled with Playwright 1.63.0 (`channel="chromium"`, new headless), viewport 1280x800 |

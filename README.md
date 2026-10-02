@@ -56,3 +56,8 @@ uv run python scripts/coverage_report.py       # READ answers / ACT targets pres
 - `results/representations/<run_id>/`: the exact output of every representation for every page load
 - `results/runs/<run_id>.json`: versions, seed, call order, machine
 - `results/summary.csv`, `results/charts/`, `results/examples/`
+- `results/report_full.md`: written report of the full run; `results/report_tables_<phase>.md`:
+  Wilson intervals, location breakdown, failure reasons (`uv run python scripts/report_tables.py <run_id>`)
+- `results/report_full_excluding_table.md`: post-hoc view without the table page
+  (`cd scripts && uv run python report_excluding_pages.py <run_id> table`)
+- `results/aborted/`: invalid runs stopped by harness bugs, kept for transparency, excluded from analysis

@@ -116,5 +116,5 @@ These are stated explicitly, as you asked:
   - Its serialization adds empty `style=""` attributes to form controls. This happens after all other captures and affects no selector.
 - **Stagehand** ran in its own browser: same binary and flags, fresh tab per page session, viewport verified at 1280×800 on every load.
 - **Prompts:** neither library got its own prompt, agent loop, scrolling or retries. Both received the same generic prompt and the same model.
-- **Incidents:** four harness incidents were found, fixed and rerun from scratch. Invalid runs are in `results/aborted/` and logged in METHODOLOGY.
+- **Incidents:** three harness bugs were found, fixed, and the affected phase rerun from scratch each time (two in the pilot, one in the first full run). Invalid runs are in `results/aborted/` and logged in METHODOLOGY.
 - **Scope:** 10 pages, 80 tasks, one model. Seven pages are fixtures written for this benchmark, and three are practice sites.
